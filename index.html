@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
+<title>나의 여행 플랜</title>
+<meta name="description" content="산행·국내·해외 여행 계획을 정리한 개인용 목록">
+<meta name="theme-color" content="#4a7c59">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="여행플랜">
+<link rel="icon" href="icons/icon-192.png">
+<style>
+  :root{
+    --bg:#f5f3ee;
+    --card:#ffffff;
+    --ink:#2b2b28;
+    --sub:#6b6b63;
+    --accent:#4a7c59;
+    --accent2:#c47b3a;
+    --line:#e6e2d8;
+    --chip:#eef2ea;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+    background:var(--bg);
+    color:var(--ink);
+    padding-bottom:40px;
+  }
+  header{
+    padding:20px 16px 14px;
+    background:linear-gradient(135deg,#3f6b4c,#4a7c59);
+    color:#fff;
+  }
+  header h1{margin:0 0 4px;font-size:1.35rem;}
+  header p{margin:0;font-size:0.82rem;opacity:0.9;}
+
+  .tabs{
+    display:flex;
+    position:sticky;
+    top:0;
+    z-index:10;
+    background:#fff;
+    border-bottom:1px solid var(--line);
+  }
+  .tab{
+    flex:1;
+    text-align:center;
+    padding:13px 4px;
+    font-size:0.95rem;
+    font-weight:600;
+    color:var(--sub);
+    cursor:pointer;
+    border-bottom:3px solid transparent;
+  }
+  .tab.active{
+    color:var(--accent);
+    border-bottom:3px solid var(--accent);
+  }
+
+  .view{display:none;padding:14px;}
+  .view.active{display:block;}
+
+  .subtabs{
+    display:flex;
+    gap:6px;
+    margin-bottom:10px;
+    overflow-x:auto;
+  }
+  .subtab{
+    flex:1;
+    white-space:nowrap;
+    padding:9px 10px;
+    background:var(--chip);
+    border-radius:20px;
+    text-align:center;
+    font-size:0.85rem;
+    font-weight:600;
+    color:var(--accent);
+    cursor:pointer;
+  }
+  .subtab.active{
+    background:var(--accent);
+    color:#fff;
+  }
+  .count-badge{
+    font-size:0.7rem;
+    background:rgba(255,255,255,0.35);
+    border-radius:8px;
+    padding:1px 6px;
+    margin-left:4px;
+  }
+  .subtab.active .count-badge{background:rgba(255,255,255,0.3);}
+  .subtab:not(.active) .count-badge{background:#e2e8da;}
+
+  .searchbox{
+    width:100%;
+    padding:11px 14px;
+    border-radius:12px;
+    border:1px solid var(--line);
+    font-size:0.95rem;
+    margin-bottom:12px;
+    background:#fff;
+  }
+
+  .note{
+    font-size:0.78rem;
+    color:var(--sub);
+    background:#fbf6ea;
+    border:1px solid #ecdfba;
+    border-radius:10px;
+    padding:8px 10px;
+    margin-bottom:12px;
+    line-height:1.4;
+  }
+
+  .card{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:14px;
+    padding:14px 16px;
+    margin-bottom:12px;
+    box-shadow:0 1px 3px rgba(0,0,0,0.04);
+  }
+  .card h3{
+    margin:0 0 2px;
+    font-size:1.05rem;
+    display:flex;
+    align-items:center;
+    gap:6px;
+  }
+  .card .loc{
+    font-size:0.78rem;
+    color:var(--sub);
+    margin-bottom:10px;
+  }
+  .rowline{
+    display:flex;
+    font-size:0.85rem;
+    padding:5px 0;
+    border-top:1px dashed var(--line);
+  }
+  .rowline:first-of-type{border-top:none;}
+  .rowline .k{
+    width:92px;
+    flex-shrink:0;
+    color:var(--sub);
+    font-weight:600;
+  }
+  .rowline .v{flex:1;}
+  .badge{
+    display:inline-block;
+    font-size:0.7rem;
+    padding:2px 8px;
+    border-radius:10px;
+    background:var(--chip);
+    color:var(--accent);
+    font-weight:700;
+    margin-left:auto;
+  }
+
+  .transit-box{
+    margin-top:8px;
+    padding-top:8px;
+    border-top:1px dashed var(--line);
+  }
+  .transit-title{
+    font-size:0.78rem;
+    font-weight:700;
+    color:#3a5ba0;
+    margin-bottom:4px;
+  }
+  .transit-title .route{font-weight:500;color:var(--ink);}
+  .transit-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:4px 10px;
+    font-size:0.8rem;
+    background:#eef2fb;
+    border-radius:8px;
+    padding:8px 10px;
+  }
+  .transit-grid .tk{color:#3a5ba0;font-weight:600;margin-right:4px;}
+
+  .region-card{
+    background:var(--card);
+    border:1px dashed var(--line);
+    border-radius:14px;
+    padding:16px;
+    margin-bottom:12px;
+  }
+  .region-card h3{margin:0 0 6px;font-size:1.05rem;}
+  .region-card .placeholder{
+    font-size:0.85rem;
+    color:var(--sub);
+    background:var(--chip);
+    border-radius:10px;
+    padding:10px;
+  }
+
+  .empty{
+    text-align:center;
+    color:var(--sub);
+    padding:30px 10px;
+    font-size:0.9rem;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>🧭 나의 여행 플랜</h1>
+  <p>기준지: 경기도 화성시 동탄구 반송동 메타폴리스</p>
+</header>
+
+<div class="tabs">
+  <div class="tab active" data-tab="hike">⛰️ 등산</div>
+  <div class="tab" data-tab="domestic">🇰🇷 국내</div>
+  <div class="tab" data-tab="abroad">✈️ 해외</div>
+</div>
+
+<!-- 등산 -->
+<div class="view active" id="view-hike">
+  <div class="subtabs">
+    <div class="subtab active" data-sub="1h">1시간 이내<span class="count-badge">10</span></div>
+    <div class="subtab" data-sub="2h">2시간 이내<span class="count-badge">15</span></div>
+    <div class="subtab" data-sub="3h">3시간 이내<span class="count-badge">20</span></div>
+  </div>
+  <input class="searchbox" id="search" placeholder="산 이름으로 검색 (예: 광교산)">
+  <div class="note" id="hike-note"></div>
+  <div id="hike-list"></div>
+</div>
+
+<!-- 국내 -->
+<div class="view" id="view-domestic">
+  <div class="note">아직 구체적인 추천 여행지는 채우지 않았어요. 가고 싶은 지역이나 장소가 떠오르면 알려주시면 하나씩 채워드릴게요.</div>
+  <div class="region-card">
+    <h3>🏔️ 강원</h3>
+    <div class="placeholder">추천 여행지 준비 중</div>
+  </div>
+  <div class="region-card">
+    <h3>🌾 충북</h3>
+    <div class="placeholder">추천 여행지 준비 중</div>
+  </div>
+  <div class="region-card">
+    <h3>🏞️ 대전 / 충남</h3>
+    <div class="placeholder">추천 여행지 준비 중</div>
+  </div>
+</div>
+
+<!-- 해외 -->
+<div class="view" id="view-abroad">
+  <div class="note">해외도 카테고리 틀만 먼저 만들었어요. 여행 시기나 예산이 정해지면 나라별로 구체적인 일정을 채워드릴게요.</div>
+  <div class="region-card"><h3>🇯🇵 일본</h3><div class="placeholder">추천 여행지 준비 중</div></div>
+  <div class="region-card"><h3>🇨🇳 중국</h3><div class="placeholder">추천 여행지 준비 중</div></div>
+  <div class="region-card"><h3>🌴 동남아</h3><div class="placeholder">추천 여행지 준비 중</div></div>
+  <div class="region-card"><h3>🇮🇹 남유럽</h3><div class="placeholder">추천 여행지 준비 중</div></div>
+  <div class="region-card"><h3>🏰 동유럽</h3><div class="placeholder">추천 여행지 준비 중</div></div>
+  <div class="region-card"><h3>🥐 서유럽</h3><div class="placeholder">추천 여행지 준비 중</div></div>
+  <div class="region-card"><h3>🇺🇸 미국</h3><div class="placeholder">추천 여행지 준비 중</div></div>
+</div>
+
+<script>
+const DATA = {
+  "1h": {
+    note: "1시간 이내 코스 10곳. 대부분 국도·지방도로 이동해 통행료가 거의 없어요. 거리·시간은 반송동 메타폴리스 기준 추정치이니 출발 전 내비게이션으로 다시 확인하세요.",
+    mountains: [
+      {name:"태행산", height:"292m", loc:"화성시 매송면", dist:"약 18km", time:"약 25~30분", toll:"없음 (국도)", parking:"무료 (등산로 입구 공터)", food:"인근 식당가는 소규모 — 방문 전 네이버지도 확인 권장"},
+      {name:"칠보산", height:"238m", loc:"수원시 권선구 / 화성시 봉담읍", dist:"약 20km", time:"약 30분", toll:"없음 (국도)", parking:"무료 (칠보산 기도원·용화사 인근)", food:"봉담 시내 식당가 다수 — 특정 맛집은 확인 후 업데이트 예정"},
+      {name:"무봉산", height:"214m", loc:"화성시 봉담읍", dist:"약 16km", time:"약 25분", toll:"없음", parking:"무료", food:"봉담읍 시내 식당가 이용"},
+      {name:"광교산", height:"582m", loc:"수원시 장안구 / 용인시 수지구", dist:"약 24km", time:"약 35분", toll:"없음", parking:"광교공영주차장 30분 1,000원 (이후 시간당 1,000원 내외) · 경기대 등산객 주차 4,000원(선불)", food:"광교호수공원 주변 카페·식당가"},
+      {name:"서봉산", height:"246m", loc:"용인시 처인구 남사읍", dist:"약 28km", time:"약 40분", toll:"없음", parking:"무료 (마을 진입로 주변)", food:"남사읍 시내 식당 이용"},
+      {name:"태화산", height:"645m", loc:"용인시 처인구 원삼면 (와우정사)", dist:"약 33km", time:"약 45분", toll:"없음", parking:"와우정사 경내 주차장 (무료~소액)", food:"막국수 예원(막국수), 고등어식당(고등어구이), 해곡청담(카페)"},
+      {name:"서운산", height:"547m", loc:"안성시 서운면 (청룡사)", dist:"약 38km", time:"약 50분", toll:"없음", parking:"청룡사 인근 주차장 (무료)", food:"안성장터국밥(국밥), 안성축협 한우프라자(한우), 풍물기행(카페), 서운산장터마당(도토리묵)"},
+      {name:"청명산", height:"191m", loc:"화성시 향남읍", dist:"약 20km", time:"약 30분", toll:"없음", parking:"무료로 추정 (등산로 입구 공터)", food:"향남읍내 식당가 다수(쿠우쿠우 향남점, 교동짬뽕 화성점 등) — 등산로 인접 상호는 확인 필요"},
+      {name:"건달산", height:"337m", loc:"화성시 서신면 / 매송면", dist:"약 25km", time:"약 35분", toll:"없음", parking:"독정마을·기천저수지 인근 공터 (무료로 추정)", food:"서신면 인근 식당가 — 상호 확인 필요"},
+      {name:"함박산", height:"349m", loc:"용인시 처인구 이동읍 / 남동", dist:"약 35km", time:"약 45분", toll:"없음", parking:"명지대 함박관 인근 (무료로 추정)", food:"이동읍 시내 식당가 — 상호 확인 필요"}
+    ]
+  },
+  "2h": {
+    note: "2시간 이내 코스 15곳. 고속도로를 일부 구간만 타는 경우가 많아 통행료가 크지 않아요. 대중교통은 2024년 말 개통한 GTX-A(동탄역↔수서역, 19분/평시 20분·출퇴근 17분 배차/4,450원)를 축으로 정리했어요. 버스 환승 구간의 첫차·막차·배차간격은 노선 개편이 잦아 검색으로 확인 못한 곳은 '확인 필요'로 표시했으니, 출발 전 네이버지도·카카오맵으로 다시 확인하세요.",
+    mountains: [
+      {name:"관악산", height:"632m", loc:"서울 관악구 / 과천시", dist:"약 45km", time:"약 1시간", toll:"경로에 따라 없음~약 2,000원", parking:"관악산공원·관악중앙도서관 주변 공영주차장", food:"기절초풍왕순대(연주대 하산길, 낙성대 방면), 봉이전(전집), 서울대입구 샤로수길 맛집가",
+        transit:"동탄역(GTX-A)→수서역(19분)→2·3호선 환승→서울대입구역/사당역", tcost:"GTX 4,450원 + 지하철 약 1,400원 (총 5,800원 내외)", tfirst:"GTX 첫차 05:45", tlast:"GTX 막차 24:00경 · 지하철 막차 24:00", tinterval:"GTX 평시 20분 / 출퇴근 17분"},
+      {name:"청계산", height:"618m", loc:"과천시 / 의왕시 / 서울 서초구", dist:"약 42km", time:"약 55분", toll:"경로에 따라 없음~약 1,500원", parking:"청계산근린광장 주차장 (혼잡 시 조기 만차)", food:"청계산입구역~원터골/개나리골/옛골 일대 등산객 맛집·브런치카페 다수",
+        transit:"동탄역(GTX-A)→수서역→3호선 환승→양재역→버스 4432번→원터골", tcost:"GTX 4,450원 + 환승 약 1,900원 (총 6,300원 내외)", tfirst:"GTX 첫차 05:45", tlast:"GTX·지하철 24:00 · 4432번 막차 약 22시", tinterval:"GTX 17~20분 · 4432번 약 15~20분"},
+      {name:"수리산", height:"489m", loc:"안양시 / 군포시 / 안산시", dist:"약 35km", time:"약 50분", toll:"없음", parking:"대야미역 인근 공영주차장", food:"대야미 인근 식당가, 안양 병목안 보리밥거리",
+        transit:"직행 노선이 적어 환승 2회 이상 필요 (자차가 더 효율적)", tcost:"약 4,000~5,000원 (추정)", tfirst:"확인 필요", tlast:"확인 필요", tinterval:"확인 필요"},
+      {name:"용문산", height:"1,157m", loc:"양평군 용문면", dist:"약 78km", time:"약 1시간30분", toll:"약 2,500원 (영동고속도로 일부)", parking:"용문산관광단지 유료주차장", food:"용문산보리밥 (용문사 인근, 보리밥 정식)",
+        transit:"자차 권장 (대중교통은 2회 이상 환승, 총 2시간 이상)", tcost:"약 6,000원 내외 (추정)", tfirst:"확인 필요", tlast:"확인 필요", tinterval:"확인 필요"},
+      {name:"유명산", height:"862m", loc:"가평군 / 양평군", dist:"약 70km", time:"약 1시간25분", toll:"약 2,500원", parking:"유명산자연휴양림 주차장", food:"용문산 방면 식당가 함께 이용 가능",
+        transit:"대중교통 접근성 낮음 (자차 권장)", tcost:"확인 필요", tfirst:"확인 필요", tlast:"확인 필요", tinterval:"확인 필요"},
+      {name:"계룡산", height:"845m", loc:"공주시 / 대전시 / 논산시", dist:"약 110km", time:"약 1시간40분", toll:"약 4,500원 (경부+호남선 지선)", parking:"동학사·갑사 주차장 유료", food:"동학사 상가지구 산채정식·두부요리 식당가",
+        transit:"동탄역(SRT)→대전역→107번 버스→동학사 (66~72분)", tcost:"SRT 약 9,000원대 + 버스 1,500원 (총 1만원대 초반)", tfirst:"SRT 첫차 06시~07시대 (운행횟수 제한적)", tlast:"SRT 막차 22시대 · 107번 막차 확인 필요", tinterval:"SRT 1~2시간 간격 · 107번 버스 15~20분"},
+      {name:"칠갑산", height:"561m", loc:"청양군 대치면", dist:"약 100km", time:"약 1시간40분", toll:"약 4,000원", parking:"칠갑산도립공원 주차장 (넓음)", food:"칠갑산맛집(청국장·나물비빔밥), 칠갑산하(메기탕)",
+        transit:"동탄역(SRT)→대전/공주 환승→청양행 시외버스", tcost:"약 12,000원 내외 (추정)", tfirst:"확인 필요", tlast:"확인 필요", tinterval:"시외버스 1일 다수회 (확인 필요)"},
+      {name:"도봉산", height:"740m", loc:"서울 도봉구", dist:"약 55km", time:"약 1시간", toll:"없음~약 1,500원", parking:"도봉산 공영주차장 유료", food:"도봉산역 앞 먹자골목",
+        transit:"동탄역(GTX-A)→수서역→3호선 환승→1호선/7호선 환승→도봉산역", tcost:"GTX 4,450원 + 지하철 1,500원 (총 6,000원 내외)", tfirst:"지하철 첫차 05:30대", tlast:"막차 24:00", tinterval:"1호선 출퇴근 4~6분/평시 8~10분, 7호선 유사"},
+      {name:"북한산", height:"836m", loc:"서울 강북구 / 은평구 / 고양시", dist:"약 60km", time:"약 1시간10분", toll:"없음~약 2,000원", parking:"북한산성 제1주차장 유료 (2시간 단위 과금)", food:"북한산성입구 먹자골목(두부요리 등)",
+        transit:"동탄역(GTX-A)→수서역→3호선→구파발역→버스 환승", tcost:"GTX 4,450원 + 지하철·버스 약 2,000원 (총 6,500원 내외)", tfirst:"지하철 첫차 05:30대", tlast:"막차 24:00", tinterval:"3호선 평시 6~8분"},
+      {name:"소요산", height:"587m", loc:"동두천시", dist:"약 75km", time:"약 1시간20분", toll:"없음 (1호선 경로 기준)", parking:"경차 1,000 / 소형 2,000 / 중형 3,000 / 대형 5,000원 (동두천시민 무료)", food:"소요산관광지 먹자골목(향토식당가)",
+        transit:"동탄역(GTX-A/SRT)→서울역·청량리 환승→1호선→소요산역", tcost:"약 4,450원 + 지하철 약 2,600원 (총 7,000원 내외)", tfirst:"소요산역 첫차 06:21 (방향별 상이 가능)", tlast:"소요산역 막차 22:37", tinterval:"1호선 평시 약 15~20분"},
+      {name:"명성산", height:"923m", loc:"포천시 (산정호수)", dist:"약 90km", time:"약 1시간30분", toll:"약 2,000원", parking:"산정호수 공영주차장 유료 (약 3,000원)", food:"파주골 순두부마을",
+        transit:"동탄→의정부/포천 환승 시외·좌석버스 (노선 확인 필요)", tcost:"약 6,000원 내외 (추정)", tfirst:"확인 필요", tlast:"확인 필요", tinterval:"약 20~30분 (노선별 상이, 확인 필요)"},
+      {name:"축령산", height:"879m", loc:"남양주시 / 가평군", dist:"약 75km", time:"약 1시간20분", toll:"약 1,500원", parking:"축령산자연휴양림 주차장 유료", food:"남양주 화도 인근 잣나무숲 먹거리촌",
+        transit:"경춘선 상천역/오남역 환승 버스", tcost:"약 5,000원 내외 (추정)", tfirst:"확인 필요", tlast:"확인 필요", tinterval:"확인 필요"},
+      {name:"감악산", height:"675m", loc:"파주시 / 양주시", dist:"약 65km", time:"약 1시간10분", toll:"없음~약 1,500원", parking:"감악산출렁다리 주차장 유료 (약 3,000원)", food:"양주 남면 두부마을",
+        transit:"동탄→의정부/양주 환승 버스", tcost:"약 5,000원 내외 (추정)", tfirst:"확인 필요", tlast:"확인 필요", tinterval:"확인 필요"},
+      {name:"운길산", height:"610m", loc:"남양주시 조안면", dist:"약 68km", time:"약 1시간15분", toll:"없음", parking:"운길산역 인근 무료(약 20면) / 수종사 주차장 무료(약 30면)", food:"두물머리 인근 카페·연잎밥 식당가",
+        transit:"동탄역(GTX-A)→수서역→경의중앙선 환승→운길산역", tcost:"GTX 4,450원 + 철도 약 2,150원 (총 6,600원 내외)", tfirst:"운길산역 첫차 05:00", tlast:"운길산역 막차 23:00", tinterval:"경의중앙선 평시 약 15~20분"},
+      {name:"광덕산", height:"699m", loc:"천안시 / 아산시", dist:"약 85km", time:"약 1시간20분", toll:"약 3,000원", parking:"광덕사 주차장 무료", food:"광덕사 인근 산채정식·호두과자",
+        transit:"동탄역(SRT)→천안아산역→시내버스 환승", tcost:"약 8,000원 내외 (추정)", tfirst:"확인 필요", tlast:"확인 필요", tinterval:"시내버스 20~30분"}
+    ]
+  },
+  "3h": {
+    note: "3시간 이내 코스 20곳. 고속도로 장거리 구간이라 통행료가 커요. 대중교통은 환승이 많아 3시간을 넘기기 쉬운 곳이 많으니 특히 표시된 산은 자차를 권장해요. 원거리 버스 시간표는 계절·개편에 따라 자주 바뀌어 검색으로 확인 못한 항목은 '확인 필요'로 남겨뒀어요, 출발 전 재확인하세요.",
+    mountains: [
+      {name:"속리산 (법주사)", height:"1,058m", loc:"충북 보은군", dist:"약 150km", time:"약 2시간10분", toll:"약 6,500원 (중부내륙고속도로)", parking:"평일 소형 4,000원 / 주말 소형 5,000원", food:"옛고을(산채정식), 기사님식당(청국장), 한성식당(산채비빔밥) — 법주사로 일대",
+        transit:"동탄역(SRT)→청주 환승→보은행 시외버스", tcost:"SRT + 청주-보은 버스 9,600원 포함 총 1만5천원 내외", tfirst:"청주→보은 첫차 06:50", tlast:"청주→보은 막차 21:40", tinterval:"1일 25회 운행 (간격은 노선별 상이)"},
+      {name:"치악산 (구룡사)", height:"1,288m", loc:"강원 원주시", dist:"약 130km", time:"약 1시간50분", toll:"약 5,500원 (영동고속도로)", parking:"구룡사 인근 12시간 5,000원 (카드전용)", food:"치악산관광가든 (산채정식·소불고기)",
+        transit:"동탄역(SRT)→원주역/원주터미널→시내버스 환승", tcost:"약 1만원 내외 (추정)", tfirst:"확인 필요", tlast:"확인 필요", tinterval:"원주 시내버스 다수 노선 (확인 필요)"},
+      {name:"오대산 (월정사)", height:"1,565m", loc:"강원 평창군", dist:"약 195km", time:"약 2시간30분", toll:"약 8,000원 (영동고속도로)", parking:"월정사 주차장 약 3,000원", food:"향미정, 월정사식당, 오대산산채마을 (곤드레밥 정식)",
+        transit:"동탄역→진부역(KTX강릉선)→진부-월정사 시내버스 환승", tcost:"KTX + 버스 약 1만5천원 내외", tfirst:"진부-월정사 첫차 약 07:50 (계절별 상이)", tlast:"진부-월정사 막차 약 17:40~20:20 (계절별 상이)", tinterval:"약 60~90분"},
+      {name:"태백산", height:"1,567m", loc:"강원 태백시", dist:"약 220km", time:"약 2시간50분", toll:"약 9,000원 (영동+중앙고속도로)", parking:"유일사·당골 주차장 무료", food:"당골 주차장 인근 식당가 (상호는 방문 시 확인)",
+        transit:"자차 권장 (대중교통 3시간30분 이상, 환승 다수)", tcost:"확인 필요", tfirst:"확인 필요", tlast:"확인 필요", tinterval:"확인 필요"},
+      {name:"모악산", height:"794m", loc:"전북 전주/완주/김제", dist:"약 195km", time:"약 2시간20분", toll:"약 8,000원 (경부+호남고속도로)", parking:"모악산도립공원 주차장 (넓음)", food:"동적골가마솥곰탕, 원당 모악산 정육식당, 모악산소야(한우), 예가(한식)",
+        transit:"동탄역(SRT)→전주역→시내버스 환승", tcost:"SRT 약 1만8천원 + 버스 1,500원", tfirst:"확인 필요", tlast:"확인 필요", tinterval:"전주 시내버스 15~20분"},
+      {name:"월악산", height:"1,097m", loc:"충북 제천 / 충주", dist:"약 145km", time:"약 2시간", toll:"약 6,000원 (중부내륙고속도로)", parking:"월악산 국립공원 주차장 유료", food:"수안보·송계계곡 인근 식당가",
+        transit:"동탄역(SRT)→충주역→시내버스 환승", tcost:"약 1만원 내외 (추정)", tfirst:"확인 필요", tlast:"확인 필요", tinterval:"확인 필요"},
+      {name:"대둔산", height:"878m", loc:"전북 완주 / 충남 논산", dist:"약 155km", time:"약 2시간10분", toll:"약 6,500원", parking:"대둔산도립공원 주차장", food:"대둔산 케이블카 상가지구 산채정식",
+        transit:"동탄역(SRT)→논산역→시내버스 환승", tcost:"약 1만원 내외 (추정)", tfirst:"확인 필요", tlast:"확인 필요", tinterval:"확인 필요"},
+      {name:"설악산", height:"1,708m", loc:"강원 속초시 / 양양군", dist:"약 190km", time:"약 2시간30분", toll:"약 8,500원", parking:"소공원 주차장 유료 (약 4,000원)", food:"속초 중앙시장 닭강정·아바이순대",
+        transit:"서울고속버스터미널↔속초고속버스터미널 (동탄에서 서울 이동 후 환승)", tcost:"고속버스 약 2만원대 + 동탄-서울 이동비", tfirst:"서울→속초 첫차 06:00", tlast:"서울→속초 막차 23:30", tinterval:"1일 40회 (약 20~30분 간격)"},
+      {name:"지리산 (성삼재)", height:"1,915m", loc:"전남 구례군", dist:"약 260km", time:"약 3시간", toll:"약 1만원", parking:"성삼재 주차장 유료", food:"구례 원조섬진강다슬기수제비, 산채정식",
+        transit:"서울남부터미널→구례터미널(3시간40분)→성삼재행 버스(30분)", tcost:"고속버스 약 2만7천원 + 지역버스", tfirst:"예시 07:30 서울 출발편 있음", tlast:"확인 필요", tinterval:"1일 다수회 (확인 필요) — 대중교통 총 4시간 이상, 자차도 3시간 빠듯"},
+      {name:"소백산", height:"1,439m", loc:"경북 영주시 / 충북 단양군", dist:"약 175km", time:"약 2시간20분", toll:"약 7,000원", parking:"희방사 주차장 유료", food:"풍기인삼갈비",
+        transit:"동탄역(SRT)→풍기역/영주역→시내버스 환승", tcost:"약 1만5천원 내외 (추정)", tfirst:"확인 필요", tlast:"확인 필요", tinterval:"확인 필요"},
+      {name:"덕유산", height:"1,614m", loc:"전북 무주군", dist:"약 175km", time:"약 2시간20분", toll:"약 7,500원", parking:"덕유산리조트 주차장 유료", food:"무주 반딧불시장 어죽",
+        transit:"동탄역(SRT)→대전복합터미널→무주행 시외버스", tcost:"약 1만5천원 내외 (추정)", tfirst:"확인 필요", tlast:"확인 필요", tinterval:"시외버스 1일 다수회"},
+      {name:"내장산", height:"763m", loc:"전북 정읍시", dist:"약 215km", time:"약 2시간40분", toll:"약 9,000원", parking:"내장산 도립공원 주차장 유료", food:"정읍 산채정식·죽염요리",
+        transit:"동탄역(SRT)→정읍역→시내버스 환승", tcost:"약 1만8천원 내외 (추정)", tfirst:"확인 필요", tlast:"확인 필요", tinterval:"확인 필요"},
+      {name:"마이산", height:"686m", loc:"전북 진안군", dist:"약 205km", time:"약 2시간40분", toll:"약 8,000원", parking:"남부주차장 유료", food:"진안 흑돼지·애저요리",
+        transit:"동탄역(SRT)→전주역→진안행 버스 환승", tcost:"약 1만8천원 내외 (추정)", tfirst:"확인 필요", tlast:"확인 필요", tinterval:"확인 필요"},
+      {name:"선운산", height:"336m", loc:"전북 고창군", dist:"약 230km", time:"약 2시간50분", toll:"약 9,500원", parking:"선운사 주차장 유료", food:"고창 풍천장어",
+        transit:"동탄/서울→고창 시외버스", tcost:"약 2만원 내외 (추정)", tfirst:"확인 필요", tlast:"확인 필요", tinterval:"확인 필요"},
+      {name:"팔공산", height:"1,193m", loc:"대구광역시", dist:"약 220km", time:"약 2시간40분", toll:"약 1만원", parking:"동화사·갓바위 주차장 유료", food:"동화사 인근 산채정식, 갓바위 찹쌀떡",
+        transit:"동탄역(SRT)→동대구역→시내버스 환승", tcost:"SRT 약 2만원대 + 버스", tfirst:"확인 필요", tlast:"확인 필요", tinterval:"동대구 시내버스 10~15분"},
+      {name:"주왕산", height:"720m", loc:"경북 청송군", dist:"약 240km", time:"약 3시간", toll:"약 1만500원", parking:"주왕산 국립공원 주차장 유료", food:"청송 사과·닭백숙",
+        transit:"자차 권장 (대중교통 3시간30분 이상)", tcost:"확인 필요", tfirst:"확인 필요", tlast:"확인 필요", tinterval:"확인 필요"},
+      {name:"강천산", height:"583m", loc:"전북 순창군", dist:"약 245km", time:"약 3시간", toll:"약 1만500원", parking:"강천산군립공원 주차장 유료", food:"순창 떡갈비·장류마을",
+        transit:"동탄/서울→순창 시외버스 환승 다수", tcost:"약 2만원 내외 (추정)", tfirst:"확인 필요", tlast:"확인 필요", tinterval:"확인 필요"},
+      {name:"청옥산 (육백마지기)", height:"1,256m", loc:"강원 평창군", dist:"약 200km", time:"약 2시간40분", toll:"약 8,500원", parking:"육백마지기 임시주차장 무료", food:"평창 황태해장국",
+        transit:"대중교통 접근 매우 불편 (자차 필수)", tcost:"-", tfirst:"-", tlast:"-", tinterval:"-"},
+      {name:"월출산", height:"809m", loc:"전남 영암군", dist:"약 230km", time:"약 2시간50분", toll:"약 1만원", parking:"천황사지구 주차장 유료", food:"영암 대통밥, 무화과요리",
+        transit:"동탄역(SRT)→나주역→영암행 버스 환승", tcost:"약 2만원 내외 (추정)", tfirst:"확인 필요", tlast:"확인 필요", tinterval:"확인 필요"},
+      {name:"백암산 (백양사)", height:"741m", loc:"전남 장성군", dist:"약 230km", time:"약 2시간50분", toll:"약 1만원", parking:"백양사 주차장 유료", food:"장성 한정식, 백양사 죽순회",
+        transit:"동탄역(SRT)→백양사역(경전선)→시내버스 환승", tcost:"약 2만원 내외 (추정)", tfirst:"확인 필요", tlast:"확인 필요", tinterval:"확인 필요"}
+    ]
+  }
+};
+
+let currentSub = "1h";
+
+function renderHike(){
+  const box = document.getElementById("hike-list");
+  const noteBox = document.getElementById("hike-note");
+  const q = document.getElementById("search").value.trim().toLowerCase();
+  const group = DATA[currentSub];
+  noteBox.textContent = group.note;
+  const list = group.mountains.filter(m => m.name.toLowerCase().includes(q));
+  if(list.length === 0){
+    box.innerHTML = '<div class="empty">검색 결과가 없어요.</div>';
+    return;
+  }
+  box.innerHTML = list.map(m => `
+    <div class="card">
+      <h3>⛰️ ${m.name} <span class="badge">${m.height}</span></h3>
+      <div class="loc">${m.loc}</div>
+      <div class="rowline"><div class="k">실제거리</div><div class="v">${m.dist} (주차장 기준)</div></div>
+      <div class="rowline"><div class="k">소요시간</div><div class="v">자차 ${m.time}</div></div>
+      <div class="rowline"><div class="k">통행료</div><div class="v">${m.toll}</div></div>
+      <div class="rowline"><div class="k">주차비용</div><div class="v">${m.parking}</div></div>
+      <div class="rowline"><div class="k">추천식당</div><div class="v">${m.food}</div></div>
+      ${m.transit ? `
+      <div class="transit-box">
+        <div class="transit-title">🚌 대중교통 <span class="route">— ${m.transit}</span></div>
+        <div class="transit-grid">
+          <div><span class="tk">비용</span>${m.tcost}</div>
+          <div><span class="tk">배차간격</span>${m.tinterval}</div>
+          <div><span class="tk">첫차</span>${m.tfirst}</div>
+          <div><span class="tk">막차</span>${m.tlast}</div>
+        </div>
+      </div>` : ""}
+    </div>
+  `).join("");
+}
+
+document.querySelectorAll(".tab").forEach(tab=>{
+  tab.addEventListener("click", ()=>{
+    document.querySelectorAll(".tab").forEach(t=>t.classList.remove("active"));
+    tab.classList.add("active");
+    document.querySelectorAll(".view").forEach(v=>v.classList.remove("active"));
+    document.getElementById("view-"+tab.dataset.tab).classList.add("active");
+  });
+});
+
+document.querySelectorAll(".subtab").forEach(sub=>{
+  sub.addEventListener("click", ()=>{
+    document.querySelectorAll(".subtab").forEach(s=>s.classList.remove("active"));
+    sub.classList.add("active");
+    currentSub = sub.dataset.sub;
+    renderHike();
+  });
+});
+
+document.getElementById("search").addEventListener("input", renderHike);
+
+renderHike();
+
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("service-worker.js");
+  });
+}
+</script>
+
+</body>
+</html>
