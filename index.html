@@ -255,8 +255,7 @@
   </div>
   <input class="searchbox" id="search" placeholder="산 이름으로 검색 (예: 광교산)">
   <div class="sortbar" id="sortbar">
-    <div class="sortbtn active" data-sort="default">기본순</div>
-    <div class="sortbtn" data-sort="name">가나다순</div>
+    <div class="sortbtn active" data-sort="name">가나다순</div>
     <div class="sortbtn" data-sort="height">높이순</div>
     <div class="sortbtn" data-sort="dist">거리순</div>
     <div class="sortbtn" data-sort="time">시간순</div>
@@ -459,7 +458,7 @@ const DATA = {
 };
 
 let currentSub = "1h";
-let currentSortKey = "default";
+let currentSortKey = "name";
 
 function parseHeightM(str){
   const m = String(str).replace(/,/g, "").match(/(\d+(?:\.\d+)?)/);
@@ -483,15 +482,13 @@ function renderHike(){
   const group = DATA[currentSub];
   noteBox.textContent = group.note;
   let list = group.mountains.filter(m => m.name.toLowerCase().includes(q));
-  if(currentSortKey !== "default"){
-    list = [...list].sort((a, b) => {
-      if(currentSortKey === "name") return a.name.localeCompare(b.name, "ko");
-      if(currentSortKey === "height") return parseHeightM(a.height) - parseHeightM(b.height);
-      if(currentSortKey === "dist") return parseDistKm(a.dist) - parseDistKm(b.dist);
-      if(currentSortKey === "time") return parseTimeMinutes(a.time) - parseTimeMinutes(b.time);
-      return 0;
-    });
-  }
+  list = [...list].sort((a, b) => {
+    if(currentSortKey === "name") return a.name.localeCompare(b.name, "ko");
+    if(currentSortKey === "height") return parseHeightM(a.height) - parseHeightM(b.height);
+    if(currentSortKey === "dist") return parseDistKm(a.dist) - parseDistKm(b.dist);
+    if(currentSortKey === "time") return parseTimeMinutes(a.time) - parseTimeMinutes(b.time);
+    return 0;
+  });
   if(list.length === 0){
     box.innerHTML = '<div class="empty">검색 결과가 없어요.</div>';
     return;
