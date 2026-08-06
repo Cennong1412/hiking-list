@@ -107,6 +107,29 @@
     background:#fff;
   }
 
+  .sortbar{
+    display:flex;
+    gap:6px;
+    margin-bottom:12px;
+    overflow-x:auto;
+  }
+  .sortbtn{
+    padding:7px 12px;
+    border:1px solid var(--line);
+    background:#fff;
+    border-radius:20px;
+    font-size:0.78rem;
+    font-weight:600;
+    color:var(--sub);
+    cursor:pointer;
+    white-space:nowrap;
+  }
+  .sortbtn.active{
+    background:var(--accent);
+    border-color:var(--accent);
+    color:#fff;
+  }
+
   .note{
     font-size:0.78rem;
     color:var(--sub);
@@ -226,11 +249,18 @@
 <!-- 등산 -->
 <div class="view active" id="view-hike">
   <div class="subtabs">
-    <div class="subtab active" data-sub="1h">1시간 이내<span class="count-badge">10</span></div>
-    <div class="subtab" data-sub="2h">2시간 이내<span class="count-badge">15</span></div>
-    <div class="subtab" data-sub="3h">3시간 이내<span class="count-badge">20</span></div>
+    <div class="subtab active" data-sub="1h">1시간 이내<span class="count-badge">15</span></div>
+    <div class="subtab" data-sub="2h">2시간 이내<span class="count-badge">25</span></div>
+    <div class="subtab" data-sub="3h">3시간 이내<span class="count-badge">40</span></div>
   </div>
   <input class="searchbox" id="search" placeholder="산 이름으로 검색 (예: 광교산)">
+  <div class="sortbar" id="sortbar">
+    <div class="sortbtn active" data-sort="default">기본순</div>
+    <div class="sortbtn" data-sort="name">가나다순</div>
+    <div class="sortbtn" data-sort="height">높이순</div>
+    <div class="sortbtn" data-sort="dist">거리순</div>
+    <div class="sortbtn" data-sort="time">시간순</div>
+  </div>
   <div class="note" id="hike-note"></div>
   <div id="hike-list"></div>
 </div>
@@ -267,7 +297,7 @@
 <script>
 const DATA = {
   "1h": {
-    note: "1시간 이내 코스 10곳. 대부분 국도·지방도로 이동해 통행료가 거의 없어요. 거리·시간은 반송동 메타폴리스 기준 추정치이니 출발 전 내비게이션으로 다시 확인하세요.",
+    note: "1시간 이내 코스 15곳. 대부분 국도·지방도로 이동해 통행료가 거의 없어요. 거리·시간은 반송동 메타폴리스 기준 추정치이니 출발 전 내비게이션으로 다시 확인하세요.",
     mountains: [
       {name:"태행산", height:"292m", loc:"화성시 매송면", dist:"약 18km", time:"약 25~30분", toll:"없음 (국도)", parking:"무료 (등산로 입구 공터)", food:"인근 식당가는 소규모 — 방문 전 네이버지도 확인 권장"},
       {name:"칠보산", height:"238m", loc:"수원시 권선구 / 화성시 봉담읍", dist:"약 20km", time:"약 30분", toll:"없음 (국도)", parking:"무료 (칠보산 기도원·용화사 인근)", food:"봉담 시내 식당가 다수 — 특정 맛집은 확인 후 업데이트 예정"},
@@ -278,11 +308,16 @@ const DATA = {
       {name:"서운산", height:"547m", loc:"안성시 서운면 (청룡사)", dist:"약 38km", time:"약 50분", toll:"없음", parking:"청룡사 인근 주차장 (무료)", food:"안성장터국밥(국밥), 안성축협 한우프라자(한우), 풍물기행(카페), 서운산장터마당(도토리묵)"},
       {name:"청명산", height:"191m", loc:"화성시 향남읍", dist:"약 20km", time:"약 30분", toll:"없음", parking:"무료로 추정 (등산로 입구 공터)", food:"향남읍내 식당가 다수(쿠우쿠우 향남점, 교동짬뽕 화성점 등) — 등산로 인접 상호는 확인 필요"},
       {name:"건달산", height:"337m", loc:"화성시 서신면 / 매송면", dist:"약 25km", time:"약 35분", toll:"없음", parking:"독정마을·기천저수지 인근 공터 (무료로 추정)", food:"서신면 인근 식당가 — 상호 확인 필요"},
-      {name:"함박산", height:"349m", loc:"용인시 처인구 이동읍 / 남동", dist:"약 35km", time:"약 45분", toll:"없음", parking:"명지대 함박관 인근 (무료로 추정)", food:"이동읍 시내 식당가 — 상호 확인 필요"}
+      {name:"함박산", height:"349m", loc:"용인시 처인구 이동읍 / 남동", dist:"약 35km", time:"약 45분", toll:"없음", parking:"명지대 함박관 인근 (무료로 추정)", food:"이동읍 시내 식당가 — 상호 확인 필요"},
+      {name:"독산성·세마산", height:"147m", loc:"오산시 지곶동 (독산성)", dist:"약 12km", time:"약 20분", toll:"없음", parking:"무료 (독산성 세마대 주차장)", food:"오산 시내 식당가 이용"},
+      {name:"죽미산", height:"232m", loc:"오산시 죽동 (죽미령)", dist:"약 15km", time:"약 20~25분", toll:"없음", parking:"무료 (유엔군 초전기념관 주차장)", food:"오산 시내 식당가 이용"},
+      {name:"부아산", height:"402m", loc:"용인시 기흥구 마북동", dist:"약 20km", time:"약 30분", toll:"없음", parking:"무료 (마북동 등산로 입구 공터)", food:"기흥역 인근 식당가 이용"},
+      {name:"백운산", height:"564m", loc:"용인시 수지구 / 의왕시", dist:"약 28km", time:"약 40분", toll:"없음", parking:"광교공영주차장 30분 1,000원 (광교산과 연계 등산 코스)", food:"광교호수공원 주변 카페·식당가"},
+      {name:"바라산", height:"428m", loc:"의왕시 / 용인시 수지구", dist:"약 30km", time:"약 40~45분", toll:"없음", parking:"바라산자연휴양림 주차장 (무료~소액)", food:"백운호수 카페거리"}
     ]
   },
   "2h": {
-    note: "2시간 이내 코스 15곳. 고속도로를 일부 구간만 타는 경우가 많아 통행료가 크지 않아요. 대중교통은 2024년 말 개통한 GTX-A(동탄역↔수서역, 19분/평시 20분·출퇴근 17분 배차/4,450원)를 축으로 정리했어요. 버스 환승 구간의 첫차·막차·배차간격은 노선 개편이 잦아 검색으로 확인 못한 곳은 '확인 필요'로 표시했으니, 출발 전 네이버지도·카카오맵으로 다시 확인하세요.",
+    note: "2시간 이내 코스 25곳. 고속도로를 일부 구간만 타는 경우가 많아 통행료가 크지 않아요. 대중교통은 2024년 말 개통한 GTX-A(동탄역↔수서역, 19분/평시 20분·출퇴근 17분 배차/4,450원)를 축으로 정리했어요. 버스 환승 구간의 첫차·막차·배차간격은 노선 개편이 잦아 검색으로 확인 못한 곳은 '확인 필요'로 표시했으니, 출발 전 네이버지도·카카오맵으로 다시 확인하세요.",
     mountains: [
       {name:"관악산", height:"632m", loc:"서울 관악구 / 과천시", dist:"약 45km", time:"약 1시간", toll:"경로에 따라 없음~약 2,000원", parking:"관악산공원·관악중앙도서관 주변 공영주차장", food:"기절초풍왕순대(연주대 하산길, 낙성대 방면), 봉이전(전집), 서울대입구 샤로수길 맛집가",
         transit:"동탄역(GTX-A)→수서역(19분)→2·3호선 환승→서울대입구역/사당역", tcost:"GTX 4,450원 + 지하철 약 1,400원 (총 5,800원 내외)", tfirst:"GTX 첫차 05:45", tlast:"GTX 막차 24:00경 · 지하철 막차 24:00", tinterval:"GTX 평시 20분 / 출퇴근 17분"},
@@ -313,11 +348,31 @@ const DATA = {
       {name:"운길산", height:"610m", loc:"남양주시 조안면", dist:"약 68km", time:"약 1시간15분", toll:"없음", parking:"운길산역 인근 무료(약 20면) / 수종사 주차장 무료(약 30면)", food:"두물머리 인근 카페·연잎밥 식당가",
         transit:"동탄역(GTX-A)→수서역→경의중앙선 환승→운길산역", tcost:"GTX 4,450원 + 철도 약 2,150원 (총 6,600원 내외)", tfirst:"운길산역 첫차 05:00", tlast:"운길산역 막차 23:00", tinterval:"경의중앙선 평시 약 15~20분"},
       {name:"광덕산", height:"699m", loc:"천안시 / 아산시", dist:"약 85km", time:"약 1시간20분", toll:"약 3,000원", parking:"광덕사 주차장 무료", food:"광덕사 인근 산채정식·호두과자",
-        transit:"동탄역(SRT)→천안아산역→시내버스 환승", tcost:"약 8,000원 내외 (추정)", tfirst:"확인 필요", tlast:"확인 필요", tinterval:"시내버스 20~30분"}
+        transit:"동탄역(SRT)→천안아산역→시내버스 환승", tcost:"약 8,000원 내외 (추정)", tfirst:"확인 필요", tlast:"확인 필요", tinterval:"시내버스 20~30분"},
+      {name:"아차산", height:"287m", loc:"서울 광진구 / 구리시", dist:"약 55km", time:"약 1시간", toll:"없음~약 1,500원", parking:"아차산생태공원 주차장 유료", food:"워커힐 인근·구리 한강공원 카페거리",
+        transit:"동탄역(GTX-A)→수서역→3호선 환승→상봉역→5·6호선 환승→아차산역", tcost:"GTX 4,450원 + 지하철 약 1,900원 (총 6,300원 내외)", tfirst:"지하철 첫차 05:30대", tlast:"막차 24:00", tinterval:"5·6호선 평시 6~8분"},
+      {name:"검단산", height:"657m", loc:"하남시", dist:"약 45km", time:"약 55분", toll:"없음~약 1,500원", parking:"검단산 등산로 입구 공영주차장 유료", food:"하남 미사강변 맛집가",
+        transit:"동탄역(GTX-A)→수서역→5호선 환승→상일동역→버스 환승", tcost:"GTX 4,450원 + 지하철·버스 약 1,900원 (총 6,300원 내외)", tfirst:"지하철 첫차 05:30대", tlast:"막차 24:00", tinterval:"5호선 평시 6~8분"},
+      {name:"남한산성 (남한산)", height:"522m", loc:"광주시 / 성남시 / 하남시", dist:"약 40km", time:"약 50분", toll:"없음", parking:"남한산성도립공원 주차장 유료 (약 3,000원)", food:"남한산성 소나무숲길 먹거리촌 (백숙·닭볶음탕)",
+        transit:"동탄역(GTX-A)→수서역→8호선 환승→산성역→버스 9번", tcost:"GTX 4,450원 + 지하철·버스 약 1,900원 (총 6,300원 내외)", tfirst:"확인 필요", tlast:"확인 필요", tinterval:"9번 버스 약 15~20분"},
+      {name:"예봉산", height:"683m", loc:"남양주시 와부읍", dist:"약 60km", time:"약 1시간10분", toll:"없음", parking:"팔당역 인근 무료", food:"팔당댐 인근 카페·매운탕거리",
+        transit:"동탄역(GTX-A)→수서역→경의중앙선 환승→팔당역", tcost:"GTX 4,450원 + 철도 약 2,150원 (총 6,600원 내외)", tfirst:"팔당역 첫차 05:00대", tlast:"팔당역 막차 23:00대", tinterval:"경의중앙선 평시 약 15~20분"},
+      {name:"천마산", height:"812m", loc:"남양주시 화도읍", dist:"약 65km", time:"약 1시간15분", toll:"없음~약 1,500원", parking:"천마산관광지 주차장 유료", food:"천마산 입구 먹거리촌",
+        transit:"동탄역(GTX-A)→수서역→경의중앙선 환승→마석역→버스 환승", tcost:"약 7,000원 내외 (추정)", tfirst:"확인 필요", tlast:"확인 필요", tinterval:"확인 필요"},
+      {name:"불곡산", height:"468m", loc:"양주시", dist:"약 55km", time:"약 1시간", toll:"없음", parking:"양주시청 인근 공영주차장", food:"양주 시내 식당가",
+        transit:"동탄역(GTX-A)→수서역→1호선 환승→양주역", tcost:"GTX 4,450원 + 지하철 약 2,300원 (총 6,700원 내외)", tfirst:"지하철 첫차 05:30대", tlast:"막차 24:00", tinterval:"1호선 평시 약 10~15분"},
+      {name:"연인산", height:"1,068m", loc:"가평군 백둔리", dist:"약 90km", time:"약 1시간40분", toll:"약 2,000원", parking:"연인산자연휴양림 주차장", food:"가평 잣막국수거리",
+        transit:"대중교통 접근성 낮음 (자차 권장)", tcost:"확인 필요", tfirst:"확인 필요", tlast:"확인 필요", tinterval:"확인 필요"},
+      {name:"명지산", height:"1,252m", loc:"가평군 북면", dist:"약 95km", time:"약 1시간45분", toll:"약 2,000원", parking:"명지산 주차장 (연인산과 인접)", food:"가평 잣막국수거리",
+        transit:"대중교통 접근성 낮음 (자차 권장)", tcost:"확인 필요", tfirst:"확인 필요", tlast:"확인 필요", tinterval:"확인 필요"},
+      {name:"죽엽산", height:"601m", loc:"포천시 소흘읍", dist:"약 70km", time:"약 1시간15분", toll:"없음~약 1,500원", parking:"무료 공터 (등산로 입구)", food:"포천 이동갈비촌",
+        transit:"환승 다수 (자차 권장)", tcost:"확인 필요", tfirst:"확인 필요", tlast:"확인 필요", tinterval:"확인 필요"},
+      {name:"백운산 (포천)", height:"903m", loc:"포천시 이동면", dist:"약 85km", time:"약 1시간30분", toll:"약 2,000원", parking:"백운계곡 주차장 유료", food:"이동갈비촌",
+        transit:"대중교통 접근성 낮음 (자차 권장)", tcost:"확인 필요", tfirst:"확인 필요", tlast:"확인 필요", tinterval:"확인 필요"}
     ]
   },
   "3h": {
-    note: "3시간 이내 코스 20곳. 고속도로 장거리 구간이라 통행료가 커요. 대중교통은 환승이 많아 3시간을 넘기기 쉬운 곳이 많으니 특히 표시된 산은 자차를 권장해요. 원거리 버스 시간표는 계절·개편에 따라 자주 바뀌어 검색으로 확인 못한 항목은 '확인 필요'로 남겨뒀어요, 출발 전 재확인하세요.",
+    note: "3시간 이내 코스 40곳. 고속도로 장거리 구간이라 통행료가 커요. 대중교통은 환승이 많아 3시간을 넘기기 쉬운 곳이 많으니 특히 표시된 산은 자차를 권장해요. 원거리 버스 시간표는 계절·개편에 따라 자주 바뀌어 검색으로 확인 못한 항목은 '확인 필요'로 남겨뒀어요, 출발 전 재확인하세요.",
     mountains: [
       {name:"속리산 (법주사)", height:"1,058m", loc:"충북 보은군", dist:"약 150km", time:"약 2시간10분", toll:"약 6,500원 (중부내륙고속도로)", parking:"평일 소형 4,000원 / 주말 소형 5,000원", food:"옛고을(산채정식), 기사님식당(청국장), 한성식당(산채비빔밥) — 법주사로 일대",
         transit:"동탄역(SRT)→청주 환승→보은행 시외버스", tcost:"SRT + 청주-보은 버스 9,600원 포함 총 1만5천원 내외", tfirst:"청주→보은 첫차 06:50", tlast:"청주→보은 막차 21:40", tinterval:"1일 25회 운행 (간격은 노선별 상이)"},
@@ -358,12 +413,68 @@ const DATA = {
       {name:"월출산", height:"809m", loc:"전남 영암군", dist:"약 230km", time:"약 2시간50분", toll:"약 1만원", parking:"천황사지구 주차장 유료", food:"영암 대통밥, 무화과요리",
         transit:"동탄역(SRT)→나주역→영암행 버스 환승", tcost:"약 2만원 내외 (추정)", tfirst:"확인 필요", tlast:"확인 필요", tinterval:"확인 필요"},
       {name:"백암산 (백양사)", height:"741m", loc:"전남 장성군", dist:"약 230km", time:"약 2시간50분", toll:"약 1만원", parking:"백양사 주차장 유료", food:"장성 한정식, 백양사 죽순회",
-        transit:"동탄역(SRT)→백양사역(경전선)→시내버스 환승", tcost:"약 2만원 내외 (추정)", tfirst:"확인 필요", tlast:"확인 필요", tinterval:"확인 필요"}
+        transit:"동탄역(SRT)→백양사역(경전선)→시내버스 환승", tcost:"약 2만원 내외 (추정)", tfirst:"확인 필요", tlast:"확인 필요", tinterval:"확인 필요"},
+      {name:"화악산", height:"1,468m", loc:"가평군 / 화천군", dist:"약 110km", time:"약 1시간50분", toll:"약 2,500원", parking:"화악산자연휴양림 주차장", food:"가평 잣막국수거리",
+        transit:"자차 권장 (대중교통 3시간 이상)", tcost:"-", tfirst:"-", tlast:"-", tinterval:"-"},
+      {name:"삼악산", height:"645m", loc:"강원 춘천시", dist:"약 105km", time:"약 1시간40분", toll:"약 3,000원", parking:"의암호 삼악산 주차장 유료", food:"춘천 막국수·닭갈비거리",
+        transit:"동탄역→청량리→경춘선 ITX→춘천역→버스 환승", tcost:"약 1만5천원 내외 (추정)", tfirst:"확인 필요", tlast:"확인 필요", tinterval:"경춘선 ITX 30~40분 간격"},
+      {name:"오봉산", height:"779m", loc:"강원 춘천시 북산면", dist:"약 120km", time:"약 2시간", toll:"약 3,000원", parking:"청평사 선착장 주차장", food:"춘천 소양강 인근 식당가",
+        transit:"경춘선 춘천역→소양강댐→배 이동 (접근 복잡, 자차 권장)", tcost:"확인 필요", tfirst:"확인 필요", tlast:"확인 필요", tinterval:"확인 필요"},
+      {name:"태기산", height:"1,261m", loc:"강원 횡성군 둔내면", dist:"약 140km", time:"약 2시간", toll:"약 5,000원", parking:"양구두미재 주차장 무료", food:"둔내 한우마을",
+        transit:"자차 권장 (대중교통 3시간 이상)", tcost:"-", tfirst:"-", tlast:"-", tinterval:"-"},
+      {name:"계방산", height:"1,577m", loc:"강원 평창군 용평면", dist:"약 175km", time:"약 2시간20분", toll:"약 7,500원", parking:"운두령 주차장 무료", food:"평창 황태해장국",
+        transit:"동탄역→진부역(KTX강릉선)→버스 환승", tcost:"약 1만5천원 내외 (추정)", tfirst:"확인 필요", tlast:"확인 필요", tinterval:"확인 필요"},
+      {name:"발왕산", height:"1,458m", loc:"강원 평창군 (용평리조트)", dist:"약 175km", time:"약 2시간20분", toll:"약 7,500원", parking:"용평리조트 주차장 유료", food:"용평리조트 내 식당가",
+        transit:"동탄역→진부역(KTX강릉선)→택시/버스 환승", tcost:"약 1만5천원 내외 (추정) + 곤돌라 이용료 별도", tfirst:"확인 필요", tlast:"확인 필요", tinterval:"확인 필요"},
+      {name:"민둥산", height:"1,119m", loc:"강원 정선군 남면", dist:"약 200km", time:"약 2시간40분", toll:"약 8,500원", parking:"민둥산역 인근 주차장 무료", food:"정선 콧등치기국수",
+        transit:"동탄역(SRT)→청량리→중앙선/태백선 환승→민둥산역", tcost:"약 2만원 내외 (추정)", tfirst:"확인 필요", tlast:"확인 필요", tinterval:"태백선 1일 소수회 (확인 필요)"},
+      {name:"함백산", height:"1,573m", loc:"강원 태백시 / 정선군", dist:"약 210km", time:"약 2시간50분", toll:"약 9,000원", parking:"만항재 주차장 무료", food:"태백 한우촌",
+        transit:"자차 권장 (대중교통 3시간30분 이상)", tcost:"-", tfirst:"-", tlast:"-", tinterval:"-"},
+      {name:"두타산", height:"1,353m", loc:"강원 동해시", dist:"약 220km", time:"약 2시간50분", toll:"약 9,500원", parking:"무릉계곡 주차장 유료", food:"무릉계곡 입구 두부요리·산채정식",
+        transit:"자차 권장 (대중교통 3시간 이상)", tcost:"-", tfirst:"-", tlast:"-", tinterval:"-"},
+      {name:"가리왕산", height:"1,561m", loc:"강원 정선군 정선읍", dist:"약 195km", time:"약 2시간40분", toll:"약 8,000원", parking:"가리왕산자연휴양림 주차장 유료", food:"정선 콧등치기국수",
+        transit:"자차 권장 (대중교통 3시간 이상)", tcost:"-", tfirst:"-", tlast:"-", tinterval:"-"},
+      {name:"용봉산", height:"381m", loc:"충남 홍성군 홍북읍", dist:"약 110km", time:"약 1시간40분", toll:"약 3,500원", parking:"용봉산도립공원 주차장 무료", food:"홍성 한우",
+        transit:"동탄역(SRT)→홍성역→시내버스 환승", tcost:"약 1만2천원 내외 (추정)", tfirst:"확인 필요", tlast:"확인 필요", tinterval:"확인 필요"},
+      {name:"성주산", height:"680m", loc:"충남 보령시 성주면", dist:"약 140km", time:"약 2시간", toll:"약 5,000원", parking:"성주산자연휴양림 주차장", food:"보령 대천항 해산물",
+        transit:"동탄역(SRT)→대천역→시내버스 환승", tcost:"약 1만5천원 내외 (추정)", tfirst:"확인 필요", tlast:"확인 필요", tinterval:"확인 필요"},
+      {name:"변산", height:"508m", loc:"전북 부안군 변산면", dist:"약 225km", time:"약 2시간50분", toll:"약 9,500원", parking:"내소사 주차장 유료", food:"곰소항 젓갈정식",
+        transit:"동탄역(SRT)→익산역→부안행 버스 환승", tcost:"약 2만원 내외 (추정)", tfirst:"확인 필요", tlast:"확인 필요", tinterval:"확인 필요"},
+      {name:"오서산", height:"791m", loc:"충남 보령시 청소면", dist:"약 145km", time:"약 2시간", toll:"약 5,000원", parking:"오서산자연휴양림 주차장", food:"보령 대천항 해산물",
+        transit:"동탄역(SRT)→대천역→시내버스 환승", tcost:"약 1만5천원 내외 (추정)", tfirst:"확인 필요", tlast:"확인 필요", tinterval:"확인 필요"},
+      {name:"금오산", height:"977m", loc:"경북 구미시", dist:"약 220km", time:"약 2시간40분", toll:"약 1만원", parking:"금오산도립공원 주차장 유료", food:"금오산 입구 먹거리촌",
+        transit:"동탄역(SRT)→구미역→시내버스 환승", tcost:"SRT 약 2만원대 + 버스", tfirst:"확인 필요", tlast:"확인 필요", tinterval:"구미 시내버스 15~20분"},
+      {name:"비슬산", height:"1,084m", loc:"대구 달성군", dist:"약 230km", time:"약 2시간50분", toll:"약 1만원", parking:"유가사 주차장 유료", food:"대구 논공 인근 식당가",
+        transit:"동탄역(SRT)→동대구역→시내버스 환승", tcost:"SRT 약 2만원대 + 버스", tfirst:"확인 필요", tlast:"확인 필요", tinterval:"대구 시내버스 15~20분"},
+      {name:"주흘산", height:"1,106m", loc:"경북 문경시 (문경새재)", dist:"약 160km", time:"약 2시간10분", toll:"약 6,500원", parking:"문경새재도립공원 주차장 유료", food:"문경새재 입구 향토음식점거리 (약돌한우·산채정식)",
+        transit:"동탄역(SRT)→충주/점촌 환승→문경행 버스", tcost:"약 1만5천원 내외 (추정)", tfirst:"확인 필요", tlast:"확인 필요", tinterval:"확인 필요"},
+      {name:"황악산", height:"1,111m", loc:"경북 김천시 (직지사)", dist:"약 190km", time:"약 2시간30분", toll:"약 8,000원", parking:"직지사 주차장 유료", food:"직지사 상가지구 산채정식",
+        transit:"동탄역(SRT)→김천구미역→시내버스 환승", tcost:"약 1만8천원 내외 (추정)", tfirst:"확인 필요", tlast:"확인 필요", tinterval:"확인 필요"},
+      {name:"청량산", height:"870m", loc:"경북 봉화군 명호면", dist:"약 230km", time:"약 2시간50분", toll:"약 1만원", parking:"청량산도립공원 주차장 유료", food:"봉화 은어찜·산채정식",
+        transit:"자차 권장 (대중교통 3시간30분 이상)", tcost:"-", tfirst:"-", tlast:"-", tinterval:"-"},
+      {name:"방태산", height:"1,444m", loc:"강원 인제군 기린면", dist:"약 195km", time:"약 2시간40분", toll:"약 6,000원", parking:"방태산자연휴양림 주차장", food:"인제 황태회관",
+        transit:"자차 권장 (대중교통 3시간 이상)", tcost:"-", tfirst:"-", tlast:"-", tinterval:"-"}
     ]
   }
 };
 
 let currentSub = "1h";
+let currentSortKey = "default";
+
+function parseHeightM(str){
+  const m = String(str).replace(/,/g, "").match(/(\d+(?:\.\d+)?)/);
+  return m ? parseFloat(m[1]) : 0;
+}
+function parseDistKm(str){
+  const m = String(str).replace(/,/g, "").match(/(\d+(?:\.\d+)?)\s*km/);
+  return m ? parseFloat(m[1]) : 0;
+}
+function parseTimeMinutes(str){
+  const s = String(str);
+  const h = s.match(/(\d+)\s*시간/);
+  const min = s.match(/(\d+)(?:~\d+)?\s*분/);
+  return (h ? parseInt(h[1], 10) * 60 : 0) + (min ? parseInt(min[1], 10) : 0);
+}
 
 function renderHike(){
   const box = document.getElementById("hike-list");
@@ -371,7 +482,16 @@ function renderHike(){
   const q = document.getElementById("search").value.trim().toLowerCase();
   const group = DATA[currentSub];
   noteBox.textContent = group.note;
-  const list = group.mountains.filter(m => m.name.toLowerCase().includes(q));
+  let list = group.mountains.filter(m => m.name.toLowerCase().includes(q));
+  if(currentSortKey !== "default"){
+    list = [...list].sort((a, b) => {
+      if(currentSortKey === "name") return a.name.localeCompare(b.name, "ko");
+      if(currentSortKey === "height") return parseHeightM(a.height) - parseHeightM(b.height);
+      if(currentSortKey === "dist") return parseDistKm(a.dist) - parseDistKm(b.dist);
+      if(currentSortKey === "time") return parseTimeMinutes(a.time) - parseTimeMinutes(b.time);
+      return 0;
+    });
+  }
   if(list.length === 0){
     box.innerHTML = '<div class="empty">검색 결과가 없어요.</div>';
     return;
@@ -418,6 +538,15 @@ document.querySelectorAll(".subtab").forEach(sub=>{
 });
 
 document.getElementById("search").addEventListener("input", renderHike);
+
+document.querySelectorAll("#sortbar .sortbtn").forEach(btn=>{
+  btn.addEventListener("click", ()=>{
+    document.querySelectorAll("#sortbar .sortbtn").forEach(b=>b.classList.remove("active"));
+    btn.classList.add("active");
+    currentSortKey = btn.dataset.sort;
+    renderHike();
+  });
+});
 
 renderHike();
 
