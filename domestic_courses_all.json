@@ -1,0 +1,5753 @@
+{
+  "meta": {
+    "baseLocation": "경기도 화성시 동탄구 반송동 메타폴리스",
+    "generatedFor": "Claude Code 앱 등록용 (국내 여행 코스)",
+    "dietaryNote": "전 코스 공통: 회·스시 등 생선(어류) 요리 제외. 한정식/정식류는 생선 반찬이 나올 수 있어 주문 시 제외 요청 권장. 해산물 특화 지역(여수·통영·거제·포항)은 논피시 선택지가 상대적으로 제한적",
+    "costNote": "예상 비용은 2인/3인 기준 추정치(교통·숙소·식비·입장료). 3인은 숙소 x1.2, 식비/입장료 x1.5 가정. 실제 비용은 출발 전 재확인 필요",
+    "totalCourses": 36,
+    "regionCounts": {
+      "강원": {
+        "1박2일": 5,
+        "2박3일": 5,
+        "3박4일": 3,
+        "total": 13
+      },
+      "충남/대전": {
+        "당일": 3,
+        "1박2일": 3,
+        "total": 6
+      },
+      "충북": {
+        "당일": 3,
+        "1박2일": 3,
+        "2박3일": 3,
+        "total": 9
+      },
+      "경주": {
+        "1박2일": 2,
+        "2박3일": 1,
+        "total": 3
+      },
+      "남해안(남해군·여수·통영·거제)": {
+        "1박2일": 3,
+        "2박3일": 2,
+        "total": 5
+      }
+    }
+  },
+  "regions": [
+    {
+      "meta": {
+        "region": "강원",
+        "baseLocation": "경기도 화성시 동탄구 반송동 메타폴리스",
+        "generatedFor": "Claude Code 앱 등록용",
+        "dietaryNote": "회·스시 등 생선(어류) 요리 전면 제외. 한정식/정식류는 반찬에 생선구이가 나올 수 있어 주문 시 제외 요청 권장",
+        "costNote": "예상 비용은 2인/3인 기준 추정치. 3인 기준은 숙소 x1.2, 식비/입장료 x1.5 가정",
+        "counts": {
+          "1박2일": 5,
+          "2박3일": 5,
+          "3박4일": 3,
+          "total": 13
+        }
+      },
+      "courses": [
+        {
+          "id": "GW-1N2D-01",
+          "title": "강릉 해양 힐링",
+          "duration": "1박2일",
+          "nights": 1,
+          "subregions": [
+            "강릉"
+          ],
+          "transport": {
+            "distanceKmOneWay": 230,
+            "driveTimeMinOneWay": 150,
+            "tollWonOneWay": 9000
+          },
+          "days": [
+            {
+              "day": 1,
+              "schedule": [
+                {
+                  "time": "09:00",
+                  "activity": "동탄 출발",
+                  "durationMin": 0,
+                  "note": ""
+                },
+                {
+                  "time": "09:00-11:30",
+                  "activity": "이동 (→강릉)",
+                  "durationMin": 150,
+                  "note": "영동고속도로"
+                },
+                {
+                  "time": "11:30-12:30",
+                  "activity": "경포대·경포호수 산책",
+                  "durationMin": 60,
+                  "note": "무료"
+                },
+                {
+                  "time": "12:30-13:30",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "강릉짬뽕순두부 강릉본점 — 맑은순두부정식 (생선 없음)"
+                },
+                {
+                  "time": "13:30-14:30",
+                  "activity": "오죽헌 관람",
+                  "durationMin": 60,
+                  "note": "입장료 2인 약 6,000원"
+                },
+                {
+                  "time": "14:30-15:00",
+                  "activity": "이동 → 안목해변",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "15:00-16:00",
+                  "activity": "안목해변 커피거리",
+                  "durationMin": 60,
+                  "note": "카페 자유이용"
+                },
+                {
+                  "time": "16:00-16:30",
+                  "activity": "숙소 체크인",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "18:00-19:00",
+                  "activity": "저녁",
+                  "durationMin": 60,
+                  "note": "중앙시장 인근 고깃집/닭강정류 (상호 재확인 권장)"
+                }
+              ]
+            },
+            {
+              "day": 2,
+              "schedule": [
+                {
+                  "time": "08:00-09:00",
+                  "activity": "아침",
+                  "durationMin": 60,
+                  "note": "숙소 조식 또는 간단히"
+                },
+                {
+                  "time": "09:00-09:30",
+                  "activity": "이동 → 정동진",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "09:30-10:30",
+                  "activity": "정동진 해변·모래시계공원",
+                  "durationMin": 60,
+                  "note": "무료"
+                },
+                {
+                  "time": "10:30-11:30",
+                  "activity": "이동 → 중앙시장",
+                  "durationMin": 60,
+                  "note": ""
+                },
+                {
+                  "time": "11:30-12:30",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "중앙시장 금성배니닭강정 (생선 없음)"
+                },
+                {
+                  "time": "12:30-15:00",
+                  "activity": "귀가 이동",
+                  "durationMin": 150,
+                  "note": ""
+                }
+              ]
+            }
+          ],
+          "lodging": [
+            {
+              "night": 1,
+              "area": "강릉",
+              "options": [
+                {
+                  "name": "강릉 관광호텔",
+                  "type": "호텔",
+                  "priceRange": "12만원대"
+                },
+                {
+                  "name": "더 홍씨 호텔 강릉",
+                  "type": "3성급 호텔",
+                  "priceRange": "8만원대"
+                },
+                {
+                  "name": "슈밍게스트하우스",
+                  "type": "게스트하우스",
+                  "priceRange": "5~6만원대(2인실)"
+                }
+              ]
+            }
+          ],
+          "costEstimate": {
+            "2인": {
+              "교통": 70000,
+              "숙소": 90000,
+              "식비": 130000,
+              "입장료": 6000,
+              "합계": 296000
+            },
+            "3인": {
+              "교통": 70000,
+              "숙소": 108000,
+              "식비": 195000,
+              "입장료": 9000,
+              "합계": 382000
+            }
+          },
+          "notes": "기존 강릉 코스와 동일 (재사용)"
+        },
+        {
+          "id": "GW-1N2D-02",
+          "title": "속초·양양 서핑 & 바다",
+          "duration": "1박2일",
+          "nights": 1,
+          "subregions": [
+            "속초",
+            "양양"
+          ],
+          "transport": {
+            "distanceKmOneWay": 230,
+            "driveTimeMinOneWay": 160,
+            "tollWonOneWay": 9500
+          },
+          "days": [
+            {
+              "day": 1,
+              "schedule": [
+                {
+                  "time": "09:00",
+                  "activity": "동탄 출발",
+                  "durationMin": 0,
+                  "note": ""
+                },
+                {
+                  "time": "09:00-11:40",
+                  "activity": "이동 (→양양)",
+                  "durationMin": 160,
+                  "note": "서울양양고속도로"
+                },
+                {
+                  "time": "11:40-12:40",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "동해막국수 — 막국수 (생선 없음)"
+                },
+                {
+                  "time": "12:40-14:30",
+                  "activity": "서피비치 산책·체험(선택)",
+                  "durationMin": 110,
+                  "note": "스위밍존/빈백존 자유이용, 서핑강습 선택시 별도"
+                },
+                {
+                  "time": "14:30-15:30",
+                  "activity": "낙산사 관람",
+                  "durationMin": 60,
+                  "note": "무료~소액"
+                },
+                {
+                  "time": "15:30-16:00",
+                  "activity": "이동 → 속초",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "16:00-16:30",
+                  "activity": "숙소 체크인",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "18:00-19:00",
+                  "activity": "저녁",
+                  "durationMin": 60,
+                  "note": "설악로한우 — 한우 (생선 없음)"
+                }
+              ]
+            },
+            {
+              "day": 2,
+              "schedule": [
+                {
+                  "time": "08:00-09:00",
+                  "activity": "아침",
+                  "durationMin": 60,
+                  "note": "숙소 조식 또는 간단히"
+                },
+                {
+                  "time": "09:00-09:30",
+                  "activity": "이동 → 속초해변",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "09:30-10:30",
+                  "activity": "속초해변·청초호 산책",
+                  "durationMin": 60,
+                  "note": "무료"
+                },
+                {
+                  "time": "10:30-11:00",
+                  "activity": "이동 → 중앙시장",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "11:00-12:00",
+                  "activity": "속초 중앙시장 구경",
+                  "durationMin": 60,
+                  "note": "만석닭강정/중앙닭강정 (생선 없음)"
+                },
+                {
+                  "time": "12:00-13:00",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "중앙시장 닭강정 or 왕돈까스"
+                },
+                {
+                  "time": "13:00-15:40",
+                  "activity": "귀가 이동",
+                  "durationMin": 160,
+                  "note": ""
+                }
+              ]
+            }
+          ],
+          "lodging": [
+            {
+              "night": 1,
+              "area": "속초",
+              "options": [
+                {
+                  "name": "롯데리조트 속초",
+                  "type": "리조트",
+                  "priceRange": "18만원대"
+                },
+                {
+                  "name": "속초 시내 비즈니스호텔",
+                  "type": "호텔",
+                  "priceRange": "9~11만원대"
+                }
+              ]
+            }
+          ],
+          "costEstimate": {
+            "2인": {
+              "교통": 75000,
+              "숙소": 100000,
+              "식비": 140000,
+              "입장료": 4000,
+              "합계": 319000
+            },
+            "3인": {
+              "교통": 75000,
+              "숙소": 120000,
+              "식비": 210000,
+              "입장료": 6000,
+              "합계": 411000
+            }
+          },
+          "notes": "물회·회·가리비 등 해산물 식당은 제외. 장칼국수는 홍합 포함 가능성 있어 목록에서 제외함"
+        },
+        {
+          "id": "GW-1N2D-03",
+          "title": "평창 목장 & 자연",
+          "duration": "1박2일",
+          "nights": 1,
+          "subregions": [
+            "평창",
+            "대관령"
+          ],
+          "transport": {
+            "distanceKmOneWay": 200,
+            "driveTimeMinOneWay": 140,
+            "tollWonOneWay": 8000
+          },
+          "days": [
+            {
+              "day": 1,
+              "schedule": [
+                {
+                  "time": "09:00",
+                  "activity": "동탄 출발",
+                  "durationMin": 0,
+                  "note": ""
+                },
+                {
+                  "time": "09:00-11:20",
+                  "activity": "이동 (→대관령)",
+                  "durationMin": 140,
+                  "note": "영동고속도로"
+                },
+                {
+                  "time": "11:20-12:30",
+                  "activity": "대관령 양떼목장",
+                  "durationMin": 70,
+                  "note": "입장료 2인 18,000원(건초체험 포함)"
+                },
+                {
+                  "time": "12:30-13:30",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "대관령한우타운 — 한우 (생선 없음)"
+                },
+                {
+                  "time": "13:30-15:00",
+                  "activity": "하늘목장 관람",
+                  "durationMin": 90,
+                  "note": "입장료 별도"
+                },
+                {
+                  "time": "15:00-15:30",
+                  "activity": "이동 → 숙소",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "15:30-16:00",
+                  "activity": "체크인",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "18:00-19:00",
+                  "activity": "저녁",
+                  "durationMin": 60,
+                  "note": "평창한우마을 — 한우 (생선 없음)"
+                }
+              ]
+            },
+            {
+              "day": 2,
+              "schedule": [
+                {
+                  "time": "08:00-09:00",
+                  "activity": "아침",
+                  "durationMin": 60,
+                  "note": "숙소 조식 또는 간단히"
+                },
+                {
+                  "time": "09:00-09:30",
+                  "activity": "이동 → 월정사",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "09:30-10:30",
+                  "activity": "월정사·전나무숲길",
+                  "durationMin": 60,
+                  "note": "무료~소액"
+                },
+                {
+                  "time": "10:30-11:10",
+                  "activity": "이동 → 봉평",
+                  "durationMin": 40,
+                  "note": ""
+                },
+                {
+                  "time": "11:10-12:10",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "미가연 — 막국수 (생선 없음)"
+                },
+                {
+                  "time": "12:10-14:30",
+                  "activity": "귀가 이동",
+                  "durationMin": 140,
+                  "note": ""
+                }
+              ]
+            }
+          ],
+          "lodging": [
+            {
+              "night": 1,
+              "area": "대관령/진부",
+              "options": [
+                {
+                  "name": "알펜시아리조트",
+                  "type": "리조트",
+                  "priceRange": "20만원대"
+                },
+                {
+                  "name": "샬레리조트 평창",
+                  "type": "펜션형 리조트",
+                  "priceRange": "12~15만원대"
+                }
+              ]
+            }
+          ],
+          "costEstimate": {
+            "2인": {
+              "교통": 65000,
+              "숙소": 130000,
+              "식비": 150000,
+              "입장료": 20000,
+              "합계": 365000
+            },
+            "3인": {
+              "교통": 65000,
+              "숙소": 156000,
+              "식비": 225000,
+              "입장료": 30000,
+              "합계": 476000
+            }
+          },
+          "notes": "황태정식은 생선(명태) 재료라 목록에서 제외, 한우/막국수 위주로 구성"
+        },
+        {
+          "id": "GW-1N2D-04",
+          "title": "춘천 낭만 여행",
+          "duration": "1박2일",
+          "nights": 1,
+          "subregions": [
+            "춘천"
+          ],
+          "transport": {
+            "distanceKmOneWay": 110,
+            "driveTimeMinOneWay": 90,
+            "tollWonOneWay": 4500
+          },
+          "days": [
+            {
+              "day": 1,
+              "schedule": [
+                {
+                  "time": "09:30",
+                  "activity": "동탄 출발",
+                  "durationMin": 0,
+                  "note": ""
+                },
+                {
+                  "time": "09:30-11:00",
+                  "activity": "이동 (→춘천)",
+                  "durationMin": 90,
+                  "note": "제2경인·서울양양고속도로"
+                },
+                {
+                  "time": "11:00-12:00",
+                  "activity": "소양강 스카이워크",
+                  "durationMin": 60,
+                  "note": "입장료 소액"
+                },
+                {
+                  "time": "12:00-13:00",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "명동1번지 — 닭갈비 (생선 없음)"
+                },
+                {
+                  "time": "13:00-14:00",
+                  "activity": "명동 닭갈비골목·구봉산 카페거리 이동",
+                  "durationMin": 60,
+                  "note": ""
+                },
+                {
+                  "time": "14:00-15:00",
+                  "activity": "구봉산 카페거리",
+                  "durationMin": 60,
+                  "note": "카페 자유이용"
+                },
+                {
+                  "time": "15:00-15:30",
+                  "activity": "숙소 체크인",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "18:00-19:00",
+                  "activity": "저녁",
+                  "durationMin": 60,
+                  "note": "춘천미소닭갈비 — 닭갈비 (생선 없음)"
+                }
+              ]
+            },
+            {
+              "day": 2,
+              "schedule": [
+                {
+                  "time": "08:00-09:00",
+                  "activity": "아침",
+                  "durationMin": 60,
+                  "note": "숙소 조식 또는 간단히"
+                },
+                {
+                  "time": "09:00-09:40",
+                  "activity": "이동 → 남이섬",
+                  "durationMin": 40,
+                  "note": ""
+                },
+                {
+                  "time": "09:40-12:00",
+                  "activity": "남이섬 관람",
+                  "durationMin": 140,
+                  "note": "입장료 2인 32,000원"
+                },
+                {
+                  "time": "12:00-13:00",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "남이섬 인근 식당가 (상호 재확인 권장)"
+                },
+                {
+                  "time": "13:00-14:30",
+                  "activity": "귀가 이동",
+                  "durationMin": 90,
+                  "note": ""
+                }
+              ]
+            }
+          ],
+          "lodging": [
+            {
+              "night": 1,
+              "area": "춘천",
+              "options": [
+                {
+                  "name": "춘천 시내 호텔",
+                  "type": "호텔",
+                  "priceRange": "9~11만원대"
+                },
+                {
+                  "name": "제이드가든 인근 펜션",
+                  "type": "펜션",
+                  "priceRange": "10~13만원대"
+                }
+              ]
+            }
+          ],
+          "costEstimate": {
+            "2인": {
+              "교통": 32000,
+              "숙소": 100000,
+              "식비": 140000,
+              "입장료": 34000,
+              "합계": 306000
+            },
+            "3인": {
+              "교통": 32000,
+              "숙소": 120000,
+              "식비": 210000,
+              "입장료": 51000,
+              "합계": 413000
+            }
+          },
+          "notes": "거리가 짧아 늦은 출발도 가능"
+        },
+        {
+          "id": "GW-1N2D-05",
+          "title": "동해·삼척 해양 탐험",
+          "duration": "1박2일",
+          "nights": 1,
+          "subregions": [
+            "동해",
+            "삼척"
+          ],
+          "transport": {
+            "distanceKmOneWay": 260,
+            "driveTimeMinOneWay": 170,
+            "tollWonOneWay": 10000
+          },
+          "days": [
+            {
+              "day": 1,
+              "schedule": [
+                {
+                  "time": "08:30",
+                  "activity": "동탄 출발",
+                  "durationMin": 0,
+                  "note": ""
+                },
+                {
+                  "time": "08:30-11:20",
+                  "activity": "이동 (→삼척)",
+                  "durationMin": 170,
+                  "note": "영동고속도로"
+                },
+                {
+                  "time": "11:20-12:20",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "곤드레식당 — 곤드레나물밥 (생선 없음)"
+                },
+                {
+                  "time": "12:20-14:30",
+                  "activity": "환선굴 관람",
+                  "durationMin": 130,
+                  "note": "모노레일 이용, 입장료 별도"
+                },
+                {
+                  "time": "14:30-15:30",
+                  "activity": "이동 → 추암촛대바위",
+                  "durationMin": 60,
+                  "note": ""
+                },
+                {
+                  "time": "15:30-16:30",
+                  "activity": "추암촛대바위 산책",
+                  "durationMin": 60,
+                  "note": "무료"
+                },
+                {
+                  "time": "16:30-17:00",
+                  "activity": "숙소 체크인(동해)",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "18:00-19:00",
+                  "activity": "저녁",
+                  "durationMin": 60,
+                  "note": "천곡실비촌 — 한우 (생선 없음)"
+                }
+              ]
+            },
+            {
+              "day": 2,
+              "schedule": [
+                {
+                  "time": "08:00-09:00",
+                  "activity": "아침",
+                  "durationMin": 60,
+                  "note": "숙소 조식 또는 간단히"
+                },
+                {
+                  "time": "09:00-09:30",
+                  "activity": "이동 → 묵호등대",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "09:30-10:30",
+                  "activity": "묵호등대·논골담길",
+                  "durationMin": 60,
+                  "note": "무료"
+                },
+                {
+                  "time": "10:30-11:30",
+                  "activity": "이동 → 점심 장소",
+                  "durationMin": 60,
+                  "note": ""
+                },
+                {
+                  "time": "11:30-12:30",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "남양한우실비식당 — 한우 (생선 없음)"
+                },
+                {
+                  "time": "12:30-15:20",
+                  "activity": "귀가 이동",
+                  "durationMin": 170,
+                  "note": ""
+                }
+              ]
+            }
+          ],
+          "lodging": [
+            {
+              "night": 1,
+              "area": "동해",
+              "options": [
+                {
+                  "name": "동해 시내 비즈니스호텔",
+                  "type": "호텔",
+                  "priceRange": "8~10만원대"
+                },
+                {
+                  "name": "묵호항 인근 펜션",
+                  "type": "펜션",
+                  "priceRange": "9~12만원대"
+                }
+              ]
+            }
+          ],
+          "costEstimate": {
+            "2인": {
+              "교통": 80000,
+              "숙소": 90000,
+              "식비": 140000,
+              "입장료": 16000,
+              "합계": 326000
+            },
+            "3인": {
+              "교통": 80000,
+              "숙소": 108000,
+              "식비": 210000,
+              "입장료": 24000,
+              "합계": 422000
+            }
+          },
+          "notes": "가자미식해 등 밑반찬에 생선이 나올 수 있어 곤드레식당 방문 시 확인 권장"
+        },
+        {
+          "id": "GW-2N3D-01",
+          "title": "동해안 벨트 (속초·양양·강릉)",
+          "duration": "2박3일",
+          "nights": 2,
+          "subregions": [
+            "속초",
+            "양양",
+            "강릉"
+          ],
+          "transport": {
+            "distanceKmOneWay": 230,
+            "driveTimeMinOneWay": 160,
+            "tollWonOneWay": 9500
+          },
+          "days": [
+            {
+              "day": 1,
+              "schedule": [
+                {
+                  "time": "09:00",
+                  "activity": "동탄 출발",
+                  "durationMin": 0,
+                  "note": ""
+                },
+                {
+                  "time": "09:00-11:40",
+                  "activity": "이동 (→양양)",
+                  "durationMin": 160,
+                  "note": "서울양양고속도로"
+                },
+                {
+                  "time": "11:40-12:40",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "동해막국수 — 막국수 (생선 없음)"
+                },
+                {
+                  "time": "12:40-14:30",
+                  "activity": "서피비치 산책·체험(선택)",
+                  "durationMin": 110,
+                  "note": ""
+                },
+                {
+                  "time": "14:30-15:30",
+                  "activity": "낙산사 관람",
+                  "durationMin": 60,
+                  "note": "무료~소액"
+                },
+                {
+                  "time": "15:30-16:00",
+                  "activity": "숙소 체크인(속초)",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "18:00-19:00",
+                  "activity": "저녁",
+                  "durationMin": 60,
+                  "note": "설악로한우 — 한우 (생선 없음)"
+                }
+              ]
+            },
+            {
+              "day": 2,
+              "schedule": [
+                {
+                  "time": "08:30-09:30",
+                  "activity": "아침 겸 속초해변 산책",
+                  "durationMin": 60,
+                  "note": "숙소 조식 또는 간단히"
+                },
+                {
+                  "time": "09:30-10:30",
+                  "activity": "속초 중앙시장 구경",
+                  "durationMin": 60,
+                  "note": "만석닭강정 (생선 없음)"
+                },
+                {
+                  "time": "10:30-11:30",
+                  "activity": "이동 → 강릉",
+                  "durationMin": 60,
+                  "note": "동해고속도로"
+                },
+                {
+                  "time": "11:30-12:30",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "강릉짬뽕순두부 강릉본점 — 맑은순두부정식 (생선 없음)"
+                },
+                {
+                  "time": "12:30-13:30",
+                  "activity": "경포대·경포호수 산책",
+                  "durationMin": 60,
+                  "note": "무료"
+                },
+                {
+                  "time": "13:30-14:30",
+                  "activity": "오죽헌 관람",
+                  "durationMin": 60,
+                  "note": "입장료 2인 6,000원"
+                },
+                {
+                  "time": "14:30-15:00",
+                  "activity": "숙소 체크인(강릉)",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "15:00-16:00",
+                  "activity": "안목해변 커피거리",
+                  "durationMin": 60,
+                  "note": ""
+                },
+                {
+                  "time": "18:00-19:00",
+                  "activity": "저녁",
+                  "durationMin": 60,
+                  "note": "중앙시장 인근 고깃집 (상호 재확인 권장)"
+                }
+              ]
+            },
+            {
+              "day": 3,
+              "schedule": [
+                {
+                  "time": "08:00-09:00",
+                  "activity": "아침",
+                  "durationMin": 60,
+                  "note": "숙소 조식 또는 간단히"
+                },
+                {
+                  "time": "09:00-09:30",
+                  "activity": "이동 → 정동진",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "09:30-10:30",
+                  "activity": "정동진 해변·모래시계공원",
+                  "durationMin": 60,
+                  "note": "무료"
+                },
+                {
+                  "time": "10:30-11:30",
+                  "activity": "점심 겸 이동",
+                  "durationMin": 60,
+                  "note": "중앙시장 금성배니닭강정 (생선 없음)"
+                },
+                {
+                  "time": "11:30-14:00",
+                  "activity": "귀가 이동",
+                  "durationMin": 150,
+                  "note": ""
+                }
+              ]
+            }
+          ],
+          "lodging": [
+            {
+              "night": 1,
+              "area": "속초",
+              "options": [
+                {
+                  "name": "롯데리조트 속초",
+                  "type": "리조트",
+                  "priceRange": "18만원대"
+                }
+              ]
+            },
+            {
+              "night": 2,
+              "area": "강릉",
+              "options": [
+                {
+                  "name": "더 홍씨 호텔 강릉",
+                  "type": "3성급 호텔",
+                  "priceRange": "8만원대"
+                }
+              ]
+            }
+          ],
+          "costEstimate": {
+            "2인": {
+              "교통": 95000,
+              "숙소": 190000,
+              "식비": 210000,
+              "입장료": 6000,
+              "합계": 501000
+            },
+            "3인": {
+              "교통": 95000,
+              "숙소": 228000,
+              "식비": 315000,
+              "입장료": 9000,
+              "합계": 647000
+            }
+          },
+          "notes": "GW-1N2D-01, GW-1N2D-02 블록을 이어붙인 코스"
+        },
+        {
+          "id": "GW-2N3D-02",
+          "title": "평창·정선 산악 투어",
+          "duration": "2박3일",
+          "nights": 2,
+          "subregions": [
+            "평창",
+            "대관령",
+            "정선"
+          ],
+          "transport": {
+            "distanceKmOneWay": 200,
+            "driveTimeMinOneWay": 140,
+            "tollWonOneWay": 8000
+          },
+          "days": [
+            {
+              "day": 1,
+              "schedule": [
+                {
+                  "time": "09:00",
+                  "activity": "동탄 출발",
+                  "durationMin": 0,
+                  "note": ""
+                },
+                {
+                  "time": "09:00-11:20",
+                  "activity": "이동 (→대관령)",
+                  "durationMin": 140,
+                  "note": "영동고속도로"
+                },
+                {
+                  "time": "11:20-12:30",
+                  "activity": "대관령 양떼목장",
+                  "durationMin": 70,
+                  "note": "입장료 2인 18,000원"
+                },
+                {
+                  "time": "12:30-13:30",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "대관령한우타운 — 한우 (생선 없음)"
+                },
+                {
+                  "time": "13:30-15:00",
+                  "activity": "하늘목장 관람",
+                  "durationMin": 90,
+                  "note": "입장료 별도"
+                },
+                {
+                  "time": "15:30-16:00",
+                  "activity": "숙소 체크인(대관령/진부)",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "18:00-19:00",
+                  "activity": "저녁",
+                  "durationMin": 60,
+                  "note": "평창한우마을 — 한우 (생선 없음)"
+                }
+              ]
+            },
+            {
+              "day": 2,
+              "schedule": [
+                {
+                  "time": "08:30-09:30",
+                  "activity": "아침",
+                  "durationMin": 60,
+                  "note": "숙소 조식 또는 간단히"
+                },
+                {
+                  "time": "09:30-10:00",
+                  "activity": "이동 → 월정사",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "10:00-11:00",
+                  "activity": "월정사·전나무숲길",
+                  "durationMin": 60,
+                  "note": "무료~소액"
+                },
+                {
+                  "time": "11:00-11:50",
+                  "activity": "이동 → 정선",
+                  "durationMin": 50,
+                  "note": ""
+                },
+                {
+                  "time": "11:50-12:50",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "정선 5일장 인근 메밀전병 (생선 없음)"
+                },
+                {
+                  "time": "12:50-14:30",
+                  "activity": "화암동굴 관람",
+                  "durationMin": 100,
+                  "note": "입장료 별도"
+                },
+                {
+                  "time": "14:30-15:00",
+                  "activity": "숙소 체크인(정선)",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "18:00-19:00",
+                  "activity": "저녁",
+                  "durationMin": 60,
+                  "note": "정선 시내 한우/토속음식점 (상호 재확인 권장)"
+                }
+              ]
+            },
+            {
+              "day": 3,
+              "schedule": [
+                {
+                  "time": "08:00-09:00",
+                  "activity": "아침",
+                  "durationMin": 60,
+                  "note": "숙소 조식 또는 간단히"
+                },
+                {
+                  "time": "09:00-10:00",
+                  "activity": "민둥산 or 아우라지 산책",
+                  "durationMin": 60,
+                  "note": "무료~소액"
+                },
+                {
+                  "time": "10:00-11:00",
+                  "activity": "레일바이크(선택)",
+                  "durationMin": 60,
+                  "note": "체험비 별도"
+                },
+                {
+                  "time": "11:00-12:00",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "봉평 미가연 — 막국수 (생선 없음, 이동 경유)"
+                },
+                {
+                  "time": "12:00-14:20",
+                  "activity": "귀가 이동",
+                  "durationMin": 140,
+                  "note": ""
+                }
+              ]
+            }
+          ],
+          "lodging": [
+            {
+              "night": 1,
+              "area": "대관령/진부",
+              "options": [
+                {
+                  "name": "알펜시아리조트",
+                  "type": "리조트",
+                  "priceRange": "20만원대"
+                }
+              ]
+            },
+            {
+              "night": 2,
+              "area": "정선",
+              "options": [
+                {
+                  "name": "하이원리조트",
+                  "type": "리조트",
+                  "priceRange": "15만원대"
+                }
+              ]
+            }
+          ],
+          "costEstimate": {
+            "2인": {
+              "교통": 65000,
+              "숙소": 250000,
+              "식비": 225000,
+              "입장료": 36000,
+              "합계": 576000
+            },
+            "3인": {
+              "교통": 65000,
+              "숙소": 300000,
+              "식비": 337500,
+              "입장료": 54000,
+              "합계": 756500
+            }
+          },
+          "notes": "GW-1N2D-03 블록 + 정선 확장"
+        },
+        {
+          "id": "GW-2N3D-03",
+          "title": "춘천·홍천 내륙 힐링",
+          "duration": "2박3일",
+          "nights": 2,
+          "subregions": [
+            "춘천",
+            "홍천"
+          ],
+          "transport": {
+            "distanceKmOneWay": 110,
+            "driveTimeMinOneWay": 90,
+            "tollWonOneWay": 4500
+          },
+          "days": [
+            {
+              "day": 1,
+              "schedule": [
+                {
+                  "time": "09:30",
+                  "activity": "동탄 출발",
+                  "durationMin": 0,
+                  "note": ""
+                },
+                {
+                  "time": "09:30-11:00",
+                  "activity": "이동 (→춘천)",
+                  "durationMin": 90,
+                  "note": ""
+                },
+                {
+                  "time": "11:00-12:00",
+                  "activity": "소양강 스카이워크",
+                  "durationMin": 60,
+                  "note": "입장료 소액"
+                },
+                {
+                  "time": "12:00-13:00",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "명동1번지 — 닭갈비 (생선 없음)"
+                },
+                {
+                  "time": "13:00-14:00",
+                  "activity": "구봉산 카페거리",
+                  "durationMin": 60,
+                  "note": ""
+                },
+                {
+                  "time": "14:00-14:30",
+                  "activity": "숙소 체크인(춘천)",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "18:00-19:00",
+                  "activity": "저녁",
+                  "durationMin": 60,
+                  "note": "춘천미소닭갈비 — 닭갈비 (생선 없음)"
+                }
+              ]
+            },
+            {
+              "day": 2,
+              "schedule": [
+                {
+                  "time": "08:30-09:30",
+                  "activity": "아침",
+                  "durationMin": 60,
+                  "note": "숙소 조식 또는 간단히"
+                },
+                {
+                  "time": "09:30-10:10",
+                  "activity": "이동 → 남이섬",
+                  "durationMin": 40,
+                  "note": ""
+                },
+                {
+                  "time": "10:10-12:30",
+                  "activity": "남이섬 관람",
+                  "durationMin": 140,
+                  "note": "입장료 2인 32,000원"
+                },
+                {
+                  "time": "12:30-13:30",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "남이섬 인근 식당가 (상호 재확인 권장)"
+                },
+                {
+                  "time": "13:30-14:10",
+                  "activity": "이동 → 홍천",
+                  "durationMin": 40,
+                  "note": ""
+                },
+                {
+                  "time": "14:10-15:30",
+                  "activity": "수타사·힐리언스 선마을 산책",
+                  "durationMin": 80,
+                  "note": "무료~소액"
+                },
+                {
+                  "time": "15:30-16:00",
+                  "activity": "숙소 체크인(홍천)",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "18:00-19:00",
+                  "activity": "저녁",
+                  "durationMin": 60,
+                  "note": "홍천 한우프라자 — 한우 (생선 없음)"
+                }
+              ]
+            },
+            {
+              "day": 3,
+              "schedule": [
+                {
+                  "time": "08:30-09:30",
+                  "activity": "아침",
+                  "durationMin": 60,
+                  "note": "숙소 조식 또는 간단히"
+                },
+                {
+                  "time": "09:30-10:30",
+                  "activity": "팔봉산 둘레길 산책",
+                  "durationMin": 60,
+                  "note": "무료"
+                },
+                {
+                  "time": "10:30-11:30",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "홍천 명동막국수 — 막국수 (생선 없음)"
+                },
+                {
+                  "time": "11:30-13:00",
+                  "activity": "귀가 이동",
+                  "durationMin": 90,
+                  "note": ""
+                }
+              ]
+            }
+          ],
+          "lodging": [
+            {
+              "night": 1,
+              "area": "춘천",
+              "options": [
+                {
+                  "name": "춘천 시내 호텔",
+                  "type": "호텔",
+                  "priceRange": "9~11만원대"
+                }
+              ]
+            },
+            {
+              "night": 2,
+              "area": "홍천",
+              "options": [
+                {
+                  "name": "힐리언스 선마을",
+                  "type": "리조트",
+                  "priceRange": "18만원대"
+                },
+                {
+                  "name": "홍천 시내 모텔/펜션",
+                  "type": "펜션",
+                  "priceRange": "7~9만원대"
+                }
+              ]
+            }
+          ],
+          "costEstimate": {
+            "2인": {
+              "교통": 32000,
+              "숙소": 190000,
+              "식비": 210000,
+              "입장료": 33000,
+              "합계": 465000
+            },
+            "3인": {
+              "교통": 32000,
+              "숙소": 228000,
+              "식비": 315000,
+              "입장료": 49500,
+              "합계": 624500
+            }
+          },
+          "notes": "GW-1N2D-04 블록 + 홍천 확장"
+        },
+        {
+          "id": "GW-2N3D-04",
+          "title": "동해·삼척·태백 남부 탐방",
+          "duration": "2박3일",
+          "nights": 2,
+          "subregions": [
+            "동해",
+            "삼척",
+            "태백"
+          ],
+          "transport": {
+            "distanceKmOneWay": 260,
+            "driveTimeMinOneWay": 170,
+            "tollWonOneWay": 10000
+          },
+          "days": [
+            {
+              "day": 1,
+              "schedule": [
+                {
+                  "time": "08:30",
+                  "activity": "동탄 출발",
+                  "durationMin": 0,
+                  "note": ""
+                },
+                {
+                  "time": "08:30-11:20",
+                  "activity": "이동 (→삼척)",
+                  "durationMin": 170,
+                  "note": ""
+                },
+                {
+                  "time": "11:20-12:20",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "곤드레식당 — 곤드레나물밥 (생선 없음)"
+                },
+                {
+                  "time": "12:20-14:30",
+                  "activity": "환선굴 관람",
+                  "durationMin": 130,
+                  "note": "모노레일 이용"
+                },
+                {
+                  "time": "14:30-15:30",
+                  "activity": "이동 → 추암촛대바위",
+                  "durationMin": 60,
+                  "note": ""
+                },
+                {
+                  "time": "15:30-16:30",
+                  "activity": "추암촛대바위 산책",
+                  "durationMin": 60,
+                  "note": "무료"
+                },
+                {
+                  "time": "16:30-17:00",
+                  "activity": "숙소 체크인(동해)",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "18:00-19:00",
+                  "activity": "저녁",
+                  "durationMin": 60,
+                  "note": "천곡실비촌 — 한우 (생선 없음)"
+                }
+              ]
+            },
+            {
+              "day": 2,
+              "schedule": [
+                {
+                  "time": "08:30-09:30",
+                  "activity": "아침",
+                  "durationMin": 60,
+                  "note": "숙소 조식 또는 간단히"
+                },
+                {
+                  "time": "09:30-10:30",
+                  "activity": "묵호등대·논골담길",
+                  "durationMin": 60,
+                  "note": "무료"
+                },
+                {
+                  "time": "10:30-11:30",
+                  "activity": "이동 → 태백",
+                  "durationMin": 60,
+                  "note": ""
+                },
+                {
+                  "time": "11:30-12:30",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "태백 한우식당 (상호 재확인 권장, 생선 제외 요청)"
+                },
+                {
+                  "time": "12:30-14:00",
+                  "activity": "구문소·황지연못 관람",
+                  "durationMin": 90,
+                  "note": "무료"
+                },
+                {
+                  "time": "14:00-14:30",
+                  "activity": "숙소 체크인(태백)",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "18:00-19:00",
+                  "activity": "저녁",
+                  "durationMin": 60,
+                  "note": "태백 시내 고깃집 (상호 재확인 권장)"
+                }
+              ]
+            },
+            {
+              "day": 3,
+              "schedule": [
+                {
+                  "time": "08:00-09:00",
+                  "activity": "아침",
+                  "durationMin": 60,
+                  "note": "숙소 조식 또는 간단히"
+                },
+                {
+                  "time": "09:00-09:30",
+                  "activity": "이동 → 당골광장",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "09:30-11:00",
+                  "activity": "태백산 당골광장 산책(가벼운 코스)",
+                  "durationMin": 90,
+                  "note": "무료, 등산 별도 옵션"
+                },
+                {
+                  "time": "11:00-12:00",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "당골 주차장 인근 식당가 (상호 재확인 권장)"
+                },
+                {
+                  "time": "12:00-14:50",
+                  "activity": "귀가 이동",
+                  "durationMin": 170,
+                  "note": ""
+                }
+              ]
+            }
+          ],
+          "lodging": [
+            {
+              "night": 1,
+              "area": "동해",
+              "options": [
+                {
+                  "name": "동해 시내 비즈니스호텔",
+                  "type": "호텔",
+                  "priceRange": "8~10만원대"
+                }
+              ]
+            },
+            {
+              "night": 2,
+              "area": "태백",
+              "options": [
+                {
+                  "name": "태백 시내 호텔/모텔",
+                  "type": "호텔",
+                  "priceRange": "7~9만원대"
+                }
+              ]
+            }
+          ],
+          "costEstimate": {
+            "2인": {
+              "교통": 100000,
+              "숙소": 170000,
+              "식비": 210000,
+              "입장료": 18000,
+              "합계": 498000
+            },
+            "3인": {
+              "교통": 100000,
+              "숙소": 204000,
+              "식비": 315000,
+              "입장료": 27000,
+              "합계": 646000
+            }
+          },
+          "notes": "GW-1N2D-05 블록 + 태백 확장. 태백산 정상 산행은 [등산 코스] 3시간 카테고리 참고"
+        },
+        {
+          "id": "GW-2N3D-05",
+          "title": "강릉·평창 해양·산악 복합",
+          "duration": "2박3일",
+          "nights": 2,
+          "subregions": [
+            "강릉",
+            "평창"
+          ],
+          "transport": {
+            "distanceKmOneWay": 230,
+            "driveTimeMinOneWay": 150,
+            "tollWonOneWay": 9000
+          },
+          "days": [
+            {
+              "day": 1,
+              "schedule": [
+                {
+                  "time": "09:00",
+                  "activity": "동탄 출발",
+                  "durationMin": 0,
+                  "note": ""
+                },
+                {
+                  "time": "09:00-11:30",
+                  "activity": "이동 (→강릉)",
+                  "durationMin": 150,
+                  "note": ""
+                },
+                {
+                  "time": "11:30-12:30",
+                  "activity": "경포대·경포호수 산책",
+                  "durationMin": 60,
+                  "note": "무료"
+                },
+                {
+                  "time": "12:30-13:30",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "강릉짬뽕순두부 강릉본점 — 맑은순두부정식 (생선 없음)"
+                },
+                {
+                  "time": "13:30-14:30",
+                  "activity": "오죽헌 관람",
+                  "durationMin": 60,
+                  "note": "입장료 2인 6,000원"
+                },
+                {
+                  "time": "14:30-16:00",
+                  "activity": "안목해변 커피거리",
+                  "durationMin": 90,
+                  "note": ""
+                },
+                {
+                  "time": "16:00-16:30",
+                  "activity": "숙소 체크인(강릉)",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "18:00-19:00",
+                  "activity": "저녁",
+                  "durationMin": 60,
+                  "note": "중앙시장 인근 고깃집 (상호 재확인 권장)"
+                }
+              ]
+            },
+            {
+              "day": 2,
+              "schedule": [
+                {
+                  "time": "08:30-09:30",
+                  "activity": "아침 겸 정동진 이동",
+                  "durationMin": 60,
+                  "note": "숙소 조식 또는 간단히"
+                },
+                {
+                  "time": "09:30-10:30",
+                  "activity": "정동진 해변 산책",
+                  "durationMin": 60,
+                  "note": "무료"
+                },
+                {
+                  "time": "10:30-11:20",
+                  "activity": "이동 → 대관령",
+                  "durationMin": 50,
+                  "note": ""
+                },
+                {
+                  "time": "11:20-12:30",
+                  "activity": "대관령 양떼목장",
+                  "durationMin": 70,
+                  "note": "입장료 2인 18,000원"
+                },
+                {
+                  "time": "12:30-13:30",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "대관령한우타운 — 한우 (생선 없음)"
+                },
+                {
+                  "time": "13:30-15:00",
+                  "activity": "하늘목장 관람",
+                  "durationMin": 90,
+                  "note": "입장료 별도"
+                },
+                {
+                  "time": "15:30-16:00",
+                  "activity": "숙소 체크인(대관령/진부)",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "18:00-19:00",
+                  "activity": "저녁",
+                  "durationMin": 60,
+                  "note": "평창한우마을 — 한우 (생선 없음)"
+                }
+              ]
+            },
+            {
+              "day": 3,
+              "schedule": [
+                {
+                  "time": "08:30-09:30",
+                  "activity": "아침",
+                  "durationMin": 60,
+                  "note": "숙소 조식 또는 간단히"
+                },
+                {
+                  "time": "09:30-10:00",
+                  "activity": "이동 → 월정사",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "10:00-11:00",
+                  "activity": "월정사·전나무숲길",
+                  "durationMin": 60,
+                  "note": "무료~소액"
+                },
+                {
+                  "time": "11:00-12:00",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "미가연 — 막국수 (생선 없음)"
+                },
+                {
+                  "time": "12:00-14:20",
+                  "activity": "귀가 이동",
+                  "durationMin": 140,
+                  "note": ""
+                }
+              ]
+            }
+          ],
+          "lodging": [
+            {
+              "night": 1,
+              "area": "강릉",
+              "options": [
+                {
+                  "name": "강릉 관광호텔",
+                  "type": "호텔",
+                  "priceRange": "12만원대"
+                }
+              ]
+            },
+            {
+              "night": 2,
+              "area": "대관령/진부",
+              "options": [
+                {
+                  "name": "샬레리조트 평창",
+                  "type": "펜션형 리조트",
+                  "priceRange": "12~15만원대"
+                }
+              ]
+            }
+          ],
+          "costEstimate": {
+            "2인": {
+              "교통": 90000,
+              "숙소": 250000,
+              "식비": 225000,
+              "입장료": 24000,
+              "합계": 589000
+            },
+            "3인": {
+              "교통": 90000,
+              "숙소": 300000,
+              "식비": 337500,
+              "입장료": 36000,
+              "합계": 763500
+            }
+          },
+          "notes": "GW-1N2D-01 + GW-1N2D-03 블록 결합"
+        },
+        {
+          "id": "GW-3N4D-01",
+          "title": "강원 동해안 완전정복",
+          "duration": "3박4일",
+          "nights": 3,
+          "subregions": [
+            "속초",
+            "양양",
+            "강릉",
+            "동해",
+            "삼척"
+          ],
+          "transport": {
+            "distanceKmOneWay": 230,
+            "driveTimeMinOneWay": 160,
+            "tollWonOneWay": 9500
+          },
+          "days": [
+            {
+              "day": 1,
+              "schedule": [
+                {
+                  "time": "09:00",
+                  "activity": "동탄 출발",
+                  "durationMin": 0,
+                  "note": ""
+                },
+                {
+                  "time": "09:00-11:40",
+                  "activity": "이동 (→양양)",
+                  "durationMin": 160,
+                  "note": ""
+                },
+                {
+                  "time": "11:40-12:40",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "동해막국수 — 막국수 (생선 없음)"
+                },
+                {
+                  "time": "12:40-14:30",
+                  "activity": "서피비치 산책",
+                  "durationMin": 110,
+                  "note": ""
+                },
+                {
+                  "time": "14:30-15:30",
+                  "activity": "낙산사 관람",
+                  "durationMin": 60,
+                  "note": ""
+                },
+                {
+                  "time": "15:30-16:00",
+                  "activity": "숙소 체크인(속초)",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "18:00-19:00",
+                  "activity": "저녁",
+                  "durationMin": 60,
+                  "note": "설악로한우 — 한우 (생선 없음)"
+                }
+              ]
+            },
+            {
+              "day": 2,
+              "schedule": [
+                {
+                  "time": "08:30-09:30",
+                  "activity": "아침·속초해변 산책",
+                  "durationMin": 60,
+                  "note": ""
+                },
+                {
+                  "time": "09:30-10:30",
+                  "activity": "속초 중앙시장",
+                  "durationMin": 60,
+                  "note": "만석닭강정 (생선 없음)"
+                },
+                {
+                  "time": "10:30-11:30",
+                  "activity": "이동 → 강릉",
+                  "durationMin": 60,
+                  "note": ""
+                },
+                {
+                  "time": "11:30-12:30",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "강릉짬뽕순두부 강릉본점 (생선 없음)"
+                },
+                {
+                  "time": "12:30-14:00",
+                  "activity": "경포대·오죽헌 관람",
+                  "durationMin": 90,
+                  "note": "입장료 2인 6,000원"
+                },
+                {
+                  "time": "14:00-14:30",
+                  "activity": "숙소 체크인(강릉)",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "14:30-16:00",
+                  "activity": "안목해변 커피거리",
+                  "durationMin": 90,
+                  "note": ""
+                },
+                {
+                  "time": "18:00-19:00",
+                  "activity": "저녁",
+                  "durationMin": 60,
+                  "note": "중앙시장 인근 고깃집 (상호 재확인)"
+                }
+              ]
+            },
+            {
+              "day": 3,
+              "schedule": [
+                {
+                  "time": "08:30-09:30",
+                  "activity": "아침·정동진 이동",
+                  "durationMin": 60,
+                  "note": ""
+                },
+                {
+                  "time": "09:30-10:30",
+                  "activity": "정동진 해변 산책",
+                  "durationMin": 60,
+                  "note": ""
+                },
+                {
+                  "time": "10:30-11:50",
+                  "activity": "이동 → 삼척",
+                  "durationMin": 80,
+                  "note": ""
+                },
+                {
+                  "time": "11:50-12:50",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "곤드레식당 — 곤드레나물밥 (생선 없음)"
+                },
+                {
+                  "time": "12:50-15:00",
+                  "activity": "환선굴 관람",
+                  "durationMin": 130,
+                  "note": "모노레일 이용"
+                },
+                {
+                  "time": "15:00-16:00",
+                  "activity": "추암촛대바위 산책",
+                  "durationMin": 60,
+                  "note": ""
+                },
+                {
+                  "time": "16:00-16:30",
+                  "activity": "숙소 체크인(동해)",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "18:00-19:00",
+                  "activity": "저녁",
+                  "durationMin": 60,
+                  "note": "천곡실비촌 — 한우 (생선 없음)"
+                }
+              ]
+            },
+            {
+              "day": 4,
+              "schedule": [
+                {
+                  "time": "08:30-09:30",
+                  "activity": "아침",
+                  "durationMin": 60,
+                  "note": ""
+                },
+                {
+                  "time": "09:30-10:30",
+                  "activity": "묵호등대·논골담길",
+                  "durationMin": 60,
+                  "note": ""
+                },
+                {
+                  "time": "10:30-11:30",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "남양한우실비식당 — 한우 (생선 없음)"
+                },
+                {
+                  "time": "11:30-14:20",
+                  "activity": "귀가 이동",
+                  "durationMin": 170,
+                  "note": ""
+                }
+              ]
+            }
+          ],
+          "lodging": [
+            {
+              "night": 1,
+              "area": "속초",
+              "options": [
+                {
+                  "name": "롯데리조트 속초",
+                  "type": "리조트",
+                  "priceRange": "18만원대"
+                }
+              ]
+            },
+            {
+              "night": 2,
+              "area": "강릉",
+              "options": [
+                {
+                  "name": "강릉 관광호텔",
+                  "type": "호텔",
+                  "priceRange": "12만원대"
+                }
+              ]
+            },
+            {
+              "night": 3,
+              "area": "동해",
+              "options": [
+                {
+                  "name": "동해 시내 비즈니스호텔",
+                  "type": "호텔",
+                  "priceRange": "8~10만원대"
+                }
+              ]
+            }
+          ],
+          "costEstimate": {
+            "2인": {
+              "교통": 110000,
+              "숙소": 310000,
+              "식비": 280000,
+              "입장료": 20000,
+              "합계": 720000
+            },
+            "3인": {
+              "교통": 110000,
+              "숙소": 372000,
+              "식비": 420000,
+              "입장료": 30000,
+              "합계": 932000
+            }
+          },
+          "notes": "GW-1N2D-02+01+05 블록 연결"
+        },
+        {
+          "id": "GW-3N4D-02",
+          "title": "강원 내륙·산악 힐링",
+          "duration": "3박4일",
+          "nights": 3,
+          "subregions": [
+            "춘천",
+            "평창",
+            "정선",
+            "태백"
+          ],
+          "transport": {
+            "distanceKmOneWay": 110,
+            "driveTimeMinOneWay": 90,
+            "tollWonOneWay": 4500
+          },
+          "days": [
+            {
+              "day": 1,
+              "schedule": [
+                {
+                  "time": "09:30",
+                  "activity": "동탄 출발",
+                  "durationMin": 0,
+                  "note": ""
+                },
+                {
+                  "time": "09:30-11:00",
+                  "activity": "이동 (→춘천)",
+                  "durationMin": 90,
+                  "note": ""
+                },
+                {
+                  "time": "11:00-12:00",
+                  "activity": "소양강 스카이워크",
+                  "durationMin": 60,
+                  "note": ""
+                },
+                {
+                  "time": "12:00-13:00",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "명동1번지 — 닭갈비 (생선 없음)"
+                },
+                {
+                  "time": "13:00-14:30",
+                  "activity": "남이섬 관람",
+                  "durationMin": 90,
+                  "note": "입장료 2인 32,000원"
+                },
+                {
+                  "time": "14:30-15:00",
+                  "activity": "숙소 체크인(춘천)",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "18:00-19:00",
+                  "activity": "저녁",
+                  "durationMin": 60,
+                  "note": "춘천미소닭갈비 (생선 없음)"
+                }
+              ]
+            },
+            {
+              "day": 2,
+              "schedule": [
+                {
+                  "time": "08:30-09:30",
+                  "activity": "아침",
+                  "durationMin": 60,
+                  "note": ""
+                },
+                {
+                  "time": "09:30-11:00",
+                  "activity": "이동 → 대관령",
+                  "durationMin": 90,
+                  "note": ""
+                },
+                {
+                  "time": "11:00-12:10",
+                  "activity": "대관령 양떼목장",
+                  "durationMin": 70,
+                  "note": "입장료 2인 18,000원"
+                },
+                {
+                  "time": "12:10-13:10",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "대관령한우타운 (생선 없음)"
+                },
+                {
+                  "time": "13:10-14:30",
+                  "activity": "하늘목장 관람",
+                  "durationMin": 80,
+                  "note": ""
+                },
+                {
+                  "time": "14:30-15:00",
+                  "activity": "숙소 체크인(대관령/진부)",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "18:00-19:00",
+                  "activity": "저녁",
+                  "durationMin": 60,
+                  "note": "평창한우마을 (생선 없음)"
+                }
+              ]
+            },
+            {
+              "day": 3,
+              "schedule": [
+                {
+                  "time": "08:30-09:30",
+                  "activity": "아침",
+                  "durationMin": 60,
+                  "note": ""
+                },
+                {
+                  "time": "09:30-10:00",
+                  "activity": "이동 → 월정사",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "10:00-11:00",
+                  "activity": "월정사·전나무숲길",
+                  "durationMin": 60,
+                  "note": ""
+                },
+                {
+                  "time": "11:00-11:50",
+                  "activity": "이동 → 정선",
+                  "durationMin": 50,
+                  "note": ""
+                },
+                {
+                  "time": "11:50-12:50",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "정선 5일장 인근 메밀전병 (생선 없음)"
+                },
+                {
+                  "time": "12:50-14:30",
+                  "activity": "화암동굴 관람",
+                  "durationMin": 100,
+                  "note": ""
+                },
+                {
+                  "time": "14:30-15:20",
+                  "activity": "이동 → 태백",
+                  "durationMin": 50,
+                  "note": ""
+                },
+                {
+                  "time": "15:20-15:50",
+                  "activity": "숙소 체크인(태백)",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "18:00-19:00",
+                  "activity": "저녁",
+                  "durationMin": 60,
+                  "note": "태백 시내 고깃집 (상호 재확인)"
+                }
+              ]
+            },
+            {
+              "day": 4,
+              "schedule": [
+                {
+                  "time": "08:00-09:00",
+                  "activity": "아침",
+                  "durationMin": 60,
+                  "note": ""
+                },
+                {
+                  "time": "09:00-09:30",
+                  "activity": "이동 → 당골광장",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "09:30-11:00",
+                  "activity": "태백산 당골광장 산책",
+                  "durationMin": 90,
+                  "note": "무료, 등산 별도"
+                },
+                {
+                  "time": "11:00-12:00",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "당골 주차장 인근 식당가 (상호 재확인)"
+                },
+                {
+                  "time": "12:00-14:50",
+                  "activity": "귀가 이동",
+                  "durationMin": 170,
+                  "note": ""
+                }
+              ]
+            }
+          ],
+          "lodging": [
+            {
+              "night": 1,
+              "area": "춘천",
+              "options": [
+                {
+                  "name": "춘천 시내 호텔",
+                  "type": "호텔",
+                  "priceRange": "9~11만원대"
+                }
+              ]
+            },
+            {
+              "night": 2,
+              "area": "대관령/진부",
+              "options": [
+                {
+                  "name": "알펜시아리조트",
+                  "type": "리조트",
+                  "priceRange": "20만원대"
+                }
+              ]
+            },
+            {
+              "night": 3,
+              "area": "태백",
+              "options": [
+                {
+                  "name": "태백 시내 호텔",
+                  "type": "호텔",
+                  "priceRange": "7~9만원대"
+                }
+              ]
+            }
+          ],
+          "costEstimate": {
+            "2인": {
+              "교통": 70000,
+              "숙소": 310000,
+              "식비": 300000,
+              "입장료": 36000,
+              "합계": 716000
+            },
+            "3인": {
+              "교통": 70000,
+              "숙소": 372000,
+              "식비": 450000,
+              "입장료": 54000,
+              "합계": 946000
+            }
+          },
+          "notes": "GW-1N2D-04+03 블록 + 정선/태백 확장. 태백산 정상 산행은 [등산 코스] 참고"
+        },
+        {
+          "id": "GW-3N4D-03",
+          "title": "강원 일주 (춘천→평창→강릉→속초)",
+          "duration": "3박4일",
+          "nights": 3,
+          "subregions": [
+            "춘천",
+            "평창",
+            "강릉",
+            "속초"
+          ],
+          "transport": {
+            "distanceKmOneWay": 110,
+            "driveTimeMinOneWay": 90,
+            "tollWonOneWay": 4500
+          },
+          "days": [
+            {
+              "day": 1,
+              "schedule": [
+                {
+                  "time": "09:30",
+                  "activity": "동탄 출발",
+                  "durationMin": 0,
+                  "note": ""
+                },
+                {
+                  "time": "09:30-11:00",
+                  "activity": "이동 (→춘천)",
+                  "durationMin": 90,
+                  "note": ""
+                },
+                {
+                  "time": "11:00-12:00",
+                  "activity": "소양강 스카이워크",
+                  "durationMin": 60,
+                  "note": ""
+                },
+                {
+                  "time": "12:00-13:00",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "명동1번지 — 닭갈비 (생선 없음)"
+                },
+                {
+                  "time": "13:00-14:00",
+                  "activity": "구봉산 카페거리",
+                  "durationMin": 60,
+                  "note": ""
+                },
+                {
+                  "time": "14:00-14:30",
+                  "activity": "숙소 체크인(춘천)",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "18:00-19:00",
+                  "activity": "저녁",
+                  "durationMin": 60,
+                  "note": "춘천미소닭갈비 (생선 없음)"
+                }
+              ]
+            },
+            {
+              "day": 2,
+              "schedule": [
+                {
+                  "time": "08:30-09:30",
+                  "activity": "아침",
+                  "durationMin": 60,
+                  "note": ""
+                },
+                {
+                  "time": "09:30-11:00",
+                  "activity": "이동 → 대관령",
+                  "durationMin": 90,
+                  "note": ""
+                },
+                {
+                  "time": "11:00-12:10",
+                  "activity": "대관령 양떼목장",
+                  "durationMin": 70,
+                  "note": "입장료 2인 18,000원"
+                },
+                {
+                  "time": "12:10-13:10",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "대관령한우타운 (생선 없음)"
+                },
+                {
+                  "time": "13:10-14:40",
+                  "activity": "하늘목장 관람",
+                  "durationMin": 90,
+                  "note": ""
+                },
+                {
+                  "time": "14:40-15:10",
+                  "activity": "숙소 체크인(대관령/진부)",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "18:00-19:00",
+                  "activity": "저녁",
+                  "durationMin": 60,
+                  "note": "평창한우마을 (생선 없음)"
+                }
+              ]
+            },
+            {
+              "day": 3,
+              "schedule": [
+                {
+                  "time": "08:30-09:30",
+                  "activity": "아침",
+                  "durationMin": 60,
+                  "note": ""
+                },
+                {
+                  "time": "09:30-10:30",
+                  "activity": "이동 → 강릉",
+                  "durationMin": 50,
+                  "note": ""
+                },
+                {
+                  "time": "10:30-11:30",
+                  "activity": "경포대·오죽헌 관람",
+                  "durationMin": 60,
+                  "note": "입장료 2인 6,000원"
+                },
+                {
+                  "time": "11:30-12:30",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "강릉짬뽕순두부 강릉본점 (생선 없음)"
+                },
+                {
+                  "time": "12:30-14:00",
+                  "activity": "안목해변 커피거리",
+                  "durationMin": 90,
+                  "note": ""
+                },
+                {
+                  "time": "14:00-14:30",
+                  "activity": "숙소 체크인(강릉)",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "18:00-19:00",
+                  "activity": "저녁",
+                  "durationMin": 60,
+                  "note": "중앙시장 인근 고깃집 (상호 재확인)"
+                }
+              ]
+            },
+            {
+              "day": 4,
+              "schedule": [
+                {
+                  "time": "08:30-09:30",
+                  "activity": "아침",
+                  "durationMin": 60,
+                  "note": ""
+                },
+                {
+                  "time": "09:30-10:30",
+                  "activity": "이동 → 속초",
+                  "durationMin": 60,
+                  "note": ""
+                },
+                {
+                  "time": "10:30-11:30",
+                  "activity": "속초 중앙시장",
+                  "durationMin": 60,
+                  "note": "만석닭강정 (생선 없음)"
+                },
+                {
+                  "time": "11:30-12:30",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "설악로한우 (생선 없음)"
+                },
+                {
+                  "time": "12:30-15:10",
+                  "activity": "귀가 이동",
+                  "durationMin": 160,
+                  "note": ""
+                }
+              ]
+            }
+          ],
+          "lodging": [
+            {
+              "night": 1,
+              "area": "춘천",
+              "options": [
+                {
+                  "name": "춘천 시내 호텔",
+                  "type": "호텔",
+                  "priceRange": "9~11만원대"
+                }
+              ]
+            },
+            {
+              "night": 2,
+              "area": "대관령/진부",
+              "options": [
+                {
+                  "name": "샬레리조트 평창",
+                  "type": "펜션형 리조트",
+                  "priceRange": "12~15만원대"
+                }
+              ]
+            },
+            {
+              "night": 3,
+              "area": "강릉",
+              "options": [
+                {
+                  "name": "더 홍씨 호텔 강릉",
+                  "type": "3성급 호텔",
+                  "priceRange": "8만원대"
+                }
+              ]
+            }
+          ],
+          "costEstimate": {
+            "2인": {
+              "교통": 70000,
+              "숙소": 310000,
+              "식비": 300000,
+              "입장료": 24000,
+              "합계": 704000
+            },
+            "3인": {
+              "교통": 70000,
+              "숙소": 372000,
+              "식비": 450000,
+              "입장료": 36000,
+              "합계": 928000
+            }
+          },
+          "notes": "GW-1N2D-04+03+01 블록을 편도 일주 동선으로 연결 (귀가는 속초에서 출발)"
+        }
+      ]
+    },
+    {
+      "meta": {
+        "region": "충남/대전",
+        "baseLocation": "경기도 화성시 동탄구 반송동 메타폴리스",
+        "dietaryNote": "회·스시 등 생선(어류) 요리 전면 제외",
+        "costNote": "예상 비용은 2인/3인 기준 추정치",
+        "counts": {
+          "당일": 3,
+          "1박2일": 3,
+          "total": 6
+        }
+      },
+      "courses": [
+        {
+          "id": "CN-DAY-01",
+          "title": "대전 시내 (성심당·엑스포·오월드)",
+          "duration": "당일",
+          "nights": 0,
+          "subregions": [
+            "대전"
+          ],
+          "transport": {
+            "distanceKmOneWay": 140,
+            "driveTimeMinOneWay": 100,
+            "tollWonOneWay": 5500
+          },
+          "days": [
+            {
+              "day": 1,
+              "schedule": [
+                {
+                  "time": "09:30",
+                  "activity": "동탄 출발",
+                  "durationMin": 0,
+                  "note": ""
+                },
+                {
+                  "time": "09:30-11:10",
+                  "activity": "이동 (→대전)",
+                  "durationMin": 100,
+                  "note": "경부고속도로"
+                },
+                {
+                  "time": "11:10-11:50",
+                  "activity": "성심당 본점",
+                  "durationMin": 40,
+                  "note": "튀김소보로·부추빵 (생선 없음)"
+                },
+                {
+                  "time": "11:50-12:50",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "태평소국밥 — 국밥 (생선 없음)"
+                },
+                {
+                  "time": "12:50-14:20",
+                  "activity": "한밭수목원 산책",
+                  "durationMin": 90,
+                  "note": "무료"
+                },
+                {
+                  "time": "14:20-16:20",
+                  "activity": "대전오월드 관람(선택)",
+                  "durationMin": 120,
+                  "note": "입장료 별도, 동물원+놀이공원"
+                },
+                {
+                  "time": "16:20-18:00",
+                  "activity": "귀가 이동",
+                  "durationMin": 100,
+                  "note": ""
+                }
+              ]
+            }
+          ],
+          "lodging": [],
+          "costEstimate": {
+            "2인": {
+              "교통": 45000,
+              "식비": 60000,
+              "입장료": 20000,
+              "합계": 125000
+            },
+            "3인": {
+              "교통": 45000,
+              "식비": 90000,
+              "입장료": 30000,
+              "합계": 165000
+            }
+          },
+          "notes": "오월드 대신 대전시립미술관·이응노미술관으로 대체 가능"
+        },
+        {
+          "id": "CN-DAY-02",
+          "title": "공주 역사 탐방",
+          "duration": "당일",
+          "nights": 0,
+          "subregions": [
+            "공주"
+          ],
+          "transport": {
+            "distanceKmOneWay": 110,
+            "driveTimeMinOneWay": 100,
+            "tollWonOneWay": 4000
+          },
+          "days": [
+            {
+              "day": 1,
+              "schedule": [
+                {
+                  "time": "09:30",
+                  "activity": "동탄 출발",
+                  "durationMin": 0,
+                  "note": ""
+                },
+                {
+                  "time": "09:30-11:10",
+                  "activity": "이동 (→공주)",
+                  "durationMin": 100,
+                  "note": ""
+                },
+                {
+                  "time": "11:10-12:40",
+                  "activity": "공산성 관람",
+                  "durationMin": 90,
+                  "note": "입장료 2인 2,400원"
+                },
+                {
+                  "time": "12:40-13:40",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "엄마의식탁 — 한정식(떡갈비 중심), 생선 반찬 제외 요청"
+                },
+                {
+                  "time": "13:40-14:20",
+                  "activity": "무령왕릉과 왕릉원 관람",
+                  "durationMin": 40,
+                  "note": "입장료 2인 3,000원"
+                },
+                {
+                  "time": "14:20-15:20",
+                  "activity": "국립공주박물관 관람",
+                  "durationMin": 60,
+                  "note": "무료"
+                },
+                {
+                  "time": "15:20-17:00",
+                  "activity": "귀가 이동",
+                  "durationMin": 100,
+                  "note": ""
+                }
+              ]
+            }
+          ],
+          "lodging": [],
+          "costEstimate": {
+            "2인": {
+              "교통": 32000,
+              "식비": 55000,
+              "입장료": 5400,
+              "합계": 92400
+            },
+            "3인": {
+              "교통": 32000,
+              "식비": 82500,
+              "입장료": 8100,
+              "합계": 122600
+            }
+          },
+          "notes": ""
+        },
+        {
+          "id": "CN-DAY-03",
+          "title": "부여 역사 탐방",
+          "duration": "당일",
+          "nights": 0,
+          "subregions": [
+            "부여"
+          ],
+          "transport": {
+            "distanceKmOneWay": 110,
+            "driveTimeMinOneWay": 100,
+            "tollWonOneWay": 4000
+          },
+          "days": [
+            {
+              "day": 1,
+              "schedule": [
+                {
+                  "time": "09:00",
+                  "activity": "동탄 출발",
+                  "durationMin": 0,
+                  "note": ""
+                },
+                {
+                  "time": "09:00-10:40",
+                  "activity": "이동 (→부여)",
+                  "durationMin": 100,
+                  "note": ""
+                },
+                {
+                  "time": "10:40-12:10",
+                  "activity": "부소산성·고란사 관람",
+                  "durationMin": 90,
+                  "note": "입장료 2인 4,000원"
+                },
+                {
+                  "time": "12:10-13:10",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "연잎담 — 떡갈비+연잎밥 (생선 없음)"
+                },
+                {
+                  "time": "13:10-14:00",
+                  "activity": "정림사지 관람",
+                  "durationMin": 50,
+                  "note": "무료~소액"
+                },
+                {
+                  "time": "14:00-14:40",
+                  "activity": "궁남지 산책",
+                  "durationMin": 40,
+                  "note": "무료"
+                },
+                {
+                  "time": "14:40-16:20",
+                  "activity": "귀가 이동",
+                  "durationMin": 100,
+                  "note": ""
+                }
+              ]
+            }
+          ],
+          "lodging": [],
+          "costEstimate": {
+            "2인": {
+              "교통": 32000,
+              "식비": 55000,
+              "입장료": 4000,
+              "합계": 91000
+            },
+            "3인": {
+              "교통": 32000,
+              "식비": 82500,
+              "입장료": 6000,
+              "합계": 120500
+            }
+          },
+          "notes": ""
+        },
+        {
+          "id": "CN-1N2D-01",
+          "title": "대전·공주 1박2일",
+          "duration": "1박2일",
+          "nights": 1,
+          "subregions": [
+            "대전",
+            "공주"
+          ],
+          "transport": {
+            "distanceKmOneWay": 140,
+            "driveTimeMinOneWay": 100,
+            "tollWonOneWay": 5500
+          },
+          "days": [
+            {
+              "day": 1,
+              "schedule": [
+                {
+                  "time": "09:30",
+                  "activity": "동탄 출발",
+                  "durationMin": 0,
+                  "note": ""
+                },
+                {
+                  "time": "09:30-11:10",
+                  "activity": "이동 (→대전)",
+                  "durationMin": 100,
+                  "note": ""
+                },
+                {
+                  "time": "11:10-11:50",
+                  "activity": "성심당 본점",
+                  "durationMin": 40,
+                  "note": "튀김소보로·부추빵 (생선 없음)"
+                },
+                {
+                  "time": "11:50-12:50",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "태평소국밥 — 국밥 (생선 없음)"
+                },
+                {
+                  "time": "12:50-14:20",
+                  "activity": "한밭수목원 산책",
+                  "durationMin": 90,
+                  "note": "무료"
+                },
+                {
+                  "time": "14:20-15:10",
+                  "activity": "이동 → 공주",
+                  "durationMin": 50,
+                  "note": ""
+                },
+                {
+                  "time": "15:10-15:40",
+                  "activity": "숙소 체크인(공주)",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "15:40-17:10",
+                  "activity": "공산성 관람",
+                  "durationMin": 90,
+                  "note": "입장료 2인 2,400원"
+                },
+                {
+                  "time": "18:00-19:00",
+                  "activity": "저녁",
+                  "durationMin": 60,
+                  "note": "가야수라간 — 한정식, 생선 반찬 제외 요청"
+                }
+              ]
+            },
+            {
+              "day": 2,
+              "schedule": [
+                {
+                  "time": "08:00-09:00",
+                  "activity": "아침",
+                  "durationMin": 60,
+                  "note": "숙소 조식 또는 간단히"
+                },
+                {
+                  "time": "09:00-09:40",
+                  "activity": "무령왕릉과 왕릉원 관람",
+                  "durationMin": 40,
+                  "note": "입장료 2인 3,000원"
+                },
+                {
+                  "time": "09:40-10:40",
+                  "activity": "국립공주박물관 관람",
+                  "durationMin": 60,
+                  "note": "무료"
+                },
+                {
+                  "time": "10:40-12:00",
+                  "activity": "귀가 이동",
+                  "durationMin": 80,
+                  "note": ""
+                }
+              ]
+            }
+          ],
+          "lodging": [
+            {
+              "night": 1,
+              "area": "공주",
+              "options": [
+                {
+                  "name": "로컬하우스(고택 개조)",
+                  "type": "한옥스테이",
+                  "priceRange": "10만원대"
+                },
+                {
+                  "name": "초이한옥호텔",
+                  "type": "한옥호텔",
+                  "priceRange": "12~15만원대"
+                }
+              ]
+            }
+          ],
+          "costEstimate": {
+            "2인": {
+              "교통": 55000,
+              "숙소": 100000,
+              "식비": 140000,
+              "입장료": 6000,
+              "합계": 301000
+            },
+            "3인": {
+              "교통": 55000,
+              "숙소": 120000,
+              "식비": 210000,
+              "입장료": 9000,
+              "합계": 394000
+            }
+          },
+          "notes": "CN-DAY-01 + CN-DAY-02 블록 결합"
+        },
+        {
+          "id": "CN-1N2D-02",
+          "title": "공주·부여 1박2일 (백제문화)",
+          "duration": "1박2일",
+          "nights": 1,
+          "subregions": [
+            "공주",
+            "부여"
+          ],
+          "transport": {
+            "distanceKmOneWay": 110,
+            "driveTimeMinOneWay": 100,
+            "tollWonOneWay": 4000
+          },
+          "days": [
+            {
+              "day": 1,
+              "schedule": [
+                {
+                  "time": "09:00",
+                  "activity": "동탄 출발",
+                  "durationMin": 0,
+                  "note": ""
+                },
+                {
+                  "time": "09:00-10:40",
+                  "activity": "이동 (→대전 경유)",
+                  "durationMin": 100,
+                  "note": ""
+                },
+                {
+                  "time": "10:40-11:20",
+                  "activity": "성심당 본점",
+                  "durationMin": 40,
+                  "note": "튀김소보로·부추빵 (생선 없음)"
+                },
+                {
+                  "time": "11:20-11:50",
+                  "activity": "이동 → 공주",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "11:50-12:50",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "엄마의식탁 — 한정식, 생선 반찬 제외 요청"
+                },
+                {
+                  "time": "12:50-14:20",
+                  "activity": "공산성 관람",
+                  "durationMin": 90,
+                  "note": "입장료 2인 2,400원"
+                },
+                {
+                  "time": "14:20-15:00",
+                  "activity": "무령왕릉과 왕릉원 관람",
+                  "durationMin": 40,
+                  "note": "입장료 2인 3,000원"
+                },
+                {
+                  "time": "15:00-15:30",
+                  "activity": "이동 → 부여",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "15:30-16:00",
+                  "activity": "숙소 체크인(부여)",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "16:00-17:30",
+                  "activity": "부소산성·고란사 관람",
+                  "durationMin": 90,
+                  "note": "입장료 2인 4,000원"
+                },
+                {
+                  "time": "18:30-19:30",
+                  "activity": "저녁",
+                  "durationMin": 60,
+                  "note": "연잎담 — 떡갈비+연잎밥 (생선 없음)"
+                }
+              ]
+            },
+            {
+              "day": 2,
+              "schedule": [
+                {
+                  "time": "08:00-09:00",
+                  "activity": "아침",
+                  "durationMin": 60,
+                  "note": "숙소 조식 또는 간단히"
+                },
+                {
+                  "time": "09:00-10:00",
+                  "activity": "국립부여박물관·정림사지 관람",
+                  "durationMin": 60,
+                  "note": "무료~소액"
+                },
+                {
+                  "time": "10:00-12:20",
+                  "activity": "귀가 이동",
+                  "durationMin": 140,
+                  "note": ""
+                }
+              ]
+            }
+          ],
+          "lodging": [
+            {
+              "night": 1,
+              "area": "부여",
+              "options": [
+                {
+                  "name": "부여 시내 모텔·펜션",
+                  "type": "펜션",
+                  "priceRange": "7~9만원대"
+                }
+              ]
+            }
+          ],
+          "costEstimate": {
+            "2인": {
+              "교통": 45000,
+              "숙소": 100000,
+              "식비": 150000,
+              "입장료": 9400,
+              "합계": 304400
+            },
+            "3인": {
+              "교통": 45000,
+              "숙소": 120000,
+              "식비": 225000,
+              "입장료": 14100,
+              "합계": 404100
+            }
+          },
+          "notes": "기존 백제문화 코스 (여행코스_초안.md) JSON화"
+        },
+        {
+          "id": "CN-1N2D-03",
+          "title": "아산·서산 1박2일 (온천·읍성)",
+          "duration": "1박2일",
+          "nights": 1,
+          "subregions": [
+            "아산",
+            "서산"
+          ],
+          "transport": {
+            "distanceKmOneWay": 60,
+            "driveTimeMinOneWay": 50,
+            "tollWonOneWay": 2000
+          },
+          "days": [
+            {
+              "day": 1,
+              "schedule": [
+                {
+                  "time": "10:00",
+                  "activity": "동탄 출발",
+                  "durationMin": 0,
+                  "note": ""
+                },
+                {
+                  "time": "10:00-10:50",
+                  "activity": "이동 (→아산)",
+                  "durationMin": 50,
+                  "note": ""
+                },
+                {
+                  "time": "10:50-11:50",
+                  "activity": "현충사 관람",
+                  "durationMin": 60,
+                  "note": "무료"
+                },
+                {
+                  "time": "11:50-12:50",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "공세뜰두부집 — 두부버섯전골 (생선 없음)"
+                },
+                {
+                  "time": "12:50-13:50",
+                  "activity": "온양온천시장 구경",
+                  "durationMin": 60,
+                  "note": ""
+                },
+                {
+                  "time": "13:50-14:50",
+                  "activity": "이동 → 서산",
+                  "durationMin": 60,
+                  "note": ""
+                },
+                {
+                  "time": "14:50-15:50",
+                  "activity": "해미읍성 관람",
+                  "durationMin": 60,
+                  "note": "무료~소액"
+                },
+                {
+                  "time": "15:50-16:20",
+                  "activity": "숙소 체크인(서산)",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "18:00-19:00",
+                  "activity": "저녁",
+                  "durationMin": 60,
+                  "note": "해미읍성 인근 갈비탕/한우 식당 (생선 없음)"
+                }
+              ]
+            },
+            {
+              "day": 2,
+              "schedule": [
+                {
+                  "time": "08:30-09:30",
+                  "activity": "아침",
+                  "durationMin": 60,
+                  "note": "숙소 조식 또는 간단히"
+                },
+                {
+                  "time": "09:30-10:30",
+                  "activity": "개심사 관람",
+                  "durationMin": 60,
+                  "note": "무료~소액"
+                },
+                {
+                  "time": "10:30-11:30",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "서산 시내 한식당 (상호 재확인 권장)"
+                },
+                {
+                  "time": "11:30-13:20",
+                  "activity": "귀가 이동",
+                  "durationMin": 110,
+                  "note": ""
+                }
+              ]
+            }
+          ],
+          "lodging": [
+            {
+              "night": 1,
+              "area": "서산",
+              "options": [
+                {
+                  "name": "해미읍성 인근 펜션·모텔",
+                  "type": "펜션",
+                  "priceRange": "8~10만원대"
+                }
+              ]
+            }
+          ],
+          "costEstimate": {
+            "2인": {
+              "교통": 25000,
+              "숙소": 90000,
+              "식비": 130000,
+              "입장료": 2000,
+              "합계": 247000
+            },
+            "3인": {
+              "교통": 25000,
+              "숙소": 108000,
+              "식비": 195000,
+              "입장료": 3000,
+              "합계": 331000
+            }
+          },
+          "notes": "거리가 짧아 늦은 출발 가능. 게국지·어리굴젓 등 지역명물은 생선/젓갈류라 목록에서 제외"
+        }
+      ]
+    },
+    {
+      "meta": {
+        "region": "충북",
+        "baseLocation": "경기도 화성시 동탄구 반송동 메타폴리스",
+        "dietaryNote": "회·스시 등 생선(어류) 요리 전면 제외",
+        "costNote": "예상 비용은 2인/3인 기준 추정치",
+        "counts": {
+          "당일": 3,
+          "1박2일": 3,
+          "2박3일": 3,
+          "total": 9
+        }
+      },
+      "courses": [
+        {
+          "id": "CB-DAY-01",
+          "title": "단양 당일치기",
+          "duration": "당일",
+          "nights": 0,
+          "subregions": [
+            "단양"
+          ],
+          "transport": {
+            "distanceKmOneWay": 150,
+            "driveTimeMinOneWay": 130,
+            "tollWonOneWay": 7000
+          },
+          "days": [
+            {
+              "day": 1,
+              "schedule": [
+                {
+                  "time": "08:30",
+                  "activity": "동탄 출발",
+                  "durationMin": 0,
+                  "note": ""
+                },
+                {
+                  "time": "08:30-10:40",
+                  "activity": "이동 (→단양)",
+                  "durationMin": 130,
+                  "note": ""
+                },
+                {
+                  "time": "10:40-11:30",
+                  "activity": "단양강 잔도 산책",
+                  "durationMin": 50,
+                  "note": "무료"
+                },
+                {
+                  "time": "11:30-12:30",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "단양마늘만두 — 새우마늘만두 (생선 없음)"
+                },
+                {
+                  "time": "12:30-14:30",
+                  "activity": "만천하스카이워크 관람",
+                  "durationMin": 120,
+                  "note": "입장료 2인 8,000원, 액티비티 별도"
+                },
+                {
+                  "time": "14:30-15:10",
+                  "activity": "도담삼봉 관람",
+                  "durationMin": 40,
+                  "note": "무료"
+                },
+                {
+                  "time": "15:10-17:20",
+                  "activity": "귀가 이동",
+                  "durationMin": 130,
+                  "note": ""
+                }
+              ]
+            }
+          ],
+          "lodging": [],
+          "costEstimate": {
+            "2인": {
+              "교통": 60000,
+              "식비": 60000,
+              "입장료": 8000,
+              "합계": 128000
+            },
+            "3인": {
+              "교통": 60000,
+              "식비": 90000,
+              "입장료": 12000,
+              "합계": 162000
+            }
+          },
+          "notes": ""
+        },
+        {
+          "id": "CB-DAY-02",
+          "title": "청주 당일치기 (상당산성·수암골)",
+          "duration": "당일",
+          "nights": 0,
+          "subregions": [
+            "청주"
+          ],
+          "transport": {
+            "distanceKmOneWay": 90,
+            "driveTimeMinOneWay": 80,
+            "tollWonOneWay": 3500
+          },
+          "days": [
+            {
+              "day": 1,
+              "schedule": [
+                {
+                  "time": "09:30",
+                  "activity": "동탄 출발",
+                  "durationMin": 0,
+                  "note": ""
+                },
+                {
+                  "time": "09:30-10:50",
+                  "activity": "이동 (→청주)",
+                  "durationMin": 80,
+                  "note": ""
+                },
+                {
+                  "time": "10:50-12:20",
+                  "activity": "상당산성 성곽 산책",
+                  "durationMin": 90,
+                  "note": "무료"
+                },
+                {
+                  "time": "12:20-13:20",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "산성마을 상당집 — 청국장·비지장 (생선 없음)"
+                },
+                {
+                  "time": "13:20-14:20",
+                  "activity": "수암골 벽화마을·전망대",
+                  "durationMin": 60,
+                  "note": "무료"
+                },
+                {
+                  "time": "14:20-15:20",
+                  "activity": "청주고인쇄박물관 관람",
+                  "durationMin": 60,
+                  "note": "무료~소액"
+                },
+                {
+                  "time": "15:20-16:40",
+                  "activity": "귀가 이동",
+                  "durationMin": 80,
+                  "note": ""
+                }
+              ]
+            }
+          ],
+          "lodging": [],
+          "costEstimate": {
+            "2인": {
+              "교통": 27000,
+              "식비": 55000,
+              "입장료": 2000,
+              "합계": 84000
+            },
+            "3인": {
+              "교통": 27000,
+              "식비": 82500,
+              "입장료": 3000,
+              "합계": 112500
+            }
+          },
+          "notes": ""
+        },
+        {
+          "id": "CB-DAY-03",
+          "title": "제천 당일치기 (청풍호)",
+          "duration": "당일",
+          "nights": 0,
+          "subregions": [
+            "제천"
+          ],
+          "transport": {
+            "distanceKmOneWay": 150,
+            "driveTimeMinOneWay": 130,
+            "tollWonOneWay": 7000
+          },
+          "days": [
+            {
+              "day": 1,
+              "schedule": [
+                {
+                  "time": "08:30",
+                  "activity": "동탄 출발",
+                  "durationMin": 0,
+                  "note": ""
+                },
+                {
+                  "time": "08:30-10:40",
+                  "activity": "이동 (→제천)",
+                  "durationMin": 130,
+                  "note": ""
+                },
+                {
+                  "time": "10:40-11:40",
+                  "activity": "의림지 산책",
+                  "durationMin": 60,
+                  "note": "무료"
+                },
+                {
+                  "time": "11:40-12:40",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "제천 시내 한식당 (상호 재확인 권장)"
+                },
+                {
+                  "time": "12:40-13:40",
+                  "activity": "청풍호반케이블카",
+                  "durationMin": 60,
+                  "note": "일반석 2인 36,000원"
+                },
+                {
+                  "time": "13:40-14:40",
+                  "activity": "청풍문화재단지 관람",
+                  "durationMin": 60,
+                  "note": "무료"
+                },
+                {
+                  "time": "14:40-16:50",
+                  "activity": "귀가 이동",
+                  "durationMin": 130,
+                  "note": ""
+                }
+              ]
+            }
+          ],
+          "lodging": [],
+          "costEstimate": {
+            "2인": {
+              "교통": 60000,
+              "식비": 60000,
+              "입장료": 36000,
+              "합계": 156000
+            },
+            "3인": {
+              "교통": 60000,
+              "식비": 90000,
+              "입장료": 54000,
+              "합계": 204000
+            }
+          },
+          "notes": ""
+        },
+        {
+          "id": "CB-1N2D-01",
+          "title": "단양·제천 1박2일",
+          "duration": "1박2일",
+          "nights": 1,
+          "subregions": [
+            "단양",
+            "제천"
+          ],
+          "transport": {
+            "distanceKmOneWay": 150,
+            "driveTimeMinOneWay": 130,
+            "tollWonOneWay": 7000
+          },
+          "days": [
+            {
+              "day": 1,
+              "schedule": [
+                {
+                  "time": "09:00",
+                  "activity": "동탄 출발",
+                  "durationMin": 0,
+                  "note": ""
+                },
+                {
+                  "time": "09:00-11:10",
+                  "activity": "이동 (→단양)",
+                  "durationMin": 130,
+                  "note": ""
+                },
+                {
+                  "time": "11:10-12:00",
+                  "activity": "단양강 잔도 산책",
+                  "durationMin": 50,
+                  "note": "무료"
+                },
+                {
+                  "time": "12:00-13:00",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "단양마늘만두 — 새우마늘만두 (생선 없음)"
+                },
+                {
+                  "time": "13:00-15:30",
+                  "activity": "만천하스카이워크 관람+액티비티(선택)",
+                  "durationMin": 150,
+                  "note": "입장료 2인 8,000원, 짚와이어 2인 60,000원 선택"
+                },
+                {
+                  "time": "15:30-16:10",
+                  "activity": "도담삼봉 관람",
+                  "durationMin": 40,
+                  "note": "무료"
+                },
+                {
+                  "time": "16:10-17:10",
+                  "activity": "숙소 체크인(단양)",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "18:00-19:00",
+                  "activity": "저녁",
+                  "durationMin": 60,
+                  "note": "단양흑마늘닭강정 원주닭집 (생선 없음)"
+                }
+              ]
+            },
+            {
+              "day": 2,
+              "schedule": [
+                {
+                  "time": "08:00-09:00",
+                  "activity": "아침",
+                  "durationMin": 60,
+                  "note": "숙소 조식 또는 간단히"
+                },
+                {
+                  "time": "09:00-10:30",
+                  "activity": "고수동굴 관람",
+                  "durationMin": 90,
+                  "note": "입장료 2인 22,000원"
+                },
+                {
+                  "time": "10:30-11:10",
+                  "activity": "이동 → 제천",
+                  "durationMin": 40,
+                  "note": ""
+                },
+                {
+                  "time": "11:10-12:10",
+                  "activity": "청풍호반케이블카",
+                  "durationMin": 60,
+                  "note": "일반석 2인 36,000원"
+                },
+                {
+                  "time": "12:10-13:10",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "청풍문화재단지 인근 식당가 (상호 재확인 권장)"
+                },
+                {
+                  "time": "13:10-16:10",
+                  "activity": "귀가 이동",
+                  "durationMin": 130,
+                  "note": ""
+                }
+              ]
+            }
+          ],
+          "lodging": [
+            {
+              "night": 1,
+              "area": "단양",
+              "options": [
+                {
+                  "name": "단양관광호텔 에델바이스",
+                  "type": "호텔",
+                  "priceRange": "10만원대"
+                },
+                {
+                  "name": "소노벨 단양",
+                  "type": "리조트",
+                  "priceRange": "15만원대"
+                }
+              ]
+            }
+          ],
+          "costEstimate": {
+            "2인": {
+              "교통": 70000,
+              "숙소": 100000,
+              "식비": 140000,
+              "입장료": 66000,
+              "합계": 376000
+            },
+            "3인": {
+              "교통": 70000,
+              "숙소": 120000,
+              "식비": 210000,
+              "입장료": 99000,
+              "합계": 499000
+            }
+          },
+          "notes": "기존 단양·제천 코스 JSON화"
+        },
+        {
+          "id": "CB-1N2D-02",
+          "title": "청주·문의 1박2일",
+          "duration": "1박2일",
+          "nights": 1,
+          "subregions": [
+            "청주",
+            "문의"
+          ],
+          "transport": {
+            "distanceKmOneWay": 90,
+            "driveTimeMinOneWay": 80,
+            "tollWonOneWay": 3500
+          },
+          "days": [
+            {
+              "day": 1,
+              "schedule": [
+                {
+                  "time": "10:00",
+                  "activity": "동탄 출발",
+                  "durationMin": 0,
+                  "note": ""
+                },
+                {
+                  "time": "10:00-11:20",
+                  "activity": "이동 (→청주)",
+                  "durationMin": 80,
+                  "note": ""
+                },
+                {
+                  "time": "11:20-12:50",
+                  "activity": "상당산성 성곽 산책",
+                  "durationMin": 90,
+                  "note": "무료"
+                },
+                {
+                  "time": "12:50-13:50",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "산성마을 상당집 — 청국장·비지장 (생선 없음)"
+                },
+                {
+                  "time": "13:50-14:50",
+                  "activity": "수암골 벽화마을",
+                  "durationMin": 60,
+                  "note": "무료"
+                },
+                {
+                  "time": "14:50-15:20",
+                  "activity": "숙소 체크인(청주)",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "18:00-19:00",
+                  "activity": "저녁",
+                  "durationMin": 60,
+                  "note": "청주 서문동 삼겹살거리 — 삼겹살 (생선 없음)"
+                }
+              ]
+            },
+            {
+              "day": 2,
+              "schedule": [
+                {
+                  "time": "08:30-09:30",
+                  "activity": "아침",
+                  "durationMin": 60,
+                  "note": "숙소 조식 또는 간단히"
+                },
+                {
+                  "time": "09:30-10:20",
+                  "activity": "이동 → 청남대(문의)",
+                  "durationMin": 50,
+                  "note": ""
+                },
+                {
+                  "time": "10:20-12:00",
+                  "activity": "청남대 관람",
+                  "durationMin": 100,
+                  "note": "입장료 별도, 셔틀버스 이용"
+                },
+                {
+                  "time": "12:00-13:00",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "대청호 인근 한식당 (상호 재확인 권장)"
+                },
+                {
+                  "time": "13:00-14:20",
+                  "activity": "귀가 이동",
+                  "durationMin": 80,
+                  "note": ""
+                }
+              ]
+            }
+          ],
+          "lodging": [
+            {
+              "night": 1,
+              "area": "청주",
+              "options": [
+                {
+                  "name": "청주 시내 비즈니스호텔",
+                  "type": "호텔",
+                  "priceRange": "8~10만원대"
+                }
+              ]
+            }
+          ],
+          "costEstimate": {
+            "2인": {
+              "교통": 27000,
+              "숙소": 90000,
+              "식비": 130000,
+              "입장료": 20000,
+              "합계": 267000
+            },
+            "3인": {
+              "교통": 27000,
+              "숙소": 108000,
+              "식비": 195000,
+              "입장료": 30000,
+              "합계": 360000
+            }
+          },
+          "notes": ""
+        },
+        {
+          "id": "CB-1N2D-03",
+          "title": "괴산·보은 1박2일 (계곡·사찰)",
+          "duration": "1박2일",
+          "nights": 1,
+          "subregions": [
+            "괴산",
+            "보은"
+          ],
+          "transport": {
+            "distanceKmOneWay": 130,
+            "driveTimeMinOneWay": 110,
+            "tollWonOneWay": 5000
+          },
+          "days": [
+            {
+              "day": 1,
+              "schedule": [
+                {
+                  "time": "09:30",
+                  "activity": "동탄 출발",
+                  "durationMin": 0,
+                  "note": ""
+                },
+                {
+                  "time": "09:30-11:20",
+                  "activity": "이동 (→괴산)",
+                  "durationMin": 110,
+                  "note": ""
+                },
+                {
+                  "time": "11:20-13:20",
+                  "activity": "산막이옛길 트레킹",
+                  "durationMin": 120,
+                  "note": "무료"
+                },
+                {
+                  "time": "13:20-14:20",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "동원식당 — 산채비빔밥 (생선 없음)"
+                },
+                {
+                  "time": "14:20-15:50",
+                  "activity": "화양구곡 산책",
+                  "durationMin": 90,
+                  "note": "주차료 2인 5,000원"
+                },
+                {
+                  "time": "15:50-16:30",
+                  "activity": "숙소 체크인(괴산)",
+                  "durationMin": 40,
+                  "note": ""
+                },
+                {
+                  "time": "18:00-19:00",
+                  "activity": "저녁",
+                  "durationMin": 60,
+                  "note": "괴산 시내 한식당 (상호 재확인 권장)"
+                }
+              ]
+            },
+            {
+              "day": 2,
+              "schedule": [
+                {
+                  "time": "08:30-09:30",
+                  "activity": "아침",
+                  "durationMin": 60,
+                  "note": "숙소 조식 또는 간단히"
+                },
+                {
+                  "time": "09:30-10:20",
+                  "activity": "이동 → 보은(법주사)",
+                  "durationMin": 50,
+                  "note": ""
+                },
+                {
+                  "time": "10:20-12:00",
+                  "activity": "속리산 법주사 관람",
+                  "durationMin": 100,
+                  "note": "입장료 무료(2023년~), 주차료 별도"
+                },
+                {
+                  "time": "12:00-13:00",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "옛고을 — 산채정식 (생선 없음)"
+                },
+                {
+                  "time": "13:00-14:50",
+                  "activity": "귀가 이동",
+                  "durationMin": 110,
+                  "note": ""
+                }
+              ]
+            }
+          ],
+          "lodging": [
+            {
+              "night": 1,
+              "area": "괴산",
+              "options": [
+                {
+                  "name": "산막이옛길 인근 펜션",
+                  "type": "펜션",
+                  "priceRange": "8~10만원대"
+                }
+              ]
+            }
+          ],
+          "costEstimate": {
+            "2인": {
+              "교통": 50000,
+              "숙소": 90000,
+              "식비": 130000,
+              "입장료": 12000,
+              "합계": 282000
+            },
+            "3인": {
+              "교통": 50000,
+              "숙소": 108000,
+              "식비": 195000,
+              "입장료": 18000,
+              "합계": 371000
+            }
+          },
+          "notes": "속리산 등산은 [등산 코스] 1시간 카테고리 참고 가능"
+        },
+        {
+          "id": "CB-2N3D-01",
+          "title": "단양·제천·영월 2박3일",
+          "duration": "2박3일",
+          "nights": 2,
+          "subregions": [
+            "단양",
+            "제천",
+            "영월"
+          ],
+          "transport": {
+            "distanceKmOneWay": 150,
+            "driveTimeMinOneWay": 130,
+            "tollWonOneWay": 7000
+          },
+          "days": [
+            {
+              "day": 1,
+              "schedule": [
+                {
+                  "time": "09:00",
+                  "activity": "동탄 출발",
+                  "durationMin": 0,
+                  "note": ""
+                },
+                {
+                  "time": "09:00-11:10",
+                  "activity": "이동 (→단양)",
+                  "durationMin": 130,
+                  "note": ""
+                },
+                {
+                  "time": "11:10-12:00",
+                  "activity": "단양강 잔도 산책",
+                  "durationMin": 50,
+                  "note": "무료"
+                },
+                {
+                  "time": "12:00-13:00",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "단양마늘만두 (생선 없음)"
+                },
+                {
+                  "time": "13:00-15:00",
+                  "activity": "만천하스카이워크 관람",
+                  "durationMin": 120,
+                  "note": "입장료 2인 8,000원"
+                },
+                {
+                  "time": "15:00-15:40",
+                  "activity": "도담삼봉 관람",
+                  "durationMin": 40,
+                  "note": "무료"
+                },
+                {
+                  "time": "15:40-16:20",
+                  "activity": "숙소 체크인(단양)",
+                  "durationMin": 40,
+                  "note": ""
+                },
+                {
+                  "time": "18:00-19:00",
+                  "activity": "저녁",
+                  "durationMin": 60,
+                  "note": "단양흑마늘닭강정 원주닭집 (생선 없음)"
+                }
+              ]
+            },
+            {
+              "day": 2,
+              "schedule": [
+                {
+                  "time": "08:30-09:30",
+                  "activity": "아침",
+                  "durationMin": 60,
+                  "note": "숙소 조식 또는 간단히"
+                },
+                {
+                  "time": "09:30-10:30",
+                  "activity": "고수동굴 관람",
+                  "durationMin": 60,
+                  "note": "입장료 2인 22,000원"
+                },
+                {
+                  "time": "10:30-11:10",
+                  "activity": "이동 → 제천",
+                  "durationMin": 40,
+                  "note": ""
+                },
+                {
+                  "time": "11:10-12:10",
+                  "activity": "청풍호반케이블카",
+                  "durationMin": 60,
+                  "note": "일반석 2인 36,000원"
+                },
+                {
+                  "time": "12:10-13:10",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "청풍문화재단지 인근 식당가 (상호 재확인 권장)"
+                },
+                {
+                  "time": "13:10-14:00",
+                  "activity": "이동 → 영월",
+                  "durationMin": 50,
+                  "note": ""
+                },
+                {
+                  "time": "14:00-14:30",
+                  "activity": "숙소 체크인(영월)",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "14:30-16:00",
+                  "activity": "청령포 관람",
+                  "durationMin": 90,
+                  "note": "도선료 포함 소액"
+                },
+                {
+                  "time": "18:00-19:00",
+                  "activity": "저녁",
+                  "durationMin": 60,
+                  "note": "박가네 — 나물솥밥 (생선 없음)"
+                }
+              ]
+            },
+            {
+              "day": 3,
+              "schedule": [
+                {
+                  "time": "08:30-09:30",
+                  "activity": "아침",
+                  "durationMin": 60,
+                  "note": "숙소 조식 또는 간단히"
+                },
+                {
+                  "time": "09:30-10:30",
+                  "activity": "한반도지형 전망 관람",
+                  "durationMin": 60,
+                  "note": "무료"
+                },
+                {
+                  "time": "10:30-11:30",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "영월 서부시장 일미닭강정 (생선 없음)"
+                },
+                {
+                  "time": "11:30-14:00",
+                  "activity": "귀가 이동",
+                  "durationMin": 150,
+                  "note": ""
+                }
+              ]
+            }
+          ],
+          "lodging": [
+            {
+              "night": 1,
+              "area": "단양",
+              "options": [
+                {
+                  "name": "단양관광호텔 에델바이스",
+                  "type": "호텔",
+                  "priceRange": "10만원대"
+                }
+              ]
+            },
+            {
+              "night": 2,
+              "area": "영월",
+              "options": [
+                {
+                  "name": "영월 시내 모텔·펜션",
+                  "type": "펜션",
+                  "priceRange": "7~9만원대"
+                }
+              ]
+            }
+          ],
+          "costEstimate": {
+            "2인": {
+              "교통": 70000,
+              "숙소": 180000,
+              "식비": 204000,
+              "입장료": 66000,
+              "합계": 520000
+            },
+            "3인": {
+              "교통": 70000,
+              "숙소": 216000,
+              "식비": 306000,
+              "입장료": 99000,
+              "합계": 691000
+            }
+          },
+          "notes": "CB-1N2D-01 블록 + 영월 확장"
+        },
+        {
+          "id": "CB-2N3D-02",
+          "title": "청주·괴산·보은 2박3일",
+          "duration": "2박3일",
+          "nights": 2,
+          "subregions": [
+            "청주",
+            "괴산",
+            "보은"
+          ],
+          "transport": {
+            "distanceKmOneWay": 90,
+            "driveTimeMinOneWay": 80,
+            "tollWonOneWay": 3500
+          },
+          "days": [
+            {
+              "day": 1,
+              "schedule": [
+                {
+                  "time": "10:00",
+                  "activity": "동탄 출발",
+                  "durationMin": 0,
+                  "note": ""
+                },
+                {
+                  "time": "10:00-11:20",
+                  "activity": "이동 (→청주)",
+                  "durationMin": 80,
+                  "note": ""
+                },
+                {
+                  "time": "11:20-12:50",
+                  "activity": "상당산성 성곽 산책",
+                  "durationMin": 90,
+                  "note": "무료"
+                },
+                {
+                  "time": "12:50-13:50",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "산성마을 상당집 (생선 없음)"
+                },
+                {
+                  "time": "13:50-14:50",
+                  "activity": "수암골 벽화마을",
+                  "durationMin": 60,
+                  "note": "무료"
+                },
+                {
+                  "time": "14:50-15:20",
+                  "activity": "숙소 체크인(청주)",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "18:00-19:00",
+                  "activity": "저녁",
+                  "durationMin": 60,
+                  "note": "청주 서문동 삼겹살거리 (생선 없음)"
+                }
+              ]
+            },
+            {
+              "day": 2,
+              "schedule": [
+                {
+                  "time": "08:30-09:30",
+                  "activity": "아침",
+                  "durationMin": 60,
+                  "note": "숙소 조식 또는 간단히"
+                },
+                {
+                  "time": "09:30-11:00",
+                  "activity": "이동 → 괴산",
+                  "durationMin": 90,
+                  "note": ""
+                },
+                {
+                  "time": "11:00-13:00",
+                  "activity": "산막이옛길 트레킹",
+                  "durationMin": 120,
+                  "note": "무료"
+                },
+                {
+                  "time": "13:00-14:00",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "동원식당 — 산채비빔밥 (생선 없음)"
+                },
+                {
+                  "time": "14:00-15:30",
+                  "activity": "화양구곡 산책",
+                  "durationMin": 90,
+                  "note": "주차료 2인 5,000원"
+                },
+                {
+                  "time": "15:30-16:10",
+                  "activity": "숙소 체크인(괴산)",
+                  "durationMin": 40,
+                  "note": ""
+                },
+                {
+                  "time": "18:00-19:00",
+                  "activity": "저녁",
+                  "durationMin": 60,
+                  "note": "괴산 시내 한식당 (상호 재확인 권장)"
+                }
+              ]
+            },
+            {
+              "day": 3,
+              "schedule": [
+                {
+                  "time": "08:30-09:30",
+                  "activity": "아침",
+                  "durationMin": 60,
+                  "note": "숙소 조식 또는 간단히"
+                },
+                {
+                  "time": "09:30-10:20",
+                  "activity": "이동 → 보은(법주사)",
+                  "durationMin": 50,
+                  "note": ""
+                },
+                {
+                  "time": "10:20-12:00",
+                  "activity": "속리산 법주사 관람",
+                  "durationMin": 100,
+                  "note": "주차료 별도"
+                },
+                {
+                  "time": "12:00-13:00",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "옛고을 — 산채정식 (생선 없음)"
+                },
+                {
+                  "time": "13:00-15:20",
+                  "activity": "귀가 이동",
+                  "durationMin": 140,
+                  "note": ""
+                }
+              ]
+            }
+          ],
+          "lodging": [
+            {
+              "night": 1,
+              "area": "청주",
+              "options": [
+                {
+                  "name": "청주 시내 비즈니스호텔",
+                  "type": "호텔",
+                  "priceRange": "8~10만원대"
+                }
+              ]
+            },
+            {
+              "night": 2,
+              "area": "괴산",
+              "options": [
+                {
+                  "name": "산막이옛길 인근 펜션",
+                  "type": "펜션",
+                  "priceRange": "8~10만원대"
+                }
+              ]
+            }
+          ],
+          "costEstimate": {
+            "2인": {
+              "교통": 35000,
+              "숙소": 180000,
+              "식비": 195000,
+              "입장료": 15000,
+              "합계": 425000
+            },
+            "3인": {
+              "교통": 35000,
+              "숙소": 216000,
+              "식비": 292500,
+              "입장료": 22500,
+              "합계": 566000
+            }
+          },
+          "notes": "CB-DAY-02 + CB-1N2D-03 블록 결합"
+        },
+        {
+          "id": "CB-2N3D-03",
+          "title": "단양·제천·충주 2박3일 (호수벨트)",
+          "duration": "2박3일",
+          "nights": 2,
+          "subregions": [
+            "단양",
+            "제천",
+            "충주"
+          ],
+          "transport": {
+            "distanceKmOneWay": 150,
+            "driveTimeMinOneWay": 130,
+            "tollWonOneWay": 7000
+          },
+          "days": [
+            {
+              "day": 1,
+              "schedule": [
+                {
+                  "time": "09:00",
+                  "activity": "동탄 출발",
+                  "durationMin": 0,
+                  "note": ""
+                },
+                {
+                  "time": "09:00-11:10",
+                  "activity": "이동 (→단양)",
+                  "durationMin": 130,
+                  "note": ""
+                },
+                {
+                  "time": "11:10-12:00",
+                  "activity": "단양강 잔도 산책",
+                  "durationMin": 50,
+                  "note": "무료"
+                },
+                {
+                  "time": "12:00-13:00",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "단양마늘만두 (생선 없음)"
+                },
+                {
+                  "time": "13:00-15:00",
+                  "activity": "만천하스카이워크 관람",
+                  "durationMin": 120,
+                  "note": "입장료 2인 8,000원"
+                },
+                {
+                  "time": "15:00-15:40",
+                  "activity": "숙소 체크인(단양)",
+                  "durationMin": 40,
+                  "note": ""
+                },
+                {
+                  "time": "18:00-19:00",
+                  "activity": "저녁",
+                  "durationMin": 60,
+                  "note": "단양흑마늘닭강정 원주닭집 (생선 없음)"
+                }
+              ]
+            },
+            {
+              "day": 2,
+              "schedule": [
+                {
+                  "time": "08:30-09:30",
+                  "activity": "아침",
+                  "durationMin": 60,
+                  "note": "숙소 조식 또는 간단히"
+                },
+                {
+                  "time": "09:30-10:30",
+                  "activity": "고수동굴 관람",
+                  "durationMin": 60,
+                  "note": "입장료 2인 22,000원"
+                },
+                {
+                  "time": "10:30-11:10",
+                  "activity": "이동 → 제천",
+                  "durationMin": 40,
+                  "note": ""
+                },
+                {
+                  "time": "11:10-12:10",
+                  "activity": "청풍호반케이블카",
+                  "durationMin": 60,
+                  "note": "일반석 2인 36,000원"
+                },
+                {
+                  "time": "12:10-13:10",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "청풍문화재단지 인근 식당가 (상호 재확인 권장)"
+                },
+                {
+                  "time": "13:10-14:00",
+                  "activity": "이동 → 충주",
+                  "durationMin": 50,
+                  "note": ""
+                },
+                {
+                  "time": "14:00-14:30",
+                  "activity": "숙소 체크인(충주)",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "14:30-15:30",
+                  "activity": "탄금대공원 산책",
+                  "durationMin": 60,
+                  "note": "무료"
+                },
+                {
+                  "time": "18:00-19:00",
+                  "activity": "저녁",
+                  "durationMin": 60,
+                  "note": "원조중앙탑막국수 충주점 — 막국수 (생선 없음)"
+                }
+              ]
+            },
+            {
+              "day": 3,
+              "schedule": [
+                {
+                  "time": "08:30-09:30",
+                  "activity": "아침",
+                  "durationMin": 60,
+                  "note": "숙소 조식 또는 간단히"
+                },
+                {
+                  "time": "09:30-10:30",
+                  "activity": "중앙탑사적공원 관람",
+                  "durationMin": 60,
+                  "note": "무료"
+                },
+                {
+                  "time": "10:30-11:30",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "충주 시내 한식당 (상호 재확인 권장)"
+                },
+                {
+                  "time": "11:30-13:20",
+                  "activity": "귀가 이동",
+                  "durationMin": 110,
+                  "note": ""
+                }
+              ]
+            }
+          ],
+          "lodging": [
+            {
+              "night": 1,
+              "area": "단양",
+              "options": [
+                {
+                  "name": "단양관광호텔 에델바이스",
+                  "type": "호텔",
+                  "priceRange": "10만원대"
+                }
+              ]
+            },
+            {
+              "night": 2,
+              "area": "충주",
+              "options": [
+                {
+                  "name": "충주 시내 호텔·펜션",
+                  "type": "호텔",
+                  "priceRange": "8~10만원대"
+                }
+              ]
+            }
+          ],
+          "costEstimate": {
+            "2인": {
+              "교통": 70000,
+              "숙소": 190000,
+              "식비": 204000,
+              "입장료": 66000,
+              "합계": 530000
+            },
+            "3인": {
+              "교통": 70000,
+              "숙소": 228000,
+              "식비": 306000,
+              "입장료": 99000,
+              "합계": 703000
+            }
+          },
+          "notes": "CB-1N2D-01 블록 + 충주 확장"
+        }
+      ]
+    },
+    {
+      "meta": {
+        "region": "경주",
+        "baseLocation": "경기도 화성시 동탄구 반송동 메타폴리스",
+        "dietaryNote": "회·스시 등 생선(어류) 요리 전면 제외",
+        "costNote": "예상 비용은 2인/3인 기준 추정치",
+        "counts": {
+          "1박2일": 2,
+          "2박3일": 1,
+          "total": 3
+        }
+      },
+      "courses": [
+        {
+          "id": "GJ-1N2D-01",
+          "title": "경주 역사 기본 코스",
+          "duration": "1박2일",
+          "nights": 1,
+          "subregions": [
+            "경주"
+          ],
+          "transport": {
+            "distanceKmOneWay": 300,
+            "driveTimeMinOneWay": 200,
+            "tollWonOneWay": 13000
+          },
+          "days": [
+            {
+              "day": 1,
+              "schedule": [
+                {
+                  "time": "09:00",
+                  "activity": "동탄 출발",
+                  "durationMin": 0,
+                  "note": ""
+                },
+                {
+                  "time": "09:00-12:20",
+                  "activity": "이동 (→경주)",
+                  "durationMin": 200,
+                  "note": "경부고속도로"
+                },
+                {
+                  "time": "12:20-13:20",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "별채반 교동쌈밥 — 쌈밥정식 (생선 없음)"
+                },
+                {
+                  "time": "13:20-14:50",
+                  "activity": "불국사 관람",
+                  "durationMin": 90,
+                  "note": "입장료 무료(2023~), 주차료 2인 5,000원"
+                },
+                {
+                  "time": "14:50-15:50",
+                  "activity": "석굴암 이동+관람",
+                  "durationMin": 60,
+                  "note": "입장료 무료, 주차료 별도"
+                },
+                {
+                  "time": "15:50-16:20",
+                  "activity": "이동 → 동궁과 월지",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "16:20-17:20",
+                  "activity": "첨성대 관람",
+                  "durationMin": 60,
+                  "note": "무료(외부 관람)"
+                },
+                {
+                  "time": "17:20-17:50",
+                  "activity": "숙소 체크인",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "17:50-19:00",
+                  "activity": "저녁",
+                  "durationMin": 70,
+                  "note": "황리단길 백년손님 — 석쇠불고기 (생선 없음)"
+                },
+                {
+                  "time": "19:00-20:30",
+                  "activity": "동궁과 월지·월정교 야경 산책",
+                  "durationMin": 90,
+                  "note": "동궁과 월지 입장료 2인 6,000원"
+                }
+              ]
+            },
+            {
+              "day": 2,
+              "schedule": [
+                {
+                  "time": "08:00-09:00",
+                  "activity": "아침",
+                  "durationMin": 60,
+                  "note": "황남빵(경주빵) 간단히"
+                },
+                {
+                  "time": "09:00-10:00",
+                  "activity": "대릉원(천마총) 관람",
+                  "durationMin": 60,
+                  "note": "입장료 2인 6,000원"
+                },
+                {
+                  "time": "10:00-11:00",
+                  "activity": "황리단길 카페·쇼핑",
+                  "durationMin": 60,
+                  "note": ""
+                },
+                {
+                  "time": "11:00-14:20",
+                  "activity": "귀가 이동",
+                  "durationMin": 200,
+                  "note": ""
+                }
+              ]
+            }
+          ],
+          "lodging": [
+            {
+              "night": 1,
+              "area": "황리단길/보문",
+              "options": [
+                {
+                  "name": "한옥스테이 디휴",
+                  "type": "한옥스테이",
+                  "priceRange": "12~15만원대"
+                },
+                {
+                  "name": "라한셀렉트 경주",
+                  "type": "호텔",
+                  "priceRange": "15만원대"
+                }
+              ]
+            }
+          ],
+          "costEstimate": {
+            "2인": {
+              "교통": 111000,
+              "숙소": 130000,
+              "식비": 150000,
+              "입장료": 22000,
+              "합계": 413000
+            },
+            "3인": {
+              "교통": 111000,
+              "숙소": 156000,
+              "식비": 225000,
+              "입장료": 33000,
+              "합계": 525000
+            }
+          },
+          "notes": "기존 경주 코스(국내여행_5권역_초안.md) JSON화"
+        },
+        {
+          "id": "GJ-1N2D-02",
+          "title": "경주 보문·감포권 (리조트·해안)",
+          "duration": "1박2일",
+          "nights": 1,
+          "subregions": [
+            "경주"
+          ],
+          "transport": {
+            "distanceKmOneWay": 300,
+            "driveTimeMinOneWay": 200,
+            "tollWonOneWay": 13000
+          },
+          "days": [
+            {
+              "day": 1,
+              "schedule": [
+                {
+                  "time": "09:00",
+                  "activity": "동탄 출발",
+                  "durationMin": 0,
+                  "note": ""
+                },
+                {
+                  "time": "09:00-12:20",
+                  "activity": "이동 (→경주)",
+                  "durationMin": 200,
+                  "note": ""
+                },
+                {
+                  "time": "12:20-13:20",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "마시조은집 — 돌솥밥 (생선 없음)"
+                },
+                {
+                  "time": "13:20-15:00",
+                  "activity": "보문관광단지 보문호 산책",
+                  "durationMin": 100,
+                  "note": "무료"
+                },
+                {
+                  "time": "15:00-16:00",
+                  "activity": "경주월드(선택)",
+                  "durationMin": 60,
+                  "note": "입장료 별도"
+                },
+                {
+                  "time": "16:00-16:30",
+                  "activity": "숙소 체크인(보문단지)",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "18:00-19:00",
+                  "activity": "저녁",
+                  "durationMin": 60,
+                  "note": "황리단길 향택 — 한식 (생선 없음, 차량 이동 필요)"
+                }
+              ]
+            },
+            {
+              "day": 2,
+              "schedule": [
+                {
+                  "time": "08:30-09:30",
+                  "activity": "아침",
+                  "durationMin": 60,
+                  "note": "숙소 조식 또는 간단히"
+                },
+                {
+                  "time": "09:30-10:30",
+                  "activity": "이동 → 감포",
+                  "durationMin": 60,
+                  "note": ""
+                },
+                {
+                  "time": "10:30-11:30",
+                  "activity": "문무대왕릉·감은사지 관람",
+                  "durationMin": 60,
+                  "note": "무료"
+                },
+                {
+                  "time": "11:30-12:30",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "감포 시내 한식당 (상호 재확인 권장, 생선 제외 요청)"
+                },
+                {
+                  "time": "12:30-15:50",
+                  "activity": "귀가 이동",
+                  "durationMin": 200,
+                  "note": ""
+                }
+              ]
+            }
+          ],
+          "lodging": [
+            {
+              "night": 1,
+              "area": "보문단지",
+              "options": [
+                {
+                  "name": "힐튼 경주",
+                  "type": "호텔",
+                  "priceRange": "20만원대"
+                },
+                {
+                  "name": "블루원 리조트",
+                  "type": "리조트",
+                  "priceRange": "15만원대"
+                }
+              ]
+            }
+          ],
+          "costEstimate": {
+            "2인": {
+              "교통": 111000,
+              "숙소": 150000,
+              "식비": 150000,
+              "입장료": 30000,
+              "합계": 441000
+            },
+            "3인": {
+              "교통": 111000,
+              "숙소": 180000,
+              "식비": 225000,
+              "입장료": 45000,
+              "합계": 561000
+            }
+          },
+          "notes": "황리단길 대신 보문호·동해안 감포 중심으로 구성한 변형 코스"
+        },
+        {
+          "id": "GJ-2N3D-01",
+          "title": "경주·포항 2박3일",
+          "duration": "2박3일",
+          "nights": 2,
+          "subregions": [
+            "경주",
+            "포항"
+          ],
+          "transport": {
+            "distanceKmOneWay": 300,
+            "driveTimeMinOneWay": 200,
+            "tollWonOneWay": 13000
+          },
+          "days": [
+            {
+              "day": 1,
+              "schedule": [
+                {
+                  "time": "09:00",
+                  "activity": "동탄 출발",
+                  "durationMin": 0,
+                  "note": ""
+                },
+                {
+                  "time": "09:00-12:20",
+                  "activity": "이동 (→경주)",
+                  "durationMin": 200,
+                  "note": ""
+                },
+                {
+                  "time": "12:20-13:20",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "별채반 교동쌈밥 — 쌈밥정식 (생선 없음)"
+                },
+                {
+                  "time": "13:20-14:50",
+                  "activity": "불국사 관람",
+                  "durationMin": 90,
+                  "note": "무료, 주차료 별도"
+                },
+                {
+                  "time": "14:50-15:50",
+                  "activity": "석굴암 이동+관람",
+                  "durationMin": 60,
+                  "note": ""
+                },
+                {
+                  "time": "15:50-16:20",
+                  "activity": "숙소 체크인(황리단길)",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "16:20-17:20",
+                  "activity": "첨성대 관람",
+                  "durationMin": 60,
+                  "note": "무료"
+                },
+                {
+                  "time": "17:20-18:30",
+                  "activity": "저녁",
+                  "durationMin": 70,
+                  "note": "황리단길 백년손님 (생선 없음)"
+                },
+                {
+                  "time": "18:30-20:00",
+                  "activity": "동궁과 월지 야경",
+                  "durationMin": 90,
+                  "note": "입장료 2인 6,000원"
+                }
+              ]
+            },
+            {
+              "day": 2,
+              "schedule": [
+                {
+                  "time": "08:00-09:00",
+                  "activity": "아침",
+                  "durationMin": 60,
+                  "note": "황남빵 간단히"
+                },
+                {
+                  "time": "09:00-10:00",
+                  "activity": "대릉원(천마총) 관람",
+                  "durationMin": 60,
+                  "note": "입장료 2인 6,000원"
+                },
+                {
+                  "time": "10:00-11:00",
+                  "activity": "이동 → 포항",
+                  "durationMin": 60,
+                  "note": ""
+                },
+                {
+                  "time": "11:00-12:00",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "궁물촌 본점 — 한우곰탕 (생선 없음)"
+                },
+                {
+                  "time": "12:00-13:30",
+                  "activity": "스페이스워크·환호공원",
+                  "durationMin": 90,
+                  "note": "무료"
+                },
+                {
+                  "time": "13:30-14:30",
+                  "activity": "영일대 해수욕장 산책",
+                  "durationMin": 60,
+                  "note": "무료"
+                },
+                {
+                  "time": "14:30-15:00",
+                  "activity": "숙소 체크인(포항)",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "18:00-19:00",
+                  "activity": "저녁",
+                  "durationMin": 60,
+                  "note": "포갈집 — 소갈비 (생선 없음)"
+                }
+              ]
+            },
+            {
+              "day": 3,
+              "schedule": [
+                {
+                  "time": "08:30-09:30",
+                  "activity": "아침",
+                  "durationMin": 60,
+                  "note": "숙소 조식 또는 간단히"
+                },
+                {
+                  "time": "09:30-10:40",
+                  "activity": "이동 → 호미곶",
+                  "durationMin": 70,
+                  "note": ""
+                },
+                {
+                  "time": "10:40-11:40",
+                  "activity": "호미곶 해맞이광장 관람",
+                  "durationMin": 60,
+                  "note": "무료"
+                },
+                {
+                  "time": "11:40-12:40",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "평남식당 — 곰탕 (생선 없음)"
+                },
+                {
+                  "time": "12:40-16:20",
+                  "activity": "귀가 이동",
+                  "durationMin": 220,
+                  "note": ""
+                }
+              ]
+            }
+          ],
+          "lodging": [
+            {
+              "night": 1,
+              "area": "경주 황리단길",
+              "options": [
+                {
+                  "name": "한옥스테이 디휴",
+                  "type": "한옥스테이",
+                  "priceRange": "12~15만원대"
+                }
+              ]
+            },
+            {
+              "night": 2,
+              "area": "포항 영일대",
+              "options": [
+                {
+                  "name": "영일대 인근 호텔",
+                  "type": "호텔",
+                  "priceRange": "10~13만원대"
+                }
+              ]
+            }
+          ],
+          "costEstimate": {
+            "2인": {
+              "교통": 140000,
+              "숙소": 240000,
+              "식비": 225000,
+              "입장료": 18000,
+              "합계": 623000
+            },
+            "3인": {
+              "교통": 140000,
+              "숙소": 288000,
+              "식비": 337500,
+              "입장료": 27000,
+              "합계": 792500
+            }
+          },
+          "notes": "GJ-1N2D-01 블록 + 포항 확장. 포항은 물회·회 맛집이 매우 많아 생선 제외 옵션이 제한적임에 유의"
+        }
+      ]
+    },
+    {
+      "meta": {
+        "region": "남해안(남해군·여수·통영·거제)",
+        "baseLocation": "경기도 화성시 동탄구 반송동 메타폴리스",
+        "dietaryNote": "회·스시 등 생선(어류) 요리 전면 제외. 남해안 특성상 해산물 특화 식당이 많아 일부 지역은 논피시 선택지가 제한적임",
+        "costNote": "예상 비용은 2인/3인 기준 추정치",
+        "counts": {
+          "1박2일": 3,
+          "2박3일": 2,
+          "total": 5
+        }
+      },
+      "courses": [
+        {
+          "id": "NH-1N2D-01",
+          "title": "남해군 (독일마을·다랭이마을·보리암)",
+          "duration": "1박2일",
+          "nights": 1,
+          "subregions": [
+            "남해군"
+          ],
+          "transport": {
+            "distanceKmOneWay": 380,
+            "driveTimeMinOneWay": 250,
+            "tollWonOneWay": 15000
+          },
+          "days": [
+            {
+              "day": 1,
+              "schedule": [
+                {
+                  "time": "08:00",
+                  "activity": "동탄 출발 (이른 출발 권장)",
+                  "durationMin": 0,
+                  "note": ""
+                },
+                {
+                  "time": "08:00-12:10",
+                  "activity": "이동 (→남해)",
+                  "durationMin": 250,
+                  "note": ""
+                },
+                {
+                  "time": "12:10-13:10",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "당케슈니첼(독일마을) — 슈니첼 세트 (생선 없음)"
+                },
+                {
+                  "time": "13:10-14:00",
+                  "activity": "독일마을 관람",
+                  "durationMin": 50,
+                  "note": "무료"
+                },
+                {
+                  "time": "14:00-15:00",
+                  "activity": "이동 → 가천 다랭이마을",
+                  "durationMin": 60,
+                  "note": ""
+                },
+                {
+                  "time": "15:00-16:00",
+                  "activity": "다랭이마을 관람",
+                  "durationMin": 60,
+                  "note": "무료"
+                },
+                {
+                  "time": "16:00-16:40",
+                  "activity": "이동 → 상주은모래비치",
+                  "durationMin": 40,
+                  "note": ""
+                },
+                {
+                  "time": "16:40-17:40",
+                  "activity": "상주은모래비치 산책",
+                  "durationMin": 60,
+                  "note": "무료"
+                },
+                {
+                  "time": "17:40-18:10",
+                  "activity": "숙소 체크인(독일마을 인근)",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "18:10-19:10",
+                  "activity": "저녁",
+                  "durationMin": 60,
+                  "note": "하이델베르크 — 슈니첼·커리부어스트 (생선 없음)"
+                }
+              ]
+            },
+            {
+              "day": 2,
+              "schedule": [
+                {
+                  "time": "08:00-09:00",
+                  "activity": "아침",
+                  "durationMin": 60,
+                  "note": "숙소 조식 또는 간단히"
+                },
+                {
+                  "time": "09:00-09:40",
+                  "activity": "이동 → 금산 보리암",
+                  "durationMin": 40,
+                  "note": ""
+                },
+                {
+                  "time": "09:40-11:00",
+                  "activity": "보리암 관람(셔틀버스 이용)",
+                  "durationMin": 80,
+                  "note": "주차 5,000원+셔틀 왕복 2인 6,800원+입장료 2인 2,000원"
+                },
+                {
+                  "time": "11:00-11:20",
+                  "activity": "하산 이동",
+                  "durationMin": 20,
+                  "note": ""
+                },
+                {
+                  "time": "11:20-12:20",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "꽃돼지 — 삼겹살 (생선 없음)"
+                },
+                {
+                  "time": "12:20-16:30",
+                  "activity": "귀가 이동",
+                  "durationMin": 250,
+                  "note": ""
+                }
+              ]
+            }
+          ],
+          "lodging": [
+            {
+              "night": 1,
+              "area": "독일마을",
+              "options": [
+                {
+                  "name": "노이하우스 펜션",
+                  "type": "펜션",
+                  "priceRange": "12~15만원대"
+                },
+                {
+                  "name": "헤라클레스펜션",
+                  "type": "펜션",
+                  "priceRange": "10만원대"
+                }
+              ]
+            }
+          ],
+          "costEstimate": {
+            "2인": {
+              "교통": 137000,
+              "숙소": 110000,
+              "식비": 150000,
+              "입장료": 14000,
+              "합계": 411000
+            },
+            "3인": {
+              "교통": 137000,
+              "숙소": 132000,
+              "식비": 225000,
+              "입장료": 21000,
+              "합계": 515000
+            }
+          },
+          "notes": "기존 남해 코스(국내여행_5권역_초안.md) JSON화. 편도 4시간 이상 장거리라 2박3일도 고려 가능"
+        },
+        {
+          "id": "NH-1N2D-02",
+          "title": "여수 밤바다 & 오동도",
+          "duration": "1박2일",
+          "nights": 1,
+          "subregions": [
+            "여수"
+          ],
+          "transport": {
+            "distanceKmOneWay": 400,
+            "driveTimeMinOneWay": 250,
+            "tollWonOneWay": 16000
+          },
+          "days": [
+            {
+              "day": 1,
+              "schedule": [
+                {
+                  "time": "07:30",
+                  "activity": "동탄 출발 (이른 출발 권장)",
+                  "durationMin": 0,
+                  "note": ""
+                },
+                {
+                  "time": "07:30-11:40",
+                  "activity": "이동 (→여수)",
+                  "durationMin": 250,
+                  "note": ""
+                },
+                {
+                  "time": "11:40-12:40",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "나진국밥 — 국밥 (생선 없음)"
+                },
+                {
+                  "time": "12:40-14:10",
+                  "activity": "오동도 산책",
+                  "durationMin": 90,
+                  "note": "입장료 무료, 동백열차 별도"
+                },
+                {
+                  "time": "14:10-15:10",
+                  "activity": "돌산공원·향일암 방향 드라이브",
+                  "durationMin": 60,
+                  "note": ""
+                },
+                {
+                  "time": "15:10-15:40",
+                  "activity": "숙소 체크인",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "18:00-19:00",
+                  "activity": "저녁",
+                  "durationMin": 60,
+                  "note": "돌산족발(서시장) — 족발 (생선 없음)"
+                },
+                {
+                  "time": "19:30-21:00",
+                  "activity": "돌산대교·이순신광장 야경 산책",
+                  "durationMin": 90,
+                  "note": "무료"
+                }
+              ]
+            },
+            {
+              "day": 2,
+              "schedule": [
+                {
+                  "time": "08:30-09:30",
+                  "activity": "아침",
+                  "durationMin": 60,
+                  "note": "숙소 조식 또는 간단히"
+                },
+                {
+                  "time": "09:30-10:30",
+                  "activity": "고소동 벽화마을 산책",
+                  "durationMin": 60,
+                  "note": "무료"
+                },
+                {
+                  "time": "10:30-11:30",
+                  "activity": "여수해상케이블카(선택)",
+                  "durationMin": 60,
+                  "note": "탑승료 별도"
+                },
+                {
+                  "time": "11:30-12:30",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "여수 시내 한식당 (상호 재확인 권장, 생선 제외 요청)"
+                },
+                {
+                  "time": "12:30-16:40",
+                  "activity": "귀가 이동",
+                  "durationMin": 250,
+                  "note": ""
+                }
+              ]
+            }
+          ],
+          "lodging": [
+            {
+              "night": 1,
+              "area": "여수 시내/돌산",
+              "options": [
+                {
+                  "name": "여수 시내 비즈니스호텔",
+                  "type": "호텔",
+                  "priceRange": "10~13만원대"
+                },
+                {
+                  "name": "돌산 오션뷰 펜션",
+                  "type": "펜션",
+                  "priceRange": "12~15만원대"
+                }
+              ]
+            }
+          ],
+          "costEstimate": {
+            "2인": {
+              "교통": 145000,
+              "숙소": 120000,
+              "식비": 150000,
+              "입장료": 50000,
+              "합계": 465000
+            },
+            "3인": {
+              "교통": 145000,
+              "숙소": 144000,
+              "식비": 225000,
+              "입장료": 75000,
+              "합계": 589000
+            }
+          },
+          "notes": "낭만포차·물회 등 해산물 위주 명물은 생선/해물 포함이라 목록에서 제외. 여수는 해산물 특화 지역이라 논피시 선택지가 제한적임에 유의"
+        },
+        {
+          "id": "NH-1N2D-03",
+          "title": "통영 동피랑 & 케이블카",
+          "duration": "1박2일",
+          "nights": 1,
+          "subregions": [
+            "통영"
+          ],
+          "transport": {
+            "distanceKmOneWay": 380,
+            "driveTimeMinOneWay": 240,
+            "tollWonOneWay": 15500
+          },
+          "days": [
+            {
+              "day": 1,
+              "schedule": [
+                {
+                  "time": "08:00",
+                  "activity": "동탄 출발 (이른 출발 권장)",
+                  "durationMin": 0,
+                  "note": ""
+                },
+                {
+                  "time": "08:00-12:00",
+                  "activity": "이동 (→통영)",
+                  "durationMin": 240,
+                  "note": ""
+                },
+                {
+                  "time": "12:00-13:00",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "통영 시내 고깃집 (상호 재확인 권장, 생선 제외 요청)"
+                },
+                {
+                  "time": "13:00-14:30",
+                  "activity": "동피랑 벽화마을 산책",
+                  "durationMin": 90,
+                  "note": "무료"
+                },
+                {
+                  "time": "14:30-16:00",
+                  "activity": "통영 한려수도 조망 케이블카",
+                  "durationMin": 90,
+                  "note": "탑승료 별도"
+                },
+                {
+                  "time": "16:00-16:30",
+                  "activity": "숙소 체크인",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "18:00-19:00",
+                  "activity": "저녁",
+                  "durationMin": 60,
+                  "note": "통영중앙시장 인근 고기구이 (생선 없음)"
+                }
+              ]
+            },
+            {
+              "day": 2,
+              "schedule": [
+                {
+                  "time": "08:30-09:30",
+                  "activity": "아침",
+                  "durationMin": 60,
+                  "note": "숙소 조식 또는 간단히"
+                },
+                {
+                  "time": "09:30-10:30",
+                  "activity": "통영루지 체험(선택)",
+                  "durationMin": 60,
+                  "note": "체험비 별도"
+                },
+                {
+                  "time": "10:30-11:30",
+                  "activity": "통영중앙시장 구경(꿀빵 등)",
+                  "durationMin": 60,
+                  "note": "통영꿀빵 (생선 없음)"
+                },
+                {
+                  "time": "11:30-12:30",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "통영 시내 한식당 (상호 재확인 권장)"
+                },
+                {
+                  "time": "12:30-16:30",
+                  "activity": "귀가 이동",
+                  "durationMin": 240,
+                  "note": ""
+                }
+              ]
+            }
+          ],
+          "lodging": [
+            {
+              "night": 1,
+              "area": "통영 시내",
+              "options": [
+                {
+                  "name": "통영 시내 비즈니스호텔",
+                  "type": "호텔",
+                  "priceRange": "9~12만원대"
+                }
+              ]
+            }
+          ],
+          "costEstimate": {
+            "2인": {
+              "교통": 140000,
+              "숙소": 110000,
+              "식비": 150000,
+              "입장료": 40000,
+              "합계": 440000
+            },
+            "3인": {
+              "교통": 140000,
+              "숙소": 132000,
+              "식비": 225000,
+              "입장료": 60000,
+              "합계": 557000
+            }
+          },
+          "notes": "통영은 굴요리·회 등 해산물 명물이 많아 논피시 옵션이 제한적임. 고기 위주 식당은 방문 전 재확인 권장"
+        },
+        {
+          "id": "NH-2N3D-01",
+          "title": "여수·순천 2박3일",
+          "duration": "2박3일",
+          "nights": 2,
+          "subregions": [
+            "여수",
+            "순천"
+          ],
+          "transport": {
+            "distanceKmOneWay": 400,
+            "driveTimeMinOneWay": 250,
+            "tollWonOneWay": 16000
+          },
+          "days": [
+            {
+              "day": 1,
+              "schedule": [
+                {
+                  "time": "07:30",
+                  "activity": "동탄 출발 (이른 출발 권장)",
+                  "durationMin": 0,
+                  "note": ""
+                },
+                {
+                  "time": "07:30-11:40",
+                  "activity": "이동 (→여수)",
+                  "durationMin": 250,
+                  "note": ""
+                },
+                {
+                  "time": "11:40-12:40",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "나진국밥 (생선 없음)"
+                },
+                {
+                  "time": "12:40-14:10",
+                  "activity": "오동도 산책",
+                  "durationMin": 90,
+                  "note": ""
+                },
+                {
+                  "time": "14:10-15:10",
+                  "activity": "돌산공원 드라이브",
+                  "durationMin": 60,
+                  "note": ""
+                },
+                {
+                  "time": "15:10-15:40",
+                  "activity": "숙소 체크인(여수)",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "18:00-19:00",
+                  "activity": "저녁",
+                  "durationMin": 60,
+                  "note": "돌산족발(서시장) (생선 없음)"
+                },
+                {
+                  "time": "19:30-21:00",
+                  "activity": "돌산대교 야경 산책",
+                  "durationMin": 90,
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "day": 2,
+              "schedule": [
+                {
+                  "time": "08:30-09:30",
+                  "activity": "아침",
+                  "durationMin": 60,
+                  "note": "숙소 조식 또는 간단히"
+                },
+                {
+                  "time": "09:30-10:30",
+                  "activity": "고소동 벽화마을",
+                  "durationMin": 60,
+                  "note": ""
+                },
+                {
+                  "time": "10:30-11:30",
+                  "activity": "여수해상케이블카(선택)",
+                  "durationMin": 60,
+                  "note": "탑승료 별도"
+                },
+                {
+                  "time": "11:30-12:30",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "여수 시내 한식당 (상호 재확인, 생선 제외 요청)"
+                },
+                {
+                  "time": "12:30-13:40",
+                  "activity": "이동 → 순천",
+                  "durationMin": 70,
+                  "note": ""
+                },
+                {
+                  "time": "13:40-14:10",
+                  "activity": "숙소 체크인(순천)",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "14:10-16:10",
+                  "activity": "순천만습지 생태공원 관람",
+                  "durationMin": 120,
+                  "note": "입장료 2인 16,000원 내외"
+                },
+                {
+                  "time": "18:00-19:00",
+                  "activity": "저녁",
+                  "durationMin": 60,
+                  "note": "대숲골농원 — 삼겹살·닭구이 (생선 없음)"
+                }
+              ]
+            },
+            {
+              "day": 3,
+              "schedule": [
+                {
+                  "time": "08:30-09:30",
+                  "activity": "아침",
+                  "durationMin": 60,
+                  "note": "숙소 조식 또는 간단히"
+                },
+                {
+                  "time": "09:30-11:00",
+                  "activity": "낙안읍성 관람",
+                  "durationMin": 90,
+                  "note": "입장료 2인 6,000원"
+                },
+                {
+                  "time": "11:00-12:00",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "미향식당 — 한정식 (생선 반찬 제외 요청)"
+                },
+                {
+                  "time": "12:00-16:10",
+                  "activity": "귀가 이동",
+                  "durationMin": 250,
+                  "note": ""
+                }
+              ]
+            }
+          ],
+          "lodging": [
+            {
+              "night": 1,
+              "area": "여수",
+              "options": [
+                {
+                  "name": "여수 시내 비즈니스호텔",
+                  "type": "호텔",
+                  "priceRange": "10~13만원대"
+                }
+              ]
+            },
+            {
+              "night": 2,
+              "area": "순천",
+              "options": [
+                {
+                  "name": "순천 시내 호텔·펜션",
+                  "type": "호텔",
+                  "priceRange": "9~11만원대"
+                }
+              ]
+            }
+          ],
+          "costEstimate": {
+            "2인": {
+              "교통": 170000,
+              "숙소": 220000,
+              "식비": 225000,
+              "입장료": 45000,
+              "합계": 660000
+            },
+            "3인": {
+              "교통": 170000,
+              "숙소": 264000,
+              "식비": 337500,
+              "입장료": 67500,
+              "합계": 839000
+            }
+          },
+          "notes": "NH-1N2D-02 블록 + 순천 확장"
+        },
+        {
+          "id": "NH-2N3D-02",
+          "title": "통영·거제 2박3일",
+          "duration": "2박3일",
+          "nights": 2,
+          "subregions": [
+            "통영",
+            "거제"
+          ],
+          "transport": {
+            "distanceKmOneWay": 380,
+            "driveTimeMinOneWay": 240,
+            "tollWonOneWay": 15500
+          },
+          "days": [
+            {
+              "day": 1,
+              "schedule": [
+                {
+                  "time": "08:00",
+                  "activity": "동탄 출발 (이른 출발 권장)",
+                  "durationMin": 0,
+                  "note": ""
+                },
+                {
+                  "time": "08:00-12:00",
+                  "activity": "이동 (→통영)",
+                  "durationMin": 240,
+                  "note": ""
+                },
+                {
+                  "time": "12:00-13:00",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "통영 시내 고깃집 (상호 재확인, 생선 제외 요청)"
+                },
+                {
+                  "time": "13:00-14:30",
+                  "activity": "동피랑 벽화마을 산책",
+                  "durationMin": 90,
+                  "note": ""
+                },
+                {
+                  "time": "14:30-16:00",
+                  "activity": "한려수도 조망 케이블카",
+                  "durationMin": 90,
+                  "note": "탑승료 별도"
+                },
+                {
+                  "time": "16:00-16:30",
+                  "activity": "숙소 체크인(통영)",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "18:00-19:00",
+                  "activity": "저녁",
+                  "durationMin": 60,
+                  "note": "통영중앙시장 인근 고기구이 (생선 없음)"
+                }
+              ]
+            },
+            {
+              "day": 2,
+              "schedule": [
+                {
+                  "time": "08:30-09:30",
+                  "activity": "아침",
+                  "durationMin": 60,
+                  "note": "숙소 조식 또는 간단히"
+                },
+                {
+                  "time": "09:30-10:50",
+                  "activity": "이동 → 거제(외도 선착장)",
+                  "durationMin": 80,
+                  "note": ""
+                },
+                {
+                  "time": "10:50-13:00",
+                  "activity": "외도 유람선+섬 관람",
+                  "durationMin": 130,
+                  "note": "탑승+입장 2인 약 60,000원, 기상에 따라 결항 가능"
+                },
+                {
+                  "time": "13:00-14:00",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "거제 시내 고깃집 (상호 재확인, 생선 제외 요청)"
+                },
+                {
+                  "time": "14:00-15:00",
+                  "activity": "바람의언덕 산책",
+                  "durationMin": 60,
+                  "note": "무료"
+                },
+                {
+                  "time": "15:00-15:30",
+                  "activity": "숙소 체크인(거제)",
+                  "durationMin": 30,
+                  "note": ""
+                },
+                {
+                  "time": "18:00-19:00",
+                  "activity": "저녁",
+                  "durationMin": 60,
+                  "note": "거제 흑돼지 전문점 (생선 없음)"
+                }
+              ]
+            },
+            {
+              "day": 3,
+              "schedule": [
+                {
+                  "time": "08:30-09:30",
+                  "activity": "아침",
+                  "durationMin": 60,
+                  "note": "숙소 조식 또는 간단히"
+                },
+                {
+                  "time": "09:30-10:30",
+                  "activity": "매미성 관람",
+                  "durationMin": 60,
+                  "note": "무료"
+                },
+                {
+                  "time": "10:30-11:30",
+                  "activity": "점심",
+                  "durationMin": 60,
+                  "note": "거제 시내 한식당 (상호 재확인 권장)"
+                },
+                {
+                  "time": "11:30-15:30",
+                  "activity": "귀가 이동",
+                  "durationMin": 240,
+                  "note": ""
+                }
+              ]
+            }
+          ],
+          "lodging": [
+            {
+              "night": 1,
+              "area": "통영",
+              "options": [
+                {
+                  "name": "통영 시내 비즈니스호텔",
+                  "type": "호텔",
+                  "priceRange": "9~12만원대"
+                }
+              ]
+            },
+            {
+              "night": 2,
+              "area": "거제",
+              "options": [
+                {
+                  "name": "거제 남부면 펜션",
+                  "type": "펜션",
+                  "priceRange": "10~13만원대"
+                }
+              ]
+            }
+          ],
+          "costEstimate": {
+            "2인": {
+              "교통": 155000,
+              "숙소": 230000,
+              "식비": 225000,
+              "입장료": 90000,
+              "합계": 700000
+            },
+            "3인": {
+              "교통": 155000,
+              "숙소": 276000,
+              "식비": 337500,
+              "입장료": 135000,
+              "합계": 903500
+            }
+          },
+          "notes": "NH-1N2D-03 블록 + 거제 확장. 외도 유람선은 기상 결항 가능성 있어 일정 여유 필요. 통영·거제 모두 해산물 특화 지역이라 논피시 옵션 제한적"
+        }
+      ]
+    }
+  ]
+}

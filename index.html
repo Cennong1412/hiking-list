@@ -231,6 +231,65 @@
     padding:30px 10px;
     font-size:0.9rem;
   }
+
+  .subtabs.scroll{flex-wrap:nowrap;}
+  .subtabs.scroll .subtab{flex:0 0 auto;padding-left:14px;padding-right:14px;}
+
+  .chip{
+    display:inline-block;
+    font-size:0.68rem;
+    padding:1px 7px;
+    border-radius:8px;
+    background:var(--chip);
+    color:var(--accent);
+    font-weight:700;
+    margin-left:4px;
+  }
+
+  .course-card summary{cursor:pointer;list-style:none;}
+  .course-card summary::-webkit-details-marker{display:none;}
+  .course-card summary::after{
+    content:"▾ 자세히 보기";
+    display:block;
+    font-size:0.72rem;
+    color:var(--accent);
+    margin-top:8px;
+    font-weight:600;
+  }
+  .course-card details[open] summary::after{content:"▴ 접기";}
+  .course-card summary h3{margin:0 0 2px;font-size:1.02rem;}
+  .course-card .loc{font-size:0.78rem;color:var(--sub);margin-bottom:4px;}
+  .course-summary-line{font-size:0.8rem;color:var(--accent2);font-weight:600;}
+
+  .course-detail{margin-top:12px;padding-top:10px;border-top:1px dashed var(--line);}
+  .section-title{font-size:0.82rem;font-weight:700;color:var(--accent);margin:12px 0 6px;}
+  .section-title:first-child{margin-top:0;}
+
+  .schedule-day-title{font-size:0.82rem;font-weight:700;color:#3a5ba0;margin:8px 0 4px;}
+  .schedule-item{display:flex;gap:8px;font-size:0.82rem;padding:4px 0;border-top:1px dashed var(--line);}
+  .schedule-item:first-of-type{border-top:none;}
+  .s-time{width:78px;flex-shrink:0;color:var(--sub);font-weight:600;}
+  .s-body{flex:1;}
+  .s-note{color:var(--sub);font-size:0.76rem;margin-top:1px;}
+
+  .ground-transport{font-size:0.8rem;background:#eef2fb;border-radius:8px;padding:8px 10px;margin-bottom:8px;color:#3a5ba0;font-weight:600;}
+  .gt-note{color:var(--sub);font-weight:400;font-size:0.76rem;margin-top:2px;}
+
+  .lodging-block{margin-bottom:6px;}
+  .lodging-area{font-size:0.8rem;font-weight:700;margin-bottom:2px;}
+  .lodging-opt{display:flex;gap:6px;font-size:0.78rem;color:var(--sub);padding:2px 0;}
+  .lo-name{color:var(--ink);font-weight:600;}
+  .lo-price{margin-left:auto;color:var(--accent2);font-weight:600;}
+
+  .cost-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;}
+  .cost-col-title{font-size:0.78rem;font-weight:700;margin-bottom:4px;}
+  .cost-row{display:flex;justify-content:space-between;font-size:0.78rem;padding:2px 0;color:var(--sub);}
+  .cost-row.total{color:var(--ink);font-weight:700;border-top:1px dashed var(--line);margin-top:2px;padding-top:4px;}
+
+  .tips-list{margin:0;padding-left:18px;font-size:0.8rem;color:var(--sub);}
+  .tips-list li{margin-bottom:3px;}
+
+  .course-notes{font-size:0.8rem;color:var(--sub);background:var(--chip);border-radius:8px;padding:8px 10px;margin-top:8px;}
 </style>
 </head>
 <body>
@@ -266,31 +325,26 @@
 
 <!-- 국내 -->
 <div class="view" id="view-domestic">
-  <div class="note">아직 구체적인 추천 여행지는 채우지 않았어요. 가고 싶은 지역이나 장소가 떠오르면 알려주시면 하나씩 채워드릴게요.</div>
-  <div class="region-card">
-    <h3>🏔️ 강원</h3>
-    <div class="placeholder">추천 여행지 준비 중</div>
+  <div class="subtabs scroll" id="domestic-subtabs"></div>
+  <input class="searchbox" id="domestic-search" placeholder="여행지·코스 이름으로 검색">
+  <div class="sortbar" id="domestic-sortbar">
+    <div class="sortbtn active" data-sort="name">가나다순</div>
+    <div class="sortbtn" data-sort="nights">기간순</div>
   </div>
-  <div class="region-card">
-    <h3>🌾 충북</h3>
-    <div class="placeholder">추천 여행지 준비 중</div>
-  </div>
-  <div class="region-card">
-    <h3>🏞️ 대전 / 충남</h3>
-    <div class="placeholder">추천 여행지 준비 중</div>
-  </div>
+  <div class="note" id="domestic-note"></div>
+  <div id="domestic-list"><div class="empty">불러오는 중...</div></div>
 </div>
 
 <!-- 해외 -->
 <div class="view" id="view-abroad">
-  <div class="note">해외도 카테고리 틀만 먼저 만들었어요. 여행 시기나 예산이 정해지면 나라별로 구체적인 일정을 채워드릴게요.</div>
-  <div class="region-card"><h3>🇯🇵 일본</h3><div class="placeholder">추천 여행지 준비 중</div></div>
-  <div class="region-card"><h3>🇨🇳 중국</h3><div class="placeholder">추천 여행지 준비 중</div></div>
-  <div class="region-card"><h3>🌴 동남아</h3><div class="placeholder">추천 여행지 준비 중</div></div>
-  <div class="region-card"><h3>🇮🇹 남유럽</h3><div class="placeholder">추천 여행지 준비 중</div></div>
-  <div class="region-card"><h3>🏰 동유럽</h3><div class="placeholder">추천 여행지 준비 중</div></div>
-  <div class="region-card"><h3>🥐 서유럽</h3><div class="placeholder">추천 여행지 준비 중</div></div>
-  <div class="region-card"><h3>🇺🇸 미국</h3><div class="placeholder">추천 여행지 준비 중</div></div>
+  <div class="subtabs scroll" id="abroad-subtabs"></div>
+  <input class="searchbox" id="abroad-search" placeholder="여행지·코스 이름으로 검색">
+  <div class="sortbar" id="abroad-sortbar">
+    <div class="sortbtn active" data-sort="name">가나다순</div>
+    <div class="sortbtn" data-sort="nights">기간순</div>
+  </div>
+  <div class="note" id="abroad-note"></div>
+  <div id="abroad-list"><div class="empty">불러오는 중...</div></div>
 </div>
 
 <script>
@@ -546,6 +600,211 @@ document.querySelectorAll("#sortbar .sortbtn").forEach(btn=>{
 });
 
 renderHike();
+
+/* ===== 국내 / 해외 ===== */
+let domesticGroups = [];
+let abroadGroups = [];
+let domesticSub = null, domesticSort = "name";
+let abroadSub = null, abroadSort = "name";
+
+function formatWon(n){
+  return typeof n === "number" ? n.toLocaleString("ko-KR") + "원" : n;
+}
+function chip(text){ return `<span class="chip">${text}</span>`; }
+
+function scheduleHTML(days){
+  if(!days) return "";
+  return days.map(d => `
+    <div class="schedule-day-title">Day ${d.day}</div>
+    ${d.schedule.map(s => `
+      <div class="schedule-item">
+        <div class="s-time">${s.time}</div>
+        <div class="s-body">
+          <div class="s-activity">${s.activity}</div>
+          ${s.note ? `<div class="s-note">${s.note}</div>` : ""}
+        </div>
+      </div>
+    `).join("")}
+  `).join("");
+}
+
+function lodgingHTML(lodging){
+  if(!lodging || !lodging.length) return "";
+  return `
+    <div class="section-title">🛏️ 숙소</div>
+    ${lodging.map(l => `
+      <div class="lodging-block">
+        <div class="lodging-area">${l.night}일차 · ${l.area}</div>
+        ${l.options.map(o => `<div class="lodging-opt"><span class="lo-name">${o.name}</span><span>${o.type}</span><span class="lo-price">${o.priceRange}</span></div>`).join("")}
+      </div>
+    `).join("")}
+  `;
+}
+
+function costHTML(cost){
+  if(!cost) return "";
+  return `
+    <div class="section-title">💰 예상 비용</div>
+    <div class="cost-grid">
+      ${Object.keys(cost).map(g => `
+        <div class="cost-col">
+          <div class="cost-col-title">${g}</div>
+          ${Object.entries(cost[g]).map(([k,v]) => `<div class="cost-row${k==="합계"?" total":""}"><span>${k}</span><span>${formatWon(v)}</span></div>`).join("")}
+        </div>
+      `).join("")}
+    </div>
+  `;
+}
+
+function tipsHTML(tips){
+  if(!tips || !tips.length) return "";
+  return `<div class="section-title">💡 팁</div><ul class="tips-list">${tips.map(t=>`<li>${t}</li>`).join("")}</ul>`;
+}
+
+function groundTransportHTML(g){
+  if(!g) return "";
+  return `<div class="ground-transport">🚌 현지교통 — ${g.type}${g.details ? " · " + g.details : ""}${g.note ? `<div class="gt-note">${g.note}</div>` : ""}</div>`;
+}
+
+function transportSummaryLine(course, area){
+  if(area === "domestic"){
+    const t = course.transport;
+    return t ? `🚗 편도 약 ${t.distanceKmOneWay}km · ${t.driveTimeMinOneWay}분 · 통행료 ${formatWon(t.tollWonOneWay)}` : "";
+  }
+  const f = course.flight;
+  return f ? `✈️ ${f.route} · 약 ${f.durationMin}분${f.note ? " · " + f.note : ""}` : "";
+}
+
+function courseCostSummary(course){
+  const total = course.costEstimate && course.costEstimate["2인"] && course.costEstimate["2인"]["합계"];
+  return total ? `2인 예상 총비용 ${formatWon(total)}` : "";
+}
+
+function courseCardHTML(course, area){
+  const tagChips = [course.companionTag, course.focusTag, course.country].filter(Boolean).map(chip).join("");
+  const subLoc = (course.subregions || []).join(" · ");
+  return `
+    <div class="card course-card">
+      <details>
+        <summary>
+          <h3>${area === "domestic" ? "🚗" : "✈️"} ${course.title} <span class="badge">${course.duration}</span></h3>
+          <div class="loc">${subLoc}${tagChips ? " " + tagChips : ""}</div>
+          <div class="course-summary-line">${[transportSummaryLine(course, area), courseCostSummary(course)].filter(Boolean).join(" · ")}</div>
+        </summary>
+        <div class="course-detail">
+          ${groundTransportHTML(course.groundTransport)}
+          <div class="section-title">🗓️ 일정</div>
+          ${scheduleHTML(course.days)}
+          ${lodgingHTML(course.lodging)}
+          ${costHTML(course.costEstimate)}
+          ${tipsHTML(course.tips)}
+          ${course.notes ? `<div class="course-notes">📝 ${course.notes}</div>` : ""}
+        </div>
+      </details>
+    </div>
+  `;
+}
+
+function renderGroupList(opts){
+  const { groups, getSub, sortKey, searchId, listId, noteId, area } = opts;
+  const group = groups.find(g => g.key === getSub()) || groups[0];
+  if(!group) return;
+  const q = document.getElementById(searchId).value.trim().toLowerCase();
+  document.getElementById(noteId).textContent = group.note || "";
+  let list = group.courses.filter(c => {
+    const hay = [c.title, ...(c.subregions||[]), c.country||""].join(" ").toLowerCase();
+    return hay.includes(q);
+  });
+  list = [...list].sort((a,b) => {
+    if(sortKey === "name") return a.title.localeCompare(b.title, "ko");
+    if(sortKey === "nights") return (a.nights||0) - (b.nights||0);
+    return 0;
+  });
+  const box = document.getElementById(listId);
+  box.innerHTML = list.length
+    ? list.map(c => courseCardHTML(c, area)).join("")
+    : '<div class="empty">검색 결과가 없어요.</div>';
+}
+
+function renderSubtabs(containerId, groups, getSub, onSelect){
+  const container = document.getElementById(containerId);
+  container.innerHTML = groups.map(g => `<div class="subtab${g.key===getSub()?" active":""}" data-key="${g.key}">${g.label}<span class="count-badge">${g.courses.length}</span></div>`).join("");
+  container.querySelectorAll(".subtab").forEach(el => {
+    el.addEventListener("click", () => {
+      container.querySelectorAll(".subtab").forEach(s=>s.classList.remove("active"));
+      el.classList.add("active");
+      onSelect(el.dataset.key);
+    });
+  });
+}
+
+async function loadTravelData(){
+  try{
+    const [domRes, abrRes] = await Promise.all([
+      fetch("./domestic_courses_all.json"),
+      fetch("./international_courses_all.json")
+    ]);
+    const dom = await domRes.json();
+    const abr = await abrRes.json();
+
+    domesticGroups = dom.regions.map(r => ({
+      key: r.meta.region,
+      label: r.meta.region,
+      note: `${r.meta.counts.total}개 코스 · ${r.meta.dietaryNote}`,
+      courses: r.courses
+    }));
+    domesticSub = domesticGroups[0].key;
+
+    const seaCourses = [];
+    abr.southeastAsia.countries.forEach(c => c.courses.forEach(course => seaCourses.push(course)));
+
+    abroadGroups = [
+      {key:"japan", label:"🇯🇵 일본", note: `${abr.japan.courses.length}개 코스 · ${abr.japan.meta.dietaryNote}`, courses: abr.japan.courses},
+      {key:"china", label:"🇨🇳 중국", note: `${abr.china.courses.length}개 코스 · ${abr.china.meta.dietaryNote}`, courses: abr.china.courses},
+      {key:"sea", label:"🌴 동남아", note: `${seaCourses.length}개 코스 · ${abr.southeastAsia.meta.dietaryNote}`, courses: seaCourses},
+      {key:"southEurope", label:"🇮🇹 남유럽", note: `${abr.southEurope.courses.length}개 코스 · ${abr.southEurope.meta.dietaryNote}`, courses: abr.southEurope.courses},
+      {key:"eastEurope", label:"🏰 동유럽", note: `${abr.eastEurope.courses.length}개 코스 · ${abr.eastEurope.meta.dietaryNote}`, courses: abr.eastEurope.courses},
+      {key:"westEurope", label:"🥐 서유럽", note: `${abr.westEurope.courses.length}개 코스 · ${abr.westEurope.meta.dietaryNote}`, courses: abr.westEurope.courses},
+      {key:"usa", label:"🇺🇸 미국", note: `${abr.usa.courses.length}개 코스 · ${abr.usa.meta.dietaryNote}`, courses: abr.usa.courses}
+    ];
+    abroadSub = abroadGroups[0].key;
+
+    const renderDomestic = () => renderGroupList({groups: domesticGroups, getSub: ()=>domesticSub, sortKey: domesticSort, searchId:"domestic-search", listId:"domestic-list", noteId:"domestic-note", area:"domestic"});
+    const renderAbroad = () => renderGroupList({groups: abroadGroups, getSub: ()=>abroadSub, sortKey: abroadSort, searchId:"abroad-search", listId:"abroad-list", noteId:"abroad-note", area:"abroad"});
+
+    renderSubtabs("domestic-subtabs", domesticGroups, ()=>domesticSub, (key)=>{ domesticSub = key; renderDomestic(); });
+    renderSubtabs("abroad-subtabs", abroadGroups, ()=>abroadSub, (key)=>{ abroadSub = key; renderAbroad(); });
+
+    document.getElementById("domestic-search").addEventListener("input", renderDomestic);
+    document.getElementById("abroad-search").addEventListener("input", renderAbroad);
+
+    document.querySelectorAll("#domestic-sortbar .sortbtn").forEach(btn=>{
+      btn.addEventListener("click", ()=>{
+        document.querySelectorAll("#domestic-sortbar .sortbtn").forEach(b=>b.classList.remove("active"));
+        btn.classList.add("active");
+        domesticSort = btn.dataset.sort;
+        renderDomestic();
+      });
+    });
+    document.querySelectorAll("#abroad-sortbar .sortbtn").forEach(btn=>{
+      btn.addEventListener("click", ()=>{
+        document.querySelectorAll("#abroad-sortbar .sortbtn").forEach(b=>b.classList.remove("active"));
+        btn.classList.add("active");
+        abroadSort = btn.dataset.sort;
+        renderAbroad();
+      });
+    });
+
+    renderDomestic();
+    renderAbroad();
+  } catch(err){
+    document.getElementById("domestic-list").innerHTML = '<div class="empty">데이터를 불러오지 못했어요.</div>';
+    document.getElementById("abroad-list").innerHTML = '<div class="empty">데이터를 불러오지 못했어요.</div>';
+    console.error(err);
+  }
+}
+
+loadTravelData();
 
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
