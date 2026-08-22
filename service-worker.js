@@ -1,5 +1,5 @@
 // 캐시 버전을 올리면 이전 캐시가 자동으로 정리됩니다.
-const CACHE_NAME = "hiking-list-v2";
+const CACHE_NAME = "hiking-list-v3";
 
 const CORE_ASSETS = [
   "./",
@@ -7,6 +7,8 @@ const CORE_ASSETS = [
   "./manifest.json",
   "./domestic_courses_all.json",
   "./international_courses_all.json",
+  "./golf_courses_all.json",
+  "./photos/manifest.json",
 ];
 
 self.addEventListener("install", (event) => {

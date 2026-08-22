@@ -1,12 +1,12 @@
 {
-  "name": "나의 여행 플랜",
-  "short_name": "여행플랜",
-  "description": "산행·국내·해외 여행 계획을 정리한 개인용 목록",
+  "name": "나의 사진 · 여행",
+  "short_name": "사진·여행",
+  "description": "촬영 설정 가이드와 등산·국내·해외·골프 여행 계획을 정리한 개인용 목록",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#f5f3ee",
-  "theme_color": "#4a7c59",
+  "background_color": "#161619",
+  "theme_color": "#161619",
   "orientation": "portrait-primary",
   "icons": [
     { "src": "icons/icon-72.png", "sizes": "72x72", "type": "image/png" },
