@@ -1,5 +1,5 @@
 // 캐시 버전을 올리면 이전 캐시가 자동으로 정리됩니다.
-const CACHE_NAME = "hiking-list-v3";
+const CACHE_NAME = "hiking-list-v5";
 
 const CORE_ASSETS = [
   "./",
@@ -9,6 +9,7 @@ const CORE_ASSETS = [
   "./international_courses_all.json",
   "./golf_courses_all.json",
   "./photos/manifest.json",
+  "./photos/notes.json",
 ];
 
 self.addEventListener("install", (event) => {
@@ -31,7 +32,7 @@ self.addEventListener("fetch", (event) => {
   if (req.method !== "GET" || new URL(req.url).origin !== location.origin) return;
 
   event.respondWith(
-    fetch(req)
+    fetch(req, { cache: "no-store" })
       .then((res) => {
         const clone = res.clone();
         caches.open(CACHE_NAME).then((cache) => cache.put(req, clone));
