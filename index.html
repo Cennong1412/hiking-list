@@ -355,6 +355,29 @@
   .ref-card{border-color:var(--line);}
   .ref-card .section-title{color:var(--sub);}
 
+  .upload-box{
+    display:block;
+    text-align:center;
+    padding:28px 14px;
+    border:2px dashed var(--line);
+    border-radius:12px;
+    color:var(--accent);
+    font-weight:700;
+    font-size:0.95rem;
+    cursor:pointer;
+  }
+  #eval-preview{
+    display:none;
+    width:100%;
+    max-height:320px;
+    object-fit:contain;
+    border-radius:10px;
+    margin-top:12px;
+    background:var(--card2);
+  }
+  #eval-result{display:none;}
+  #eval-result.show{display:block;}
+
   .guide-list a{
     display:flex;justify-content:space-between;align-items:center;
     padding:13px 4px;border-bottom:1px solid var(--line);
@@ -413,6 +436,7 @@
     <div class="subtab active" data-psub="calc">설정 계산기</div>
     <a class="subtab" href="https://cennong1412.github.io/camera-guide/guide/pdf/Snapseed_완벽가이드.pdf" target="_blank" rel="noopener">S/S 사용법</a>
     <div class="subtab" data-psub="guide">가이드 자료</div>
+    <div class="subtab" data-psub="eval">사진 평가</div>
     <div class="subtab" data-psub="gallery">내 사진</div>
     <div class="subtab" data-psub="notes">개선노트</div>
   </div>
@@ -458,13 +482,23 @@
     </div>
   </div>
 
+  <div class="psub-view" id="photo-eval">
+    <div class="card">
+      <div class="section-title">사진을 선택하면 브라우저에서 바로 분석해요 (사진이 서버로 전송되지 않아요)</div>
+      <label class="upload-box" for="eval-file-input" id="eval-upload-label">📷 사진 선택하기</label>
+      <input type="file" accept="image/*" id="eval-file-input" style="display:none">
+      <img id="eval-preview">
+    </div>
+    <div id="eval-result"></div>
+  </div>
+
   <div class="psub-view" id="photo-gallery">
     <div class="photo-tabs" id="photo-tabs"></div>
     <div class="photo-grid" id="photo-grid"></div>
   </div>
 
   <div class="psub-view" id="photo-notes">
-    <div class="note">Claude에게 사진을 분석받으면 문제점·개선제안이 여기 쌓여요. 다음 촬영 전에 훑어보세요.</div>
+    <div class="note">"사진 평가"에서 저장하거나 Claude에게 직접 분석받으면 문제점·개선제안이 여기 쌓여요. 다음 촬영 전에 훑어보세요.</div>
     <div id="notes-list"></div>
   </div>
 </div>
@@ -1465,8 +1499,178 @@ async function initPhotoView(){
   renderPhotoGrid();
 }
 
+/* ===================== 사진 : 사진 평가 (규칙 기반, 브라우저에서만 계산) ===================== */
+function scoreFromRange(value, low, high){
+  if(value >= low && value <= high) return 100;
+  const d = value < low ? (low - value) : (value - high);
+  const range = (high - low) || 1;
+  return Math.max(0, Math.round(100 - (d / range) * 100));
+}
+
+function analyzeImage(img){
+  const MAX_DIM = 600;
+  const w = img.naturalWidth, h = img.naturalHeight;
+  const scale = Math.min(1, MAX_DIM / Math.max(w, h));
+  const cw = Math.max(1, Math.round(w * scale));
+  const ch = Math.max(1, Math.round(h * scale));
+  const canvas = document.createElement("canvas");
+  canvas.width = cw; canvas.height = ch;
+  const ctx = canvas.getContext("2d");
+  ctx.drawImage(img, 0, 0, cw, ch);
+  const data = ctx.getImageData(0, 0, cw, ch).data;
+
+  const n = cw * ch;
+  const lumArr = new Float32Array(n);
+  let sumLum = 0, darkCount = 0, brightCount = 0, sumR = 0, sumB = 0, sumSat = 0;
+
+  for(let i = 0, p = 0; i < data.length; i += 4, p++){
+    const r = data[i], g = data[i+1], b = data[i+2];
+    const lum = 0.299*r + 0.587*g + 0.114*b;
+    lumArr[p] = lum;
+    sumLum += lum;
+    if(lum < 10) darkCount++;
+    if(lum > 245) brightCount++;
+    sumR += r; sumB += b;
+    const max = Math.max(r,g,b), min = Math.min(r,g,b);
+    sumSat += max === 0 ? 0 : (max - min) / max;
+  }
+  const meanLum = sumLum / n;
+  const darkPct = darkCount / n * 100;
+  const brightPct = brightCount / n * 100;
+  const meanR = sumR / n, meanB = sumB / n;
+  const meanSat = sumSat / n;
+
+  let varSum = 0;
+  for(let p = 0; p < n; p++){ const d = lumArr[p] - meanLum; varSum += d*d; }
+  const stdLum = Math.sqrt(varSum / n);
+
+  let gradSum = 0, gradCount = 0;
+  for(let y = 1; y < ch - 1; y++){
+    for(let x = 1; x < cw - 1; x++){
+      const idx = y*cw + x;
+      gradSum += Math.abs(lumArr[idx+1] - lumArr[idx-1]) + Math.abs(lumArr[idx+cw] - lumArr[idx-cw]);
+      gradCount++;
+    }
+  }
+  const sharpness = gradCount ? gradSum / gradCount : 0;
+
+  return {w, h, meanLum, darkPct, brightPct, meanR, meanB, meanSat, stdLum, sharpness};
+}
+
+function renderEvalResult(s){
+  const rows = [];
+
+  const expScore = scoreFromRange(s.meanLum, 90, 180);
+  const expVerdict = s.meanLum < 70 ? "어두움" : s.meanLum > 190 ? "밝음" : "적정";
+  let expDetail = `평균 밝기 ${Math.round(s.meanLum)}/255`;
+  if(s.darkPct > 5) expDetail += ` · 암부 클리핑 ${s.darkPct.toFixed(1)}%(디테일 손실 가능)`;
+  if(s.brightPct > 5) expDetail += ` · 하이라이트 날아감 ${s.brightPct.toFixed(1)}%`;
+  rows.push({icon:"☀️", label:"노출", verdict:expVerdict, detail:expDetail, score:expScore});
+
+  const contScore = scoreFromRange(s.stdLum, 35, 75);
+  const contVerdict = s.stdLum < 30 ? "낮음(밋밋함)" : s.stdLum > 80 ? "강함" : "적당";
+  rows.push({icon:"🌗", label:"대비", verdict:contVerdict, detail:`밝기 표준편차 ${s.stdLum.toFixed(1)}`, score:contScore});
+
+  let sharpVerdict, sharpScore;
+  if(s.sharpness < 4){ sharpVerdict = "흐릿할 가능성"; sharpScore = Math.max(0, Math.round(s.sharpness / 4 * 60)); }
+  else if(s.sharpness < 8){ sharpVerdict = "보통"; sharpScore = 75; }
+  else { sharpVerdict = "선명"; sharpScore = 95; }
+  rows.push({icon:"🔍", label:"선명도(추정)", verdict:sharpVerdict, detail:`가장자리 강도 지표 ${s.sharpness.toFixed(1)} (참고용 추정치)`, score:sharpScore});
+
+  const satPct = s.meanSat * 100;
+  const satVerdict = satPct < 15 ? "낮음(탁한 느낌)" : satPct > 55 ? "높음(과채도)" : "적당";
+  const satScore = scoreFromRange(satPct, 20, 50);
+  rows.push({icon:"🎨", label:"채도", verdict:satVerdict, detail:`평균 채도 ${satPct.toFixed(0)}%`, score:satScore});
+
+  const rbDiff = s.meanR - s.meanB;
+  const wbVerdict = Math.abs(rbDiff) < 12 ? "중립적" : rbDiff > 0 ? "따뜻한(노란/붉은) 색조" : "차가운(푸른) 색조";
+  const wbScore = scoreFromRange(rbDiff, -12, 12);
+  rows.push({icon:"🌡️", label:"색온도(추정)", verdict:wbVerdict, detail:`R-B 평균 차이 ${rbDiff.toFixed(0)}`, score:wbScore});
+
+  const overall = Math.round(rows.reduce((sum,r)=>sum+r.score,0) / rows.length);
+
+  const tips = [];
+  if(s.darkPct > 5) tips.push("어두운 부분이 많이 잘려요(암부 클리핑) — 노출을 조금 올리거나 야간모드를 써보세요.");
+  if(s.brightPct > 5) tips.push("밝은 부분(하이라이트)이 날아갔어요 — 노출을 살짝 낮추거나 역광 보정을 확인해보세요.");
+  if(s.stdLum < 30) tips.push("대비가 낮아 사진이 밋밋해 보일 수 있어요 — 편집 앱에서 대비를 조절해보세요.");
+  if(s.sharpness < 4) tips.push("전체적으로 흐릿하게 측정됐어요 — 손떨림이나 초점 문제일 수 있으니 다음엔 초점을 탭해서 고정해보세요.");
+  if(satPct < 15) tips.push("채도가 낮아 사진이 탁하게 느껴질 수 있어요.");
+  if(satPct > 55) tips.push("채도가 높아 과채도로 보일 수 있어요.");
+  if(!tips.length) tips.push("전반적으로 무난한 사진이에요!");
+
+  lastEvalNote = {
+    category: "📷 사진 평가",
+    date: new Date().toISOString().slice(0,10),
+    problems: rows.filter(r => r.score < 70).map(r => `${r.icon} ${r.label}: ${r.verdict} (${r.detail})`),
+    suggestions: tips.filter(t => t !== "전반적으로 무난한 사진이에요!")
+  };
+  if(lastEvalNote.problems.length === 0) lastEvalNote.problems.push(`종합 점수 ${overall}/100 — 특별한 문제는 발견되지 않았어요`);
+
+  const el = $("eval-result");
+  el.innerHTML = `
+    <div class="headline">
+      <div class="tag">종합 점수 (기술 지표 기준, 참고용)</div>
+      <div class="val">${overall} / 100</div>
+    </div>
+    <div class="card">
+      <div class="section-title">세부 분석</div>
+      ${rows.map(r => `<div class="cam-row"><span class="k">${r.icon} ${r.label}</span><span class="v">${r.verdict} · ${r.detail}</span></div>`).join("")}
+    </div>
+    <div class="card">
+      <div class="section-title">💡 개선 제안</div>
+      <ul class="tips-list">${tips.map(t=>`<li>${t}</li>`).join("")}</ul>
+    </div>
+    <div class="note">밝기·대비·채도·가장자리(선명도 추정) 등 픽셀 기반 기술 지표만 계산한 참고용 결과예요. 구도·감성 같은 예술적 요소는 반영되지 않고, 사진은 이 브라우저 안에서만 분석되며 어디로도 전송되지 않아요.</div>
+    <button class="photo-link-btn" id="btn-save-note">📝 개선노트에 저장</button>
+    <span class="hint" id="save-note-msg"></span>
+  `;
+  el.classList.add("show");
+  el.scrollIntoView({behavior:"smooth", block:"nearest"});
+  $("btn-save-note").addEventListener("click", ()=>{
+    addLocalNote(lastEvalNote);
+    $("save-note-msg").textContent = "✅ 개선노트에 저장했어요 (사진 탭 → 개선노트에서 확인 가능)";
+  });
+}
+let lastEvalNote = null;
+
+$("eval-file-input").addEventListener("change", (e)=>{
+  const file = e.target.files[0];
+  if(!file) return;
+  const url = URL.createObjectURL(file);
+  const img = new Image();
+  img.onload = ()=>{
+    const preview = $("eval-preview");
+    preview.src = url;
+    preview.style.display = "block";
+    renderEvalResult(analyzeImage(img));
+  };
+  img.src = url;
+});
+
 /* ===================== 사진 : 개선노트 ===================== */
+// 개선노트는 두 곳에서 쌓인다: (1) photos/notes.json — Claude에게 직접 분석받아 기록한 것,
+// (2) 이 브라우저의 localStorage — 앱 안 "사진 평가"에서 저장 버튼을 눌러 쌓인 것.
+const LOCAL_NOTES_KEY = "travelapp_photo_notes";
 let notesData = null;
+
+function loadLocalNotes(){
+  try{ return JSON.parse(localStorage.getItem(LOCAL_NOTES_KEY) || "[]"); }
+  catch(e){ return []; }
+}
+function saveLocalNotes(list){
+  localStorage.setItem(LOCAL_NOTES_KEY, JSON.stringify(list));
+}
+function addLocalNote(note){
+  const list = loadLocalNotes();
+  list.push({...note, id: Date.now(), local: true});
+  saveLocalNotes(list);
+  renderNotes();
+}
+function deleteLocalNote(id){
+  saveLocalNotes(loadLocalNotes().filter(n => n.id !== id));
+  renderNotes();
+}
+
 async function loadNotes(){
   try{
     const res = await fetch("./photos/notes.json", {cache:"no-cache"});
@@ -1478,9 +1682,10 @@ async function loadNotes(){
 }
 function renderNotes(){
   const el = $("notes-list");
-  const list = (notesData.notes || []).slice().sort((a,b)=> (b.date||"").localeCompare(a.date||""));
+  const list = [...((notesData && notesData.notes) || []), ...loadLocalNotes()]
+    .slice().sort((a,b)=> (b.date||"").localeCompare(a.date||""));
   if(list.length === 0){
-    el.innerHTML = `<div class="photo-empty">아직 기록된 개선노트가 없어요.<br>사진을 올려 분석을 받으면 여기에 쌓여요.</div>`;
+    el.innerHTML = `<div class="photo-empty">아직 기록된 개선노트가 없어요.<br>"사진 평가"에서 저장하거나 Claude에게 분석받으면 여기에 쌓여요.</div>`;
     return;
   }
   el.innerHTML = list.map(n => `
@@ -1492,6 +1697,7 @@ function renderNotes(){
       ${n.suggestions && n.suggestions.length ? `
         <div class="section-title">개선제안</div>
         <ul class="tips-list">${n.suggestions.map(s=>`<li>${s}</li>`).join("")}</ul>` : ""}
+      ${n.local ? `<button class="photo-link-btn" onclick="deleteLocalNote(${n.id})">🗑️ 삭제</button>` : ""}
     </div>
   `).join("");
 }
