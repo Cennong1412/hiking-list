@@ -1,5 +1,5 @@
 // 캐시 버전을 올리면 이전 캐시가 자동으로 정리됩니다.
-const CACHE_NAME = "hiking-list-v5";
+const CACHE_NAME = "hiking-list-v6";
 
 const CORE_ASSETS = [
   "./",
@@ -8,6 +8,7 @@ const CORE_ASSETS = [
   "./domestic_courses_all.json",
   "./international_courses_all.json",
   "./golf_courses_all.json",
+  "./restaurants_all.json",
   "./photos/manifest.json",
   "./photos/notes.json",
 ];

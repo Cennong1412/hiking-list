@@ -510,6 +510,7 @@
     <div class="subtab" data-tsub="domestic">🇰🇷 국내</div>
     <div class="subtab" data-tsub="abroad">✈️ 해외</div>
     <div class="subtab" data-tsub="golf">⛳ 골프</div>
+    <div class="subtab" data-tsub="food">🍽️ 맛집</div>
   </div>
 
   <!-- 등산 -->
@@ -564,6 +565,19 @@
     </div>
     <div class="note" id="golf-note"></div>
     <div id="golf-list"><div class="empty">불러오는 중...</div></div>
+  </div>
+
+  <!-- 맛집 -->
+  <div class="tsub-view" id="travel-food">
+    <div class="subtabs scroll" id="food-region-subtabs"></div>
+    <div class="field">
+      <label>시/군/구</label>
+      <select id="food-gu-select"></select>
+    </div>
+    <div class="sortbar" id="food-category-bar"></div>
+    <input class="searchbox" id="food-search" placeholder="식당 이름·메뉴로 검색">
+    <div class="note" id="food-note"></div>
+    <div id="food-list"><div class="empty">불러오는 중...</div></div>
   </div>
 </div>
 
@@ -1109,6 +1123,145 @@ async function loadTravelData(){
 }
 
 loadTravelData();
+
+/* ===== 맛집 (시/도 → 시/군/구, 음식종류, 검색) ===== */
+let foodRegions = [];
+let foodRegionKey = null;
+let foodGu = "__all__";
+let foodCategory = "__all__";
+
+function foodMainCategory(raw){
+  return (raw || "").split("(")[0].split("/")[0].trim();
+}
+function foodAddressHTML(r){
+  return r.addressVerified ? r.address : `<span class="hint">${r.address || "정보 확인 중"}</span>`;
+}
+function foodPhoneHTML(r){
+  return r.phoneVerified ? r.phone : `<span class="hint">정보 확인 중</span>`;
+}
+function foodMenuHTML(r){
+  return r.menuVerified ? r.menu : `<span class="hint">${r.menu || "정보 확인 중"}</span>`;
+}
+function foodCardHTML(r, guName){
+  return `
+    <div class="card">
+      <h3>${r.categoryIcon || "🍽️"} ${r.name}</h3>
+      <div class="loc">${guName}${r.category ? " · " + r.category : ""}</div>
+      <div class="rowline"><div class="k">주요메뉴</div><div class="v">${foodMenuHTML(r)}</div></div>
+      <div class="rowline"><div class="k">주소</div><div class="v">${foodAddressHTML(r)}</div></div>
+      <div class="rowline"><div class="k">전화번호</div><div class="v">${foodPhoneHTML(r)}</div></div>
+    </div>
+  `;
+}
+
+function currentFoodRegion(){
+  return foodRegions.find(r => r.region === foodRegionKey) || foodRegions[0];
+}
+
+function renderFoodCategoryBar(){
+  const region = currentFoodRegion();
+  const bar = document.getElementById("food-category-bar");
+  if(!region){ bar.innerHTML = ""; return; }
+  const cats = new Set();
+  region.subregions.forEach(sr => sr.restaurants.forEach(r => cats.add(foodMainCategory(r.category))));
+  const catList = ["__all__", ...[...cats].filter(Boolean).sort((a,b)=>a.localeCompare(b,"ko"))];
+  bar.innerHTML = catList.map(c => `<div class="sortbtn${c===foodCategory?" active":""}" data-cat="${c}">${c==="__all__"?"전체":c}</div>`).join("");
+  bar.querySelectorAll(".sortbtn").forEach(btn=>{
+    btn.addEventListener("click", ()=>{
+      bar.querySelectorAll(".sortbtn").forEach(b=>b.classList.remove("active"));
+      btn.classList.add("active");
+      foodCategory = btn.dataset.cat;
+      renderFoodList();
+    });
+  });
+}
+
+function renderFoodGuSelect(){
+  const region = currentFoodRegion();
+  const sel = document.getElementById("food-gu-select");
+  if(!region){ sel.innerHTML = ""; return; }
+  const total = region.subregions.reduce((s,sr)=>s+sr.restaurants.length, 0);
+  sel.innerHTML = [`<option value="__all__">전체 (${total})</option>`]
+    .concat(region.subregions.map(sr => `<option value="${sr.name}">${sr.name} (${sr.restaurants.length})</option>`))
+    .join("");
+  sel.value = foodGu;
+}
+
+function renderFoodList(){
+  const region = currentFoodRegion();
+  const box = document.getElementById("food-list");
+  const noteEl = document.getElementById("food-note");
+  if(!region){ box.innerHTML = '<div class="empty">데이터를 불러오지 못했어요.</div>'; return; }
+  const q = document.getElementById("food-search").value.trim().toLowerCase();
+  const subregions = foodGu === "__all__" ? region.subregions : region.subregions.filter(sr => sr.name === foodGu);
+
+  let html = "";
+  let shown = 0;
+  subregions.forEach(sr => {
+    const list = sr.restaurants.filter(r => {
+      if(foodCategory !== "__all__" && foodMainCategory(r.category) !== foodCategory) return false;
+      if(q){
+        const hay = [r.name, r.menu, r.category].join(" ").toLowerCase();
+        if(!hay.includes(q)) return false;
+      }
+      return true;
+    });
+    if(!list.length) return;
+    shown += list.length;
+    if(foodGu === "__all__"){
+      html += `<div class="section-title">${sr.name} <span class="count-badge">${list.length}</span></div>`;
+    }
+    html += list.map(r => foodCardHTML(r, sr.name)).join("");
+  });
+
+  const unverifiedAddr = subregions.reduce((s,sr)=>s+sr.restaurants.filter(r=>!r.addressVerified).length, 0);
+  const unverifiedPhone = subregions.reduce((s,sr)=>s+sr.restaurants.filter(r=>!r.phoneVerified).length, 0);
+  noteEl.textContent = `${region.region} 총 ${region.subregions.reduce((s,sr)=>s+sr.restaurants.length,0)}곳 · 주소 확인 중 ${unverifiedAddr}곳 · 전화번호 확인 중 ${unverifiedPhone}곳`;
+
+  box.innerHTML = shown ? html : '<div class="empty">검색 결과가 없어요.</div>';
+}
+
+async function loadFoodData(){
+  try{
+    const res = await fetch("./restaurants_all.json", {cache:"no-store"});
+    const data = await res.json();
+    foodRegions = data.regions || [];
+    foodRegionKey = foodRegions[0] && foodRegions[0].region;
+
+    const regionBar = document.getElementById("food-region-subtabs");
+    regionBar.innerHTML = foodRegions.map(r => {
+      const count = r.subregions.reduce((s,sr)=>s+sr.restaurants.length, 0);
+      return `<div class="subtab${r.region===foodRegionKey?" active":""}" data-region="${r.region}">${r.region}<span class="count-badge">${count}</span></div>`;
+    }).join("");
+    regionBar.querySelectorAll(".subtab").forEach(el=>{
+      el.addEventListener("click", ()=>{
+        regionBar.querySelectorAll(".subtab").forEach(s=>s.classList.remove("active"));
+        el.classList.add("active");
+        foodRegionKey = el.dataset.region;
+        foodGu = "__all__";
+        foodCategory = "__all__";
+        renderFoodGuSelect();
+        renderFoodCategoryBar();
+        renderFoodList();
+      });
+    });
+
+    document.getElementById("food-gu-select").addEventListener("change", (e)=>{
+      foodGu = e.target.value;
+      renderFoodList();
+    });
+    document.getElementById("food-search").addEventListener("input", renderFoodList);
+
+    renderFoodGuSelect();
+    renderFoodCategoryBar();
+    renderFoodList();
+  } catch(err){
+    document.getElementById("food-list").innerHTML = '<div class="empty">데이터를 불러오지 못했어요.</div>';
+    console.error(err);
+  }
+}
+
+loadFoodData();
 
 /* ===================== 사진 : 설정 계산기 (사진앱에서 이식) ===================== */
 const $ = id => document.getElementById(id);

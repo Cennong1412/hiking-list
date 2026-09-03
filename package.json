@@ -3,7 +3,8 @@
   "private": true,
   "description": "여행앱 - 내 사진 갤러리 등록용 스크립트 (썸네일 생성 + manifest.json 갱신)",
   "scripts": {
-    "build-photos": "node scripts/build-photos.js"
+    "build-photos": "node scripts/build-photos.js",
+    "build-restaurants": "node scripts/build-restaurants.js"
   },
   "dependencies": {
     "jimp": "^1.6.1"
