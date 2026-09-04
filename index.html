@@ -313,6 +313,21 @@
     -webkit-appearance:none;
   }
   .field select:disabled{opacity:0.4;}
+  .field input[type="text"]{
+    width:100%;
+    padding:11px 12px;
+    background:var(--card2);
+    color:var(--ink);
+    border:1px solid var(--line);
+    border-radius:10px;
+    font-size:0.95rem;
+    box-sizing:border-box;
+  }
+  .food-edit-form{margin-top:10px;padding-top:10px;border-top:1px dashed var(--line);}
+  .food-edit-form .field{margin-bottom:10px;}
+  .food-edit-form .btnrow{display:flex;gap:8px;}
+  .food-edit-form .btnrow .photo-link-btn{margin-top:0;}
+  .edited-tag{color:var(--accent);font-weight:700;}
   .hint{font-size:0.72rem;color:var(--sub);margin-top:5px;}
   .warn{font-size:0.78rem;color:var(--danger);margin-top:6px;display:none;}
   .warn.show{display:block;}
@@ -577,6 +592,7 @@
     <div class="sortbar" id="food-category-bar"></div>
     <input class="searchbox" id="food-search" placeholder="식당 이름·메뉴로 검색">
     <div class="note" id="food-note"></div>
+    <div class="note" id="food-edits-summary" style="display:none"></div>
     <div id="food-list"><div class="empty">불러오는 중...</div></div>
   </div>
 </div>
@@ -1142,14 +1158,60 @@ function foodPhoneHTML(r){
 function foodMenuHTML(r){
   return r.menuVerified ? r.menu : `<span class="hint">${r.menu || "정보 확인 중"}</span>`;
 }
-function foodCardHTML(r, guName){
+function escapeHTML(s){
+  return (s || "").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+}
+
+/* 주소/전화번호 수동 입력 — 이 브라우저(localStorage)에만 저장됨 */
+const FOOD_EDITS_KEY = "travelapp_food_edits";
+function loadFoodEdits(){
+  try{ return JSON.parse(localStorage.getItem(FOOD_EDITS_KEY) || "{}"); }
+  catch(e){ return {}; }
+}
+function saveFoodEdit(id, data){
+  const edits = loadFoodEdits();
+  edits[id] = { ...data, editedAt: new Date().toISOString() };
+  localStorage.setItem(FOOD_EDITS_KEY, JSON.stringify(edits));
+}
+function deleteFoodEdit(id){
+  const edits = loadFoodEdits();
+  delete edits[id];
+  localStorage.setItem(FOOD_EDITS_KEY, JSON.stringify(edits));
+}
+
+function foodCardHTML(r, guName, edit){
+  const eff = edit ? {
+    ...r,
+    address: edit.address || r.address,
+    addressVerified: !!edit.address || r.addressVerified,
+    phone: edit.phone || r.phone,
+    phoneVerified: !!edit.phone || r.phoneVerified
+  } : r;
+  const prefillAddr = edit && edit.address ? edit.address : (r.addressVerified ? r.address : "");
+  const prefillPhone = edit && edit.phone ? edit.phone : (r.phoneVerified ? r.phone : "");
   return `
     <div class="card">
-      <h3>${r.categoryIcon || "🍽️"} ${r.name}</h3>
+      <h3>${r.categoryIcon || "🍽️"} ${r.name}${edit ? ' <span class="edited-tag">✏️ 직접 입력됨</span>' : ""}</h3>
       <div class="loc">${guName}${r.category ? " · " + r.category : ""}</div>
       <div class="rowline"><div class="k">주요메뉴</div><div class="v">${foodMenuHTML(r)}</div></div>
-      <div class="rowline"><div class="k">주소</div><div class="v">${foodAddressHTML(r)}</div></div>
-      <div class="rowline"><div class="k">전화번호</div><div class="v">${foodPhoneHTML(r)}</div></div>
+      <div class="rowline"><div class="k">주소</div><div class="v">${foodAddressHTML(eff)}</div></div>
+      <div class="rowline"><div class="k">전화번호</div><div class="v">${foodPhoneHTML(eff)}</div></div>
+      <button class="photo-link-btn food-edit-toggle" data-id="${r.id}">✏️ 정보 수정</button>
+      <div class="food-edit-form" id="food-edit-${r.id}" style="display:none">
+        <div class="field">
+          <label>주소</label>
+          <input type="text" class="food-edit-addr" id="food-edit-addr-${r.id}" value="${escapeHTML(prefillAddr)}" placeholder="정확한 주소를 입력하세요">
+        </div>
+        <div class="field">
+          <label>전화번호</label>
+          <input type="text" class="food-edit-phone" id="food-edit-phone-${r.id}" value="${escapeHTML(prefillPhone)}" placeholder="예: 031-123-4567">
+        </div>
+        <div class="btnrow">
+          <button class="photo-link-btn food-edit-save" data-id="${r.id}">저장</button>
+          <button class="photo-link-btn food-edit-cancel" data-id="${r.id}">취소</button>
+          ${edit ? `<button class="photo-link-btn food-edit-clear" data-id="${r.id}">입력 지우기</button>` : ""}
+        </div>
+      </div>
     </div>
   `;
 }
@@ -1195,6 +1257,7 @@ function renderFoodList(){
   const q = document.getElementById("food-search").value.trim().toLowerCase();
   const subregions = foodGu === "__all__" ? region.subregions : region.subregions.filter(sr => sr.name === foodGu);
 
+  const edits = loadFoodEdits();
   let html = "";
   let shown = 0;
   subregions.forEach(sr => {
@@ -1211,14 +1274,39 @@ function renderFoodList(){
     if(foodGu === "__all__"){
       html += `<div class="section-title">${sr.name} <span class="count-badge">${list.length}</span></div>`;
     }
-    html += list.map(r => foodCardHTML(r, sr.name)).join("");
+    html += list.map(r => foodCardHTML(r, sr.name, edits[r.id])).join("");
   });
 
   const unverifiedAddr = subregions.reduce((s,sr)=>s+sr.restaurants.filter(r=>!r.addressVerified).length, 0);
   const unverifiedPhone = subregions.reduce((s,sr)=>s+sr.restaurants.filter(r=>!r.phoneVerified).length, 0);
   noteEl.textContent = `${region.region} 총 ${region.subregions.reduce((s,sr)=>s+sr.restaurants.length,0)}곳 · 주소 확인 중 ${unverifiedAddr}곳 · 전화번호 확인 중 ${unverifiedPhone}곳`;
 
+  const editCount = Object.keys(edits).length;
+  const summaryEl = document.getElementById("food-edits-summary");
+  if(editCount > 0){
+    summaryEl.style.display = "block";
+    summaryEl.innerHTML = `✏️ 내가 이 기기에서 직접 입력한 정보 ${editCount}건 (이 브라우저에만 저장돼요) <button class="photo-link-btn" id="food-export-btn" style="margin-top:6px">내보내기 (JSON)</button>`;
+  } else {
+    summaryEl.style.display = "none";
+  }
+
   box.innerHTML = shown ? html : '<div class="empty">검색 결과가 없어요.</div>';
+}
+
+function exportFoodEdits(){
+  const edits = loadFoodEdits();
+  const idIndex = new Map();
+  foodRegions.forEach(r => r.subregions.forEach(sr => sr.restaurants.forEach(x => idIndex.set(x.id, {region: r.region, gu: sr.name, name: x.name}))));
+  const rows = Object.entries(edits).map(([id, e]) => ({ id, ...(idIndex.get(id) || {}), ...e }));
+  const blob = new Blob([JSON.stringify(rows, null, 2)], {type: "application/json"});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = "food-edits-" + new Date().toISOString().slice(0,10) + ".json";
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  URL.revokeObjectURL(url);
 }
 
 async function loadFoodData(){
@@ -1251,6 +1339,40 @@ async function loadFoodData(){
       renderFoodList();
     });
     document.getElementById("food-search").addEventListener("input", renderFoodList);
+
+    document.getElementById("food-list").addEventListener("click", (e)=>{
+      const toggleBtn = e.target.closest(".food-edit-toggle");
+      if(toggleBtn){
+        const form = document.getElementById("food-edit-" + toggleBtn.dataset.id);
+        if(form) form.style.display = form.style.display === "none" ? "block" : "none";
+        return;
+      }
+      const cancelBtn = e.target.closest(".food-edit-cancel");
+      if(cancelBtn){
+        const form = document.getElementById("food-edit-" + cancelBtn.dataset.id);
+        if(form) form.style.display = "none";
+        return;
+      }
+      const saveBtn = e.target.closest(".food-edit-save");
+      if(saveBtn){
+        const id = saveBtn.dataset.id;
+        const addr = document.getElementById("food-edit-addr-" + id).value.trim();
+        const phone = document.getElementById("food-edit-phone-" + id).value.trim();
+        if(!addr && !phone){ alert("주소나 전화번호 중 하나는 입력해주세요."); return; }
+        saveFoodEdit(id, { address: addr, phone });
+        renderFoodList();
+        return;
+      }
+      const clearBtn = e.target.closest(".food-edit-clear");
+      if(clearBtn){
+        deleteFoodEdit(clearBtn.dataset.id);
+        renderFoodList();
+        return;
+      }
+    });
+    document.getElementById("food-edits-summary").addEventListener("click", (e)=>{
+      if(e.target.closest("#food-export-btn")) exportFoodEdits();
+    });
 
     renderFoodGuSelect();
     renderFoodCategoryBar();

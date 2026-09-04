@@ -26,6 +26,7 @@
           "name": "수원시",
           "restaurants": [
             {
+              "id": "e052ccc2eda3",
               "category": "한식(갈비)",
               "categoryIcon": "🍚",
               "name": "가보정",
@@ -37,6 +38,7 @@
               "phoneVerified": true
             },
             {
+              "id": "dfa03ad1fa91",
               "category": "양식(파스타/스테이크)",
               "categoryIcon": "🍝",
               "name": "화양가옥 수원역본점",
@@ -48,6 +50,7 @@
               "phoneVerified": false
             },
             {
+              "id": "e17931dc57b8",
               "category": "양식(파스타/스테이크)",
               "categoryIcon": "🍝",
               "name": "운멜로랩",
@@ -59,6 +62,7 @@
               "phoneVerified": true
             },
             {
+              "id": "0367fe422c21",
               "category": "한식(평양냉면)",
               "categoryIcon": "🍚",
               "name": "대원옥 평양냉면",
@@ -70,6 +74,7 @@
               "phoneVerified": true
             },
             {
+              "id": "a725469830d0",
               "category": "한식(해장국)",
               "categoryIcon": "🍚",
               "name": "유치회관",
@@ -81,6 +86,7 @@
               "phoneVerified": false
             },
             {
+              "id": "ab4815dc890f",
               "category": "한식(갈비)",
               "categoryIcon": "🍚",
               "name": "낙원갈비집 수원남문점",
@@ -92,6 +98,7 @@
               "phoneVerified": true
             },
             {
+              "id": "c8c52f7bada7",
               "category": "양식(화덕피자)",
               "categoryIcon": "🍝",
               "name": "더유로피언",
@@ -103,6 +110,7 @@
               "phoneVerified": true
             },
             {
+              "id": "72c6ff617c6e",
               "category": "양식(비스트로)",
               "categoryIcon": "🍝",
               "name": "서양식탁",
@@ -114,6 +122,7 @@
               "phoneVerified": false
             },
             {
+              "id": "770d6f611c37",
               "category": "양식(피자)",
               "categoryIcon": "🍝",
               "name": "로우파이브",
@@ -125,6 +134,7 @@
               "phoneVerified": true
             },
             {
+              "id": "b6b955cc0e90",
               "category": "양식(파스타/리조또)",
               "categoryIcon": "🍝",
               "name": "포크너 인계점",
@@ -136,6 +146,7 @@
               "phoneVerified": true
             },
             {
+              "id": "5c2da8ce060f",
               "category": "경양식(돈까스)",
               "categoryIcon": "🍝",
               "name": "로마경양식",
@@ -147,6 +158,7 @@
               "phoneVerified": true
             },
             {
+              "id": "6b5917fc7333",
               "category": "한식(곱창)",
               "categoryIcon": "🍚",
               "name": "구들짱황소곱창 인계동본점",
@@ -158,6 +170,7 @@
               "phoneVerified": false
             },
             {
+              "id": "9f56819dbe5e",
               "category": "한식(부대찌개)",
               "categoryIcon": "🍚",
               "name": "이나경송탄부대찌개",
@@ -169,6 +182,7 @@
               "phoneVerified": true
             },
             {
+              "id": "1d2527773bae",
               "category": "한식(수육)",
               "categoryIcon": "🍚",
               "name": "봉수육",
@@ -180,6 +194,7 @@
               "phoneVerified": false
             },
             {
+              "id": "330a7c0f8618",
               "category": "한식(설렁탕)",
               "categoryIcon": "🍚",
               "name": "골목집 설렁탕",
@@ -191,6 +206,7 @@
               "phoneVerified": true
             },
             {
+              "id": "813d70ae844a",
               "category": "한식(덮밥)",
               "categoryIcon": "🍚",
               "name": "행궁애월",
@@ -202,6 +218,7 @@
               "phoneVerified": false
             },
             {
+              "id": "779136b24ce2",
               "category": "중식",
               "categoryIcon": "🥢",
               "name": "홍화루",
@@ -213,6 +230,7 @@
               "phoneVerified": true
             },
             {
+              "id": "ddca10ff3712",
               "category": "일식(라멘, 회 없음)",
               "categoryIcon": "🍣",
               "name": "멘지 광교점",
@@ -224,6 +242,7 @@
               "phoneVerified": true
             },
             {
+              "id": "729a3a7abbcf",
               "category": "한식(한정식)",
               "categoryIcon": "🍚",
               "name": "행궁정찬",
@@ -235,6 +254,7 @@
               "phoneVerified": true
             },
             {
+              "id": "ab7919c068b6",
               "category": "일식(스키야키/한우, 회 없음)",
               "categoryIcon": "🍣",
               "name": "도쿄등심 광교점",
@@ -251,6 +271,7 @@
           "name": "성남시",
           "restaurants": [
             {
+              "id": "a52d0a3d7cc1",
               "category": "일식(우동/돈카츠, 회 없음)",
               "categoryIcon": "🍣",
               "name": "수타우동 겐 본점",
@@ -262,6 +283,7 @@
               "phoneVerified": true
             },
             {
+              "id": "f777bad65266",
               "category": "한식(고기)",
               "categoryIcon": "🍚",
               "name": "새마을식당 서현점",
@@ -273,6 +295,7 @@
               "phoneVerified": false
             },
             {
+              "id": "7e29ecd35216",
               "category": "양식(브런치/카페)",
               "categoryIcon": "🍝",
               "name": "리스카페 (백현동 카페거리)",
@@ -284,6 +307,7 @@
               "phoneVerified": false
             },
             {
+              "id": "042975c8a50d",
               "category": "양식(베이커리/카페)",
               "categoryIcon": "🍝",
               "name": "무궁화 파이브",
@@ -295,6 +319,7 @@
               "phoneVerified": true
             },
             {
+              "id": "2ed806b306e2",
               "category": "한식(주점/안주)",
               "categoryIcon": "🍚",
               "name": "휘얼",
@@ -306,6 +331,7 @@
               "phoneVerified": true
             },
             {
+              "id": "8227ac2c1a73",
               "category": "양식(브런치)",
               "categoryIcon": "🍝",
               "name": "아보카도 캐쥬얼다이닝",
@@ -317,6 +343,7 @@
               "phoneVerified": true
             },
             {
+              "id": "6fc5c4048f9a",
               "category": "한식(해산물/대게)",
               "categoryIcon": "🍚",
               "name": "대게나라",
@@ -328,6 +355,7 @@
               "phoneVerified": true
             },
             {
+              "id": "27d583b9a7af",
               "category": "양식(이탈리안/브런치)",
               "categoryIcon": "🍝",
               "name": "THEDANDYLION",
@@ -339,6 +367,7 @@
               "phoneVerified": true
             },
             {
+              "id": "c3e0ea60de4e",
               "category": "한식(족발/보쌈)",
               "categoryIcon": "🍚",
               "name": "윤밀원",
@@ -350,6 +379,7 @@
               "phoneVerified": true
             },
             {
+              "id": "3795dd14ca2f",
               "category": "한식(삼겹살/냉삼)",
               "categoryIcon": "🍚",
               "name": "판교집 본점",
@@ -361,6 +391,7 @@
               "phoneVerified": false
             },
             {
+              "id": "db74cb9a98e4",
               "category": "한식(한우/정육식당)",
               "categoryIcon": "🍚",
               "name": "양촌리 분당점",
@@ -372,6 +403,7 @@
               "phoneVerified": true
             },
             {
+              "id": "08f872abe16d",
               "category": "한식(국수)",
               "categoryIcon": "🍚",
               "name": "셰프의 국수전",
@@ -383,6 +415,7 @@
               "phoneVerified": true
             },
             {
+              "id": "883a61466838",
               "category": "한식(차돌박이/가정식)",
               "categoryIcon": "🍚",
               "name": "한와담 판교점",
@@ -394,6 +427,7 @@
               "phoneVerified": false
             },
             {
+              "id": "e0e9c518cf46",
               "category": "한식(한정식)",
               "categoryIcon": "🍚",
               "name": "수라예찬 야탑점",
@@ -405,6 +439,7 @@
               "phoneVerified": true
             },
             {
+              "id": "f8a4af398247",
               "category": "일식(우동, 회 없음)",
               "categoryIcon": "🍣",
               "name": "수타우동 겐 야탑본점",
@@ -416,6 +451,7 @@
               "phoneVerified": true
             },
             {
+              "id": "14ef7dd0fd91",
               "category": "한식(돼지고기 전문점)",
               "categoryIcon": "🍚",
               "name": "육닷",
@@ -427,6 +463,7 @@
               "phoneVerified": true
             },
             {
+              "id": "6d3a07b083f5",
               "category": "중식(양고기)",
               "categoryIcon": "🥢",
               "name": "위례 양갈비 전문점",
@@ -438,6 +475,7 @@
               "phoneVerified": true
             },
             {
+              "id": "ad67aeb16741",
               "category": "한식(삼겹살)",
               "categoryIcon": "🍚",
               "name": "상대원 철뚝집",
@@ -449,6 +487,7 @@
               "phoneVerified": false
             },
             {
+              "id": "b698935c0dfd",
               "category": "한식(한우/설렁탕)",
               "categoryIcon": "🍚",
               "name": "한우리정육점식당",
@@ -460,6 +499,7 @@
               "phoneVerified": true
             },
             {
+              "id": "2e94f363eeb6",
               "category": "한식(족발/보쌈)",
               "categoryIcon": "🍚",
               "name": "족발신선생 위례신도시점",
@@ -476,6 +516,7 @@
           "name": "안양시",
           "restaurants": [
             {
+              "id": "fab82d489a55",
               "category": "일식(라멘/덮밥, 회 없음)",
               "categoryIcon": "🍣",
               "name": "우마이식당",
@@ -487,6 +528,7 @@
               "phoneVerified": true
             },
             {
+              "id": "95e97fec5145",
               "category": "한식(칼국수)",
               "categoryIcon": "🍚",
               "name": "버섯칼국수 (안양중앙시장)",
@@ -498,6 +540,7 @@
               "phoneVerified": false
             },
             {
+              "id": "68ad2fb65586",
               "category": "한식(정육식당/해장국)",
               "categoryIcon": "🍚",
               "name": "남부정육점",
@@ -509,6 +552,7 @@
               "phoneVerified": false
             },
             {
+              "id": "1452d0a4759c",
               "category": "양식(파스타)",
               "categoryIcon": "🍝",
               "name": "투파인드피터 (범계)",
@@ -520,6 +564,7 @@
               "phoneVerified": true
             },
             {
+              "id": "b7057513c035",
               "category": "중식(마라탕)",
               "categoryIcon": "🥢",
               "name": "라화방마라탕 (평촌)",
@@ -531,6 +576,7 @@
               "phoneVerified": false
             },
             {
+              "id": "c7d43be65ed6",
               "category": "한식(소고기)",
               "categoryIcon": "🍚",
               "name": "한양화로 안양범계점",
@@ -542,6 +588,7 @@
               "phoneVerified": true
             },
             {
+              "id": "e6f3345859c8",
               "category": "일식(라멘, 회 없음)",
               "categoryIcon": "🍣",
               "name": "카네류",
@@ -553,6 +600,7 @@
               "phoneVerified": false
             },
             {
+              "id": "a075222cd6be",
               "category": "한식(가정식/양식)",
               "categoryIcon": "🍚",
               "name": "서가앤쿡 범계점",
@@ -564,6 +612,7 @@
               "phoneVerified": true
             },
             {
+              "id": "1ebcf10689e7",
               "category": "중식(딤섬)",
               "categoryIcon": "🥢",
               "name": "스팀하우스 인덕원점",
@@ -575,6 +624,7 @@
               "phoneVerified": true
             },
             {
+              "id": "81c8794f57d5",
               "category": "한식(꼼장어)",
               "categoryIcon": "🍚",
               "name": "자갈치산꼼장어",
@@ -586,6 +636,7 @@
               "phoneVerified": true
             },
             {
+              "id": "a50d8cd72fc0",
               "category": "중식(마라탕)",
               "categoryIcon": "🥢",
               "name": "마라No.1 마라탕 안양점",
@@ -597,6 +648,7 @@
               "phoneVerified": true
             },
             {
+              "id": "74ed6685e9c6",
               "category": "한식(오징어/보쌈)",
               "categoryIcon": "🍚",
               "name": "동해오징어보쌈",
@@ -608,6 +660,7 @@
               "phoneVerified": true
             },
             {
+              "id": "4651f6fe2e66",
               "category": "한식(돼지뒷고기)",
               "categoryIcon": "🍚",
               "name": "덕천마을고깃집 (명학역)",
@@ -619,6 +672,7 @@
               "phoneVerified": true
             },
             {
+              "id": "fd3d75d97a70",
               "category": "한식(한우/정육식당)",
               "categoryIcon": "🍚",
               "name": "태원정육식당",
@@ -630,6 +684,7 @@
               "phoneVerified": true
             },
             {
+              "id": "38376cc26553",
               "category": "한식(순대국)",
               "categoryIcon": "🍚",
               "name": "만복순대국",
@@ -641,6 +696,7 @@
               "phoneVerified": true
             },
             {
+              "id": "1677d3b431d3",
               "category": "양식(스테이크/파스타)",
               "categoryIcon": "🍝",
               "name": "그대만의작은공간 (평촌학원가 본점)",
@@ -652,6 +708,7 @@
               "phoneVerified": true
             },
             {
+              "id": "0c6012951b2d",
               "category": "한식(냉면)",
               "categoryIcon": "🍚",
               "name": "오코사골냉면",
@@ -663,6 +720,7 @@
               "phoneVerified": true
             },
             {
+              "id": "f091ddab5a10",
               "category": "한식(갈비/냉면)",
               "categoryIcon": "🍚",
               "name": "화진가든",
@@ -674,6 +732,7 @@
               "phoneVerified": true
             },
             {
+              "id": "b56e1413872e",
               "category": "한식(추어탕/매운탕)",
               "categoryIcon": "🍚",
               "name": "허서방추어탕메기매운탕",
@@ -685,6 +744,7 @@
               "phoneVerified": true
             },
             {
+              "id": "f29068d60c5e",
               "category": "한식(한우곱창)",
               "categoryIcon": "🍚",
               "name": "중앙한우곱창",
@@ -701,6 +761,7 @@
           "name": "부천시",
           "restaurants": [
             {
+              "id": "b61eb0558549",
               "category": "경양식(돈까스)",
               "categoryIcon": "🍝",
               "name": "성북동왕돈까스",
@@ -712,6 +773,7 @@
               "phoneVerified": true
             },
             {
+              "id": "b887836f3c77",
               "category": "한식(오리요리)",
               "categoryIcon": "🍚",
               "name": "팽오리농장",
@@ -723,6 +785,7 @@
               "phoneVerified": true
             },
             {
+              "id": "910c0ba65b36",
               "category": "한식(게장)",
               "categoryIcon": "🍚",
               "name": "봉순게장",
@@ -734,6 +797,7 @@
               "phoneVerified": true
             },
             {
+              "id": "9c4bc6cfe965",
               "category": "빵(베이커리)",
               "categoryIcon": "🥐",
               "name": "베이커리호프",
@@ -745,6 +809,7 @@
               "phoneVerified": true
             },
             {
+              "id": "c8173eb25fe5",
               "category": "경양식(돈까스)",
               "categoryIcon": "🍝",
               "name": "남산왕돈까스 (상동역)",
@@ -756,6 +821,7 @@
               "phoneVerified": false
             },
             {
+              "id": "28b78b878f21",
               "category": "한식(치킨)",
               "categoryIcon": "🍚",
               "name": "배진화 옛날통닭",
@@ -767,6 +833,7 @@
               "phoneVerified": true
             },
             {
+              "id": "e5436ee547b7",
               "category": "일식(돈카츠, 회 없음)",
               "categoryIcon": "🍣",
               "name": "백소정 부천옥길점",
@@ -778,6 +845,7 @@
               "phoneVerified": false
             },
             {
+              "id": "111eb24592cf",
               "category": "중식(양꼬치)",
               "categoryIcon": "🥢",
               "name": "소사역 양꼬치집",
@@ -789,6 +857,7 @@
               "phoneVerified": false
             },
             {
+              "id": "2f9aa7adeeec",
               "category": "한식(포장마차 안주)",
               "categoryIcon": "🍚",
               "name": "견인지역 역곡점",
@@ -800,6 +869,7 @@
               "phoneVerified": true
             },
             {
+              "id": "c808dc472b22",
               "category": "한식(고기)",
               "categoryIcon": "🍚",
               "name": "고품달 역곡점",
@@ -816,6 +886,7 @@
           "name": "시흥시",
           "restaurants": [
             {
+              "id": "7580571b4ba1",
               "category": "한식(전골)",
               "categoryIcon": "🍚",
               "name": "본가 만두전골전문점",
@@ -827,6 +898,7 @@
               "phoneVerified": true
             },
             {
+              "id": "d69cc71126cc",
               "category": "한식(고기구이)",
               "categoryIcon": "🍚",
               "name": "슬로우그라운드",
@@ -838,6 +910,7 @@
               "phoneVerified": true
             },
             {
+              "id": "09ce4bee1578",
               "category": "한식(해산물/조개구이)",
               "categoryIcon": "🍚",
               "name": "청춘브라더스 (오이도)",
@@ -849,6 +922,7 @@
               "phoneVerified": false
             },
             {
+              "id": "40fec053b641",
               "category": "중식",
               "categoryIcon": "🥢",
               "name": "판다객잔 (능곡)",
@@ -860,6 +934,7 @@
               "phoneVerified": false
             },
             {
+              "id": "031da3afa45c",
               "category": "양식",
               "categoryIcon": "🍝",
               "name": "투파인드피터 (은행동)",
@@ -876,6 +951,7 @@
           "name": "군포시",
           "restaurants": [
             {
+              "id": "6d60880f5634",
               "category": "한식(오리요리)",
               "categoryIcon": "🍚",
               "name": "순이네시골밥상",
@@ -887,6 +963,7 @@
               "phoneVerified": false
             },
             {
+              "id": "15a5d7e69d29",
               "category": "양식(파스타)",
               "categoryIcon": "🍝",
               "name": "달보드레PASTA",
@@ -898,6 +975,7 @@
               "phoneVerified": true
             },
             {
+              "id": "0e5a59a7a78d",
               "category": "빵(베이커리)",
               "categoryIcon": "🥐",
               "name": "좋은아침페스츄리 시그니처점",
@@ -914,6 +992,7 @@
           "name": "의왕시",
           "restaurants": [
             {
+              "id": "e7a2f26a2bd7",
               "category": "한식(정육식당/고기)",
               "categoryIcon": "🍚",
               "name": "선일목장 정육식당",
@@ -925,6 +1004,7 @@
               "phoneVerified": true
             },
             {
+              "id": "b48f625649a0",
               "category": "일식(라멘, 회 없음)",
               "categoryIcon": "🍣",
               "name": "라멘구락부",
@@ -936,6 +1016,7 @@
               "phoneVerified": true
             },
             {
+              "id": "109604bb3b3b",
               "category": "빵/카페(베이커리카페)",
               "categoryIcon": "🥐",
               "name": "청이당",
@@ -947,6 +1028,7 @@
               "phoneVerified": true
             },
             {
+              "id": "35d5b3bf0c80",
               "category": "한식(오리고기)",
               "categoryIcon": "🍚",
               "name": "와우리장작구이 백운호수점",
@@ -958,6 +1040,7 @@
               "phoneVerified": true
             },
             {
+              "id": "bc5a215c19cb",
               "category": "양식(이탈리안)",
               "categoryIcon": "🍝",
               "name": "기와 KIWA (백운호수)",
@@ -974,6 +1057,7 @@
           "name": "안산시",
           "restaurants": [
             {
+              "id": "ec354bd09896",
               "category": "한식(막국수)",
               "categoryIcon": "🍚",
               "name": "봉평대궐막국수",
@@ -985,6 +1069,7 @@
               "phoneVerified": false
             },
             {
+              "id": "6a0cbb440050",
               "category": "한식(바지락칼국수)",
               "categoryIcon": "🍚",
               "name": "배터지는집",
@@ -1001,6 +1086,7 @@
           "name": "고양시",
           "restaurants": [
             {
+              "id": "e6099075ef28",
               "category": "일식(라멘, 회 없음)",
               "categoryIcon": "🍣",
               "name": "큐슈 울트라아멘",
@@ -1012,6 +1098,7 @@
               "phoneVerified": false
             },
             {
+              "id": "073b351f50b1",
               "category": "한식(칼국수)",
               "categoryIcon": "🍚",
               "name": "일산칼국수 본점",
@@ -1023,6 +1110,7 @@
               "phoneVerified": true
             },
             {
+              "id": "5d602ba988aa",
               "category": "한식(국수/미꾸라지튀김)",
               "categoryIcon": "🍚",
               "name": "행주국수",
@@ -1034,6 +1122,7 @@
               "phoneVerified": true
             },
             {
+              "id": "62f53bf1482b",
               "category": "한식(한우 정육식당)",
               "categoryIcon": "🍚",
               "name": "수역이마을한우촌",
@@ -1050,6 +1139,7 @@
           "name": "용인시",
           "restaurants": [
             {
+              "id": "f8ad6fcb7931",
               "category": "한식(삼계탕)",
               "categoryIcon": "🍚",
               "name": "상황삼계탕",
@@ -1061,6 +1151,7 @@
               "phoneVerified": true
             },
             {
+              "id": "36a61c16fe83",
               "category": "한식(막국수)",
               "categoryIcon": "🍚",
               "name": "고기리막국수",
@@ -1072,6 +1163,7 @@
               "phoneVerified": true
             },
             {
+              "id": "874666587c57",
               "category": "한식(생선구이)",
               "categoryIcon": "🍚",
               "name": "산으로간고등어",
@@ -1083,6 +1175,7 @@
               "phoneVerified": true
             },
             {
+              "id": "b729737b53e0",
               "category": "중식",
               "categoryIcon": "🥢",
               "name": "하이보 수지점",
@@ -1094,6 +1187,7 @@
               "phoneVerified": false
             },
             {
+              "id": "b7a2fb24ff12",
               "category": "양식(이탈리안 코스)",
               "categoryIcon": "🍝",
               "name": "피렌체티본스테이크",
@@ -1105,6 +1199,7 @@
               "phoneVerified": true
             },
             {
+              "id": "b0fc7b404f58",
               "category": "일식(돈카츠/쌀국수, 회 없음)",
               "categoryIcon": "🍣",
               "name": "화화돈 기흥AK점",
@@ -1116,6 +1211,7 @@
               "phoneVerified": false
             },
             {
+              "id": "e630f1973fae",
               "category": "한식(두부요리)",
               "categoryIcon": "🍚",
               "name": "삼대째손두부",
@@ -1127,6 +1223,7 @@
               "phoneVerified": true
             },
             {
+              "id": "5d0596c31332",
               "category": "한식(칼국수)",
               "categoryIcon": "🍚",
               "name": "총각손칼국수",
@@ -1138,6 +1235,7 @@
               "phoneVerified": false
             },
             {
+              "id": "a6510d3458ac",
               "category": "한식(돼지국밥)",
               "categoryIcon": "🍚",
               "name": "토박이 밀양 돼지국밥",
@@ -1149,6 +1247,7 @@
               "phoneVerified": false
             },
             {
+              "id": "d15fc8942e2d",
               "category": "한식(장어)",
               "categoryIcon": "🍚",
               "name": "만수정",
@@ -1160,6 +1259,7 @@
               "phoneVerified": true
             },
             {
+              "id": "cd13b0d2eea3",
               "category": "한식(백반)",
               "categoryIcon": "🍚",
               "name": "제일백반",
@@ -1171,6 +1271,7 @@
               "phoneVerified": false
             },
             {
+              "id": "93bbd488b641",
               "category": "한식(부대찌개)",
               "categoryIcon": "🍚",
               "name": "대성부대찌개 용인본점",
@@ -1182,6 +1283,7 @@
               "phoneVerified": false
             },
             {
+              "id": "764b00200f07",
               "category": "한식(순대국)",
               "categoryIcon": "🍚",
               "name": "제일식당",
@@ -1193,6 +1295,7 @@
               "phoneVerified": true
             },
             {
+              "id": "8a126d3d2e6a",
               "category": "베트남음식(쌀국수)",
               "categoryIcon": "🌏",
               "name": "포메인 (에버랜드 인근)",
@@ -1204,6 +1307,7 @@
               "phoneVerified": false
             },
             {
+              "id": "0892ab3f63ee",
               "category": "중식",
               "categoryIcon": "🥢",
               "name": "짬뽕킹 (에버랜드 인근)",
@@ -1215,6 +1319,7 @@
               "phoneVerified": false
             },
             {
+              "id": "b0a96a02a98f",
               "category": "한식(보리밥)",
               "categoryIcon": "🍚",
               "name": "희락보리 (에버랜드 인근)",
@@ -1226,6 +1331,7 @@
               "phoneVerified": false
             },
             {
+              "id": "32da88e0475d",
               "category": "한식(도토리국수)",
               "categoryIcon": "🍚",
               "name": "광교산도토리국수",
@@ -1237,6 +1343,7 @@
               "phoneVerified": true
             },
             {
+              "id": "a3ee8a1627b0",
               "category": "중식(훠궈/양고기)",
               "categoryIcon": "🥢",
               "name": "미가훠궈양고기",
@@ -1248,6 +1355,7 @@
               "phoneVerified": true
             },
             {
+              "id": "a3147b0b71c6",
               "category": "한식(한정식)",
               "categoryIcon": "🍚",
               "name": "뜰사랑한정식",
@@ -1259,6 +1367,7 @@
               "phoneVerified": true
             },
             {
+              "id": "eeee81665b7a",
               "category": "양식(파스타)",
               "categoryIcon": "🍝",
               "name": "비스트로 유비노",
@@ -1275,6 +1384,7 @@
           "name": "파주시",
           "restaurants": [
             {
+              "id": "9b8a2388f5df",
               "category": "한식(닭국수)",
               "categoryIcon": "🍚",
               "name": "파주닭국수",
@@ -1286,6 +1396,7 @@
               "phoneVerified": false
             },
             {
+              "id": "6bc87ed2deb2",
               "category": "한식(두부요리)",
               "categoryIcon": "🍚",
               "name": "맛고을 장단콩 두부마을",
@@ -1297,6 +1408,7 @@
               "phoneVerified": false
             },
             {
+              "id": "ddf748c36e0a",
               "category": "한식(삼겹살)",
               "categoryIcon": "🍚",
               "name": "임창정 세겹살 파주야당점",
@@ -1308,6 +1420,7 @@
               "phoneVerified": false
             },
             {
+              "id": "99744d2a345b",
               "category": "한식(고기/막국수)",
               "categoryIcon": "🍚",
               "name": "홍부생고기막국수",
@@ -1319,6 +1432,7 @@
               "phoneVerified": true
             },
             {
+              "id": "e9d91ec05dcd",
               "category": "일식(소바/돈카츠, 회 없음)",
               "categoryIcon": "🍣",
               "name": "삼동소바",
@@ -1335,6 +1449,7 @@
           "name": "의정부시",
           "restaurants": [
             {
+              "id": "f891b45ec677",
               "category": "한식(게장/보리굴비)",
               "categoryIcon": "🍚",
               "name": "일월담",
@@ -1346,6 +1461,7 @@
               "phoneVerified": true
             },
             {
+              "id": "c85e37668e82",
               "category": "한식(곱창)",
               "categoryIcon": "🍚",
               "name": "깡통돌곱창",
@@ -1357,6 +1473,7 @@
               "phoneVerified": true
             },
             {
+              "id": "2b57df3c60ab",
               "category": "일식(야키니꾸/고기구이, 회 없음)",
               "categoryIcon": "🍣",
               "name": "모토이시 의정부점",
@@ -1368,6 +1485,7 @@
               "phoneVerified": true
             },
             {
+              "id": "504058cb0f6b",
               "category": "양식",
               "categoryIcon": "🍝",
               "name": "파크프리베",
@@ -1384,6 +1502,7 @@
           "name": "광명시",
           "restaurants": [
             {
+              "id": "7d9142caf636",
               "category": "중식(훠궈)",
               "categoryIcon": "🥢",
               "name": "대홍훠궈샤브샤브 광명사거리점",
@@ -1395,6 +1514,7 @@
               "phoneVerified": true
             },
             {
+              "id": "42a53e87ffd1",
               "category": "한식(돼지고기구이)",
               "categoryIcon": "🍚",
               "name": "하안동꿀주먹",
@@ -1406,6 +1526,7 @@
               "phoneVerified": true
             },
             {
+              "id": "e71a56239a8e",
               "category": "한식(삼겹살)",
               "categoryIcon": "🍚",
               "name": "목구멍 광명점",
@@ -1417,6 +1538,7 @@
               "phoneVerified": false
             },
             {
+              "id": "25c6497c3fec",
               "category": "일식(라멘, 회 없음)",
               "categoryIcon": "🍣",
               "name": "리유라멘",
@@ -1433,6 +1555,7 @@
           "name": "평택시",
           "restaurants": [
             {
+              "id": "c534720c0161",
               "category": "중식",
               "categoryIcon": "🥢",
               "name": "영빈루",
@@ -1444,6 +1567,7 @@
               "phoneVerified": false
             },
             {
+              "id": "72f058e5723c",
               "category": "한식(해장국)",
               "categoryIcon": "🍚",
               "name": "아대구해장국",
@@ -1455,6 +1579,7 @@
               "phoneVerified": true
             },
             {
+              "id": "67c6bf3f51ee",
               "category": "양식(브런치/카페)",
               "categoryIcon": "🍝",
               "name": "호커스포커스로스터스",
@@ -1471,6 +1596,7 @@
           "name": "동두천시",
           "restaurants": [
             {
+              "id": "963b02abe03b",
               "category": "한식(전골/부침개)",
               "categoryIcon": "🍚",
               "name": "토가",
@@ -1482,6 +1608,7 @@
               "phoneVerified": true
             },
             {
+              "id": "b1eafe941d2b",
               "category": "빵/카페",
               "categoryIcon": "🥐",
               "name": "코홀트커피 2호점",
@@ -1498,6 +1625,7 @@
           "name": "과천시",
           "restaurants": [
             {
+              "id": "505dbf5886c1",
               "category": "한식(오리요리)",
               "categoryIcon": "🍚",
               "name": "더차돌",
@@ -1509,6 +1637,7 @@
               "phoneVerified": true
             },
             {
+              "id": "802ee577342d",
               "category": "한식(곱창/대창)",
               "categoryIcon": "🍚",
               "name": "기와집 양대창",
@@ -1520,6 +1649,7 @@
               "phoneVerified": false
             },
             {
+              "id": "79f20c31be1a",
               "category": "한식(막국수)",
               "categoryIcon": "🍚",
               "name": "선바위메밀장터",
@@ -1536,6 +1666,7 @@
           "name": "구리시",
           "restaurants": [
             {
+              "id": "8766bb96d362",
               "category": "한식(칼국수)",
               "categoryIcon": "🍚",
               "name": "잉꼬칼국수",
@@ -1547,6 +1678,7 @@
               "phoneVerified": true
             },
             {
+              "id": "87f1a47c9ed7",
               "category": "양식(파스타/스테이크)",
               "categoryIcon": "🍝",
               "name": "리옹 LYON",
@@ -1558,6 +1690,7 @@
               "phoneVerified": false
             },
             {
+              "id": "a8741b46c399",
               "category": "한식(한정식)",
               "categoryIcon": "🍚",
               "name": "두메골",
@@ -1569,6 +1702,7 @@
               "phoneVerified": true
             },
             {
+              "id": "0ca2eeb0461e",
               "category": "양식(브라질리언 스테이크)",
               "categoryIcon": "🍝",
               "name": "더브라질 스테이크 레스토랑",
@@ -1580,6 +1714,7 @@
               "phoneVerified": false
             },
             {
+              "id": "636be40c03f2",
               "category": "한식(칼국수)",
               "categoryIcon": "🍚",
               "name": "할매손칼국수",
@@ -1596,6 +1731,7 @@
           "name": "남양주시",
           "restaurants": [
             {
+              "id": "ac3e9b5cd00c",
               "category": "한식(오리요리)",
               "categoryIcon": "🍚",
               "name": "약수촌",
@@ -1607,6 +1743,7 @@
               "phoneVerified": true
             },
             {
+              "id": "97f21579dca9",
               "category": "한식(한우)",
               "categoryIcon": "🍚",
               "name": "한근집",
@@ -1618,6 +1755,7 @@
               "phoneVerified": true
             },
             {
+              "id": "6561183ae50a",
               "category": "한식(삼겹살)",
               "categoryIcon": "🍚",
               "name": "육감돼지 마석본점",
@@ -1629,6 +1767,7 @@
               "phoneVerified": true
             },
             {
+              "id": "19270615bfaf",
               "category": "한식(뷔페)",
               "categoryIcon": "🍚",
               "name": "별식당",
@@ -1640,6 +1779,7 @@
               "phoneVerified": true
             },
             {
+              "id": "5d88b943c642",
               "category": "한식(쌈밥)",
               "categoryIcon": "🍚",
               "name": "목향원",
@@ -1656,6 +1796,7 @@
           "name": "오산시",
           "restaurants": [
             {
+              "id": "33e622c72028",
               "category": "한식(추어탕)",
               "categoryIcon": "🍚",
               "name": "추오정남원추어탕",
@@ -1667,6 +1808,7 @@
               "phoneVerified": true
             },
             {
+              "id": "f8d240cdc118",
               "category": "한식(칼국수)",
               "categoryIcon": "🍚",
               "name": "홍두깨칼국수 (오색시장)",
@@ -1678,6 +1820,7 @@
               "phoneVerified": false
             },
             {
+              "id": "018e00d28b37",
               "category": "한식(고기구이)",
               "categoryIcon": "🍚",
               "name": "제주꽃돼지 운암",
@@ -1689,6 +1832,7 @@
               "phoneVerified": false
             },
             {
+              "id": "9df754f7eb26",
               "category": "양식(브런치/카페)",
               "categoryIcon": "🍝",
               "name": "카페 하이라이트 오산점",
@@ -1705,6 +1849,7 @@
           "name": "하남시",
           "restaurants": [
             {
+              "id": "881930b37f10",
               "category": "한식(가마솥밥)",
               "categoryIcon": "🍚",
               "name": "교산가마솥밥한상",
@@ -1716,6 +1861,7 @@
               "phoneVerified": true
             },
             {
+              "id": "e5edee59dffc",
               "category": "한식(두부요리)",
               "categoryIcon": "🍚",
               "name": "강변손두부",
@@ -1727,6 +1873,7 @@
               "phoneVerified": true
             },
             {
+              "id": "1726a6fccdb8",
               "category": "한식(만두)",
               "categoryIcon": "🍚",
               "name": "만두집 (은고개)",
@@ -1743,6 +1890,7 @@
           "name": "이천시",
           "restaurants": [
             {
+              "id": "519032c5f50a",
               "category": "한식(한정식)",
               "categoryIcon": "🍚",
               "name": "청목한정식",
@@ -1754,6 +1902,7 @@
               "phoneVerified": true
             },
             {
+              "id": "1a17a1323abf",
               "category": "한식(삼겹살)",
               "categoryIcon": "🍚",
               "name": "육밀도 이천점",
@@ -1770,6 +1919,7 @@
           "name": "안성시",
           "restaurants": [
             {
+              "id": "08999d91f834",
               "category": "한식(냉면)",
               "categoryIcon": "🍚",
               "name": "장안면옥",
@@ -1781,6 +1931,7 @@
               "phoneVerified": true
             },
             {
+              "id": "e7d9bff2578d",
               "category": "빵/카페(빙수)",
               "categoryIcon": "🥐",
               "name": "실타래빙수집",
@@ -1797,6 +1948,7 @@
           "name": "김포시",
           "restaurants": [
             {
+              "id": "cb7727100c1b",
               "category": "한식(만두/국수)",
               "categoryIcon": "🍚",
               "name": "다래옥",
@@ -1808,6 +1960,7 @@
               "phoneVerified": true
             },
             {
+              "id": "0165ecf511a3",
               "category": "빵(베이커리카페)",
               "categoryIcon": "🥐",
               "name": "리틀파울로",
@@ -1819,6 +1972,7 @@
               "phoneVerified": true
             },
             {
+              "id": "caf7ff98a15a",
               "category": "빵(베이커리)",
               "categoryIcon": "🥐",
               "name": "밀몽",
@@ -1830,6 +1984,7 @@
               "phoneVerified": true
             },
             {
+              "id": "f69370b340bc",
               "category": "베트남음식(쌀국수)",
               "categoryIcon": "🌏",
               "name": "포아이니",
@@ -1846,6 +2001,7 @@
           "name": "화성시",
           "restaurants": [
             {
+              "id": "d2573700afe3",
               "category": "한식(미나리 샤브샤브/오리요리)",
               "categoryIcon": "🍚",
               "name": "청도미나리식당 동탄점",
@@ -1857,6 +2013,7 @@
               "phoneVerified": true
             },
             {
+              "id": "e2cc77b5d1fc",
               "category": "일식(돈카츠)",
               "categoryIcon": "🍣",
               "name": "꽃가츠",
@@ -1868,6 +2025,7 @@
               "phoneVerified": true
             },
             {
+              "id": "28716f90500a",
               "category": "베트남음식",
               "categoryIcon": "🌏",
               "name": "꾸아 동탄목동점",
@@ -1879,6 +2037,7 @@
               "phoneVerified": true
             },
             {
+              "id": "33b44a22ce99",
               "category": "양식(파스타/피자)",
               "categoryIcon": "🍝",
               "name": "린스트라우스 동탄역점",
@@ -1890,6 +2049,7 @@
               "phoneVerified": false
             },
             {
+              "id": "9e69059b2e58",
               "category": "카페/브런치",
               "categoryIcon": "☕",
               "name": "카페드로잉",
@@ -1901,6 +2061,7 @@
               "phoneVerified": true
             },
             {
+              "id": "ce9b61811752",
               "category": "한식(돼지갈비/소갈비)",
               "categoryIcon": "🍚",
               "name": "반송돈 동탄북광장점",
@@ -1912,6 +2073,7 @@
               "phoneVerified": true
             },
             {
+              "id": "31f8e9d5ac44",
               "category": "한식(순두부)",
               "categoryIcon": "🍚",
               "name": "북창동순두부 동탄남광장점",
@@ -1923,6 +2085,7 @@
               "phoneVerified": false
             },
             {
+              "id": "c56ddffd0574",
               "category": "한식(곱도리탕)",
               "categoryIcon": "🍚",
               "name": "승도리네 동탄역점",
@@ -1934,6 +2097,7 @@
               "phoneVerified": true
             },
             {
+              "id": "ca5663ea73ef",
               "category": "한식(뷔페)",
               "categoryIcon": "🍚",
               "name": "더쿠킹스토리",
@@ -1945,6 +2109,7 @@
               "phoneVerified": false
             },
             {
+              "id": "47a7a7ee277b",
               "category": "한식(냉면)",
               "categoryIcon": "🍚",
               "name": "고매옥",
@@ -1956,6 +2121,7 @@
               "phoneVerified": false
             },
             {
+              "id": "d93a82df6d14",
               "category": "한식(순대국)",
               "categoryIcon": "🍚",
               "name": "원평시골장터",
@@ -1967,6 +2133,7 @@
               "phoneVerified": false
             },
             {
+              "id": "cf3194ef219e",
               "category": "한식(순대국밥)",
               "categoryIcon": "🍚",
               "name": "가마솥순대국밥 동탄점",
@@ -1978,6 +2145,7 @@
               "phoneVerified": true
             },
             {
+              "id": "65dce09e34e4",
               "category": "한식(국밥)",
               "categoryIcon": "🍚",
               "name": "국밥도",
@@ -1989,6 +2157,7 @@
               "phoneVerified": true
             },
             {
+              "id": "7ea8593fc9c9",
               "category": "서양음식(타코)",
               "categoryIcon": "🍝",
               "name": "타코닷 동탄점",
@@ -2000,6 +2169,7 @@
               "phoneVerified": true
             },
             {
+              "id": "75aea17e168c",
               "category": "한식(돼지갈비)",
               "categoryIcon": "🍚",
               "name": "인천생갈비",
@@ -2011,6 +2181,7 @@
               "phoneVerified": false
             },
             {
+              "id": "a527171c8c58",
               "category": "한식(곱창)",
               "categoryIcon": "🍚",
               "name": "곱분이네곱창 동탄청계점",
@@ -2022,6 +2193,7 @@
               "phoneVerified": false
             },
             {
+              "id": "11fb2f7f167b",
               "category": "일식(라멘, 회 없음)",
               "categoryIcon": "🍣",
               "name": "키와마루아지",
@@ -2033,6 +2205,7 @@
               "phoneVerified": false
             },
             {
+              "id": "8ac745f50e39",
               "category": "한식(감자탕)",
               "categoryIcon": "🍚",
               "name": "지존감자탕",
@@ -2044,6 +2217,7 @@
               "phoneVerified": false
             },
             {
+              "id": "55ecc3ce137e",
               "category": "한식(곰탕)",
               "categoryIcon": "🍚",
               "name": "왕골장작불곰탕",
@@ -2055,6 +2229,7 @@
               "phoneVerified": false
             },
             {
+              "id": "7f94c5782f8b",
               "category": "한식(돼지고기)",
               "categoryIcon": "🍚",
               "name": "머슴고기 남양점",
@@ -2066,6 +2241,7 @@
               "phoneVerified": false
             },
             {
+              "id": "358d803c440d",
               "category": "한식(곱창)",
               "categoryIcon": "🍚",
               "name": "전설의곱창 봉담점",
@@ -2077,6 +2253,7 @@
               "phoneVerified": false
             },
             {
+              "id": "28d7dacc2148",
               "category": "베트남음식",
               "categoryIcon": "🌏",
               "name": "포앤박 봉담점",
@@ -2088,6 +2265,7 @@
               "phoneVerified": false
             },
             {
+              "id": "798bb58c614a",
               "category": "한식(고기/해산물)",
               "categoryIcon": "🍚",
               "name": "상록회관 연탄구이 향남점",
@@ -2099,6 +2277,7 @@
               "phoneVerified": true
             },
             {
+              "id": "4b1729dc12f5",
               "category": "한식(고기/삼겹살)",
               "categoryIcon": "🍚",
               "name": "촌놈집 동탄센트럴점",
@@ -2110,6 +2289,7 @@
               "phoneVerified": true
             },
             {
+              "id": "23a15d42bb0f",
               "category": "한식(고기/식육)",
               "categoryIcon": "🍚",
               "name": "역북집 반송점",
@@ -2121,6 +2301,7 @@
               "phoneVerified": false
             },
             {
+              "id": "93485e8a233c",
               "category": "한식(찜닭)",
               "categoryIcon": "🍚",
               "name": "두찜 화성반송점",
@@ -2132,6 +2313,7 @@
               "phoneVerified": true
             },
             {
+              "id": "390ddf780be4",
               "category": "한식(냉삼겹살)",
               "categoryIcon": "🍚",
               "name": "일냉집",
@@ -2143,6 +2325,7 @@
               "phoneVerified": false
             },
             {
+              "id": "d84764f172a1",
               "category": "한식(멸치국수)",
               "categoryIcon": "🍚",
               "name": "큰집멸치국수",
@@ -2154,6 +2337,7 @@
               "phoneVerified": false
             },
             {
+              "id": "929cdab51d54",
               "category": "빵(베이커리)",
               "categoryIcon": "🥐",
               "name": "오코코",
@@ -2165,6 +2349,7 @@
               "phoneVerified": true
             },
             {
+              "id": "eb6a7a93c347",
               "category": "중식(마라탕)",
               "categoryIcon": "🥢",
               "name": "쏭스프마라탕",
@@ -2176,6 +2361,7 @@
               "phoneVerified": true
             },
             {
+              "id": "2d1428b4153d",
               "category": "한식(코다리)",
               "categoryIcon": "🍚",
               "name": "황금코다리",
@@ -2187,6 +2373,7 @@
               "phoneVerified": false
             },
             {
+              "id": "4aa922bb18f7",
               "category": "한식(정육식당/삼겹살)",
               "categoryIcon": "🍚",
               "name": "능골정육식당",
@@ -2198,6 +2385,7 @@
               "phoneVerified": true
             },
             {
+              "id": "945d66dfb3b5",
               "category": "한식(만두전골)",
               "categoryIcon": "🍚",
               "name": "미가헌 명가만두전골",
@@ -2209,6 +2397,7 @@
               "phoneVerified": false
             },
             {
+              "id": "d5cce2a9555f",
               "category": "베트남음식(쌀국수)",
               "categoryIcon": "🌏",
               "name": "창앤호아마이 능동점",
@@ -2220,6 +2409,7 @@
               "phoneVerified": false
             },
             {
+              "id": "bf08be0130e3",
               "category": "베트남음식(쌀국수)",
               "categoryIcon": "🌏",
               "name": "포레스트",
@@ -2231,6 +2421,7 @@
               "phoneVerified": true
             },
             {
+              "id": "21d9bfdab929",
               "category": "한식(뷔페)",
               "categoryIcon": "🍚",
               "name": "신라스테이동탄 카페",
@@ -2242,6 +2433,7 @@
               "phoneVerified": true
             },
             {
+              "id": "dce5d7d5f53e",
               "category": "빙수",
               "categoryIcon": "🌏",
               "name": "눈솜",
@@ -2253,6 +2445,7 @@
               "phoneVerified": false
             },
             {
+              "id": "35daabdf28c2",
               "category": "베트남음식(쌀국수)",
               "categoryIcon": "🌏",
               "name": "포박",
@@ -2264,6 +2457,7 @@
               "phoneVerified": false
             },
             {
+              "id": "d8bc34a65f6e",
               "category": "한식(보리밥/칼국수)",
               "categoryIcon": "🍚",
               "name": "뚝배기보리밥",
@@ -2275,6 +2469,7 @@
               "phoneVerified": true
             },
             {
+              "id": "60962afec618",
               "category": "한식(멸치국수)",
               "categoryIcon": "🍚",
               "name": "반송동 멸치국수",
@@ -2286,6 +2481,7 @@
               "phoneVerified": true
             },
             {
+              "id": "994073d65798",
               "category": "한식(등갈비/김치찌개)",
               "categoryIcon": "🍚",
               "name": "양푼이 등갈비",
@@ -2297,6 +2493,7 @@
               "phoneVerified": false
             },
             {
+              "id": "1e6b3ba3c5c6",
               "category": "한식(한정식)",
               "categoryIcon": "🍚",
               "name": "곤드레밥집",
@@ -2308,6 +2505,7 @@
               "phoneVerified": false
             },
             {
+              "id": "b5bc7326d228",
               "category": "한식(해장국)",
               "categoryIcon": "🍚",
               "name": "제주은희네해장국",
@@ -2319,6 +2517,7 @@
               "phoneVerified": false
             },
             {
+              "id": "fe9b1661f134",
               "category": "한식(순대국)",
               "categoryIcon": "🍚",
               "name": "강정수순대국",
@@ -2335,6 +2534,7 @@
           "name": "광주시",
           "restaurants": [
             {
+              "id": "1a6a1a4d2147",
               "category": "한식(한정식)",
               "categoryIcon": "🍚",
               "name": "상아궁",
@@ -2346,6 +2546,7 @@
               "phoneVerified": true
             },
             {
+              "id": "a56f92b3f110",
               "category": "한식(한정식)",
               "categoryIcon": "🍚",
               "name": "낙선재",
@@ -2357,6 +2558,7 @@
               "phoneVerified": true
             },
             {
+              "id": "9d66e54bd00a",
               "category": "빵(베이커리카페)",
               "categoryIcon": "🥐",
               "name": "경성빵공장",
@@ -2368,6 +2570,7 @@
               "phoneVerified": false
             },
             {
+              "id": "1749f5ea1758",
               "category": "한식(한정식)",
               "categoryIcon": "🍚",
               "name": "좋구먼",
@@ -2384,6 +2587,7 @@
           "name": "양주시",
           "restaurants": [
             {
+              "id": "475607fd4e9c",
               "category": "한식(오리요리)",
               "categoryIcon": "🍚",
               "name": "백년 오리정",
@@ -2395,6 +2599,7 @@
               "phoneVerified": true
             },
             {
+              "id": "7bb3679ac026",
               "category": "한식(칼국수)",
               "categoryIcon": "🍚",
               "name": "밀밭칼국수 2호점",
@@ -2406,6 +2611,7 @@
               "phoneVerified": false
             },
             {
+              "id": "fd3d53b8ec31",
               "category": "빵(베이커리카페)",
               "categoryIcon": "🥐",
               "name": "카페 모어그린",
@@ -2422,6 +2628,7 @@
           "name": "포천시",
           "restaurants": [
             {
+              "id": "2066b82ac2d3",
               "category": "한식(황태정식)",
               "categoryIcon": "🍚",
               "name": "앵두나무우물가에",
@@ -2433,6 +2640,7 @@
               "phoneVerified": false
             },
             {
+              "id": "65f9436e60c0",
               "category": "한식(장류/매운탕)",
               "categoryIcon": "🍚",
               "name": "두메산골",
@@ -2444,6 +2652,7 @@
               "phoneVerified": true
             },
             {
+              "id": "9bf6a8e05980",
               "category": "한식(이동갈비)",
               "categoryIcon": "🍚",
               "name": "원조이동산장갈비",
@@ -2455,6 +2664,7 @@
               "phoneVerified": true
             },
             {
+              "id": "b86a21a10670",
               "category": "한식(시래기정식)",
               "categoryIcon": "🍚",
               "name": "욕쟁이할머니집",
@@ -2471,6 +2681,7 @@
           "name": "여주시",
           "restaurants": [
             {
+              "id": "de1b8cfa7995",
               "category": "한식(국수)",
               "categoryIcon": "🍚",
               "name": "이가국수",
@@ -2482,6 +2693,7 @@
               "phoneVerified": false
             },
             {
+              "id": "01fc2953ed4e",
               "category": "한식(해장국/순대국)",
               "categoryIcon": "🍚",
               "name": "여주마을해장국",
@@ -2493,6 +2705,7 @@
               "phoneVerified": false
             },
             {
+              "id": "bb00b642c515",
               "category": "한식(닭갈비)",
               "categoryIcon": "🍚",
               "name": "불타는숯불닭갈비",
@@ -2509,6 +2722,7 @@
           "name": "연천군",
           "restaurants": [
             {
+              "id": "e0e34370f593",
               "category": "한식(오리장작구이)",
               "categoryIcon": "🍚",
               "name": "다래가든",
@@ -2520,6 +2734,7 @@
               "phoneVerified": false
             },
             {
+              "id": "159789db7518",
               "category": "한식(비빔국수)",
               "categoryIcon": "🍚",
               "name": "망향비빔국수",
@@ -2536,6 +2751,7 @@
           "name": "가평군",
           "restaurants": [
             {
+              "id": "88e00f32056c",
               "category": "한식(한정식/청국장정식)",
               "categoryIcon": "🍚",
               "name": "들풀",
@@ -2547,6 +2763,7 @@
               "phoneVerified": true
             },
             {
+              "id": "9c0f4fe7d804",
               "category": "한식(닭볶음탕)",
               "categoryIcon": "🍚",
               "name": "산골농원",
@@ -2563,6 +2780,7 @@
           "name": "양평군",
           "restaurants": [
             {
+              "id": "6e6275661764",
               "category": "한식(불고기)",
               "categoryIcon": "🍚",
               "name": "대복식당 불고기가게",
@@ -2574,6 +2792,7 @@
               "phoneVerified": false
             },
             {
+              "id": "fd91580b566a",
               "category": "한식(한정식)",
               "categoryIcon": "🍚",
               "name": "양평 청기와",
@@ -2595,6 +2814,7 @@
           "name": "천안시",
           "restaurants": [
             {
+              "id": "b8767ecae3fd",
               "category": "한식(보리밥/한정식)",
               "categoryIcon": "🍚",
               "name": "사월에보리밥과쭈꾸미",
@@ -2606,6 +2826,7 @@
               "phoneVerified": true
             },
             {
+              "id": "9edfde125c2b",
               "category": "양식(수제버거)",
               "categoryIcon": "🍝",
               "name": "세븐데이즈버거",
@@ -2617,6 +2838,7 @@
               "phoneVerified": false
             },
             {
+              "id": "9cc8e8e0acf5",
               "category": "중식(딤섬)",
               "categoryIcon": "🥢",
               "name": "시아반",
@@ -2628,6 +2850,7 @@
               "phoneVerified": true
             },
             {
+              "id": "e2ecc21ca8be",
               "category": "경양식(돈가스)",
               "categoryIcon": "🍝",
               "name": "홍가네돈가스 육회비빔밥",
@@ -2639,6 +2862,7 @@
               "phoneVerified": true
             },
             {
+              "id": "d67b92caadbd",
               "category": "한식(동태탕/보쌈)",
               "categoryIcon": "🍚",
               "name": "양은이네 천안두정점",
@@ -2650,6 +2874,7 @@
               "phoneVerified": false
             },
             {
+              "id": "ed27edb3868b",
               "category": "한식(평양냉면)",
               "categoryIcon": "🍚",
               "name": "피양옥",
@@ -2661,6 +2886,7 @@
               "phoneVerified": true
             },
             {
+              "id": "2ffbed454687",
               "category": "한식(국밥)",
               "categoryIcon": "🍚",
               "name": "금모래",
@@ -2672,6 +2898,7 @@
               "phoneVerified": true
             },
             {
+              "id": "31afcc9f81a4",
               "category": "한식(고깃집)",
               "categoryIcon": "🍚",
               "name": "육향정",
@@ -2683,6 +2910,7 @@
               "phoneVerified": true
             },
             {
+              "id": "050a5f1b1618",
               "category": "한식(제육볶음/순두부)",
               "categoryIcon": "🍚",
               "name": "고바우순두부쌈장",
@@ -2694,6 +2922,7 @@
               "phoneVerified": true
             },
             {
+              "id": "ff3b9fef4483",
               "category": "한식(삼겹살)",
               "categoryIcon": "🍚",
               "name": "맛찬들왕소금구이 두정점",
@@ -2705,6 +2934,7 @@
               "phoneVerified": false
             },
             {
+              "id": "fe941f789e51",
               "category": "한식(대패삼겹살)",
               "categoryIcon": "🍚",
               "name": "쌈마이대패 천안백석점",
@@ -2716,6 +2946,7 @@
               "phoneVerified": true
             },
             {
+              "id": "82d39c55cb4f",
               "category": "일식(규동, 회 없음)",
               "categoryIcon": "🍣",
               "name": "동경규동 불당점",
@@ -2727,6 +2958,7 @@
               "phoneVerified": false
             },
             {
+              "id": "4890ff2483ab",
               "category": "한식(삼겹살)",
               "categoryIcon": "🍚",
               "name": "경동집",
@@ -2738,6 +2970,7 @@
               "phoneVerified": false
             },
             {
+              "id": "f87fc0fc8019",
               "category": "한식(샤브칼국수)",
               "categoryIcon": "🍚",
               "name": "등촌샤브칼국수 천안점",
@@ -2749,6 +2982,7 @@
               "phoneVerified": true
             },
             {
+              "id": "6dcefb07bed5",
               "category": "한식(족발/막국수)",
               "categoryIcon": "🍚",
               "name": "봉명족발",
@@ -2760,6 +2994,7 @@
               "phoneVerified": true
             },
             {
+              "id": "e1ff2d6e33c9",
               "category": "한식(삼계탕)",
               "categoryIcon": "🍚",
               "name": "토정삼계탕 본관",
@@ -2771,6 +3006,7 @@
               "phoneVerified": true
             },
             {
+              "id": "ff14b3948efb",
               "category": "한식(만두)",
               "categoryIcon": "🍚",
               "name": "쪽문만두 (중앙시장)",
@@ -2782,6 +3018,7 @@
               "phoneVerified": false
             },
             {
+              "id": "060f976e34be",
               "category": "한식(장어)",
               "categoryIcon": "🍚",
               "name": "천안본가장어전문점",
@@ -2793,6 +3030,7 @@
               "phoneVerified": false
             },
             {
+              "id": "33f2793ef332",
               "category": "한식(아구찜/해물찜)",
               "categoryIcon": "🍚",
               "name": "신진성 아구찜 해물찜 성정점",
@@ -2804,6 +3042,7 @@
               "phoneVerified": true
             },
             {
+              "id": "cf151929a9c5",
               "category": "한식(돼지고기)",
               "categoryIcon": "🍚",
               "name": "육화미 신불당점",
@@ -2815,6 +3054,7 @@
               "phoneVerified": false
             },
             {
+              "id": "870863dcb84d",
               "category": "양식(수제버거/타코)",
               "categoryIcon": "🍝",
               "name": "버거앤타코 신불당점",
@@ -2831,6 +3071,7 @@
           "name": "아산시",
           "restaurants": [
             {
+              "id": "4f0ad678ad99",
               "category": "한식(청국장)",
               "categoryIcon": "🍚",
               "name": "온양청국장집",
@@ -2842,6 +3083,7 @@
               "phoneVerified": true
             },
             {
+              "id": "8dd2253a5393",
               "category": "한식(칼국수)",
               "categoryIcon": "🍚",
               "name": "홍두깨칼국수",
@@ -2853,6 +3095,7 @@
               "phoneVerified": true
             },
             {
+              "id": "16be3c106b26",
               "category": "한식(곰탕)",
               "categoryIcon": "🍚",
               "name": "고려옥",
@@ -2864,6 +3107,7 @@
               "phoneVerified": true
             },
             {
+              "id": "d85449956984",
               "category": "한식(삼겹살/육회)",
               "categoryIcon": "🍚",
               "name": "육회에빠지다 아산탕정점",
@@ -2875,6 +3119,7 @@
               "phoneVerified": true
             },
             {
+              "id": "3a43c318937d",
               "category": "한식(꼬막비빔밥)",
               "categoryIcon": "🍚",
               "name": "마시코",
@@ -2886,6 +3131,7 @@
               "phoneVerified": true
             },
             {
+              "id": "fa62598724dd",
               "category": "한식(해물칼국수)",
               "categoryIcon": "🍚",
               "name": "궁전해물칼국수 신정호점",
@@ -2897,6 +3143,7 @@
               "phoneVerified": false
             },
             {
+              "id": "a7bc657cc4f8",
               "category": "카페",
               "categoryIcon": "☕",
               "name": "카페안낙",
@@ -2908,6 +3155,7 @@
               "phoneVerified": true
             },
             {
+              "id": "8ea8a04edd3c",
               "category": "양식(화덕피자)",
               "categoryIcon": "🍝",
               "name": "핏제리아 436",
@@ -2919,6 +3167,7 @@
               "phoneVerified": true
             },
             {
+              "id": "4ed265831c82",
               "category": "한식(샤브샤브)",
               "categoryIcon": "🍚",
               "name": "화담원 신정호점",
@@ -2930,6 +3179,7 @@
               "phoneVerified": true
             },
             {
+              "id": "c7f0050db7e3",
               "category": "한식(한정식)",
               "categoryIcon": "🍚",
               "name": "고구려",
@@ -2941,6 +3191,7 @@
               "phoneVerified": true
             },
             {
+              "id": "2042e30dbd61",
               "category": "한식(한정식)",
               "categoryIcon": "🍚",
               "name": "들꽃 한정식",
@@ -2952,6 +3203,7 @@
               "phoneVerified": false
             },
             {
+              "id": "6603314f72dc",
               "category": "한식(순대국밥)",
               "categoryIcon": "🍚",
               "name": "배방아우내순대",
@@ -2963,6 +3215,7 @@
               "phoneVerified": true
             },
             {
+              "id": "b0bfdd28fbe9",
               "category": "한식(보리밥)",
               "categoryIcon": "🍚",
               "name": "꽁당보리밥",
@@ -2974,6 +3227,7 @@
               "phoneVerified": false
             },
             {
+              "id": "ecdaabda80e4",
               "category": "한식(수제비)",
               "categoryIcon": "🍚",
               "name": "모산수제비",
@@ -2985,6 +3239,7 @@
               "phoneVerified": true
             },
             {
+              "id": "8c72a5faad5f",
               "category": "한식(샤브샤브)",
               "categoryIcon": "🍚",
               "name": "편편집",
@@ -2996,6 +3251,7 @@
               "phoneVerified": false
             },
             {
+              "id": "73abbc121921",
               "category": "한식(갈비 무한리필)",
               "categoryIcon": "🍚",
               "name": "육품무한갈비",
@@ -3007,6 +3263,7 @@
               "phoneVerified": false
             },
             {
+              "id": "673af6b4c467",
               "category": "한식(가정식)",
               "categoryIcon": "🍚",
               "name": "인주밥집",
@@ -3018,6 +3275,7 @@
               "phoneVerified": true
             },
             {
+              "id": "6c42086eb5be",
               "category": "한식(콩나물국밥)",
               "categoryIcon": "🍚",
               "name": "24시전주명가콩나물국밥 둔포점",
@@ -3029,6 +3287,7 @@
               "phoneVerified": true
             },
             {
+              "id": "676d76795641",
               "category": "한식(부대찌개)",
               "categoryIcon": "🍚",
               "name": "킹콩부대찌개",
@@ -3040,6 +3299,7 @@
               "phoneVerified": true
             },
             {
+              "id": "d804d9581865",
               "category": "한식(양꼬치/샤브샤브)",
               "categoryIcon": "🍚",
               "name": "아산 둔포 양꼬치집",
@@ -3056,6 +3316,7 @@
           "name": "서산시",
           "restaurants": [
             {
+              "id": "937dda9b97a7",
               "category": "한식(장어)",
               "categoryIcon": "🍚",
               "name": "원조장어마을",
@@ -3067,6 +3328,7 @@
               "phoneVerified": true
             },
             {
+              "id": "95989205b95d",
               "category": "한식(보리밥/오리)",
               "categoryIcon": "🍚",
               "name": "향수가든",
@@ -3078,6 +3340,7 @@
               "phoneVerified": true
             },
             {
+              "id": "2dd3e5dac1f5",
               "category": "한식(어죽)",
               "categoryIcon": "🍚",
               "name": "풍전뚝집",
@@ -3089,6 +3352,7 @@
               "phoneVerified": true
             },
             {
+              "id": "e5ef483df613",
               "category": "일식(돈카츠, 회 없음)",
               "categoryIcon": "🍣",
               "name": "치비카츠",
@@ -3100,6 +3364,7 @@
               "phoneVerified": true
             },
             {
+              "id": "b62f26c176e9",
               "category": "중식",
               "categoryIcon": "🥢",
               "name": "강미루",
@@ -3116,6 +3381,7 @@
           "name": "공주시",
           "restaurants": [
             {
+              "id": "737b6acd4b7a",
               "category": "한식",
               "categoryIcon": "🍚",
               "name": "신공주식당",
@@ -3127,6 +3393,7 @@
               "phoneVerified": true
             },
             {
+              "id": "0286f20a7a6e",
               "category": "한식(산채정식)",
               "categoryIcon": "🍚",
               "name": "가화",
@@ -3138,6 +3405,7 @@
               "phoneVerified": true
             },
             {
+              "id": "5de7d52efe14",
               "category": "한식(생선구이)",
               "categoryIcon": "🍚",
               "name": "곰골식당",
@@ -3149,6 +3417,7 @@
               "phoneVerified": true
             },
             {
+              "id": "8ca125007047",
               "category": "한식(동태탕/아귀찜)",
               "categoryIcon": "🍚",
               "name": "곰선생동태씨",
@@ -3160,6 +3429,7 @@
               "phoneVerified": true
             },
             {
+              "id": "d44c77bcca12",
               "category": "한식(칼국수)",
               "categoryIcon": "🍚",
               "name": "고가네칼국수",
@@ -3176,6 +3446,7 @@
           "name": "보령시",
           "restaurants": [
             {
+              "id": "b6a857fa10f4",
               "category": "중식",
               "categoryIcon": "🥢",
               "name": "태화장",
@@ -3187,6 +3458,7 @@
               "phoneVerified": true
             },
             {
+              "id": "04e2f07b4ba2",
               "category": "한식(조개구이 무한리필)",
               "categoryIcon": "🍚",
               "name": "대천조개창고2호점",
@@ -3198,6 +3470,7 @@
               "phoneVerified": true
             },
             {
+              "id": "6be531a6fe74",
               "category": "경양식(돈까스)",
               "categoryIcon": "🍝",
               "name": "혜화동돈까스극장 보령대천점",
@@ -3209,6 +3482,7 @@
               "phoneVerified": true
             },
             {
+              "id": "59cb9ac0a82a",
               "category": "한식(조개구이)",
               "categoryIcon": "🍚",
               "name": "청춘조개",
@@ -3220,6 +3494,7 @@
               "phoneVerified": true
             },
             {
+              "id": "e4beeebff44d",
               "category": "한식(찌개백반)",
               "categoryIcon": "🍚",
               "name": "이화수식당",
@@ -3236,6 +3511,7 @@
           "name": "논산시",
           "restaurants": [
             {
+              "id": "1a145a683a43",
               "category": "한식(해물칼국수)",
               "categoryIcon": "🍚",
               "name": "강경해물칼국수",
@@ -3247,6 +3523,7 @@
               "phoneVerified": true
             },
             {
+              "id": "8a9687e85a03",
               "category": "한식(복요리)",
               "categoryIcon": "🍚",
               "name": "황산옥",
@@ -3258,6 +3535,7 @@
               "phoneVerified": true
             },
             {
+              "id": "a36a85629d29",
               "category": "경양식/일식(소바·돈까스, 회 없음)",
               "categoryIcon": "🍝",
               "name": "반월소바",
@@ -3269,6 +3547,7 @@
               "phoneVerified": true
             },
             {
+              "id": "82472bcef824",
               "category": "한식(순대국)",
               "categoryIcon": "🍚",
               "name": "천평순대",
@@ -3285,6 +3564,7 @@
           "name": "당진시",
           "restaurants": [
             {
+              "id": "bbcd1294903f",
               "category": "한식(생선조림)",
               "categoryIcon": "🍚",
               "name": "슬기네식당",
@@ -3296,6 +3576,7 @@
               "phoneVerified": true
             },
             {
+              "id": "42fde7e7acf9",
               "category": "한식(쌈밥)",
               "categoryIcon": "🍚",
               "name": "옛날우렁이식당",
@@ -3307,6 +3588,7 @@
               "phoneVerified": false
             },
             {
+              "id": "efce7f075f88",
               "category": "중식",
               "categoryIcon": "🥢",
               "name": "빙빙반점",
@@ -3318,6 +3600,7 @@
               "phoneVerified": true
             },
             {
+              "id": "6abf10c84e2d",
               "category": "한식(한정식)",
               "categoryIcon": "🍚",
               "name": "아미여울 농가",
@@ -3329,6 +3612,7 @@
               "phoneVerified": true
             },
             {
+              "id": "b056ea551660",
               "category": "한식(조개구이)",
               "categoryIcon": "🍚",
               "name": "청춘조개 (삽교호점)",
@@ -3345,6 +3629,7 @@
           "name": "계룡시",
           "restaurants": [
             {
+              "id": "5b832108ecb9",
               "category": "한식(샤브샤브)",
               "categoryIcon": "🍚",
               "name": "샤브마름",
@@ -3356,6 +3641,7 @@
               "phoneVerified": false
             },
             {
+              "id": "922f0b2579e7",
               "category": "한식(냉면)",
               "categoryIcon": "🍚",
               "name": "계룡면옥",
@@ -3367,6 +3653,7 @@
               "phoneVerified": true
             },
             {
+              "id": "d0d7861466d1",
               "category": "한식(한우)",
               "categoryIcon": "🍚",
               "name": "신도리한우촌",
@@ -3378,6 +3665,7 @@
               "phoneVerified": true
             },
             {
+              "id": "dd83e67456ba",
               "category": "한식(감자탕)",
               "categoryIcon": "🍚",
               "name": "맛나감자탕",
@@ -3389,6 +3677,7 @@
               "phoneVerified": true
             },
             {
+              "id": "318134e1d9a1",
               "category": "일식(소바, 회 없음)",
               "categoryIcon": "🍣",
               "name": "예촌소바",
@@ -3405,6 +3694,7 @@
           "name": "홍성군",
           "restaurants": [
             {
+              "id": "e725b67a89a5",
               "category": "한식(아구찜)",
               "categoryIcon": "🍚",
               "name": "류박사아구전문점",
@@ -3416,6 +3706,7 @@
               "phoneVerified": true
             },
             {
+              "id": "73324a07dc3b",
               "category": "한식(한우)",
               "categoryIcon": "🍚",
               "name": "내당한우",
@@ -3427,6 +3718,7 @@
               "phoneVerified": true
             },
             {
+              "id": "2df937ec6a60",
               "category": "중식",
               "categoryIcon": "🥢",
               "name": "고려짬뽕",
@@ -3438,6 +3730,7 @@
               "phoneVerified": true
             },
             {
+              "id": "cfbda5d625fe",
               "category": "양식(화덕피자)",
               "categoryIcon": "🍝",
               "name": "꽃피는화덕피자 D485",
@@ -3454,6 +3747,7 @@
           "name": "예산군",
           "restaurants": [
             {
+              "id": "ca38935a87b0",
               "category": "한식(게국지)",
               "categoryIcon": "🍚",
               "name": "안면도 바다향",
@@ -3465,6 +3759,7 @@
               "phoneVerified": true
             },
             {
+              "id": "f0714e44a142",
               "category": "한식(칼국수)",
               "categoryIcon": "🍚",
               "name": "홍북식당",
@@ -3476,6 +3771,7 @@
               "phoneVerified": true
             },
             {
+              "id": "60dc670f25f9",
               "category": "한식(도토리묵)",
               "categoryIcon": "🍚",
               "name": "신토불이묵집",
@@ -3492,6 +3788,7 @@
           "name": "서천군",
           "restaurants": [
             {
+              "id": "2f9fadccdc0c",
               "category": "한식(굴칼국수)",
               "categoryIcon": "🍚",
               "name": "서천읍 굴칼국수집",
@@ -3503,6 +3800,7 @@
               "phoneVerified": true
             },
             {
+              "id": "ead6126db733",
               "category": "한식(아귀찜)",
               "categoryIcon": "🍚",
               "name": "온정집",
@@ -3514,6 +3812,7 @@
               "phoneVerified": true
             },
             {
+              "id": "a98cdc306dc2",
               "category": "한식(아귀찜)",
               "categoryIcon": "🍚",
               "name": "우리식당",
@@ -3525,6 +3824,7 @@
               "phoneVerified": true
             },
             {
+              "id": "050b8f6bac3e",
               "category": "한식(쌈밥)",
               "categoryIcon": "🍚",
               "name": "수라원",
@@ -3541,6 +3841,7 @@
           "name": "부여군",
           "restaurants": [
             {
+              "id": "3c281706fcde",
               "category": "한식(한우)",
               "categoryIcon": "🍚",
               "name": "서동한우 본점",
@@ -3552,6 +3853,7 @@
               "phoneVerified": true
             },
             {
+              "id": "e7edcc1e6559",
               "category": "한식(다양한 안주/찌개)",
               "categoryIcon": "🍚",
               "name": "동글이야식",
@@ -3563,6 +3865,7 @@
               "phoneVerified": true
             },
             {
+              "id": "f71fab5d030d",
               "category": "한식(연잎밥)",
               "categoryIcon": "🍚",
               "name": "부여 연잎한상 전문점",
@@ -3574,6 +3877,7 @@
               "phoneVerified": false
             },
             {
+              "id": "3f4995701d93",
               "category": "한식(곰탕)",
               "categoryIcon": "🍚",
               "name": "왕곰탕",
@@ -3590,6 +3894,7 @@
           "name": "청양군",
           "restaurants": [
             {
+              "id": "4d2cfd41a124",
               "category": "한식(구기자 돼지주물럭)",
               "categoryIcon": "🍚",
               "name": "청양 구기자 돼지주물럭집",
@@ -3601,6 +3906,7 @@
               "phoneVerified": false
             },
             {
+              "id": "cdf3c90adbf8",
               "category": "한식(참게매운탕)",
               "categoryIcon": "🍚",
               "name": "청양 참게매운탕집",
@@ -3617,6 +3923,7 @@
           "name": "금산군",
           "restaurants": [
             {
+              "id": "cf634d2bfe9c",
               "category": "한식(어죽)",
               "categoryIcon": "🍚",
               "name": "원골식당",
@@ -3628,6 +3935,7 @@
               "phoneVerified": true
             },
             {
+              "id": "ef762a29ed13",
               "category": "한식(수제비)",
               "categoryIcon": "🍚",
               "name": "너구리의피난처",
@@ -3644,6 +3952,7 @@
           "name": "태안군",
           "restaurants": [
             {
+              "id": "8eb24e1289ba",
               "category": "한식(게국지)",
               "categoryIcon": "🍚",
               "name": "딴뚝통나무집식당",
@@ -3655,6 +3964,7 @@
               "phoneVerified": true
             },
             {
+              "id": "d865e544e324",
               "category": "한식(게국지)",
               "categoryIcon": "🍚",
               "name": "덕수식당",
@@ -3666,6 +3976,7 @@
               "phoneVerified": true
             },
             {
+              "id": "7fd68f6a78a1",
               "category": "중식",
               "categoryIcon": "🥢",
               "name": "신태루",
@@ -3687,6 +3998,7 @@
           "name": "청주시",
           "restaurants": [
             {
+              "id": "90e51c1857ce",
               "category": "한식(해장국/감자탕)",
               "categoryIcon": "🍚",
               "name": "사직동 뼈다귀해장국집",
@@ -3698,6 +4010,7 @@
               "phoneVerified": false
             },
             {
+              "id": "fd20b74c8500",
               "category": "한식(갈비탕)",
               "categoryIcon": "🍚",
               "name": "청주본가 운천본점",
@@ -3709,6 +4022,7 @@
               "phoneVerified": true
             },
             {
+              "id": "66e9df7fc006",
               "category": "한식(육개장)",
               "categoryIcon": "🍚",
               "name": "리정식당",
@@ -3720,6 +4034,7 @@
               "phoneVerified": true
             },
             {
+              "id": "ae0de9b76316",
               "category": "중식(호박국수)",
               "categoryIcon": "🥢",
               "name": "경남옥",
@@ -3731,6 +4046,7 @@
               "phoneVerified": false
             },
             {
+              "id": "664e12f0e96c",
               "category": "한식(돼지갈비)",
               "categoryIcon": "🍚",
               "name": "남들갈비",
@@ -3742,6 +4058,7 @@
               "phoneVerified": true
             },
             {
+              "id": "42224e494cf8",
               "category": "한식(쭈꾸미)",
               "categoryIcon": "🍚",
               "name": "그집쭈꾸미 분평동점",
@@ -3753,6 +4070,7 @@
               "phoneVerified": false
             },
             {
+              "id": "1119b914a867",
               "category": "한식(보리밥)",
               "categoryIcon": "🍚",
               "name": "대산보리밥",
@@ -3764,6 +4082,7 @@
               "phoneVerified": true
             },
             {
+              "id": "b5c3b1573b03",
               "category": "한식(갈비찌개)",
               "categoryIcon": "🍚",
               "name": "황할머니갈비찌개",
@@ -3775,6 +4094,7 @@
               "phoneVerified": true
             },
             {
+              "id": "99f3ac393bf6",
               "category": "한식(갈비/한정식)",
               "categoryIcon": "🍚",
               "name": "고향촌",
@@ -3786,6 +4106,7 @@
               "phoneVerified": true
             },
             {
+              "id": "18e59f2c5f61",
               "category": "한식(간장게장)",
               "categoryIcon": "🍚",
               "name": "전통꽃게장",
@@ -3797,6 +4118,7 @@
               "phoneVerified": true
             },
             {
+              "id": "476161f6a3f8",
               "category": "한식(곱창)",
               "categoryIcon": "🍚",
               "name": "오송곱창",
@@ -3808,6 +4130,7 @@
               "phoneVerified": true
             },
             {
+              "id": "b3ebf32f87ba",
               "category": "한식(숙성육 고기)",
               "categoryIcon": "🍚",
               "name": "포크바이맨스그릴",
@@ -3819,6 +4142,7 @@
               "phoneVerified": true
             },
             {
+              "id": "76aa361d7b6a",
               "category": "한식(곱창)",
               "categoryIcon": "🍚",
               "name": "화덕돌곱창 오창본점",
@@ -3830,6 +4154,7 @@
               "phoneVerified": true
             },
             {
+              "id": "51f82dddb298",
               "category": "한식(막국수)",
               "categoryIcon": "🍚",
               "name": "원조중원탑막국수 본점",
@@ -3846,6 +4171,7 @@
           "name": "충주시",
           "restaurants": [
             {
+              "id": "5f630cd69115",
               "category": "한식(버섯전골/산채정식)",
               "categoryIcon": "🍚",
               "name": "국화 농부 맛집",
@@ -3857,6 +4183,7 @@
               "phoneVerified": false
             },
             {
+              "id": "3bafdecc79a2",
               "category": "한식(메밀막국수/치킨)",
               "categoryIcon": "🍚",
               "name": "중앙탑메밀마당",
@@ -3868,6 +4195,7 @@
               "phoneVerified": false
             },
             {
+              "id": "ee6d5616f742",
               "category": "한식(만두전골)",
               "categoryIcon": "🍚",
               "name": "스마일만두",
@@ -3879,6 +4207,7 @@
               "phoneVerified": true
             },
             {
+              "id": "13d1e16fd41e",
               "category": "한식(순대국)",
               "categoryIcon": "🍚",
               "name": "중원순대",
@@ -3890,6 +4219,7 @@
               "phoneVerified": true
             },
             {
+              "id": "19c01f44cbe0",
               "category": "한식(올뱅이해장국)",
               "categoryIcon": "🍚",
               "name": "운정식당",
@@ -3901,6 +4231,7 @@
               "phoneVerified": true
             },
             {
+              "id": "d7b225e59e81",
               "category": "중식(하얀짬뽕)",
               "categoryIcon": "🥢",
               "name": "소마면집",
@@ -3917,6 +4248,7 @@
           "name": "제천시",
           "restaurants": [
             {
+              "id": "113f697dd31c",
               "category": "한식(순두부)",
               "categoryIcon": "🍚",
               "name": "시골순두부",
@@ -3928,6 +4260,7 @@
               "phoneVerified": true
             },
             {
+              "id": "69ad9eaa782b",
               "category": "한식(순대국)",
               "categoryIcon": "🍚",
               "name": "장원순대국",
@@ -3939,6 +4272,7 @@
               "phoneVerified": true
             },
             {
+              "id": "502c98535fd1",
               "category": "중식",
               "categoryIcon": "🥢",
               "name": "송학반장(송학반점)",
@@ -3950,6 +4284,7 @@
               "phoneVerified": false
             },
             {
+              "id": "0900f566d23b",
               "category": "한식(한정식/보리굴비)",
               "categoryIcon": "🍚",
               "name": "뜰이있는집",
@@ -3961,6 +4296,7 @@
               "phoneVerified": true
             },
             {
+              "id": "dad4992a80f5",
               "category": "한식(곤드레밥)",
               "categoryIcon": "🍚",
               "name": "호반식당",
@@ -3972,6 +4308,7 @@
               "phoneVerified": true
             },
             {
+              "id": "cf0480c98239",
               "category": "중식",
               "categoryIcon": "🥢",
               "name": "짬뽕타운",
@@ -3988,6 +4325,7 @@
           "name": "진천군",
           "restaurants": [
             {
+              "id": "388b66a2ff29",
               "category": "한식(갈비)",
               "categoryIcon": "🍚",
               "name": "고와갈비집",
@@ -3999,6 +4337,7 @@
               "phoneVerified": true
             },
             {
+              "id": "1d6addccbcc3",
               "category": "한식(갈비)",
               "categoryIcon": "🍚",
               "name": "동적깡통구이",
@@ -4010,6 +4349,7 @@
               "phoneVerified": false
             },
             {
+              "id": "2ab8c91196f6",
               "category": "일식/경양식(돈까스, 회 없음)",
               "categoryIcon": "🍣",
               "name": "바보아저씨",
@@ -4026,6 +4366,7 @@
           "name": "음성군",
           "restaurants": [
             {
+              "id": "b22beed98ea3",
               "category": "한식(곰탕)",
               "categoryIcon": "🍚",
               "name": "소반곰탕",
@@ -4037,6 +4378,7 @@
               "phoneVerified": true
             },
             {
+              "id": "6c35f1c0c810",
               "category": "한식(족발/보쌈)",
               "categoryIcon": "🍚",
               "name": "필구네왕족발",
@@ -4048,6 +4390,7 @@
               "phoneVerified": true
             },
             {
+              "id": "4b68dd481eb8",
               "category": "한식(한우/육회)",
               "categoryIcon": "🍚",
               "name": "축산물공판장생고기집",
@@ -4059,6 +4402,7 @@
               "phoneVerified": false
             },
             {
+              "id": "f2cd5c378254",
               "category": "한식(가정식)",
               "categoryIcon": "🍚",
               "name": "외할머니집",
@@ -4075,6 +4419,7 @@
           "name": "옥천군",
           "restaurants": [
             {
+              "id": "09ed97e413f9",
               "category": "한식(냉면)",
               "categoryIcon": "🍚",
               "name": "황가냉면",
@@ -4086,6 +4431,7 @@
               "phoneVerified": true
             },
             {
+              "id": "38dc13a598eb",
               "category": "한식(고기)",
               "categoryIcon": "🍚",
               "name": "강대박",
@@ -4097,6 +4443,7 @@
               "phoneVerified": true
             },
             {
+              "id": "194caf6cfa25",
               "category": "한식(생선국수)",
               "categoryIcon": "🍚",
               "name": "선광집",
@@ -4113,6 +4460,7 @@
           "name": "보은군",
           "restaurants": [
             {
+              "id": "03de7dc7b410",
               "category": "한식(순대전골)",
               "categoryIcon": "🍚",
               "name": "고바우순대",
@@ -4124,6 +4472,7 @@
               "phoneVerified": true
             },
             {
+              "id": "3cf8d9264951",
               "category": "중식",
               "categoryIcon": "🥢",
               "name": "태화루",
@@ -4140,6 +4489,7 @@
           "name": "영동군",
           "restaurants": [
             {
+              "id": "d8825818a50d",
               "category": "한식(쫄면)",
               "categoryIcon": "🍚",
               "name": "영동역 쫄면집",
@@ -4151,6 +4501,7 @@
               "phoneVerified": false
             },
             {
+              "id": "527d6e769886",
               "category": "한식(만두)",
               "categoryIcon": "🍚",
               "name": "코끼리만두",
@@ -4162,6 +4513,7 @@
               "phoneVerified": true
             },
             {
+              "id": "4d5bc6ac868e",
               "category": "한식(쌈밥)",
               "categoryIcon": "🍚",
               "name": "폭포가든",
@@ -4178,6 +4530,7 @@
           "name": "증평군",
           "restaurants": [
             {
+              "id": "05204c01238d",
               "category": "한식(칼국수)",
               "categoryIcon": "🍚",
               "name": "송원칼국수",
@@ -4189,6 +4542,7 @@
               "phoneVerified": false
             },
             {
+              "id": "3132e473bdaa",
               "category": "한식(삼겹살)",
               "categoryIcon": "🍚",
               "name": "증평한돈축산물식당",
@@ -4200,6 +4554,7 @@
               "phoneVerified": true
             },
             {
+              "id": "2b6bea621356",
               "category": "한식(돼지고기)",
               "categoryIcon": "🍚",
               "name": "또바기",
@@ -4216,6 +4571,7 @@
           "name": "괴산군",
           "restaurants": [
             {
+              "id": "8ec0bef8fbe1",
               "category": "한식(백숙/전골)",
               "categoryIcon": "🍚",
               "name": "쌍곡휴게소",
@@ -4227,6 +4583,7 @@
               "phoneVerified": true
             },
             {
+              "id": "2f389e2afc3c",
               "category": "한식(버섯전골/매운탕)",
               "categoryIcon": "🍚",
               "name": "짚은목맛집",
@@ -4238,6 +4595,7 @@
               "phoneVerified": true
             },
             {
+              "id": "279152e78955",
               "category": "한식(족발/보쌈)",
               "categoryIcon": "🍚",
               "name": "괴산왕족발보쌈",
@@ -4254,6 +4612,7 @@
           "name": "단양군",
           "restaurants": [
             {
+              "id": "7a9a359fc02c",
               "category": "한식(순대국)",
               "categoryIcon": "🍚",
               "name": "원조마늘순대",
@@ -4265,6 +4624,7 @@
               "phoneVerified": true
             },
             {
+              "id": "3048f11a5896",
               "category": "한식(닭강정)",
               "categoryIcon": "🍚",
               "name": "단양흑마늘 누룽지닭강정",
@@ -4286,6 +4646,7 @@
           "name": "춘천시",
           "restaurants": [
             {
+              "id": "9c39c72b7ac5",
               "category": "한식(철판구이)",
               "categoryIcon": "🍚",
               "name": "호원가든",
@@ -4297,6 +4658,7 @@
               "phoneVerified": true
             },
             {
+              "id": "9e395be527f0",
               "category": "한식(두부요리)",
               "categoryIcon": "🍚",
               "name": "최인숙 손두부",
@@ -4308,6 +4670,7 @@
               "phoneVerified": false
             },
             {
+              "id": "09eb3b4c1a22",
               "category": "한식(막국수/두부전골)",
               "categoryIcon": "🍚",
               "name": "옥골막국수",
@@ -4319,6 +4682,7 @@
               "phoneVerified": true
             },
             {
+              "id": "b480e241631e",
               "category": "양식(수제버거)",
               "categoryIcon": "🍝",
               "name": "라모스버거",
@@ -4330,6 +4694,7 @@
               "phoneVerified": true
             },
             {
+              "id": "c84c6f6a32b2",
               "category": "한식(막국수)",
               "categoryIcon": "🍚",
               "name": "신북 명가막국수",
@@ -4341,6 +4706,7 @@
               "phoneVerified": true
             },
             {
+              "id": "50ddb50d4820",
               "category": "한식(닭갈비)",
               "categoryIcon": "🍚",
               "name": "통나무집닭갈비",
@@ -4352,6 +4718,7 @@
               "phoneVerified": false
             },
             {
+              "id": "75963d7fd998",
               "category": "한식(순대국밥)",
               "categoryIcon": "🍚",
               "name": "춘천 남산면 순대국밥집",
@@ -4363,6 +4730,7 @@
               "phoneVerified": true
             },
             {
+              "id": "746afa591ea4",
               "category": "중식",
               "categoryIcon": "🥢",
               "name": "회영루",
@@ -4374,6 +4742,7 @@
               "phoneVerified": true
             },
             {
+              "id": "e5aab3bb6c2f",
               "category": "한식(순대국)",
               "categoryIcon": "🍚",
               "name": "조부자매운순대가",
@@ -4385,6 +4754,7 @@
               "phoneVerified": true
             },
             {
+              "id": "5120c6a0b3f1",
               "category": "한식(백반/제육볶음)",
               "categoryIcon": "🍚",
               "name": "강촌ic식당",
@@ -4401,6 +4771,7 @@
           "name": "원주시",
           "restaurants": [
             {
+              "id": "51e5346e78ba",
               "category": "한식(추어탕)",
               "categoryIcon": "🍚",
               "name": "원주복추어탕",
@@ -4412,6 +4783,7 @@
               "phoneVerified": true
             },
             {
+              "id": "6fb39efd5d46",
               "category": "중식",
               "categoryIcon": "🥢",
               "name": "동승루",
@@ -4423,6 +4795,7 @@
               "phoneVerified": true
             },
             {
+              "id": "00ea0122f399",
               "category": "한식(순대국밥)",
               "categoryIcon": "🍚",
               "name": "강릉집",
@@ -4434,6 +4807,7 @@
               "phoneVerified": true
             },
             {
+              "id": "9f2c27e5720e",
               "category": "한식(민물매운탕)",
               "categoryIcon": "🍚",
               "name": "흥업저수지 매운탕집",
@@ -4445,6 +4819,7 @@
               "phoneVerified": false
             },
             {
+              "id": "623cb287b2c3",
               "category": "한식(만두)",
               "categoryIcon": "🍚",
               "name": "원주김치만두",
@@ -4456,6 +4831,7 @@
               "phoneVerified": true
             },
             {
+              "id": "f9407474e100",
               "category": "한식(순대국밥/전)",
               "categoryIcon": "🍚",
               "name": "장터국밥",
@@ -4472,6 +4848,7 @@
           "name": "강릉시",
           "restaurants": [
             {
+              "id": "29340088bfe2",
               "category": "한식(순두부)",
               "categoryIcon": "🍚",
               "name": "초당 짬뽕순두부집",
@@ -4483,6 +4860,7 @@
               "phoneVerified": false
             },
             {
+              "id": "78abab9251ef",
               "category": "한식(오징어볶음)",
               "categoryIcon": "🍚",
               "name": "정화식당",
@@ -4494,6 +4872,7 @@
               "phoneVerified": true
             },
             {
+              "id": "89ec0c591fe7",
               "category": "한식(대패삼겹살)",
               "categoryIcon": "🍚",
               "name": "장군시오야끼",
@@ -4505,6 +4884,7 @@
               "phoneVerified": false
             },
             {
+              "id": "baecf3705f4c",
               "category": "중식",
               "categoryIcon": "🥢",
               "name": "룽성",
@@ -4516,6 +4896,7 @@
               "phoneVerified": true
             },
             {
+              "id": "e46865dcda9f",
               "category": "한식(꼬막)",
               "categoryIcon": "🍚",
               "name": "엄지네포장마차",
@@ -4527,6 +4908,7 @@
               "phoneVerified": true
             },
             {
+              "id": "bc43bff924ba",
               "category": "한식(장칼국수)",
               "categoryIcon": "🍚",
               "name": "이화국수",
@@ -4538,6 +4920,7 @@
               "phoneVerified": true
             },
             {
+              "id": "fec085155d7e",
               "category": "한식(갈비)",
               "categoryIcon": "🍚",
               "name": "풍년갈비",
@@ -4549,6 +4932,7 @@
               "phoneVerified": true
             },
             {
+              "id": "69f85fadddbe",
               "category": "한식(안주/포차)",
               "categoryIcon": "🍚",
               "name": "강문주막",
@@ -4565,6 +4949,7 @@
           "name": "속초시",
           "restaurants": [
             {
+              "id": "72ec62693edf",
               "category": "한식(옹심이/감자전)",
               "categoryIcon": "🍚",
               "name": "속초중앙시장 옹심이집",
@@ -4576,6 +4961,7 @@
               "phoneVerified": true
             },
             {
+              "id": "627dfb730630",
               "category": "한식(장칼국수)",
               "categoryIcon": "🍚",
               "name": "정든식당",
@@ -4587,6 +4973,7 @@
               "phoneVerified": true
             },
             {
+              "id": "0cd794c12e24",
               "category": "한식(순두부)",
               "categoryIcon": "🍚",
               "name": "김영애할머니순두부",
@@ -4598,6 +4985,7 @@
               "phoneVerified": true
             },
             {
+              "id": "2b8dddec6754",
               "category": "한식(닭강정)",
               "categoryIcon": "🍚",
               "name": "만석닭강정",
@@ -4609,6 +4997,7 @@
               "phoneVerified": false
             },
             {
+              "id": "3e85254947e7",
               "category": "경양식(왕돈까스)",
               "categoryIcon": "🍝",
               "name": "맥코리아",
@@ -4620,6 +5009,7 @@
               "phoneVerified": false
             },
             {
+              "id": "8f3d2b61d75d",
               "category": "한식(김밥)",
               "categoryIcon": "🍚",
               "name": "장홍김밥",
@@ -4636,6 +5026,7 @@
           "name": "동해시",
           "restaurants": [
             {
+              "id": "038c33bcf009",
               "category": "한식(문어국밥/숙회)",
               "categoryIcon": "🍚",
               "name": "무코문어 1936",
@@ -4652,6 +5043,7 @@
           "name": "삼척시",
           "restaurants": [
             {
+              "id": "19e00d3a9d63",
               "category": "한식(장치찜)",
               "categoryIcon": "🍚",
               "name": "동해바다",
@@ -4663,6 +5055,7 @@
               "phoneVerified": true
             },
             {
+              "id": "5db49c756a55",
               "category": "한식(장옹심이칼국수)",
               "categoryIcon": "🍚",
               "name": "부명칼국수",
@@ -4674,6 +5067,7 @@
               "phoneVerified": false
             },
             {
+              "id": "1f1944436842",
               "category": "한식(낙지보쌈)",
               "categoryIcon": "🍚",
               "name": "두레박고을",
@@ -4685,6 +5079,7 @@
               "phoneVerified": true
             },
             {
+              "id": "ad044967457e",
               "category": "한식(문어숙회)",
               "categoryIcon": "🍚",
               "name": "맛과향이있는집",
@@ -4696,6 +5091,7 @@
               "phoneVerified": false
             },
             {
+              "id": "00cfd69fb72d",
               "category": "한식(물닭갈비)",
               "categoryIcon": "🍚",
               "name": "엄마손 태백 물닭갈비 삼척1호점",
@@ -4712,6 +5108,7 @@
           "name": "태백시",
           "restaurants": [
             {
+              "id": "5700d64881f9",
               "category": "한식(한우)",
               "categoryIcon": "🍚",
               "name": "원조태성실비식당",
@@ -4723,6 +5120,7 @@
               "phoneVerified": true
             },
             {
+              "id": "82f7fc807321",
               "category": "한식(물닭갈비)",
               "categoryIcon": "🍚",
               "name": "태백닭갈비",
@@ -4739,6 +5137,7 @@
           "name": "홍천군",
           "restaurants": [
             {
+              "id": "f2db0f689723",
               "category": "한식(막국수)",
               "categoryIcon": "🍚",
               "name": "장원막국수 본점",
@@ -4750,6 +5149,7 @@
               "phoneVerified": true
             },
             {
+              "id": "2bcfa01dc944",
               "category": "한식(막국수)",
               "categoryIcon": "🍚",
               "name": "방앗간막국수",
@@ -4761,6 +5161,7 @@
               "phoneVerified": true
             },
             {
+              "id": "aa6656b030e6",
               "category": "한식(막국수/옹심이)",
               "categoryIcon": "🍚",
               "name": "홍천강 막국수",
@@ -4772,6 +5173,7 @@
               "phoneVerified": true
             },
             {
+              "id": "333626c3754a",
               "category": "한식(막국수)",
               "categoryIcon": "🍚",
               "name": "원소리 막국수",
@@ -4788,6 +5190,7 @@
           "name": "횡성군",
           "restaurants": [
             {
+              "id": "18237216e16d",
               "category": "한식(한우/곤드레밥)",
               "categoryIcon": "🍚",
               "name": "장미산장",
@@ -4799,6 +5202,7 @@
               "phoneVerified": true
             },
             {
+              "id": "11ef1b325e83",
               "category": "한식(더덕요리)",
               "categoryIcon": "🍚",
               "name": "박가네더덕밥",
@@ -4810,6 +5214,7 @@
               "phoneVerified": true
             },
             {
+              "id": "9a97cbb7f589",
               "category": "한식(한우)",
               "categoryIcon": "🍚",
               "name": "화수목",
@@ -4821,6 +5226,7 @@
               "phoneVerified": true
             },
             {
+              "id": "fefef414dcf3",
               "category": "한식(순대국)",
               "categoryIcon": "🍚",
               "name": "횡성더덕순대",
@@ -4837,6 +5243,7 @@
           "name": "영월군",
           "restaurants": [
             {
+              "id": "5962c574fbd4",
               "category": "한식(묵밥/옹심이)",
               "categoryIcon": "🍚",
               "name": "주천묵집",
@@ -4848,6 +5255,7 @@
               "phoneVerified": true
             },
             {
+              "id": "4182f9acb4a7",
               "category": "한식(생선구이/조림)",
               "categoryIcon": "🍚",
               "name": "주천면 생선구이집",
@@ -4859,6 +5267,7 @@
               "phoneVerified": false
             },
             {
+              "id": "e5e6af4c1531",
               "category": "한식(보리밥정식)",
               "categoryIcon": "🍚",
               "name": "사랑방식당",
@@ -4870,6 +5279,7 @@
               "phoneVerified": true
             },
             {
+              "id": "3e1ed8d311cb",
               "category": "한식(다슬기)",
               "categoryIcon": "🍚",
               "name": "동강다슬기",
@@ -4881,6 +5291,7 @@
               "phoneVerified": true
             },
             {
+              "id": "614e7908e538",
               "category": "한식(닭강정)",
               "categoryIcon": "🍚",
               "name": "일미닭강정",
@@ -4897,6 +5308,7 @@
           "name": "평창군",
           "restaurants": [
             {
+              "id": "91e3ae80ec3b",
               "category": "한식(막국수)",
               "categoryIcon": "🍚",
               "name": "봉평현대막국수",
@@ -4908,6 +5320,7 @@
               "phoneVerified": false
             },
             {
+              "id": "2f6822b5c1c1",
               "category": "한식(막국수/묵밥)",
               "categoryIcon": "🍚",
               "name": "메밀꽃필무렵",
@@ -4919,6 +5332,7 @@
               "phoneVerified": true
             },
             {
+              "id": "4ac9d75f4f86",
               "category": "한식(산채정식)",
               "categoryIcon": "🍚",
               "name": "흔들바위",
@@ -4930,6 +5344,7 @@
               "phoneVerified": true
             },
             {
+              "id": "4922d91afeba",
               "category": "한식(꿩만두국)",
               "categoryIcon": "🍚",
               "name": "남경식당",
@@ -4941,6 +5356,7 @@
               "phoneVerified": true
             },
             {
+              "id": "46285d318cc9",
               "category": "한식(막국수)",
               "categoryIcon": "🍚",
               "name": "이조막국수",
@@ -4957,6 +5373,7 @@
           "name": "정선군",
           "restaurants": [
             {
+              "id": "a63d2f36d171",
               "category": "한식(장칼국수/막국수)",
               "categoryIcon": "🍚",
               "name": "정선면옥",
@@ -4968,6 +5385,7 @@
               "phoneVerified": true
             },
             {
+              "id": "9c8c08f3b289",
               "category": "한식(곤드레밥)",
               "categoryIcon": "🍚",
               "name": "동박골",
@@ -4979,6 +5397,7 @@
               "phoneVerified": true
             },
             {
+              "id": "23b32401c26f",
               "category": "한식(콧등치기국수/족발)",
               "categoryIcon": "🍚",
               "name": "동광식당",
@@ -4990,6 +5409,7 @@
               "phoneVerified": true
             },
             {
+              "id": "6cfc9c0dff36",
               "category": "한식(곤드레밥/옹심이)",
               "categoryIcon": "🍚",
               "name": "회동집",
@@ -5006,6 +5426,7 @@
           "name": "철원군",
           "restaurants": [
             {
+              "id": "e7002d3fa86d",
               "category": "한식(칼국수)",
               "categoryIcon": "🍚",
               "name": "철원 닭칼국수집",
@@ -5017,6 +5438,7 @@
               "phoneVerified": false
             },
             {
+              "id": "6b0b66509c60",
               "category": "한식(닭강정)",
               "categoryIcon": "🍚",
               "name": "불티나 (철원)",
@@ -5033,6 +5455,7 @@
           "name": "화천군",
           "restaurants": [
             {
+              "id": "d14b71746ebb",
               "category": "한식(족발)",
               "categoryIcon": "🍚",
               "name": "장터왕족발",
@@ -5049,6 +5472,7 @@
           "name": "인제군",
           "restaurants": [
             {
+              "id": "7a1d465f4a52",
               "category": "한식(두부전골)",
               "categoryIcon": "🍚",
               "name": "인제두부전골",
@@ -5060,6 +5484,7 @@
               "phoneVerified": true
             },
             {
+              "id": "f0c057f71aba",
               "category": "한식(황태요리)",
               "categoryIcon": "🍚",
               "name": "인제 황태구이집",
@@ -5071,6 +5496,7 @@
               "phoneVerified": false
             },
             {
+              "id": "60ad29647fb6",
               "category": "한식(두부전골/백숙)",
               "categoryIcon": "🍚",
               "name": "인제자작나무숲식당",
@@ -5087,6 +5513,7 @@
           "name": "고성군",
           "restaurants": [
             {
+              "id": "b7a98e4e5c88",
               "category": "한식(막국수)",
               "categoryIcon": "🍚",
               "name": "백촌막국수",
@@ -5098,6 +5525,7 @@
               "phoneVerified": true
             },
             {
+              "id": "2082a72b18b4",
               "category": "한식(능이백숙)",
               "categoryIcon": "🍚",
               "name": "창바위식당",
@@ -5109,6 +5537,7 @@
               "phoneVerified": true
             },
             {
+              "id": "7409049c2296",
               "category": "경양식(돈까스)",
               "categoryIcon": "🍝",
               "name": "장미경양식 본점",
@@ -5120,6 +5549,7 @@
               "phoneVerified": false
             },
             {
+              "id": "16befdf433c9",
               "category": "한식(설렁탕)",
               "categoryIcon": "🍚",
               "name": "소구리설렁탕",
@@ -5131,6 +5561,7 @@
               "phoneVerified": false
             },
             {
+              "id": "e801fdeb6a26",
               "category": "중식",
               "categoryIcon": "🥢",
               "name": "동해반점",
@@ -5147,6 +5578,7 @@
           "name": "양양군",
           "restaurants": [
             {
+              "id": "911b75aef0f1",
               "category": "중식(양꼬치)",
               "categoryIcon": "🥢",
               "name": "칭따오양꼬치",
@@ -5158,6 +5590,7 @@
               "phoneVerified": true
             },
             {
+              "id": "0e4883765730",
               "category": "한식(막국수)",
               "categoryIcon": "🍚",
               "name": "거북바위식당",
@@ -5169,6 +5602,7 @@
               "phoneVerified": true
             },
             {
+              "id": "a23e7888c597",
               "category": "한식(감자옹심이)",
               "categoryIcon": "🍚",
               "name": "공가네감자옹심이",
@@ -5180,6 +5614,7 @@
               "phoneVerified": false
             },
             {
+              "id": "d420722f0507",
               "category": "한식(닭강정)",
               "categoryIcon": "🍚",
               "name": "송이닭강정",
@@ -5191,6 +5626,7 @@
               "phoneVerified": false
             },
             {
+              "id": "5b096929d8b7",
               "category": "한식(뚜거리탕)",
               "categoryIcon": "🍚",
               "name": "천선식당",
@@ -5207,6 +5643,7 @@
           "name": "양구군",
           "restaurants": [
             {
+              "id": "d6a0033a8781",
               "category": "한식(두부)",
               "categoryIcon": "🍚",
               "name": "양구재래식손두부",
@@ -5218,6 +5655,7 @@
               "phoneVerified": true
             },
             {
+              "id": "67d1c8d1088a",
               "category": "한식(육개장)",
               "categoryIcon": "🍚",
               "name": "파로호국밥",
@@ -5229,6 +5667,7 @@
               "phoneVerified": false
             },
             {
+              "id": "c1cb81c4c04f",
               "category": "중식",
               "categoryIcon": "🥢",
               "name": "양자강",
@@ -5250,6 +5689,7 @@
           "name": "전주시",
           "restaurants": [
             {
+              "id": "e2d0631e17bb",
               "category": "한식(들깨칼국수)",
               "categoryIcon": "🍚",
               "name": "한옥마을 들깨칼국수집",
@@ -5261,6 +5701,7 @@
               "phoneVerified": true
             },
             {
+              "id": "a41fd7b0f5b4",
               "category": "일식(메밀소바, 회 없음)",
               "categoryIcon": "🍣",
               "name": "한옥마을 메밀소바 노포",
@@ -5272,6 +5713,7 @@
               "phoneVerified": true
             },
             {
+              "id": "b9e6563d836b",
               "category": "한식(가정식/한상차림)",
               "categoryIcon": "🍚",
               "name": "외할머니 솜씨",
@@ -5283,6 +5725,7 @@
               "phoneVerified": true
             },
             {
+              "id": "7d98db9123fb",
               "category": "한식(콩나물국밥)",
               "categoryIcon": "🍚",
               "name": "전주한옥마을 현대옥점",
@@ -5294,6 +5737,7 @@
               "phoneVerified": true
             },
             {
+              "id": "7c4425f0e7d6",
               "category": "한식(콩나물국밥)",
               "categoryIcon": "🍚",
               "name": "왱이집",
@@ -5305,6 +5749,7 @@
               "phoneVerified": false
             },
             {
+              "id": "4fbc044a9755",
               "category": "한식(떡갈비/한정식)",
               "categoryIcon": "🍚",
               "name": "기와",
@@ -5316,6 +5761,7 @@
               "phoneVerified": true
             },
             {
+              "id": "57d1fa7706cc",
               "category": "한식(육회비빔밥)",
               "categoryIcon": "🍚",
               "name": "전주식당",
@@ -5327,6 +5773,7 @@
               "phoneVerified": true
             },
             {
+              "id": "c0298b2cf746",
               "category": "한식",
               "categoryIcon": "🍚",
               "name": "동백당 (객리단길)",
@@ -5338,6 +5785,7 @@
               "phoneVerified": false
             },
             {
+              "id": "3ead3d197f7b",
               "category": "한식(콩나물국밥)",
               "categoryIcon": "🍚",
               "name": "삼백집",
@@ -5349,6 +5797,7 @@
               "phoneVerified": true
             },
             {
+              "id": "5ee0e65fbff0",
               "category": "중식(우육면)",
               "categoryIcon": "🥢",
               "name": "프프프",
@@ -5360,6 +5809,7 @@
               "phoneVerified": true
             },
             {
+              "id": "cac126972f5d",
               "category": "경양식(돈까스)",
               "categoryIcon": "🍝",
               "name": "지곡동옛날돈까스",
@@ -5371,6 +5821,7 @@
               "phoneVerified": true
             },
             {
+              "id": "ddc49d0941d0",
               "category": "한식(오리고기)",
               "categoryIcon": "🍚",
               "name": "다오리 숯불구이",
@@ -5382,6 +5833,7 @@
               "phoneVerified": true
             },
             {
+              "id": "e71c002ded1d",
               "category": "한식(김치찌개)",
               "categoryIcon": "🍚",
               "name": "삼별집",
@@ -5393,6 +5845,7 @@
               "phoneVerified": true
             },
             {
+              "id": "68e74ba3d2be",
               "category": "중식",
               "categoryIcon": "🥢",
               "name": "송천각",
@@ -5404,6 +5857,7 @@
               "phoneVerified": true
             },
             {
+              "id": "04f0f69ba9fd",
               "category": "한식(가정식)",
               "categoryIcon": "🍚",
               "name": "다래옥",
@@ -5415,6 +5869,7 @@
               "phoneVerified": true
             },
             {
+              "id": "81af44aa2e8c",
               "category": "한식(꼬치)",
               "categoryIcon": "🍚",
               "name": "백제꼬치",
@@ -5431,6 +5886,7 @@
           "name": "군산시",
           "restaurants": [
             {
+              "id": "36ba8fed540f",
               "category": "중식",
               "categoryIcon": "🥢",
               "name": "진성원",
@@ -5442,6 +5898,7 @@
               "phoneVerified": true
             },
             {
+              "id": "278e5b359187",
               "category": "빵(베이커리)",
               "categoryIcon": "🥐",
               "name": "이성당",
@@ -5453,6 +5910,7 @@
               "phoneVerified": false
             },
             {
+              "id": "648f72e0605c",
               "category": "중식(짬뽕)",
               "categoryIcon": "🥢",
               "name": "복성루",
@@ -5464,6 +5922,7 @@
               "phoneVerified": true
             },
             {
+              "id": "cb138df241db",
               "category": "한식(한우)",
               "categoryIcon": "🍚",
               "name": "한일옥",
@@ -5475,6 +5934,7 @@
               "phoneVerified": true
             },
             {
+              "id": "cd27a38a7b9a",
               "category": "한식(곱창/막창)",
               "categoryIcon": "🍚",
               "name": "순돌이곱창",
@@ -5486,6 +5946,7 @@
               "phoneVerified": true
             },
             {
+              "id": "ab5e916efdee",
               "category": "한식(한정식)",
               "categoryIcon": "🍚",
               "name": "장국명가",
@@ -5497,6 +5958,7 @@
               "phoneVerified": true
             },
             {
+              "id": "b1fc0f885428",
               "category": "한식(간장게장)",
               "categoryIcon": "🍚",
               "name": "계곡가든꽃게장",
@@ -5508,6 +5970,7 @@
               "phoneVerified": true
             },
             {
+              "id": "3aafe7de306b",
               "category": "중식(짬뽕)",
               "categoryIcon": "🥢",
               "name": "쌍용반점",
@@ -5524,6 +5987,7 @@
           "name": "익산시",
           "restaurants": [
             {
+              "id": "4be3cc332b78",
               "category": "한식(마요리/퓨전한정식)",
               "categoryIcon": "🍚",
               "name": "서동마 전문식당",
@@ -5535,6 +5999,7 @@
               "phoneVerified": true
             },
             {
+              "id": "f79f87d64cbc",
               "category": "한식(뼈다귀탕)",
               "categoryIcon": "🍚",
               "name": "솜리뼈다귀탕",
@@ -5546,6 +6011,7 @@
               "phoneVerified": false
             },
             {
+              "id": "4707871016c6",
               "category": "한식(콩나물국밥)",
               "categoryIcon": "🍚",
               "name": "일해옥",
@@ -5557,6 +6023,7 @@
               "phoneVerified": true
             },
             {
+              "id": "6bda6c71233a",
               "category": "중식",
               "categoryIcon": "🥢",
               "name": "화원반점",
@@ -5568,6 +6035,7 @@
               "phoneVerified": true
             },
             {
+              "id": "1e3a4bb4e2c6",
               "category": "양식(스테이크/파스타/피자)",
               "categoryIcon": "🍝",
               "name": "요남자 익산모현점",
@@ -5579,6 +6047,7 @@
               "phoneVerified": true
             },
             {
+              "id": "7f2391319e98",
               "category": "한식(비빔밥)",
               "categoryIcon": "🍚",
               "name": "시장비빔밥",
@@ -5590,6 +6059,7 @@
               "phoneVerified": true
             },
             {
+              "id": "099d79163cd4",
               "category": "한식(김치찌개)",
               "categoryIcon": "🍚",
               "name": "따봉식당",
@@ -5606,6 +6076,7 @@
           "name": "정읍시",
           "restaurants": [
             {
+              "id": "f2beb9258804",
               "category": "한식(참게장/떡갈비)",
               "categoryIcon": "🍚",
               "name": "정읍 참게장떡갈비 정식집",
@@ -5617,6 +6088,7 @@
               "phoneVerified": false
             },
             {
+              "id": "2b06b96246f5",
               "category": "한식(갈비탕)",
               "categoryIcon": "🍚",
               "name": "이화담",
@@ -5628,6 +6100,7 @@
               "phoneVerified": true
             },
             {
+              "id": "52b558c61a67",
               "category": "중식(짬뽕)",
               "categoryIcon": "🥢",
               "name": "양자강",
@@ -5639,6 +6112,7 @@
               "phoneVerified": true
             },
             {
+              "id": "86b954bfbc96",
               "category": "한식(만두)",
               "categoryIcon": "🍚",
               "name": "솜씨만두",
@@ -5655,6 +6129,7 @@
           "name": "남원시",
           "restaurants": [
             {
+              "id": "5be24df76e12",
               "category": "한식(추어탕)",
               "categoryIcon": "🍚",
               "name": "광성식당",
@@ -5666,6 +6141,7 @@
               "phoneVerified": true
             },
             {
+              "id": "b49e10b2d23e",
               "category": "한식(추어탕)",
               "categoryIcon": "🍚",
               "name": "새집",
@@ -5677,6 +6153,7 @@
               "phoneVerified": true
             },
             {
+              "id": "89537dafea26",
               "category": "한식(추어탕)",
               "categoryIcon": "🍚",
               "name": "부산집",
@@ -5688,6 +6165,7 @@
               "phoneVerified": true
             },
             {
+              "id": "c24de18153b1",
               "category": "한식(추어탕)",
               "categoryIcon": "🍚",
               "name": "현식당",
@@ -5699,6 +6177,7 @@
               "phoneVerified": true
             },
             {
+              "id": "6f256bddcd0e",
               "category": "한식(한정식)",
               "categoryIcon": "🍚",
               "name": "가나안식당",
@@ -5710,6 +6189,7 @@
               "phoneVerified": true
             },
             {
+              "id": "8d891c9f1350",
               "category": "한식(산채정식)",
               "categoryIcon": "🍚",
               "name": "심원첫집",
@@ -5721,6 +6201,7 @@
               "phoneVerified": true
             },
             {
+              "id": "429d82a0e2a3",
               "category": "한식(흑돼지구이)",
               "categoryIcon": "🍚",
               "name": "깜돈",
@@ -5732,6 +6213,7 @@
               "phoneVerified": true
             },
             {
+              "id": "11d4691ab9a7",
               "category": "한식(장어더덕구이)",
               "categoryIcon": "🍚",
               "name": "남원 장어더덕구이집",
@@ -5748,6 +6230,7 @@
           "name": "김제시",
           "restaurants": [
             {
+              "id": "ab562ebe873c",
               "category": "한식(한우/육회)",
               "categoryIcon": "🍚",
               "name": "원평 지평선청보리한우촌",
@@ -5759,6 +6242,7 @@
               "phoneVerified": true
             },
             {
+              "id": "866db93543de",
               "category": "중식",
               "categoryIcon": "🥢",
               "name": "대흥각",
@@ -5770,6 +6254,7 @@
               "phoneVerified": true
             },
             {
+              "id": "9b25457dc49e",
               "category": "한식(민물새우탕)",
               "categoryIcon": "🍚",
               "name": "새암골",
@@ -5781,6 +6266,7 @@
               "phoneVerified": true
             },
             {
+              "id": "5706f339e79f",
               "category": "한식(냉삼겹살)",
               "categoryIcon": "🍚",
               "name": "용지로스",
@@ -5797,6 +6283,7 @@
           "name": "고창군",
           "restaurants": [
             {
+              "id": "8a9b5e51f3db",
               "category": "한식(바지락정식)",
               "categoryIcon": "🍚",
               "name": "부안면 바지락정식집",
@@ -5808,6 +6295,7 @@
               "phoneVerified": true
             },
             {
+              "id": "12040babe2ce",
               "category": "한식(흑염소수육)",
               "categoryIcon": "🍚",
               "name": "고창읍 흑염소수육집",
@@ -5819,6 +6307,7 @@
               "phoneVerified": true
             },
             {
+              "id": "ae2609c5a97f",
               "category": "한식(장어구이)",
               "categoryIcon": "🍚",
               "name": "고창읍 장어구이집",
@@ -5830,6 +6319,7 @@
               "phoneVerified": true
             },
             {
+              "id": "ec475c8cf97e",
               "category": "한식(백합정식/복탕)",
               "categoryIcon": "🍚",
               "name": "고창읍 백합정식집",
@@ -5841,6 +6331,7 @@
               "phoneVerified": true
             },
             {
+              "id": "3208d4543797",
               "category": "한식(백합죽/바지락죽)",
               "categoryIcon": "🍚",
               "name": "석정리 백합죽집",
@@ -5852,6 +6343,7 @@
               "phoneVerified": true
             },
             {
+              "id": "eed84d8c97db",
               "category": "한식(장어양념구이)",
               "categoryIcon": "🍚",
               "name": "신덕식당",
@@ -5868,6 +6360,7 @@
           "name": "완주군",
           "restaurants": [
             {
+              "id": "fbd4395c7477",
               "category": "한식(통닭구이)",
               "categoryIcon": "🍚",
               "name": "가마꿉 혁신점",
@@ -5879,6 +6372,7 @@
               "phoneVerified": true
             },
             {
+              "id": "b990338ddd15",
               "category": "한식(갈비)",
               "categoryIcon": "🍚",
               "name": "남노갈비 혁신이서점",
@@ -5890,6 +6384,7 @@
               "phoneVerified": true
             },
             {
+              "id": "6621f62e062b",
               "category": "한식(한우)",
               "categoryIcon": "🍚",
               "name": "고산미소",
@@ -5901,6 +6396,7 @@
               "phoneVerified": true
             },
             {
+              "id": "192ec1058a43",
               "category": "한식(순두부)",
               "categoryIcon": "🍚",
               "name": "화심순두부",
@@ -5912,6 +6408,7 @@
               "phoneVerified": false
             },
             {
+              "id": "2d6d5f04f0b3",
               "category": "일식(돈카츠, 회 없음)",
               "categoryIcon": "🍣",
               "name": "돈카츠흑심",
@@ -5923,6 +6420,7 @@
               "phoneVerified": true
             },
             {
+              "id": "2bb323c594c1",
               "category": "한식(백숙)",
               "categoryIcon": "🍚",
               "name": "영숙백숙",
@@ -5939,6 +6437,7 @@
           "name": "진안군",
           "restaurants": [
             {
+              "id": "14956d2f0789",
               "category": "한식(순대국)",
               "categoryIcon": "🍚",
               "name": "최미삼순대국",
@@ -5950,6 +6449,7 @@
               "phoneVerified": false
             },
             {
+              "id": "991041934d66",
               "category": "베트남음식(쌀국수)",
               "categoryIcon": "🌏",
               "name": "창앤호아마이",
@@ -5966,6 +6466,7 @@
           "name": "무주군",
           "restaurants": [
             {
+              "id": "aedf35a18359",
               "category": "한식(고기)",
               "categoryIcon": "🍚",
               "name": "무주 고기집",
@@ -5977,6 +6478,7 @@
               "phoneVerified": false
             },
             {
+              "id": "83c11381a4b1",
               "category": "한식(도리뱅뱅이/어죽)",
               "categoryIcon": "🍚",
               "name": "무주 도리뱅뱅이집",
@@ -5993,6 +6495,7 @@
           "name": "장수군",
           "restaurants": [
             {
+              "id": "e98b00b8d0db",
               "category": "한식(순두부)",
               "categoryIcon": "🍚",
               "name": "콩마을 순두부",
@@ -6009,6 +6512,7 @@
           "name": "임실군",
           "restaurants": [
             {
+              "id": "75df0a2cfbd8",
               "category": "한식(순대)",
               "categoryIcon": "🍚",
               "name": "장수순대집",
@@ -6025,6 +6529,7 @@
           "name": "순창군",
           "restaurants": [
             {
+              "id": "e5fbd92baa40",
               "category": "한식(고기국수)",
               "categoryIcon": "🍚",
               "name": "순창 고기국수집",
@@ -6036,6 +6541,7 @@
               "phoneVerified": false
             },
             {
+              "id": "830c61e70eb6",
               "category": "한식(한정식)",
               "categoryIcon": "🍚",
               "name": "순창 노포 한정식집",
@@ -6052,6 +6558,7 @@
           "name": "부안군",
           "restaurants": [
             {
+              "id": "a917c7b864ff",
               "category": "한식",
               "categoryIcon": "🍚",
               "name": "장수식당",
@@ -6073,6 +6580,7 @@
           "name": "강남구",
           "restaurants": [
             {
+              "id": "9c193508369e",
               "category": "한식(순대국)",
               "categoryIcon": "🍚",
               "name": "농민백암순대",
@@ -6084,6 +6592,7 @@
               "phoneVerified": false
             },
             {
+              "id": "a5295aada189",
               "category": "한식(곱창전골)",
               "categoryIcon": "🍚",
               "name": "중앙해장",
@@ -6095,6 +6604,7 @@
               "phoneVerified": true
             },
             {
+              "id": "a84e0572af98",
               "category": "한식(평양냉면)",
               "categoryIcon": "🍚",
               "name": "진미평양냉면",
@@ -6106,6 +6616,7 @@
               "phoneVerified": false
             },
             {
+              "id": "30e7a91cd31d",
               "category": "한식(곱도리탕)",
               "categoryIcon": "🍚",
               "name": "떡도리탕",
@@ -6117,6 +6628,7 @@
               "phoneVerified": true
             },
             {
+              "id": "54c5fc1226fc",
               "category": "한식(감자탕)",
               "categoryIcon": "🍚",
               "name": "신동궁 감자탕",
@@ -6128,6 +6640,7 @@
               "phoneVerified": false
             },
             {
+              "id": "73d62c679a5e",
               "category": "중식(도삭면)",
               "categoryIcon": "🥢",
               "name": "남소관 우육도삭면",
@@ -6139,6 +6652,7 @@
               "phoneVerified": true
             },
             {
+              "id": "69b288bb6536",
               "category": "한식(고기구이)",
               "categoryIcon": "🍚",
               "name": "메이플트리하우스 강남점",
@@ -6150,6 +6664,7 @@
               "phoneVerified": true
             },
             {
+              "id": "66d418e290d9",
               "category": "양식(파스타/피자)",
               "categoryIcon": "🍝",
               "name": "강남식당",
@@ -6161,6 +6676,7 @@
               "phoneVerified": false
             },
             {
+              "id": "66768ae2aa4c",
               "category": "한식(소고기)",
               "categoryIcon": "🍚",
               "name": "아고야 신사가로수길점",
@@ -6172,6 +6688,7 @@
               "phoneVerified": false
             },
             {
+              "id": "1a12c9b2e04d",
               "category": "양식(포케/샐러드)",
               "categoryIcon": "🍝",
               "name": "포케올데이 신사점",
@@ -6183,6 +6700,7 @@
               "phoneVerified": true
             },
             {
+              "id": "de79eef37e54",
               "category": "중식(양꼬치)",
               "categoryIcon": "🥢",
               "name": "제이메이 양꼬치",
@@ -6194,6 +6712,7 @@
               "phoneVerified": false
             },
             {
+              "id": "ece35f5379d6",
               "category": "한식(파인다이닝)",
               "categoryIcon": "🍚",
               "name": "권숙수",
@@ -6205,6 +6724,7 @@
               "phoneVerified": true
             },
             {
+              "id": "c04bbc3305c6",
               "category": "한식(해장국)",
               "categoryIcon": "🍚",
               "name": "새벽집",
@@ -6221,6 +6741,7 @@
           "name": "마포구",
           "restaurants": [
             {
+              "id": "a95e722f07d5",
               "category": "한식(제육/가정식)",
               "categoryIcon": "🍚",
               "name": "연남그곳",
@@ -6232,6 +6753,7 @@
               "phoneVerified": true
             },
             {
+              "id": "3ad8bc90435e",
               "category": "양식(오므라이스/파스타)",
               "categoryIcon": "🍝",
               "name": "연남취향",
@@ -6243,6 +6765,7 @@
               "phoneVerified": true
             },
             {
+              "id": "68a26480b34e",
               "category": "일식(오코노미야키, 회 없음)",
               "categoryIcon": "🍣",
               "name": "소점",
@@ -6254,6 +6777,7 @@
               "phoneVerified": false
             },
             {
+              "id": "eba49c7f9676",
               "category": "중식(딤섬)",
               "categoryIcon": "🥢",
               "name": "연교",
@@ -6265,6 +6789,7 @@
               "phoneVerified": true
             },
             {
+              "id": "71539f7aacd6",
               "category": "중식(딤섬)",
               "categoryIcon": "🥢",
               "name": "월량관",
@@ -6276,6 +6801,7 @@
               "phoneVerified": true
             },
             {
+              "id": "d744b8920117",
               "category": "일식(돈카츠/우동, 회 없음)",
               "categoryIcon": "🍣",
               "name": "연남동 치킨카츠집",
@@ -6287,6 +6813,7 @@
               "phoneVerified": false
             },
             {
+              "id": "fb6321e47f60",
               "category": "한식(냉면)",
               "categoryIcon": "🍚",
               "name": "시장냉면",
@@ -6303,6 +6830,7 @@
           "name": "용산구",
           "restaurants": [
             {
+              "id": "b346fe93ece6",
               "category": "한식(차돌구이)",
               "categoryIcon": "🍚",
               "name": "경리단길 차돌양념구이집",
@@ -6314,6 +6842,7 @@
               "phoneVerified": true
             },
             {
+              "id": "b756e9475a09",
               "category": "태국음식",
               "categoryIcon": "🌏",
               "name": "까올리포차나",
@@ -6325,6 +6854,7 @@
               "phoneVerified": true
             },
             {
+              "id": "c2f3dd7b998d",
               "category": "빵(독일식 베이커리)",
               "categoryIcon": "🥐",
               "name": "더베이커스테이블",
@@ -6336,6 +6866,7 @@
               "phoneVerified": true
             },
             {
+              "id": "1cec3feb1998",
               "category": "멕시코음식",
               "categoryIcon": "🌏",
               "name": "돈차를리",
@@ -6347,6 +6878,7 @@
               "phoneVerified": true
             },
             {
+              "id": "9bffdd29844c",
               "category": "그리스음식",
               "categoryIcon": "🌏",
               "name": "엘그레코스",
@@ -6358,6 +6890,7 @@
               "phoneVerified": true
             },
             {
+              "id": "976125bb184c",
               "category": "한식(국밥)",
               "categoryIcon": "🍚",
               "name": "남매국밥",
@@ -6369,6 +6902,7 @@
               "phoneVerified": true
             },
             {
+              "id": "ee4a777dbd97",
               "category": "베트남음식(쌀국수)",
               "categoryIcon": "🌏",
               "name": "르사이공",
@@ -6385,6 +6919,7 @@
           "name": "중구",
           "restaurants": [
             {
+              "id": "58d5e621d2c1",
               "category": "한식(칼국수/만두)",
               "categoryIcon": "🍚",
               "name": "명동교자 본점",
@@ -6396,6 +6931,7 @@
               "phoneVerified": false
             },
             {
+              "id": "10f8217b99c4",
               "category": "한식",
               "categoryIcon": "🍚",
               "name": "왕비집 명동 본점",
@@ -6407,6 +6943,7 @@
               "phoneVerified": true
             },
             {
+              "id": "fc4c4630ccfb",
               "category": "한식(간장게장)",
               "categoryIcon": "🍚",
               "name": "오다리집 간장게장",
@@ -6418,6 +6955,7 @@
               "phoneVerified": false
             },
             {
+              "id": "744d48ded8df",
               "category": "한식(북어국)",
               "categoryIcon": "🍚",
               "name": "무교동 북어국집",
@@ -6429,6 +6967,7 @@
               "phoneVerified": true
             },
             {
+              "id": "f4251e70b104",
               "category": "경양식(돈까스)",
               "categoryIcon": "🍝",
               "name": "남산돈까스",
@@ -6440,6 +6979,7 @@
               "phoneVerified": false
             },
             {
+              "id": "4ab67fa8609c",
               "category": "중식(양꼬치)",
               "categoryIcon": "🥢",
               "name": "이가네 명동점",
@@ -6451,6 +6991,7 @@
               "phoneVerified": false
             },
             {
+              "id": "3aa75d94640e",
               "category": "한식(떡볶이/곱창)",
               "categoryIcon": "🍚",
               "name": "명동화떡",
@@ -6467,6 +7008,7 @@
           "name": "종로구",
           "restaurants": [
             {
+              "id": "abda3d8587ae",
               "category": "한식(갈매기살)",
               "categoryIcon": "🍚",
               "name": "광주집 (익선동)",
@@ -6478,6 +7020,7 @@
               "phoneVerified": false
             },
             {
+              "id": "d7d1ecaf99f7",
               "category": "한식(수제비)",
               "categoryIcon": "🍚",
               "name": "인사동수제비",
@@ -6489,6 +7032,7 @@
               "phoneVerified": true
             },
             {
+              "id": "6c7ccbc28d77",
               "category": "한식(솥밥)",
               "categoryIcon": "🍚",
               "name": "도마 (인사동)",
@@ -6500,6 +7044,7 @@
               "phoneVerified": false
             },
             {
+              "id": "12c81a2c73bc",
               "category": "한식(마늘보쌈)",
               "categoryIcon": "🍚",
               "name": "택대리네 인사동마늘보쌈",
@@ -6511,6 +7056,7 @@
               "phoneVerified": false
             },
             {
+              "id": "e5de4ac16583",
               "category": "한식(설렁탕)",
               "categoryIcon": "🍚",
               "name": "이문설농탕",
@@ -6522,6 +7068,7 @@
               "phoneVerified": true
             },
             {
+              "id": "86e09f791f06",
               "category": "한식(한정식)",
               "categoryIcon": "🍚",
               "name": "인사동촌",
@@ -6533,6 +7080,7 @@
               "phoneVerified": false
             },
             {
+              "id": "37f10f8de617",
               "category": "한식",
               "categoryIcon": "🍚",
               "name": "후라토식당",
@@ -6549,6 +7097,7 @@
           "name": "성동구",
           "restaurants": [
             {
+              "id": "97d390f5c9be",
               "category": "한식(닭곰탕)",
               "categoryIcon": "🍚",
               "name": "계월곰탕",
@@ -6560,6 +7109,7 @@
               "phoneVerified": false
             },
             {
+              "id": "7d2e683b64c4",
               "category": "한식(삼겹살)",
               "categoryIcon": "🍚",
               "name": "하남돼지집 성수역점",
@@ -6571,6 +7121,7 @@
               "phoneVerified": true
             },
             {
+              "id": "d137ab60058f",
               "category": "한식(미나리곰탕)",
               "categoryIcon": "🍚",
               "name": "능동미나리",
@@ -6582,6 +7133,7 @@
               "phoneVerified": true
             },
             {
+              "id": "e8ff2b02ee2b",
               "category": "한식(감자탕)",
               "categoryIcon": "🍚",
               "name": "소문난감자탕",
@@ -6593,6 +7145,7 @@
               "phoneVerified": false
             },
             {
+              "id": "cc57ce2473ed",
               "category": "한식(칼국수)",
               "categoryIcon": "🍚",
               "name": "조조칼국수 성수점",
@@ -6604,6 +7157,7 @@
               "phoneVerified": true
             },
             {
+              "id": "ef67d7743464",
               "category": "한식(제육볶음)",
               "categoryIcon": "🍚",
               "name": "뚝도시장 서울맛집",
@@ -6620,6 +7174,7 @@
           "name": "송파구",
           "restaurants": [
             {
+              "id": "2ea08799d48e",
               "category": "한식(한우)",
               "categoryIcon": "🍚",
               "name": "횡성한우 (방이동)",
@@ -6631,6 +7186,7 @@
               "phoneVerified": true
             },
             {
+              "id": "f35c053cdf82",
               "category": "한식(샤브샤브/칼국수)",
               "categoryIcon": "🍚",
               "name": "방이샤브샤브칼국수 방이본점",
@@ -6642,6 +7198,7 @@
               "phoneVerified": true
             },
             {
+              "id": "b1804fddc3f4",
               "category": "한식(냉면)",
               "categoryIcon": "🍚",
               "name": "해주냉면 본점",
@@ -6653,6 +7210,7 @@
               "phoneVerified": false
             },
             {
+              "id": "8afc3006e3fd",
               "category": "한식(닭갈비)",
               "categoryIcon": "🍚",
               "name": "몽촌닭갈비",
@@ -6664,6 +7222,7 @@
               "phoneVerified": true
             },
             {
+              "id": "cc4f7c0909de",
               "category": "일식(라멘/마제소바, 회 없음)",
               "categoryIcon": "🍣",
               "name": "멘야하나비 잠실본점",
@@ -6675,6 +7234,7 @@
               "phoneVerified": false
             },
             {
+              "id": "9c4adfdd89f0",
               "category": "한식(조개구이)",
               "categoryIcon": "🍚",
               "name": "범고래 조개구이",
@@ -6686,6 +7246,7 @@
               "phoneVerified": true
             },
             {
+              "id": "3cfbcc2f464e",
               "category": "한식(막국수)",
               "categoryIcon": "🍚",
               "name": "남경막국수",
@@ -6707,6 +7268,7 @@
           "name": "해운대구",
           "restaurants": [
             {
+              "id": "e852ad26c2c6",
               "category": "한식(한우곰탕)",
               "categoryIcon": "🍚",
               "name": "거대곰탕",
@@ -6718,6 +7280,7 @@
               "phoneVerified": true
             },
             {
+              "id": "94aa22316150",
               "category": "일식(장어덮밥, 회 없음)",
               "categoryIcon": "🍣",
               "name": "해목",
@@ -6729,6 +7292,7 @@
               "phoneVerified": true
             },
             {
+              "id": "3984f8148ab5",
               "category": "일식(라멘, 회 없음)",
               "categoryIcon": "🍣",
               "name": "나가하마만게츠",
@@ -6740,6 +7304,7 @@
               "phoneVerified": true
             },
             {
+              "id": "42c253ec1f04",
               "category": "한식(고기구이)",
               "categoryIcon": "🍚",
               "name": "홍이집 해운대장산점",
@@ -6751,6 +7316,7 @@
               "phoneVerified": true
             },
             {
+              "id": "2da88157fb3a",
               "category": "한식(삼겹살)",
               "categoryIcon": "🍚",
               "name": "해운대 마당집",
@@ -6762,6 +7328,7 @@
               "phoneVerified": true
             },
             {
+              "id": "30c8d062cb87",
               "category": "한식(갈비)",
               "categoryIcon": "🍚",
               "name": "해운대 생갈비집",
@@ -6773,6 +7340,7 @@
               "phoneVerified": false
             },
             {
+              "id": "cac3a6148cb8",
               "category": "일식(장어덮밥, 회 없음)",
               "categoryIcon": "🍣",
               "name": "한다솥 해운대점",
@@ -6789,6 +7357,7 @@
           "name": "부산진구",
           "restaurants": [
             {
+              "id": "2239cfaad252",
               "category": "베트남음식(쌀국수)",
               "categoryIcon": "🌏",
               "name": "퍼란",
@@ -6800,6 +7369,7 @@
               "phoneVerified": true
             },
             {
+              "id": "ba069efe28df",
               "category": "한식(아구찜)",
               "categoryIcon": "🍚",
               "name": "제일솥뚜껑",
@@ -6811,6 +7381,7 @@
               "phoneVerified": true
             },
             {
+              "id": "1ecc5fee00fa",
               "category": "한식(밀면)",
               "categoryIcon": "🍚",
               "name": "본가밀면",
@@ -6822,6 +7393,7 @@
               "phoneVerified": true
             },
             {
+              "id": "290604d8fd2e",
               "category": "한식(순두부찌개)",
               "categoryIcon": "🍚",
               "name": "하연정순두부",
@@ -6833,6 +7405,7 @@
               "phoneVerified": true
             },
             {
+              "id": "5e7a776ec18c",
               "category": "한식(돼지국밥)",
               "categoryIcon": "🍚",
               "name": "수변최고돼지국밥",
@@ -6844,6 +7417,7 @@
               "phoneVerified": true
             },
             {
+              "id": "1f5eae31de8f",
               "category": "양식(피자)",
               "categoryIcon": "🍝",
               "name": "이재모피자",
@@ -6855,6 +7429,7 @@
               "phoneVerified": false
             },
             {
+              "id": "0c8a2b834a45",
               "category": "일식(차슈덮밥, 회 없음)",
               "categoryIcon": "🍣",
               "name": "반핀",
@@ -6871,6 +7446,7 @@
           "name": "중구",
           "restaurants": [
             {
+              "id": "dfac01bdf5f4",
               "category": "한식(뷔페)",
               "categoryIcon": "🍚",
               "name": "자갈치뷔페",
@@ -6882,6 +7458,7 @@
               "phoneVerified": false
             },
             {
+              "id": "82b617c5d085",
               "category": "한식(정육식당)",
               "categoryIcon": "🍚",
               "name": "승승축산",
@@ -6893,6 +7470,7 @@
               "phoneVerified": true
             },
             {
+              "id": "afaea03f0b52",
               "category": "한식(샤브샤브/막국수)",
               "categoryIcon": "🍚",
               "name": "우끼 남포동점",
@@ -6904,6 +7482,7 @@
               "phoneVerified": false
             },
             {
+              "id": "731f5c8279b6",
               "category": "중식",
               "categoryIcon": "🥢",
               "name": "홍유단",
@@ -6915,6 +7494,7 @@
               "phoneVerified": true
             },
             {
+              "id": "210017f03d08",
               "category": "한식(완당/어묵탕)",
               "categoryIcon": "🍚",
               "name": "18번완당",
@@ -6926,6 +7506,7 @@
               "phoneVerified": true
             },
             {
+              "id": "90eb525cba2d",
               "category": "빵/간식(씨앗호떡)",
               "categoryIcon": "🥐",
               "name": "BIFF광장 씨앗호떡",
@@ -6942,6 +7523,7 @@
           "name": "수영구",
           "restaurants": [
             {
+              "id": "da9dbdf01d20",
               "category": "한식(밀면)",
               "categoryIcon": "🍚",
               "name": "동래식밀면",
@@ -6953,6 +7535,7 @@
               "phoneVerified": false
             },
             {
+              "id": "4da287a90e73",
               "category": "한식(낙곱새)",
               "categoryIcon": "🍚",
               "name": "국이네낙지볶음",
@@ -6964,6 +7547,7 @@
               "phoneVerified": false
             },
             {
+              "id": "a3d73e041cbf",
               "category": "한식(바다장어구이)",
               "categoryIcon": "🍚",
               "name": "덩굴아나고",
@@ -6975,6 +7559,7 @@
               "phoneVerified": true
             },
             {
+              "id": "c6535d9f3186",
               "category": "일식(돈까스, 회 없음)",
               "categoryIcon": "🍣",
               "name": "톤쇼우",
@@ -6986,6 +7571,7 @@
               "phoneVerified": false
             },
             {
+              "id": "475adf11604d",
               "category": "한식(솥밥)",
               "categoryIcon": "🍚",
               "name": "솔솥",
@@ -7002,6 +7588,7 @@
           "name": "남구",
           "restaurants": [
             {
+              "id": "896d669e3866",
               "category": "한식(밀면)",
               "categoryIcon": "🍚",
               "name": "남구 밀면집",
@@ -7013,6 +7600,7 @@
               "phoneVerified": false
             },
             {
+              "id": "30fd5f68bee5",
               "category": "양식(돈까스/함박)",
               "categoryIcon": "🍝",
               "name": "모짜르트",
@@ -7024,6 +7612,7 @@
               "phoneVerified": false
             },
             {
+              "id": "5c20b8782df9",
               "category": "한식(순대곱창전골)",
               "categoryIcon": "🍚",
               "name": "알천순대곱창전골",
@@ -7035,6 +7624,7 @@
               "phoneVerified": true
             },
             {
+              "id": "dd2717d910a2",
               "category": "한식(야끼니쿠)",
               "categoryIcon": "🍚",
               "name": "한끼니쿠 대연점",
@@ -7051,6 +7641,7 @@
           "name": "북구",
           "restaurants": [
             {
+              "id": "06eaed958279",
               "category": "한식(삼겹살)",
               "categoryIcon": "🍚",
               "name": "화명동 삼겹살집",
@@ -7062,6 +7653,7 @@
               "phoneVerified": false
             },
             {
+              "id": "bec453da5faa",
               "category": "한식(숯불구이)",
               "categoryIcon": "🍚",
               "name": "금곡동 숯불구이집",
@@ -7073,6 +7665,7 @@
               "phoneVerified": false
             },
             {
+              "id": "0408032ef7a4",
               "category": "한식(쌈밥)",
               "categoryIcon": "🍚",
               "name": "해남쌈밥",
@@ -7084,6 +7677,7 @@
               "phoneVerified": false
             },
             {
+              "id": "9010ebd51b66",
               "category": "한식(만두)",
               "categoryIcon": "🍚",
               "name": "웅천집",
@@ -7095,6 +7689,7 @@
               "phoneVerified": true
             },
             {
+              "id": "0da9e7b1b43b",
               "category": "한식(정식)",
               "categoryIcon": "🍚",
               "name": "식당3선 덕천점",
@@ -7106,6 +7701,7 @@
               "phoneVerified": true
             },
             {
+              "id": "85bc5159240a",
               "category": "경양식(돈까스)",
               "categoryIcon": "🍝",
               "name": "대박터진돈까스",
@@ -7117,6 +7713,7 @@
               "phoneVerified": true
             },
             {
+              "id": "7a73062b11b3",
               "category": "중식(짬뽕)",
               "categoryIcon": "🥢",
               "name": "북구 짬뽕집",
@@ -7138,6 +7735,7 @@
           "name": "창원시",
           "restaurants": [
             {
+              "id": "7e5211265ac5",
               "category": "한식(아구찜)",
               "categoryIcon": "🍚",
               "name": "다정식당",
@@ -7149,6 +7747,7 @@
               "phoneVerified": true
             },
             {
+              "id": "ad294f533ef9",
               "category": "한식(밀면)",
               "categoryIcon": "🍚",
               "name": "명서밀면",
@@ -7160,6 +7759,7 @@
               "phoneVerified": true
             },
             {
+              "id": "76f04d7c0067",
               "category": "한식(평양냉면)",
               "categoryIcon": "🍚",
               "name": "평양냉면 (창원)",
@@ -7171,6 +7771,7 @@
               "phoneVerified": true
             },
             {
+              "id": "20e865f74bd2",
               "category": "한식(국밥/떡갈비)",
               "categoryIcon": "🍚",
               "name": "임진각식당",
@@ -7182,6 +7783,7 @@
               "phoneVerified": true
             },
             {
+              "id": "1a27de8dd88a",
               "category": "한식(육회비빔밥)",
               "categoryIcon": "🍚",
               "name": "마산집",
@@ -7193,6 +7795,7 @@
               "phoneVerified": true
             },
             {
+              "id": "df607230fc15",
               "category": "한식(석쇠불고기/소국밥)",
               "categoryIcon": "🍚",
               "name": "언양각식당",
@@ -7204,6 +7807,7 @@
               "phoneVerified": true
             },
             {
+              "id": "4eb0f583658d",
               "category": "한식(삼계탕)",
               "categoryIcon": "🍚",
               "name": "진고려삼계탕 양덕점",
@@ -7215,6 +7819,7 @@
               "phoneVerified": true
             },
             {
+              "id": "774d31ff729c",
               "category": "양식(이탈리안)",
               "categoryIcon": "🍝",
               "name": "뜨라또리아 다젠나",
@@ -7226,6 +7831,7 @@
               "phoneVerified": true
             },
             {
+              "id": "1f07f41de66e",
               "category": "한식",
               "categoryIcon": "🍚",
               "name": "가포옛날영도집",
@@ -7237,6 +7843,7 @@
               "phoneVerified": true
             },
             {
+              "id": "a2db3bccaa6f",
               "category": "한식(오리요리)",
               "categoryIcon": "🍚",
               "name": "오리봉오리",
@@ -7248,6 +7855,7 @@
               "phoneVerified": true
             },
             {
+              "id": "acd4fe2d3273",
               "category": "경양식(돈까스)",
               "categoryIcon": "🍝",
               "name": "가월돈까스",
@@ -7259,6 +7867,7 @@
               "phoneVerified": true
             },
             {
+              "id": "1c015204f0bd",
               "category": "한식(국밥)",
               "categoryIcon": "🍚",
               "name": "일미국밥",
@@ -7270,6 +7879,7 @@
               "phoneVerified": true
             },
             {
+              "id": "ff3437ba600f",
               "category": "한식(대구찜/아구찜)",
               "categoryIcon": "🍚",
               "name": "해담 대구찜 아구찜",
@@ -7286,6 +7896,7 @@
           "name": "진주시",
           "restaurants": [
             {
+              "id": "aef1c09ceb90",
               "category": "한식(어탕/민물매운탕)",
               "categoryIcon": "🍚",
               "name": "강변어탕집",
@@ -7297,6 +7908,7 @@
               "phoneVerified": true
             },
             {
+              "id": "a92fd9af22f4",
               "category": "한식(어탕)",
               "categoryIcon": "🍚",
               "name": "경호강어탕",
@@ -7308,6 +7920,7 @@
               "phoneVerified": false
             },
             {
+              "id": "991114b1fd5d",
               "category": "빵(베이커리)",
               "categoryIcon": "🥐",
               "name": "수복빵집",
@@ -7319,6 +7932,7 @@
               "phoneVerified": true
             },
             {
+              "id": "0a9a823589e3",
               "category": "한식(오리주물럭)",
               "categoryIcon": "🍚",
               "name": "금산할매오리집",
@@ -7330,6 +7944,7 @@
               "phoneVerified": true
             },
             {
+              "id": "062b5a828129",
               "category": "한식(진주냉면/육전)",
               "categoryIcon": "🍚",
               "name": "하연옥 본점",
@@ -7341,6 +7956,7 @@
               "phoneVerified": true
             },
             {
+              "id": "b8c256352105",
               "category": "한식(육회비빔밥)",
               "categoryIcon": "🍚",
               "name": "제일식당",
@@ -7352,6 +7968,7 @@
               "phoneVerified": false
             },
             {
+              "id": "d30449c01f96",
               "category": "일식(돈까스, 회 없음)",
               "categoryIcon": "🍣",
               "name": "톤오우(Tonou)",
@@ -7363,6 +7980,7 @@
               "phoneVerified": false
             },
             {
+              "id": "79bf7a6ab8f4",
               "category": "한식(한정식)",
               "categoryIcon": "🍚",
               "name": "송화한정식",
@@ -7379,6 +7997,7 @@
           "name": "통영시",
           "restaurants": [
             {
+              "id": "a1b8c95bd54b",
               "category": "한식(월남쌈/샤브샤브)",
               "categoryIcon": "🍚",
               "name": "웰쌈구이샤브",
@@ -7390,6 +8009,7 @@
               "phoneVerified": false
             },
             {
+              "id": "750d85ec2b20",
               "category": "한식(충무김밥)",
               "categoryIcon": "🍚",
               "name": "풍화김밥",
@@ -7401,6 +8021,7 @@
               "phoneVerified": false
             },
             {
+              "id": "82225f94ca47",
               "category": "빵(꿀빵)",
               "categoryIcon": "🥐",
               "name": "만나꿀빵",
@@ -7412,6 +8033,7 @@
               "phoneVerified": true
             },
             {
+              "id": "564f94346fb8",
               "category": "한식(굴요리)",
               "categoryIcon": "🍚",
               "name": "대풍관",
@@ -7423,6 +8045,7 @@
               "phoneVerified": true
             },
             {
+              "id": "a33aa53255f0",
               "category": "중식(짬뽕)",
               "categoryIcon": "🥢",
               "name": "심가네해물짬뽕",
@@ -7434,6 +8057,7 @@
               "phoneVerified": true
             },
             {
+              "id": "27b629570462",
               "category": "한식(전복요리)",
               "categoryIcon": "🍚",
               "name": "동피랑전복마을",
@@ -7450,6 +8074,7 @@
           "name": "김해시",
           "restaurants": [
             {
+              "id": "93686d801087",
               "category": "한식(갈비)",
               "categoryIcon": "🍚",
               "name": "청담어전갈비",
@@ -7461,6 +8086,7 @@
               "phoneVerified": true
             },
             {
+              "id": "400a4f6cf79b",
               "category": "한식(수제비)",
               "categoryIcon": "🍚",
               "name": "배가네 흥동 수제비",
@@ -7472,6 +8098,7 @@
               "phoneVerified": true
             },
             {
+              "id": "9e1da9725ce9",
               "category": "한식(돼지국밥)",
               "categoryIcon": "🍚",
               "name": "밀양돼지국밥 (김해점)",
@@ -7483,6 +8110,7 @@
               "phoneVerified": false
             },
             {
+              "id": "37ae6fbd424d",
               "category": "한식(뒷고기)",
               "categoryIcon": "🍚",
               "name": "옥이네뒷고기",
@@ -7494,6 +8122,7 @@
               "phoneVerified": true
             },
             {
+              "id": "0e1d3f5ee182",
               "category": "태국음식(팟타이)",
               "categoryIcon": "🌏",
               "name": "왓포식당",
@@ -7505,6 +8134,7 @@
               "phoneVerified": true
             },
             {
+              "id": "7cd56c1f745e",
               "category": "한식(솥밥)",
               "categoryIcon": "🍚",
               "name": "하루담",
@@ -7521,6 +8151,7 @@
           "name": "사천시",
           "restaurants": [
             {
+              "id": "d2cfe6ed33b6",
               "category": "중식(짜장)",
               "categoryIcon": "🥢",
               "name": "덕합반점",
@@ -7532,6 +8163,7 @@
               "phoneVerified": true
             },
             {
+              "id": "e4a538b34fe0",
               "category": "한식(재첩요리)",
               "categoryIcon": "🍚",
               "name": "앞뜰식당 본점",
@@ -7543,6 +8175,7 @@
               "phoneVerified": false
             },
             {
+              "id": "a39351260f14",
               "category": "한식(백반)",
               "categoryIcon": "🍚",
               "name": "박서방식당",
@@ -7554,6 +8187,7 @@
               "phoneVerified": true
             },
             {
+              "id": "f9d4041343dd",
               "category": "한식(국밥)",
               "categoryIcon": "🍚",
               "name": "김재성의 사천형제국밥",
@@ -7565,6 +8199,7 @@
               "phoneVerified": true
             },
             {
+              "id": "599e2347517a",
               "category": "빵(카스테라)",
               "categoryIcon": "🥐",
               "name": "사천카스테라",
@@ -7581,6 +8216,7 @@
           "name": "밀양시",
           "restaurants": [
             {
+              "id": "cc2ef52845eb",
               "category": "한식(즉석떡볶이)",
               "categoryIcon": "🍚",
               "name": "손맛떡볶이",
@@ -7592,6 +8228,7 @@
               "phoneVerified": true
             },
             {
+              "id": "27b5819cad24",
               "category": "한식(돼지국밥)",
               "categoryIcon": "🍚",
               "name": "밀양 돼지국밥집",
@@ -7608,6 +8245,7 @@
           "name": "거제시",
           "restaurants": [
             {
+              "id": "47eefb90ec56",
               "category": "한식(국수)",
               "categoryIcon": "🍚",
               "name": "밀양미풍국수",
@@ -7619,6 +8257,7 @@
               "phoneVerified": false
             },
             {
+              "id": "438f07e16ab5",
               "category": "한식(생선구이)",
               "categoryIcon": "🍚",
               "name": "장승포바다생선구이",
@@ -7630,6 +8269,7 @@
               "phoneVerified": true
             },
             {
+              "id": "f231eaef730e",
               "category": "한식(순대국밥)",
               "categoryIcon": "🍚",
               "name": "충남식당 (고현시장)",
@@ -7641,6 +8281,7 @@
               "phoneVerified": true
             },
             {
+              "id": "3ed72ec9087c",
               "category": "한식(칼국수/김밥)",
               "categoryIcon": "🍚",
               "name": "배말칼국수김밥",
@@ -7657,6 +8298,7 @@
           "name": "양산시",
           "restaurants": [
             {
+              "id": "522311851585",
               "category": "중식(짜장면)",
               "categoryIcon": "🥢",
               "name": "대각루",
@@ -7668,6 +8310,7 @@
               "phoneVerified": true
             },
             {
+              "id": "f13242728a2b",
               "category": "한식(돼지국밥)",
               "categoryIcon": "🍚",
               "name": "양산돼지국밥",
@@ -7679,6 +8322,7 @@
               "phoneVerified": true
             },
             {
+              "id": "ff55e3d05d7d",
               "category": "한식(집밥)",
               "categoryIcon": "🍚",
               "name": "정구네정식",
@@ -7690,6 +8334,7 @@
               "phoneVerified": true
             },
             {
+              "id": "d191b666f119",
               "category": "한식(오리고기)",
               "categoryIcon": "🍚",
               "name": "신비숲가든",
@@ -7701,6 +8346,7 @@
               "phoneVerified": false
             },
             {
+              "id": "527c44d4d026",
               "category": "한식(메밀국수)",
               "categoryIcon": "🍚",
               "name": "서리단",
@@ -7717,6 +8363,7 @@
           "name": "하동군",
           "restaurants": [
             {
+              "id": "0425d5deedfb",
               "category": "한식(산채비빔밥)",
               "categoryIcon": "🍚",
               "name": "성남식당",
@@ -7728,6 +8375,7 @@
               "phoneVerified": true
             },
             {
+              "id": "a51b27d5378b",
               "category": "한식(재첩요리)",
               "categoryIcon": "🍚",
               "name": "혜성식당",
@@ -7739,6 +8387,7 @@
               "phoneVerified": true
             },
             {
+              "id": "014e1507d1e6",
               "category": "빵(베이커리)",
               "categoryIcon": "🥐",
               "name": "밤톨",
@@ -7755,6 +8404,7 @@
           "name": "고성군",
           "restaurants": [
             {
+              "id": "384fda78f8a2",
               "category": "한식(대하구이)",
               "categoryIcon": "🍚",
               "name": "둘리왕새우",
@@ -7766,6 +8416,7 @@
               "phoneVerified": true
             },
             {
+              "id": "a684cbb8f68d",
               "category": "한식(생갈비)",
               "categoryIcon": "🍚",
               "name": "청우숯불갈비",
@@ -7782,6 +8433,7 @@
           "name": "함안군",
           "restaurants": [
             {
+              "id": "9bd428008b33",
               "category": "한식(국밥)",
               "categoryIcon": "🍚",
               "name": "대구식당",
@@ -7793,6 +8445,7 @@
               "phoneVerified": true
             },
             {
+              "id": "f979e6ccc5c2",
               "category": "한식(생고기)",
               "categoryIcon": "🍚",
               "name": "남다른생고기",
@@ -7804,6 +8457,7 @@
               "phoneVerified": true
             },
             {
+              "id": "2f59fea13aec",
               "category": "한식",
               "categoryIcon": "🍚",
               "name": "풍성한 밥상",
@@ -7820,6 +8474,7 @@
           "name": "의령군",
           "restaurants": [
             {
+              "id": "89a5a40f3a1e",
               "category": "한식(집밥/콩국수)",
               "categoryIcon": "🍚",
               "name": "계절의밥상",
@@ -7831,6 +8486,7 @@
               "phoneVerified": true
             },
             {
+              "id": "b19bc0a5d18d",
               "category": "일식(소바, 회 없음)",
               "categoryIcon": "🍣",
               "name": "화정소바",
@@ -7847,6 +8503,7 @@
           "name": "창녕군",
           "restaurants": [
             {
+              "id": "5b807e860460",
               "category": "한식(시래기밥상)",
               "categoryIcon": "🍚",
               "name": "김숙녀시래기밥상",
@@ -7858,6 +8515,7 @@
               "phoneVerified": true
             },
             {
+              "id": "055fc7793216",
               "category": "한식(냉면)",
               "categoryIcon": "🍚",
               "name": "황포냉면",
@@ -7874,6 +8532,7 @@
           "name": "거창군",
           "restaurants": [
             {
+              "id": "2d586b4f1345",
               "category": "한식",
               "categoryIcon": "🍚",
               "name": "단골식당",
@@ -7885,6 +8544,7 @@
               "phoneVerified": true
             },
             {
+              "id": "ffbf7a8f748c",
               "category": "한식(고기)",
               "categoryIcon": "🍚",
               "name": "신진식육식당",
@@ -7901,6 +8561,7 @@
           "name": "함양군",
           "restaurants": [
             {
+              "id": "c3921639e5b0",
               "category": "한식(한우국밥)",
               "categoryIcon": "🍚",
               "name": "대성식당",
@@ -7917,6 +8578,7 @@
           "name": "산청군",
           "restaurants": [
             {
+              "id": "df433467521f",
               "category": "한식(고동탕)",
               "categoryIcon": "🍚",
               "name": "왕산식당",
@@ -7933,6 +8595,7 @@
           "name": "남해군",
           "restaurants": [
             {
+              "id": "d8b855503d90",
               "category": "한식(솥밥)",
               "categoryIcon": "🍚",
               "name": "힙한식",
@@ -7949,6 +8612,7 @@
           "name": "합천군",
           "restaurants": [
             {
+              "id": "1f029b5a0c3f",
               "category": "한식",
               "categoryIcon": "🍚",
               "name": "합천 향토음식점",
@@ -7970,6 +8634,7 @@
           "name": "중구",
           "restaurants": [
             {
+              "id": "5b3f9296b60f",
               "category": "빵(베이커리)",
               "categoryIcon": "🥐",
               "name": "성심당 본점",
@@ -7981,6 +8646,7 @@
               "phoneVerified": true
             },
             {
+              "id": "19b89570d4df",
               "category": "한식(설렁탕)",
               "categoryIcon": "🍚",
               "name": "한밭식당",
@@ -7992,6 +8658,7 @@
               "phoneVerified": true
             },
             {
+              "id": "83b11ec13781",
               "category": "한식(주물럭)",
               "categoryIcon": "🍚",
               "name": "토박이",
@@ -8003,6 +8670,7 @@
               "phoneVerified": false
             },
             {
+              "id": "9bbebada8deb",
               "category": "중식(짬뽕)",
               "categoryIcon": "🥢",
               "name": "동은성",
@@ -8014,6 +8682,7 @@
               "phoneVerified": true
             },
             {
+              "id": "a614ca7472b8",
               "category": "한식(칼국수)",
               "categoryIcon": "🍚",
               "name": "한밭 칼국수",
@@ -8030,6 +8699,7 @@
           "name": "유성구",
           "restaurants": [
             {
+              "id": "5aa189a2ba5f",
               "category": "빵(베이커리)",
               "categoryIcon": "🥐",
               "name": "성심당 DCC점",
@@ -8041,6 +8711,7 @@
               "phoneVerified": true
             },
             {
+              "id": "20dd69640f3f",
               "category": "한식(국밥)",
               "categoryIcon": "🍚",
               "name": "원조태평소국밥 본관",
@@ -8052,6 +8723,7 @@
               "phoneVerified": true
             },
             {
+              "id": "35f013f2fac0",
               "category": "한식(석갈비)",
               "categoryIcon": "🍚",
               "name": "화암양반촌",
@@ -8063,6 +8735,7 @@
               "phoneVerified": true
             },
             {
+              "id": "218a696ead88",
               "category": "한식(한정식)",
               "categoryIcon": "🍚",
               "name": "경회루",
@@ -8074,6 +8747,7 @@
               "phoneVerified": true
             },
             {
+              "id": "6aef3e2f40e9",
               "category": "한식(흑수제비)",
               "categoryIcon": "🍚",
               "name": "갑동골흑수제비",
@@ -8085,6 +8759,7 @@
               "phoneVerified": true
             },
             {
+              "id": "90291c502738",
               "category": "한식(칼국수)",
               "categoryIcon": "🍚",
               "name": "온천칼국수",
@@ -8096,6 +8771,7 @@
               "phoneVerified": false
             },
             {
+              "id": "ffd9de36be70",
               "category": "한식(백반/한정식)",
               "categoryIcon": "🍚",
               "name": "명이네밥상",
@@ -8112,6 +8788,7 @@
           "name": "동구",
           "restaurants": [
             {
+              "id": "5a80ae4111d4",
               "category": "한식(칼국수)",
               "categoryIcon": "🍚",
               "name": "오씨칼국수",
@@ -8123,6 +8800,7 @@
               "phoneVerified": true
             },
             {
+              "id": "5d89353307a0",
               "category": "한식(칼국수)",
               "categoryIcon": "🍚",
               "name": "김화칼국수",
@@ -8139,6 +8817,7 @@
           "name": "서구",
           "restaurants": [
             {
+              "id": "3bf4b8d1845b",
               "category": "빵/제과",
               "categoryIcon": "🥐",
               "name": "하레하레",
@@ -8150,6 +8829,7 @@
               "phoneVerified": false
             },
             {
+              "id": "5bfbed4ae3b7",
               "category": "한식(전복요리)",
               "categoryIcon": "🍚",
               "name": "전복대가",
@@ -8161,6 +8841,7 @@
               "phoneVerified": true
             },
             {
+              "id": "d6431b2ec7e4",
               "category": "한식(떡볶이)",
               "categoryIcon": "🍚",
               "name": "떡반집",
@@ -8172,6 +8853,7 @@
               "phoneVerified": false
             },
             {
+              "id": "1240b78b6df5",
               "category": "한식(쭈꾸미)",
               "categoryIcon": "🍚",
               "name": "손의손",
@@ -8188,6 +8870,7 @@
           "name": "대덕구",
           "restaurants": [
             {
+              "id": "a6ad17996e4d",
               "category": "한식(냉면)",
               "categoryIcon": "🍚",
               "name": "대덕구 오정동 냉면집",
@@ -8199,6 +8882,7 @@
               "phoneVerified": true
             },
             {
+              "id": "5a34f32d2a65",
               "category": "제과",
               "categoryIcon": "🥐",
               "name": "신라당",
@@ -8210,6 +8894,7 @@
               "phoneVerified": true
             },
             {
+              "id": "12bc1a851c2c",
               "category": "한식(순대국밥)",
               "categoryIcon": "🍚",
               "name": "오문창 순대국밥",
@@ -8221,6 +8906,7 @@
               "phoneVerified": true
             },
             {
+              "id": "fabe01fc6fe8",
               "category": "한식(두부전골)",
               "categoryIcon": "🍚",
               "name": "매봉식당",
@@ -8232,6 +8918,7 @@
               "phoneVerified": true
             },
             {
+              "id": "0e80ab5bef04",
               "category": "한식(삼겹살)",
               "categoryIcon": "🍚",
               "name": "대덕식당",
@@ -8243,6 +8930,7 @@
               "phoneVerified": true
             },
             {
+              "id": "396c22381b29",
               "category": "한식(해물칼국수)",
               "categoryIcon": "🍚",
               "name": "부추 해물칼국수",
@@ -8264,6 +8952,7 @@
           "name": "동구",
           "restaurants": [
             {
+              "id": "c78f3b7b2cef",
               "category": "한식(육전)",
               "categoryIcon": "🍚",
               "name": "미미원",
@@ -8280,6 +8969,7 @@
           "name": "서구",
           "restaurants": [
             {
+              "id": "e812fc69e3be",
               "category": "일식(숯불돈까스, 회 없음)",
               "categoryIcon": "🍣",
               "name": "정동 본점",
@@ -8291,6 +8981,7 @@
               "phoneVerified": false
             },
             {
+              "id": "41106f340c6b",
               "category": "빵/카페(디저트)",
               "categoryIcon": "🥐",
               "name": "등화",
@@ -8307,6 +8998,7 @@
           "name": "북구",
           "restaurants": [
             {
+              "id": "71cb3e01f9c8",
               "category": "한식(우렁이쌈밥)",
               "categoryIcon": "🍚",
               "name": "산수쌈밥",
@@ -8318,6 +9010,7 @@
               "phoneVerified": false
             },
             {
+              "id": "bd8488fe1e92",
               "category": "한식(곱창)",
               "categoryIcon": "🍚",
               "name": "서울곱창",
@@ -8329,6 +9022,7 @@
               "phoneVerified": true
             },
             {
+              "id": "25a06f7ad4c2",
               "category": "한식(순대국밥)",
               "categoryIcon": "🍚",
               "name": "행복한 담벼락",
@@ -8340,6 +9034,7 @@
               "phoneVerified": false
             },
             {
+              "id": "3cfc0945a719",
               "category": "일식(라멘, 회 없음)",
               "categoryIcon": "🍣",
               "name": "라멘만땅",
@@ -8356,6 +9051,7 @@
           "name": "광산구",
           "restaurants": [
             {
+              "id": "137d248ff9aa",
               "category": "한식(등뼈수육)",
               "categoryIcon": "🍚",
               "name": "뼈칼집",
@@ -8367,6 +9063,7 @@
               "phoneVerified": true
             },
             {
+              "id": "11cd287a84c3",
               "category": "한식(바베큐)",
               "categoryIcon": "🍚",
               "name": "황솔촌",
@@ -8383,6 +9080,7 @@
           "name": "남구",
           "restaurants": [
             {
+              "id": "c8f9e5806993",
               "category": "한식(우렁이쌈밥)",
               "categoryIcon": "🍚",
               "name": "당산나무집",
@@ -8394,6 +9092,7 @@
               "phoneVerified": true
             },
             {
+              "id": "2daf0bbcc564",
               "category": "한식(삼겹살)",
               "categoryIcon": "🍚",
               "name": "덤식당",
@@ -8405,6 +9104,7 @@
               "phoneVerified": false
             },
             {
+              "id": "32341cbc9fb1",
               "category": "태국음식",
               "categoryIcon": "🌏",
               "name": "뿌팟퐁까리",
@@ -8416,6 +9116,7 @@
               "phoneVerified": true
             },
             {
+              "id": "42a97c5cd03f",
               "category": "한식(해장국)",
               "categoryIcon": "🍚",
               "name": "기동이네 해장국",
@@ -8437,6 +9138,7 @@
           "name": "목포시",
           "restaurants": [
             {
+              "id": "a741c55ea077",
               "category": "한식(떡갈비)",
               "categoryIcon": "🍚",
               "name": "성식당",
@@ -8448,6 +9150,7 @@
               "phoneVerified": false
             },
             {
+              "id": "c18ca1848d29",
               "category": "한식(낙지요리)",
               "categoryIcon": "🍚",
               "name": "목포 상동 낙지코스요리집",
@@ -8459,6 +9162,7 @@
               "phoneVerified": false
             },
             {
+              "id": "d07e81a5d93f",
               "category": "한식(짚불구이)",
               "categoryIcon": "🍚",
               "name": "목포무안짚불구이",
@@ -8470,6 +9174,7 @@
               "phoneVerified": false
             },
             {
+              "id": "b3ee4c7db15f",
               "category": "한식(콩국수)",
               "categoryIcon": "🍚",
               "name": "유달콩물",
@@ -8481,6 +9186,7 @@
               "phoneVerified": false
             },
             {
+              "id": "b060ca62d269",
               "category": "한식(산낙지)",
               "categoryIcon": "🍚",
               "name": "하당먹거리",
@@ -8492,6 +9198,7 @@
               "phoneVerified": true
             },
             {
+              "id": "e32c86c4e5de",
               "category": "한식(분식/해장국)",
               "categoryIcon": "🍚",
               "name": "목포집",
@@ -8503,6 +9210,7 @@
               "phoneVerified": true
             },
             {
+              "id": "19ba03b7607d",
               "category": "한식(조개전골)",
               "categoryIcon": "🍚",
               "name": "바다조개전골 평화광장점",
@@ -8514,6 +9222,7 @@
               "phoneVerified": false
             },
             {
+              "id": "ce9fe0242261",
               "category": "한식(양념게살)",
               "categoryIcon": "🍚",
               "name": "장터식당",
@@ -8530,6 +9239,7 @@
           "name": "여수시",
           "restaurants": [
             {
+              "id": "6889354a3e6e",
               "category": "한식(곱창전골)",
               "categoryIcon": "🍚",
               "name": "소라면 곱창골목",
@@ -8541,6 +9251,7 @@
               "phoneVerified": false
             },
             {
+              "id": "1076a9684d44",
               "category": "한식(게장)",
               "categoryIcon": "🍚",
               "name": "게장한상 낭만별식 라테라스점",
@@ -8552,6 +9263,7 @@
               "phoneVerified": true
             },
             {
+              "id": "1be12754a414",
               "category": "한식(게장)",
               "categoryIcon": "🍚",
               "name": "꽃돌게장1번가",
@@ -8563,6 +9275,7 @@
               "phoneVerified": true
             },
             {
+              "id": "e577a4449a98",
               "category": "한식(김밥)",
               "categoryIcon": "🍚",
               "name": "바다김밥",
@@ -8574,6 +9287,7 @@
               "phoneVerified": false
             },
             {
+              "id": "7d5389071e92",
               "category": "중식(짬뽕)",
               "categoryIcon": "🥢",
               "name": "순심원",
@@ -8585,6 +9299,7 @@
               "phoneVerified": true
             },
             {
+              "id": "e22be24314d6",
               "category": "한식",
               "categoryIcon": "🍚",
               "name": "금목수",
@@ -8601,6 +9316,7 @@
           "name": "순천시",
           "restaurants": [
             {
+              "id": "6599e5db4a4e",
               "category": "한식(백반)",
               "categoryIcon": "🍚",
               "name": "육사순희집밥",
@@ -8612,6 +9328,7 @@
               "phoneVerified": true
             },
             {
+              "id": "32091be5cd51",
               "category": "한식(정식/보리밥)",
               "categoryIcon": "🍚",
               "name": "벽오동",
@@ -8623,6 +9340,7 @@
               "phoneVerified": true
             },
             {
+              "id": "ec8a686d7df7",
               "category": "한식(국밥)",
               "categoryIcon": "🍚",
               "name": "순복식당",
@@ -8634,6 +9352,7 @@
               "phoneVerified": true
             },
             {
+              "id": "e82d8d537c74",
               "category": "한식(산낙지비빔밥)",
               "categoryIcon": "🍚",
               "name": "순광식당",
@@ -8645,6 +9364,7 @@
               "phoneVerified": true
             },
             {
+              "id": "e14e7cf1cbb7",
               "category": "일식(냉모밀우동, 회 없음)",
               "categoryIcon": "🍣",
               "name": "1937모밀우동",
@@ -8656,6 +9376,7 @@
               "phoneVerified": true
             },
             {
+              "id": "9bbd035be59d",
               "category": "한식(민물장어)",
               "categoryIcon": "🍚",
               "name": "일출봉민물장어",
@@ -8667,6 +9388,7 @@
               "phoneVerified": true
             },
             {
+              "id": "c7e7b1cfddb0",
               "category": "한식(쌈밥정식)",
               "categoryIcon": "🍚",
               "name": "열무밭애",
@@ -8683,6 +9405,7 @@
           "name": "광양시",
           "restaurants": [
             {
+              "id": "04c96be352de",
               "category": "한식(광양불고기)",
               "categoryIcon": "🍚",
               "name": "삼대광양불고기집",
@@ -8694,6 +9417,7 @@
               "phoneVerified": true
             },
             {
+              "id": "4ef9ab01c86c",
               "category": "한식(국밥)",
               "categoryIcon": "🍚",
               "name": "신가가마솥",
@@ -8705,6 +9429,7 @@
               "phoneVerified": true
             },
             {
+              "id": "13fb9784754d",
               "category": "한식(광양불고기)",
               "categoryIcon": "🍚",
               "name": "장원회관",
@@ -8716,6 +9441,7 @@
               "phoneVerified": true
             },
             {
+              "id": "5c3959a10649",
               "category": "한식(닭숯불고기)",
               "categoryIcon": "🍚",
               "name": "푸른산장",
@@ -8727,6 +9453,7 @@
               "phoneVerified": true
             },
             {
+              "id": "87dbcb52536e",
               "category": "한식(광양불고기)",
               "categoryIcon": "🍚",
               "name": "금목서 광양불고기",
@@ -8743,6 +9470,7 @@
           "name": "나주시",
           "restaurants": [
             {
+              "id": "860a03ee064b",
               "category": "한식(곰탕)",
               "categoryIcon": "🍚",
               "name": "나주곰탕 노포",
@@ -8759,6 +9487,7 @@
           "name": "담양군",
           "restaurants": [
             {
+              "id": "dc06ed22518e",
               "category": "한식(국수)",
               "categoryIcon": "🍚",
               "name": "담양읍 국수집",
@@ -8775,6 +9504,7 @@
           "name": "곡성군",
           "restaurants": [
             {
+              "id": "fdee6162f323",
               "category": "경양식(돈까스)",
               "categoryIcon": "🍝",
               "name": "지리산가는길",
@@ -8786,6 +9516,7 @@
               "phoneVerified": true
             },
             {
+              "id": "1caa94d1d10a",
               "category": "한식(참게수제비)",
               "categoryIcon": "🍚",
               "name": "나루터",
@@ -8802,6 +9533,7 @@
           "name": "구례군",
           "restaurants": [
             {
+              "id": "de37a716ee1f",
               "category": "한식(백반)",
               "categoryIcon": "🍚",
               "name": "구례읍 백반집",
@@ -8813,6 +9545,7 @@
               "phoneVerified": false
             },
             {
+              "id": "ba774f059a41",
               "category": "한식(순대국)",
               "categoryIcon": "🍚",
               "name": "한우식당",
@@ -8824,6 +9557,7 @@
               "phoneVerified": true
             },
             {
+              "id": "e8180695ed54",
               "category": "한식(돼지갈비)",
               "categoryIcon": "🍚",
               "name": "마재갈비",
@@ -8835,6 +9569,7 @@
               "phoneVerified": true
             },
             {
+              "id": "1e5a6ca3aaa0",
               "category": "한식(육회비빔밥)",
               "categoryIcon": "🍚",
               "name": "부부식당",
@@ -8851,6 +9586,7 @@
           "name": "보성군",
           "restaurants": [
             {
+              "id": "d3c791804cda",
               "category": "빵(베이커리)",
               "categoryIcon": "🥐",
               "name": "벌교 빵가게",
@@ -8862,6 +9598,7 @@
               "phoneVerified": true
             },
             {
+              "id": "da9dc579f6ef",
               "category": "한식(꼬막)",
               "categoryIcon": "🍚",
               "name": "고려회관",
@@ -8873,6 +9610,7 @@
               "phoneVerified": true
             },
             {
+              "id": "a2867f9ed656",
               "category": "한식(흑염소)",
               "categoryIcon": "🍚",
               "name": "늘푸른흑염소가든",
@@ -8884,6 +9622,7 @@
               "phoneVerified": true
             },
             {
+              "id": "ce22ca225b2e",
               "category": "한식(떡갈비)",
               "categoryIcon": "🍚",
               "name": "보성녹차떡갈비원조",
@@ -8900,6 +9639,7 @@
           "name": "강진군",
           "restaurants": [
             {
+              "id": "03dfcee0b9b7",
               "category": "한식(가마솥연탄불고기)",
               "categoryIcon": "🍚",
               "name": "병영서가네",
@@ -8911,6 +9651,7 @@
               "phoneVerified": true
             },
             {
+              "id": "d920d771c9ab",
               "category": "한식(백반/홍어)",
               "categoryIcon": "🍚",
               "name": "병영면 한정식집",
@@ -8922,6 +9663,7 @@
               "phoneVerified": true
             },
             {
+              "id": "46623d159279",
               "category": "한식",
               "categoryIcon": "🍚",
               "name": "강진읍 식당",
@@ -8938,6 +9680,7 @@
           "name": "해남군",
           "restaurants": [
             {
+              "id": "81eb5d0f129d",
               "category": "한식(보리굴비/한정식)",
               "categoryIcon": "🍚",
               "name": "도화지",
@@ -8949,6 +9692,7 @@
               "phoneVerified": false
             },
             {
+              "id": "de56c3b1093c",
               "category": "한식(백반)",
               "categoryIcon": "🍚",
               "name": "소망식당",
@@ -8960,6 +9704,7 @@
               "phoneVerified": true
             },
             {
+              "id": "1feb96da6296",
               "category": "한식(닭코스)",
               "categoryIcon": "🍚",
               "name": "원조장수통닭",
@@ -8971,6 +9716,7 @@
               "phoneVerified": true
             },
             {
+              "id": "bafbee3b7055",
               "category": "한식(순대국/내장탕)",
               "categoryIcon": "🍚",
               "name": "신창손순대국밥",
@@ -8982,6 +9728,7 @@
               "phoneVerified": true
             },
             {
+              "id": "b7c8414fff9c",
               "category": "한식(갈비탕/돼지갈비)",
               "categoryIcon": "🍚",
               "name": "대동명품한우",
@@ -8993,6 +9740,7 @@
               "phoneVerified": true
             },
             {
+              "id": "ad305932b310",
               "category": "한식(팥칼국수)",
               "categoryIcon": "🍚",
               "name": "정인숙칼국수",
@@ -9009,6 +9757,7 @@
           "name": "장흥군",
           "restaurants": [
             {
+              "id": "9eb8e909b1d3",
               "category": "한식(삼합)",
               "categoryIcon": "🍚",
               "name": "정남진만나숯불갈비식육식당",
@@ -9020,6 +9769,7 @@
               "phoneVerified": true
             },
             {
+              "id": "97a32c7ed962",
               "category": "한식(장어)",
               "categoryIcon": "🍚",
               "name": "영천수산",
@@ -9036,6 +9786,7 @@
           "name": "무안군",
           "restaurants": [
             {
+              "id": "5e4e6439b7f8",
               "category": "한식(짚불구이)",
               "categoryIcon": "🍚",
               "name": "두암식당",
@@ -9052,6 +9803,7 @@
           "name": "완도군",
           "restaurants": [
             {
+              "id": "55f91107b420",
               "category": "한식(생선구이/전복)",
               "categoryIcon": "🍚",
               "name": "빙그레식당",
@@ -9068,6 +9820,7 @@
           "name": "영광군",
           "restaurants": [
             {
+              "id": "d5cab441ba2b",
               "category": "한식(쫄복탕)",
               "categoryIcon": "🍚",
               "name": "영광법성포 쫄복이네집",
@@ -9084,6 +9837,7 @@
           "name": "신안군",
           "restaurants": [
             {
+              "id": "b34769b42177",
               "category": "한식",
               "categoryIcon": "🍚",
               "name": "흑산면 식당",
@@ -9100,6 +9854,7 @@
           "name": "고흥군",
           "restaurants": [
             {
+              "id": "8029dd8ec342",
               "category": "한식(해산물)",
               "categoryIcon": "🍚",
               "name": "대동식당",

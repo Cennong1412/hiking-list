@@ -4,6 +4,7 @@
 //   node scripts/build-restaurants.js
 const fs = require("fs");
 const path = require("path");
+const crypto = require("crypto");
 
 const ROOT = path.join(__dirname, "..");
 const SRC = path.join(ROOT, "맛집 리스트", "korea_restaurants_all.json");
@@ -20,6 +21,10 @@ function mainCategory(raw){
 }
 function iconFor(raw){
   return CATEGORY_ICON[mainCategory(raw)] || "🌏";
+}
+// province+gu+식당이름 기준 고정 id (재생성해도 안 바뀜 -> 앱에서 로컬 수정값을 매칭하는 키로 사용)
+function makeId(province, gu, name){
+  return crypto.createHash("md5").update(`${province}|${gu}|${name}`).digest("hex").slice(0, 12);
 }
 
 let total = 0;
@@ -47,6 +52,7 @@ const regions = Object.keys(raw).map(provinceName => {
       const category = r["음식종류"] || "";
       categorySet.add(mainCategory(category));
       return {
+        id: makeId(provinceName, guName, r["식당이름"] || ""),
         category,
         categoryIcon: iconFor(category),
         name: r["식당이름"] || "",
