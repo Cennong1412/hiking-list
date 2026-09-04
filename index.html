@@ -436,13 +436,14 @@
 <body>
 
 <header>
-  <h1>📷 나의 사진 · 여행</h1>
-  <p>촬영 설정 가이드 · 등산·국내·해외·골프 여행 코스</p>
+  <h1>📷 나의 사진 · 여행 · 맛집</h1>
+  <p>촬영 설정 가이드 · 등산·국내·해외·골프 여행 코스 · 전국 시군구 맛집</p>
 </header>
 
 <div class="tabs">
   <div class="tab active" data-tab="photo">📷 사진</div>
   <div class="tab" data-tab="travel">🧭 여행</div>
+  <div class="tab" data-tab="food">🍽️ 맛집</div>
 </div>
 
 <!-- 사진 -->
@@ -525,7 +526,6 @@
     <div class="subtab" data-tsub="domestic">🇰🇷 국내</div>
     <div class="subtab" data-tsub="abroad">✈️ 해외</div>
     <div class="subtab" data-tsub="golf">⛳ 골프</div>
-    <div class="subtab" data-tsub="food">🍽️ 맛집</div>
   </div>
 
   <!-- 등산 -->
@@ -581,20 +581,17 @@
     <div class="note" id="golf-note"></div>
     <div id="golf-list"><div class="empty">불러오는 중...</div></div>
   </div>
+</div>
 
-  <!-- 맛집 -->
-  <div class="tsub-view" id="travel-food">
-    <div class="subtabs scroll" id="food-region-subtabs"></div>
-    <div class="field">
-      <label>시/군/구</label>
-      <select id="food-gu-select"></select>
-    </div>
-    <div class="sortbar" id="food-category-bar"></div>
-    <input class="searchbox" id="food-search" placeholder="식당 이름·메뉴로 검색">
-    <div class="note" id="food-note"></div>
-    <div class="note" id="food-edits-summary" style="display:none"></div>
-    <div id="food-list"><div class="empty">불러오는 중...</div></div>
-  </div>
+<!-- 맛집 -->
+<div class="view" id="view-food">
+  <div class="subtabs scroll" id="food-region-subtabs"></div>
+  <div class="sortbar" id="food-gu-bar"></div>
+  <div class="sortbar" id="food-category-bar"></div>
+  <input class="searchbox" id="food-search" placeholder="식당 이름·메뉴로 검색">
+  <div class="note" id="food-note"></div>
+  <div class="note" id="food-edits-summary" style="display:none"></div>
+  <div id="food-list"><div class="empty">불러오는 중...</div></div>
 </div>
 
 <div class="lightbox" id="lightbox">
@@ -1238,15 +1235,47 @@ function renderFoodCategoryBar(){
   });
 }
 
-function renderFoodGuSelect(){
+// 식당 5개 미만인 시/군/구는 "기타"로 묶는다
+const FOOD_GU_MIN = 5;
+function foodGuGroups(region){
+  const groups = [];
+  let otherCount = 0;
+  const otherNames = [];
+  region.subregions.forEach(sr => {
+    if(sr.restaurants.length < FOOD_GU_MIN){
+      otherCount += sr.restaurants.length;
+      otherNames.push(sr.name);
+    } else {
+      groups.push({ key: sr.name, label: sr.name, count: sr.restaurants.length, subNames: [sr.name] });
+    }
+  });
+  if(otherNames.length){
+    groups.push({ key: "__other__", label: "기타", count: otherCount, subNames: otherNames });
+  }
+  return groups;
+}
+
+function renderFoodGuBar(){
   const region = currentFoodRegion();
-  const sel = document.getElementById("food-gu-select");
-  if(!region){ sel.innerHTML = ""; return; }
+  const bar = document.getElementById("food-gu-bar");
+  if(!region){ bar.innerHTML = ""; return; }
   const total = region.subregions.reduce((s,sr)=>s+sr.restaurants.length, 0);
-  sel.innerHTML = [`<option value="__all__">전체 (${total})</option>`]
-    .concat(region.subregions.map(sr => `<option value="${sr.name}">${sr.name} (${sr.restaurants.length})</option>`))
-    .join("");
-  sel.value = foodGu;
+  const chips = [{ key: "__all__", label: "전체", count: total }, ...foodGuGroups(region)];
+  bar.innerHTML = chips.map(g => `<div class="sortbtn${g.key===foodGu?" active":""}" data-gu="${g.key}">${g.label}<span class="count-badge">${g.count}</span></div>`).join("");
+  bar.querySelectorAll(".sortbtn").forEach(btn=>{
+    btn.addEventListener("click", ()=>{
+      bar.querySelectorAll(".sortbtn").forEach(b=>b.classList.remove("active"));
+      btn.classList.add("active");
+      foodGu = btn.dataset.gu;
+      renderFoodList();
+    });
+  });
+}
+
+function foodActiveGuNames(region){
+  if(foodGu === "__all__") return null;
+  const group = foodGuGroups(region).find(g => g.key === foodGu);
+  return group ? group.subNames : null;
 }
 
 function renderFoodList(){
@@ -1255,7 +1284,8 @@ function renderFoodList(){
   const noteEl = document.getElementById("food-note");
   if(!region){ box.innerHTML = '<div class="empty">데이터를 불러오지 못했어요.</div>'; return; }
   const q = document.getElementById("food-search").value.trim().toLowerCase();
-  const subregions = foodGu === "__all__" ? region.subregions : region.subregions.filter(sr => sr.name === foodGu);
+  const activeGuNames = foodActiveGuNames(region);
+  const subregions = activeGuNames ? region.subregions.filter(sr => activeGuNames.includes(sr.name)) : region.subregions;
 
   const edits = loadFoodEdits();
   let html = "";
@@ -1271,7 +1301,7 @@ function renderFoodList(){
     });
     if(!list.length) return;
     shown += list.length;
-    if(foodGu === "__all__"){
+    if(subregions.length > 1){
       html += `<div class="section-title">${sr.name} <span class="count-badge">${list.length}</span></div>`;
     }
     html += list.map(r => foodCardHTML(r, sr.name, edits[r.id])).join("");
@@ -1279,7 +1309,9 @@ function renderFoodList(){
 
   const unverifiedAddr = subregions.reduce((s,sr)=>s+sr.restaurants.filter(r=>!r.addressVerified).length, 0);
   const unverifiedPhone = subregions.reduce((s,sr)=>s+sr.restaurants.filter(r=>!r.phoneVerified).length, 0);
-  noteEl.textContent = `${region.region} 총 ${region.subregions.reduce((s,sr)=>s+sr.restaurants.length,0)}곳 · 주소 확인 중 ${unverifiedAddr}곳 · 전화번호 확인 중 ${unverifiedPhone}곳`;
+  const scopeTotal = subregions.reduce((s,sr)=>s+sr.restaurants.length,0);
+  const scopeLabel = foodGu === "__all__" ? region.region : (foodGu === "__other__" ? `${region.region} 기타` : `${region.region} ${foodGu}`);
+  noteEl.textContent = `${scopeLabel} 총 ${scopeTotal}곳 · 주소 확인 중 ${unverifiedAddr}곳 · 전화번호 확인 중 ${unverifiedPhone}곳`;
 
   const editCount = Object.keys(edits).length;
   const summaryEl = document.getElementById("food-edits-summary");
@@ -1328,16 +1360,12 @@ async function loadFoodData(){
         foodRegionKey = el.dataset.region;
         foodGu = "__all__";
         foodCategory = "__all__";
-        renderFoodGuSelect();
+        renderFoodGuBar();
         renderFoodCategoryBar();
         renderFoodList();
       });
     });
 
-    document.getElementById("food-gu-select").addEventListener("change", (e)=>{
-      foodGu = e.target.value;
-      renderFoodList();
-    });
     document.getElementById("food-search").addEventListener("input", renderFoodList);
 
     document.getElementById("food-list").addEventListener("click", (e)=>{
@@ -1374,7 +1402,7 @@ async function loadFoodData(){
       if(e.target.closest("#food-export-btn")) exportFoodEdits();
     });
 
-    renderFoodGuSelect();
+    renderFoodGuBar();
     renderFoodCategoryBar();
     renderFoodList();
   } catch(err){
