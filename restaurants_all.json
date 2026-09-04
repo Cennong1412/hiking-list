@@ -55,8 +55,8 @@
               "menuVerified": true,
               "address": "경기 수원시 팔달구 화서문로16번길 15 1층",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "031-258-0149",
+              "phoneVerified": true
             },
             {
               "category": "한식(평양냉면)",
@@ -66,8 +66,8 @@
               "menuVerified": true,
               "address": "경기 수원시 팔달구 정조로800번길 6-3",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "031-255-7493",
+              "phoneVerified": true
             },
             {
               "category": "한식(해장국)",
@@ -88,8 +88,8 @@
               "menuVerified": true,
               "address": "경기 수원시 팔달구 행궁로22번길 15 2,3층",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "0507-1322-0747",
+              "phoneVerified": true
             },
             {
               "category": "양식(화덕피자)",
@@ -99,8 +99,8 @@
               "menuVerified": true,
               "address": "경기 수원시 영통구 센트럴파크로128번길 26",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "031-217-4999",
+              "phoneVerified": true
             },
             {
               "category": "양식(비스트로)",
@@ -121,8 +121,8 @@
               "menuVerified": true,
               "address": "경기 수원시 팔달구 신풍로23번길 59 1층",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "031-242-0798",
+              "phoneVerified": true
             },
             {
               "category": "양식(파스타/리조또)",
@@ -132,8 +132,8 @@
               "menuVerified": true,
               "address": "경기 수원시 팔달구 권광로180번길 53-8 101,102호",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "070-8807-4752",
+              "phoneVerified": true
             },
             {
               "category": "경양식(돈까스)",
@@ -143,8 +143,8 @@
               "menuVerified": true,
               "address": "경기 수원시 팔달구 경수대로 549 동수원빌딩 1층",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "031-235-8277",
+              "phoneVerified": true
             },
             {
               "category": "한식(곱창)",
@@ -165,8 +165,8 @@
               "menuVerified": true,
               "address": "경기 수원시 팔달구 효원로307번길 47 문화빌딩",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "031-223-7893",
+              "phoneVerified": true
             },
             {
               "category": "한식(수육)",
@@ -187,8 +187,8 @@
               "menuVerified": true,
               "address": "경기 수원시 장안구 팔달로291번길 21-17",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "031-242-6059",
+              "phoneVerified": true
             },
             {
               "category": "한식(덮밥)",
@@ -209,8 +209,8 @@
               "menuVerified": true,
               "address": "경기 수원시 팔달구 월드컵로321번길 5",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "031-216-3320",
+              "phoneVerified": true
             },
             {
               "category": "일식(라멘, 회 없음)",
@@ -231,8 +231,8 @@
               "menuVerified": true,
               "address": "경기 수원시 영통구 광교중앙로 140 수원컨벤션센터 3층 300호",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "031-303-6915",
+              "phoneVerified": true
             },
             {
               "category": "일식(스키야키/한우, 회 없음)",
@@ -258,8 +258,8 @@
               "menuVerified": true,
               "address": "경기도 성남시 분당구 야탑로 72 1층",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "031-704-5545",
+              "phoneVerified": true
             },
             {
               "category": "한식(고기)",
@@ -291,8 +291,8 @@
               "menuVerified": true,
               "address": "경기 성남시 분당구 동판교로52번길 9-9",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "031-705-3367",
+              "phoneVerified": true
             },
             {
               "category": "한식(주점/안주)",
@@ -346,8 +346,8 @@
               "menuVerified": true,
               "address": "경기도 성남시 분당구 정자동",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "031-714-8388",
+              "phoneVerified": true
             },
             {
               "category": "한식(삼겹살/냉삼)",
@@ -454,10 +454,10 @@
               "name": "한우리정육점식당",
               "menu": "국내산 한우 특수부위, 한돈, 설렁탕",
               "menuVerified": true,
-              "address": "경기도 성남시 중원구 신흥동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경기 성남시 수정구 수정남로 88",
+              "addressVerified": true,
+              "phone": "031-756-4033",
+              "phoneVerified": true
             },
             {
               "category": "한식(족발/보쌈)",
@@ -483,8 +483,8 @@
               "menuVerified": true,
               "address": "경기 안양시 동안구 평촌대로223번길 52 2층",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "0503-7154-2923",
+              "phoneVerified": true
             },
             {
               "category": "한식(칼국수)",
@@ -514,10 +514,10 @@
               "name": "투파인드피터 (범계)",
               "menu": "명란크림파스타(17,000원), 봉골레파스타(17,000원), 쉬림프먹물파스타(19,000원)",
               "menuVerified": true,
-              "address": "경기도 안양시 동안구 범계동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경기 안양시 동안구 평촌대로217번길 15",
+              "addressVerified": true,
+              "phone": "0507-1376-1599",
+              "phoneVerified": true
             },
             {
               "category": "중식(마라탕)",
@@ -582,8 +582,8 @@
               "menuVerified": true,
               "address": "경기도 안양시 동안구 인덕원로 34 1층",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "031-386-3510",
+              "phoneVerified": true
             },
             {
               "category": "중식(마라탕)",
@@ -602,10 +602,10 @@
               "name": "동해오징어보쌈",
               "menu": "오징어보쌈",
               "menuVerified": true,
-              "address": "경기도 안양시 만안구 안양동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경기 안양시 만안구 장내로139번길 56-12",
+              "addressVerified": true,
+              "phone": "031-445-4545",
+              "phoneVerified": true
             },
             {
               "category": "한식(돼지뒷고기)",
@@ -624,10 +624,10 @@
               "name": "태원정육식당",
               "menu": "한우 구이",
               "menuVerified": true,
-              "address": "경기도 안양시 만안구 박달동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경기 안양시 만안구 박달로507번길 19",
+              "addressVerified": true,
+              "phone": "031-443-9233",
+              "phoneVerified": true
             },
             {
               "category": "한식(순대국)",
@@ -635,10 +635,10 @@
               "name": "만복순대국",
               "menu": "순대국",
               "menuVerified": true,
-              "address": "경기도 안양시 만안구 박달동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경기 안양시 만안구 양화로 159",
+              "addressVerified": true,
+              "phone": "031-465-5351",
+              "phoneVerified": true
             },
             {
               "category": "양식(스테이크/파스타)",
@@ -692,8 +692,8 @@
               "menuVerified": true,
               "address": "경기 안양시 만안구 냉천로 196",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "031-464-9255",
+              "phoneVerified": true
             }
           ]
         },
@@ -708,8 +708,8 @@
               "menuVerified": true,
               "address": "경기 부천시 원미구 중동로254번길 104 1층",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "032-225-8210",
+              "phoneVerified": true
             },
             {
               "category": "한식(오리요리)",
@@ -717,10 +717,10 @@
               "name": "팽오리농장",
               "menu": "오리주물럭",
               "menuVerified": true,
-              "address": "경기도 부천시 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경기 부천시 소사구 소안로74번길 20",
+              "addressVerified": true,
+              "phone": "032-349-0196",
+              "phoneVerified": true
             },
             {
               "category": "한식(게장)",
@@ -728,10 +728,10 @@
               "name": "봉순게장",
               "menu": "간장게장",
               "menuVerified": true,
-              "address": "경기도 부천시 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경기 부천시 오정구 역곡로284번길 18",
+              "addressVerified": true,
+              "phone": "032-682-0029",
+              "phoneVerified": true
             },
             {
               "category": "빵(베이커리)",
@@ -739,10 +739,10 @@
               "name": "베이커리호프",
               "menu": "대표메뉴 확인 필요",
               "menuVerified": false,
-              "address": "경기도 부천시 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경기 부천시 원미구 석천로177번길 39",
+              "addressVerified": true,
+              "phone": "032-321-2334",
+              "phoneVerified": true
             },
             {
               "category": "경양식(돈까스)",
@@ -823,8 +823,8 @@
               "menuVerified": true,
               "address": "경기도 시흥시 동서로811번길 33 (물왕동)",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "031-483-0201",
+              "phoneVerified": true
             },
             {
               "category": "한식(고기구이)",
@@ -834,8 +834,8 @@
               "menuVerified": true,
               "address": "경기 시흥시 신현로 398",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "010-8953-3535",
+              "phoneVerified": true
             },
             {
               "category": "한식(해산물/조개구이)",
@@ -894,8 +894,8 @@
               "menuVerified": true,
               "address": "경기 군포시 산본동 1142-5",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "070-7543-1201",
+              "phoneVerified": true
             },
             {
               "category": "빵(베이커리)",
@@ -905,8 +905,8 @@
               "menuVerified": true,
               "address": "경기 군포시 송부로22번길 2",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "031-501-1911",
+              "phoneVerified": true
             }
           ]
         },
@@ -921,8 +921,8 @@
               "menuVerified": true,
               "address": "경기 의왕시 백운안길 49",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "031-423-2798",
+              "phoneVerified": true
             },
             {
               "category": "일식(라멘, 회 없음)",
@@ -932,8 +932,8 @@
               "menuVerified": true,
               "address": "경기 의왕시 계원대학로 28 112호",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "0502-5553-9247",
+              "phoneVerified": true
             },
             {
               "category": "빵/카페(베이커리카페)",
@@ -943,8 +943,8 @@
               "menuVerified": true,
               "address": "경기 의왕시 청계로 167-6",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "070-8691-0160",
+              "phoneVerified": true
             },
             {
               "category": "한식(오리고기)",
@@ -954,8 +954,8 @@
               "menuVerified": true,
               "address": "경기 의왕시 백운로 394",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "031-426-5392",
+              "phoneVerified": true
             },
             {
               "category": "양식(이탈리안)",
@@ -990,10 +990,10 @@
               "name": "배터지는집",
               "menu": "바지락칼국수",
               "menuVerified": true,
-              "address": "경기도 안산시 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경기 안산시 단원구 구봉길 6",
+              "addressVerified": true,
+              "phone": "032-884-4787",
+              "phoneVerified": true
             }
           ]
         },
@@ -1017,10 +1017,10 @@
               "name": "일산칼국수 본점",
               "menu": "닭칼국수, 바지락칼국수",
               "menuVerified": true,
-              "address": "경기도 고양시 일산동구 밤가시마을 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경기 고양시 일산동구 경의로 467",
+              "addressVerified": true,
+              "phone": "031-903-2208",
+              "phoneVerified": true
             },
             {
               "category": "한식(국수/미꾸라지튀김)",
@@ -1030,8 +1030,8 @@
               "menuVerified": false,
               "address": "경기도 고양시 덕양구 행주로17번길 7",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "031-978-7400",
+              "phoneVerified": true
             },
             {
               "category": "한식(한우 정육식당)",
@@ -1041,8 +1041,8 @@
               "menuVerified": true,
               "address": "경기도 고양시 덕양구 수역이길 29-3 (수역이마을 식당촌 내)",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "031-969-4609",
+              "phoneVerified": true
             }
           ]
         },
@@ -1068,8 +1068,8 @@
               "menuVerified": true,
               "address": "경기 용인시 수지구 이종무로 157",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "031-263-1107",
+              "phoneVerified": true
             },
             {
               "category": "한식(생선구이)",
@@ -1079,8 +1079,8 @@
               "menuVerified": true,
               "address": "경기 용인시 수지구 고기로 126",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "031-263-6823",
+              "phoneVerified": true
             },
             {
               "category": "중식",
@@ -1088,8 +1088,8 @@
               "name": "하이보 수지점",
               "menu": "딤섬, 전가복, 해물누룽지탕",
               "menuVerified": true,
-              "address": "경기 용인시 수지구 성복동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
+              "address": "경기 용인시 수지구 도마치로 91",
+              "addressVerified": true,
               "phone": "확인 필요",
               "phoneVerified": false
             },
@@ -1121,10 +1121,10 @@
               "name": "삼대째손두부",
               "menu": "콩국물, 손두부",
               "menuVerified": true,
-              "address": "경기도 용인시 기흥구 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경기 용인시 기흥구 신갈로 25",
+              "addressVerified": true,
+              "phone": "031-286-7620",
+              "phoneVerified": true
             },
             {
               "category": "한식(칼국수)",
@@ -1154,10 +1154,10 @@
               "name": "만수정",
               "menu": "산삼장어(1kg), 민물장어(1kg)",
               "menuVerified": true,
-              "address": "경기도 용인시 기흥구 신갈동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경기 용인시 기흥구 신정로 135",
+              "addressVerified": true,
+              "phone": "031-266-4357",
+              "phoneVerified": true
             },
             {
               "category": "한식(백반)",
@@ -1165,8 +1165,8 @@
               "name": "제일백반",
               "menu": "백반정식",
               "menuVerified": true,
-              "address": "경기도 용인시 기흥구 신갈로 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
+              "address": "경기 용인시 기흥구 신갈로58번길 13-8",
+              "addressVerified": true,
               "phone": "확인 필요",
               "phoneVerified": false
             },
@@ -1187,10 +1187,10 @@
               "name": "제일식당",
               "menu": "순대국",
               "menuVerified": true,
-              "address": "경기도 용인시 처인구 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경기 용인시 처인구 남사읍 경기동로 388",
+              "addressVerified": true,
+              "phone": "031-333-5778",
+              "phoneVerified": true
             },
             {
               "category": "베트남음식(쌀국수)",
@@ -1233,8 +1233,8 @@
               "menuVerified": true,
               "address": "경기 용인시 수지구 신봉1로 302-1",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "031-889-1839",
+              "phoneVerified": true
             },
             {
               "category": "중식(훠궈/양고기)",
@@ -1244,8 +1244,8 @@
               "menuVerified": true,
               "address": "경기 용인시 수지구 풍덕천로140번길 15 1층",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "031-272-2222",
+              "phoneVerified": true
             },
             {
               "category": "한식(한정식)",
@@ -1253,10 +1253,10 @@
               "name": "뜰사랑한정식",
               "menu": "한정식 코스",
               "menuVerified": true,
-              "address": "경기 용인시 수지구 이종무로 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경기 용인시 수지구 이종무로 117-21",
+              "addressVerified": true,
+              "phone": "031-272-4050",
+              "phoneVerified": true
             },
             {
               "category": "양식(파스타)",
@@ -1264,10 +1264,10 @@
               "name": "비스트로 유비노",
               "menu": "파스타",
               "menuVerified": true,
-              "address": "경기 용인시 수지구 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경기 용인시 수지구 성복2로 71",
+              "addressVerified": true,
+              "phone": "031-263-0855",
+              "phoneVerified": true
             }
           ]
         },
@@ -1315,8 +1315,8 @@
               "menuVerified": true,
               "address": "경기도 파주시 중앙로 74",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "031-957-7008",
+              "phoneVerified": true
             },
             {
               "category": "일식(소바/돈카츠, 회 없음)",
@@ -1324,8 +1324,8 @@
               "name": "삼동소바",
               "menu": "메밀소바, 우동, 짬뽕, 돈까스",
               "menuVerified": true,
-              "address": "경기도 파주시 (프리미엄아울렛 인근, 상세 주소 확인 필요)",
-              "addressVerified": false,
+              "address": "경기 파주시 교하로 775",
+              "addressVerified": true,
               "phone": "확인 필요",
               "phoneVerified": false
             }
@@ -1342,8 +1342,8 @@
               "menuVerified": true,
               "address": "경기 의정부시 동일로150번길 119",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "031-874-3377",
+              "phoneVerified": true
             },
             {
               "category": "한식(곱창)",
@@ -1353,8 +1353,8 @@
               "menuVerified": true,
               "address": "경기 의정부시 신흥로258번길 18",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "031-826-6992",
+              "phoneVerified": true
             },
             {
               "category": "일식(야키니꾸/고기구이, 회 없음)",
@@ -1364,8 +1364,8 @@
               "menuVerified": true,
               "address": "경기 의정부시 시민로122번길 16 1층",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "0502-5550-4157",
+              "phoneVerified": true
             },
             {
               "category": "양식",
@@ -1375,8 +1375,8 @@
               "menuVerified": false,
               "address": "경기 의정부시 동일로192번길 28-27",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "031-873-9200",
+              "phoneVerified": true
             }
           ]
         },
@@ -1391,8 +1391,8 @@
               "menuVerified": true,
               "address": "경기 광명시 오리로 1001 2층",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "02-6953-0918",
+              "phoneVerified": true
             },
             {
               "category": "한식(돼지고기구이)",
@@ -1424,8 +1424,8 @@
               "menuVerified": true,
               "address": "경기 광명시 시청로 9",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "0502-5552-9694",
+              "phoneVerified": true
             }
           ]
         },
@@ -1460,10 +1460,10 @@
               "name": "호커스포커스로스터스",
               "menu": "브런치, 커피",
               "menuVerified": true,
-              "address": "경기도 평택시 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경기 평택시 장안웃길 12",
+              "addressVerified": true,
+              "phone": "031-662-7783",
+              "phoneVerified": true
             }
           ]
         },
@@ -1505,8 +1505,8 @@
               "menuVerified": true,
               "address": "경기 과천시 뒷골2로 5 1층",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "0503-7150-9487",
+              "phoneVerified": true
             },
             {
               "category": "한식(곱창/대창)",
@@ -1525,10 +1525,10 @@
               "name": "선바위메밀장터",
               "menu": "들기름막국수",
               "menuVerified": true,
-              "address": "경기 과천시 선바위 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경기 과천시 뒷골로 5-7",
+              "addressVerified": true,
+              "phone": "02-504-0122",
+              "phoneVerified": true
             }
           ]
         },
@@ -1543,8 +1543,8 @@
               "menuVerified": true,
               "address": "경기 구리시 체육관로171번길 11-4",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "031-564-3354",
+              "phoneVerified": true
             },
             {
               "category": "양식(파스타/스테이크)",
@@ -1565,8 +1565,8 @@
               "menuVerified": true,
               "address": "경기 구리시 동구릉로 335",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "031-573-5558",
+              "phoneVerified": true
             },
             {
               "category": "양식(브라질리언 스테이크)",
@@ -1614,8 +1614,8 @@
               "menuVerified": true,
               "address": "경기 남양주시 와부읍 경강로 890",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "0507-1332-0447",
+              "phoneVerified": true
             },
             {
               "category": "한식(삼겹살)",
@@ -1625,8 +1625,8 @@
               "menuVerified": true,
               "address": "경기도 남양주시 화도읍 맷돌로91번길 25 병훈빌딩 1층",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "0503-7153-7181",
+              "phoneVerified": true
             },
             {
               "category": "한식(뷔페)",
@@ -1645,10 +1645,10 @@
               "name": "목향원",
               "menu": "석쇠불고기 쌈밥정식",
               "menuVerified": true,
-              "address": "경기 남양주시 별내권 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경기 남양주시 덕릉로1071번길 34-12",
+              "addressVerified": true,
+              "phone": "031-527-2255",
+              "phoneVerified": true
             }
           ]
         },
@@ -1694,10 +1694,10 @@
               "name": "카페 하이라이트 오산점",
               "menu": "투움바파스타, 메이플 프렌치토스트, 우삼겹 필라프",
               "menuVerified": true,
-              "address": "경기 오산시 세교동 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경기 오산시 독산성로362번길 50",
+              "addressVerified": true,
+              "phone": "031-376-6664",
+              "phoneVerified": true
             }
           ]
         },
@@ -1712,8 +1712,8 @@
               "menuVerified": true,
               "address": "경기 하남시 서하남로418번길 37-35",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "031-796-1736",
+              "phoneVerified": true
             },
             {
               "category": "한식(두부요리)",
@@ -1721,10 +1721,10 @@
               "name": "강변손두부",
               "menu": "순두부, 콩국수",
               "menuVerified": true,
-              "address": "경기도 하남시 조정경기장 인근 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경기 하남시 미사동로 105-1",
+              "addressVerified": true,
+              "phone": "031-791-6470",
+              "phoneVerified": true
             },
             {
               "category": "한식(만두)",
@@ -1732,10 +1732,10 @@
               "name": "만두집 (은고개)",
               "menu": "만두, 만둣국",
               "menuVerified": true,
-              "address": "경기도 하남시 은고개 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경기 하남시 하남대로 5",
+              "addressVerified": true,
+              "phone": "031-794-3122",
+              "phoneVerified": true
             }
           ]
         },
@@ -1748,10 +1748,10 @@
               "name": "청목한정식",
               "menu": "제육볶음, 간장게장, 보쌈, 생선조림",
               "menuVerified": true,
-              "address": "경기도 이천시 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경기 이천시 경충대로 3046",
+              "addressVerified": true,
+              "phone": "031-634-5414",
+              "phoneVerified": true
             },
             {
               "category": "한식(삼겹살)",
@@ -1777,8 +1777,8 @@
               "menuVerified": true,
               "address": "경기 안성시 중앙로371번길 54",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "031-675-4703",
+              "phoneVerified": true
             },
             {
               "category": "빵/카페(빙수)",
@@ -1802,10 +1802,10 @@
               "name": "다래옥",
               "menu": "김치말이국수, 만둣국, 만두전골, 갈비찜, 녹두빈대떡",
               "menuVerified": true,
-              "address": "경기도 김포시 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경기 김포시 돌문로86번길 11-5",
+              "addressVerified": true,
+              "phone": "031-988-4152",
+              "phoneVerified": true
             },
             {
               "category": "빵(베이커리카페)",
@@ -1815,8 +1815,8 @@
               "menuVerified": true,
               "address": "경기 김포시 양촌읍 유현삭시로120번길 88",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "070-4299-0088",
+              "phoneVerified": true
             },
             {
               "category": "빵(베이커리)",
@@ -1826,8 +1826,8 @@
               "menuVerified": true,
               "address": "경기 김포시 운양동 1307-3",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "070-7585-9124",
+              "phoneVerified": true
             },
             {
               "category": "베트남음식(쌀국수)",
@@ -1853,8 +1853,8 @@
               "menuVerified": true,
               "address": "경기도 화성시 동탄대로5길 9 그랑파사쥬동 1층 1047,1048호",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "031-375-9618",
+              "phoneVerified": true
             },
             {
               "category": "일식(돈카츠)",
@@ -1864,8 +1864,8 @@
               "menuVerified": true,
               "address": "경기 화성시 왕배산3길 33 1층",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "070-7639-7639",
+              "phoneVerified": true
             },
             {
               "category": "베트남음식",
@@ -1873,10 +1873,10 @@
               "name": "꾸아 동탄목동점",
               "menu": "쌀국수, 분짜, 반세오",
               "menuVerified": true,
-              "address": "경기도 화성시 동탄목동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경기 화성시 동탄구 왕배산1길 20-5",
+              "addressVerified": true,
+              "phone": "031-372-6628",
+              "phoneVerified": true
             },
             {
               "category": "양식(파스타/피자)",
@@ -1908,8 +1908,8 @@
               "menuVerified": true,
               "address": "경기 화성시 동탄지성로 2 1층",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "0502-5554-2387",
+              "phoneVerified": true
             },
             {
               "category": "한식(순두부)",
@@ -1939,8 +1939,8 @@
               "name": "더쿠킹스토리",
               "menu": "한식 뷔페",
               "menuVerified": true,
-              "address": "경기도 화성시 동탄2신도시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
+              "address": "경기 화성시 동탄구 동탄기흥로 594-7",
+              "addressVerified": true,
               "phone": "확인 필요",
               "phoneVerified": false
             },
@@ -1974,8 +1974,8 @@
               "menuVerified": true,
               "address": "경기 화성시 능동 여울로 152 1~2층",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "031-831-5634",
+              "phoneVerified": true
             },
             {
               "category": "한식(국밥)",
@@ -1994,10 +1994,10 @@
               "name": "타코닷 동탄점",
               "menu": "타코, 멕시칸 요리",
               "menuVerified": true,
-              "address": "경기도 화성시 반송동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경기 화성시 동탄구 동탄공원로3길 28",
+              "addressVerified": true,
+              "phone": "031-8043-7795",
+              "phoneVerified": true
             },
             {
               "category": "한식(돼지갈비)",
@@ -2093,10 +2093,10 @@
               "name": "상록회관 연탄구이 향남점",
               "menu": "돼지고기, 소고기, 해산물 연탄구이",
               "menuVerified": true,
-              "address": "경기도 화성시 향남읍 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경기 화성시 만세구 향남읍 은행나무로 821-9",
+              "addressVerified": true,
+              "phone": "031-352-6444",
+              "phoneVerified": true
             },
             {
               "category": "한식(고기/삼겹살)",
@@ -2126,10 +2126,10 @@
               "name": "두찜 화성반송점",
               "menu": "로제찜닭, 실비한우곱찜닭",
               "menuVerified": true,
-              "address": "경기 화성시 동탄구 반송동 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경기 화성시 동탄구 노작로2길 19",
+              "addressVerified": true,
+              "phone": "031-8003-0190",
+              "phoneVerified": true
             },
             {
               "category": "한식(냉삼겹살)",
@@ -2137,8 +2137,8 @@
               "name": "일냉집",
               "menu": "냉삼겹살",
               "menuVerified": true,
-              "address": "경기도 화성시 능동 (상세 주소 확인 필요)",
-              "addressVerified": false,
+              "address": "경기 화성시 동탄구 동탄하나1길 47-7",
+              "addressVerified": true,
               "phone": "확인 필요",
               "phoneVerified": false
             },
@@ -2159,10 +2159,10 @@
               "name": "오코코",
               "menu": "베이커리류",
               "menuVerified": true,
-              "address": "경기도 화성시 능동 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경기 화성시 동탄구 남여울1길 5-37",
+              "addressVerified": true,
+              "phone": "0503-7152-7694",
+              "phoneVerified": true
             },
             {
               "category": "중식(마라탕)",
@@ -2170,10 +2170,10 @@
               "name": "쏭스프마라탕",
               "menu": "마라탕",
               "menuVerified": true,
-              "address": "경기도 화성시 능동 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경기 화성시 동탄구 동탄지성로 148",
+              "addressVerified": true,
+              "phone": "031-613-8456",
+              "phoneVerified": true
             },
             {
               "category": "한식(코다리)",
@@ -2192,10 +2192,10 @@
               "name": "능골정육식당",
               "menu": "삼겹살",
               "menuVerified": true,
-              "address": "경기도 화성시 능동 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경기 화성시 동탄구 동탄원천로 354-28",
+              "addressVerified": true,
+              "phone": "031-8015-2300",
+              "phoneVerified": true
             },
             {
               "category": "한식(만두전골)",
@@ -2225,10 +2225,10 @@
               "name": "포레스트",
               "menu": "베트남 쌀국수",
               "menuVerified": true,
-              "address": "경기도 화성시 반송동 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경기 화성시 동탄구 동탄공원로2길 33-9",
+              "addressVerified": true,
+              "phone": "031-8003-6616",
+              "phoneVerified": true
             },
             {
               "category": "한식(뷔페)",
@@ -2236,10 +2236,10 @@
               "name": "신라스테이동탄 카페",
               "menu": "뷔페",
               "menuVerified": true,
-              "address": "경기도 화성시 반송동 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경기 화성시 동탄구 노작로 161",
+              "addressVerified": true,
+              "phone": "031-8036-9107",
+              "phoneVerified": true
             },
             {
               "category": "빙수",
@@ -2247,8 +2247,8 @@
               "name": "눈솜",
               "menu": "빙수",
               "menuVerified": true,
-              "address": "경기도 화성시 반송동 (상세 주소 확인 필요)",
-              "addressVerified": false,
+              "address": "경기 화성시 동탄구 동탄지성로 94",
+              "addressVerified": true,
               "phone": "확인 필요",
               "phoneVerified": false
             },
@@ -2258,8 +2258,8 @@
               "name": "포박",
               "menu": "베트남 쌀국수",
               "menuVerified": true,
-              "address": "경기도 화성시 반송동 (상세 주소 확인 필요)",
-              "addressVerified": false,
+              "address": "경기 화성시 동탄구 동탄대로14길 5-69",
+              "addressVerified": true,
               "phone": "확인 필요",
               "phoneVerified": false
             },
@@ -2269,10 +2269,10 @@
               "name": "뚝배기보리밥",
               "menu": "바지락칼국수, 보리밥",
               "menuVerified": true,
-              "address": "경기도 화성시 반송동 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경기 화성시 동탄구 동탄반송1길 20-10",
+              "addressVerified": true,
+              "phone": "0503-7153-8588",
+              "phoneVerified": true
             },
             {
               "category": "한식(멸치국수)",
@@ -2280,10 +2280,10 @@
               "name": "반송동 멸치국수",
               "menu": "멸치국수",
               "menuVerified": true,
-              "address": "경기도 화성시 반송동 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경기 화성시 동탄구 동탄문화센터로 71-17",
+              "addressVerified": true,
+              "phone": "031-8003-7251",
+              "phoneVerified": true
             },
             {
               "category": "한식(등갈비/김치찌개)",
@@ -2291,8 +2291,8 @@
               "name": "양푼이 등갈비",
               "menu": "등갈비, 김치찌개",
               "menuVerified": true,
-              "address": "경기도 화성시 반송동 (상세 주소 확인 필요)",
-              "addressVerified": false,
+              "address": "경기 화성시 동탄구 동탄원천로 157",
+              "addressVerified": true,
               "phone": "확인 필요",
               "phoneVerified": false
             },
@@ -2302,8 +2302,8 @@
               "name": "곤드레밥집",
               "menu": "곤드레밥, 한정식",
               "menuVerified": true,
-              "address": "경기도 화성시 반송동 (상세 주소 확인 필요)",
-              "addressVerified": false,
+              "address": "경기 화성시 동탄구 10용사로 404",
+              "addressVerified": true,
               "phone": "확인 필요",
               "phoneVerified": false
             },
@@ -2324,10 +2324,10 @@
               "name": "강정수순대국",
               "menu": "순대국 (24시간 영업)",
               "menuVerified": true,
-              "address": "경기도 화성시 반송동 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경기 화성시 동탄구 10용사3길 23",
+              "addressVerified": true,
+              "phone": "031-8015-3388",
+              "phoneVerified": true
             }
           ]
         },
@@ -2342,8 +2342,8 @@
               "menuVerified": true,
               "address": "경기도 광주시 남한산성면 남한산성로 749",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "031-742-3636",
+              "phoneVerified": true
             },
             {
               "category": "한식(한정식)",
@@ -2353,8 +2353,8 @@
               "menuVerified": true,
               "address": "경기도 광주시 남한산성면 불당리 194-1",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "031-746-3800",
+              "phoneVerified": true
             },
             {
               "category": "빵(베이커리카페)",
@@ -2391,8 +2391,8 @@
               "menuVerified": true,
               "address": "경기도 양주시 송랑로 96",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "031-848-8852",
+              "phoneVerified": true
             },
             {
               "category": "한식(칼국수)",
@@ -2413,8 +2413,8 @@
               "menuVerified": true,
               "address": "경기 양주시 장흥면 권율로 246",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "010-5960-7752",
+              "phoneVerified": true
             }
           ]
         },
@@ -2440,8 +2440,8 @@
               "menuVerified": true,
               "address": "경기 포천시 영북면 산정호수로 415",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "031-536-0512",
+              "phoneVerified": true
             },
             {
               "category": "한식(이동갈비)",
@@ -2451,8 +2451,8 @@
               "menuVerified": true,
               "address": "경기 포천시 이동면 성장로1289번길 3",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "031-532-8953",
+              "phoneVerified": true
             },
             {
               "category": "한식(시래기정식)",
@@ -2460,10 +2460,10 @@
               "name": "욕쟁이할머니집",
               "menu": "우거지정식, 청국장, 콩비지, 숯불불고기",
               "menuVerified": true,
-              "address": "경기 포천시 고모리 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경기 포천시 소흘읍 죽엽산로 425",
+              "addressVerified": true,
+              "phone": "031-542-3667",
+              "phoneVerified": true
             }
           ]
         },
@@ -2500,8 +2500,8 @@
               "menuVerified": true,
               "address": "경기 여주시 여흥로4번길 39-1",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "031-886-1778",
+              "phoneVerified": true
             }
           ]
         },
@@ -2543,8 +2543,8 @@
               "menuVerified": true,
               "address": "경기 가평군 설악면 한서로124번길 16-12",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "031-585-4322",
+              "phoneVerified": true
             },
             {
               "category": "한식(닭볶음탕)",
@@ -2554,8 +2554,8 @@
               "menuVerified": true,
               "address": "경기 가평군 설악면 어비산길99번길 75-7",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "031-584-7415",
+              "phoneVerified": true
             }
           ]
         },
@@ -2581,8 +2581,8 @@
               "menuVerified": true,
               "address": "경기 양평군 서종면 북한강로 1162",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "031-771-0535",
+              "phoneVerified": true
             }
           ]
         }
@@ -2624,8 +2624,8 @@
               "menuVerified": true,
               "address": "충남 천안시 서북구 불당30길 24 102호",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "070-4323-3344",
+              "phoneVerified": true
             },
             {
               "category": "경양식(돈가스)",
@@ -2655,10 +2655,10 @@
               "name": "피양옥",
               "menu": "평양냉면",
               "menuVerified": true,
-              "address": "충남 천안시 서북구 백석동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충남 천안시 서북구 노태산로 31",
+              "addressVerified": true,
+              "phone": "041-567-5667",
+              "phoneVerified": true
             },
             {
               "category": "한식(국밥)",
@@ -2666,10 +2666,10 @@
               "name": "금모래",
               "menu": "국밥",
               "menuVerified": true,
-              "address": "충남 천안시 서북구 백석동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충남 천안시 서북구 백석로 69",
+              "addressVerified": true,
+              "phone": "041-523-5285",
+              "phoneVerified": true
             },
             {
               "category": "한식(고깃집)",
@@ -2677,10 +2677,10 @@
               "name": "육향정",
               "menu": "고기구이",
               "menuVerified": true,
-              "address": "충남 천안시 서북구 두정동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충남 천안시 서북구 노태산로 76",
+              "addressVerified": true,
+              "phone": "0503-7152-5136",
+              "phoneVerified": true
             },
             {
               "category": "한식(제육볶음/순두부)",
@@ -2688,10 +2688,10 @@
               "name": "고바우순두부쌈장",
               "menu": "제육볶음, 순두부",
               "menuVerified": true,
-              "address": "충남 천안시 서북구 두정동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충남 천안시 서북구 두정로 177",
+              "addressVerified": true,
+              "phone": "041-562-5140",
+              "phoneVerified": true
             },
             {
               "category": "한식(삼겹살)",
@@ -2710,10 +2710,10 @@
               "name": "쌈마이대패 천안백석점",
               "menu": "대패삼겹살, 생삼겹살, 우삼겹, 돈차돌",
               "menuVerified": true,
-              "address": "충남 천안시 서북구 백석동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충남 천안시 서북구 노태산로 19",
+              "addressVerified": true,
+              "phone": "041-903-3782",
+              "phoneVerified": true
             },
             {
               "category": "일식(규동, 회 없음)",
@@ -2732,8 +2732,8 @@
               "name": "경동집",
               "menu": "냉삼, 우삼겹",
               "menuVerified": true,
-              "address": "충남 천안시 두정동·백석동 사이 (상세 주소 확인 필요)",
-              "addressVerified": false,
+              "address": "충남 천안시 서북구 늘푸른6길 5-15",
+              "addressVerified": true,
               "phone": "확인 필요",
               "phoneVerified": false
             },
@@ -2743,10 +2743,10 @@
               "name": "등촌샤브칼국수 천안점",
               "menu": "샤브샤브, 칼국수",
               "menuVerified": true,
-              "address": "충남 천안시 신부동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충남 천안시 동남구 만남로 80",
+              "addressVerified": true,
+              "phone": "041-553-6222",
+              "phoneVerified": true
             },
             {
               "category": "한식(족발/막국수)",
@@ -2754,10 +2754,10 @@
               "name": "봉명족발",
               "menu": "족발, 막국수",
               "menuVerified": true,
-              "address": "충남 천안시 봉명동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충남 천안시 서북구 성정로 53",
+              "addressVerified": true,
+              "phone": "041-579-9890",
+              "phoneVerified": true
             },
             {
               "category": "한식(삼계탕)",
@@ -2765,10 +2765,10 @@
               "name": "토정삼계탕 본관",
               "menu": "삼계탕",
               "menuVerified": true,
-              "address": "충남 천안시 성정동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충남 천안시 서북구 성정중2길 30",
+              "addressVerified": true,
+              "phone": "041-554-3223",
+              "phoneVerified": true
             },
             {
               "category": "한식(만두)",
@@ -2798,10 +2798,10 @@
               "name": "신진성 아구찜 해물찜 성정점",
               "menu": "아구찜, 해물찜",
               "menuVerified": true,
-              "address": "충남 천안시 성정동 롯데마트 맞은편 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충남 천안시 서북구 서부20길 30",
+              "addressVerified": true,
+              "phone": "041-577-6244",
+              "phoneVerified": true
             },
             {
               "category": "한식(돼지고기)",
@@ -2820,10 +2820,10 @@
               "name": "버거앤타코 신불당점",
               "menu": "수제버거, 타코 (호주산 소고기 패티)",
               "menuVerified": true,
-              "address": "충남 천안시 서북구 신불당 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충남 천안시 서북구 불당21로 67-21",
+              "addressVerified": true,
+              "phone": "041-904-7090",
+              "phoneVerified": true
             }
           ]
         },
@@ -2882,8 +2882,8 @@
               "menuVerified": true,
               "address": "충청남도 아산시 신정로 727",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "010-6642-6390",
+              "phoneVerified": true
             },
             {
               "category": "한식(해물칼국수)",
@@ -2904,8 +2904,8 @@
               "menuVerified": true,
               "address": "충청남도 아산시 신정로 496-2",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "070-8800-0308",
+              "phoneVerified": true
             },
             {
               "category": "양식(화덕피자)",
@@ -2913,10 +2913,10 @@
               "name": "핏제리아 436",
               "menu": "화덕피자, 파스타, 맥주",
               "menuVerified": true,
-              "address": "충청남도 아산시 신정호 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충남 아산시 신정로 436",
+              "addressVerified": true,
+              "phone": "0507-1343-8764",
+              "phoneVerified": true
             },
             {
               "category": "한식(샤브샤브)",
@@ -2924,10 +2924,10 @@
               "name": "화담원 신정호점",
               "menu": "개인팟 샤브샤브, 샐러드바",
               "menuVerified": true,
-              "address": "충청남도 아산시 신정호 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충남 아산시 신정호길 33-29",
+              "addressVerified": true,
+              "phone": "041-534-6464",
+              "phoneVerified": true
             },
             {
               "category": "한식(한정식)",
@@ -2935,10 +2935,10 @@
               "name": "고구려",
               "menu": "한정식, 고등어구이",
               "menuVerified": true,
-              "address": "충청남도 아산시 신정호 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충남 아산시 순천향로 412-8",
+              "addressVerified": true,
+              "phone": "041-546-8097",
+              "phoneVerified": true
             },
             {
               "category": "한식(한정식)",
@@ -2979,10 +2979,10 @@
               "name": "모산수제비",
               "menu": "수제비",
               "menuVerified": true,
-              "address": "충남 아산시 배방읍 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충남 아산시 배방읍 모산로 148",
+              "addressVerified": true,
+              "phone": "041-548-5252",
+              "phoneVerified": true
             },
             {
               "category": "한식(샤브샤브)",
@@ -3094,10 +3094,10 @@
               "name": "치비카츠",
               "menu": "등심·안심 돈카츠, 히레카츠, 로스카츠, 에비후라이정식",
               "menuVerified": true,
-              "address": "충남 서산시 호수공원 인근 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충남 서산시 호수공원11로 33-6",
+              "addressVerified": true,
+              "phone": "010-5743-8487",
+              "phoneVerified": true
             },
             {
               "category": "중식",
@@ -3105,10 +3105,10 @@
               "name": "강미루",
               "menu": "북경오리, 어향가지, 서산 6쪽마늘 깐풍새우, 효탕수육",
               "menuVerified": true,
-              "address": "충남 서산시 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충남 서산시 양유정1로 3",
+              "addressVerified": true,
+              "phone": "041-669-4938",
+              "phoneVerified": true
             }
           ]
         },
@@ -3123,8 +3123,8 @@
               "menuVerified": true,
               "address": "충청남도 공주시 먹자2길 18 (중동)",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "041-854-2684",
+              "phoneVerified": true
             },
             {
               "category": "한식(산채정식)",
@@ -3143,10 +3143,10 @@
               "name": "곰골식당",
               "menu": "생선구이(가자미·고등어·임연수·참치구이), 참숯 제육석쇠구이",
               "menuVerified": true,
-              "address": "충남 공주시 공주사대부고 인근 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충남 공주시 봉황산1길 1-2",
+              "addressVerified": true,
+              "phone": "041-855-6481",
+              "phoneVerified": true
             },
             {
               "category": "한식(동태탕/아귀찜)",
@@ -3154,10 +3154,10 @@
               "name": "곰선생동태씨",
               "menu": "동태탕, 아귀찜",
               "menuVerified": true,
-              "address": "충남 공주시 공주대학교 인근 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충남 공주시 무령로 466-3",
+              "addressVerified": true,
+              "phone": "041-855-0959",
+              "phoneVerified": true
             },
             {
               "category": "한식(칼국수)",
@@ -3165,10 +3165,10 @@
               "name": "고가네칼국수",
               "menu": "칼국수",
               "menuVerified": true,
-              "address": "충남 공주시 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충남 공주시 제민천3길 56",
+              "addressVerified": true,
+              "phone": "041-856-6476",
+              "phoneVerified": true
             }
           ]
         },
@@ -3181,10 +3181,10 @@
               "name": "태화장",
               "menu": "라조면, 짬뽕",
               "menuVerified": true,
-              "address": "충남 보령시 대천동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충남 보령시 작은오랏4길 15-7",
+              "addressVerified": true,
+              "phone": "041-935-4456",
+              "phoneVerified": true
             },
             {
               "category": "한식(조개구이 무한리필)",
@@ -3192,10 +3192,10 @@
               "name": "대천조개창고2호점",
               "menu": "조개구이 무한리필(전복·가리비·키조개·삼겹살 등)",
               "menuVerified": true,
-              "address": "충청남도 보령시 대천3동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충남 보령시 머드광장로 9",
+              "addressVerified": true,
+              "phone": "010-8630-5589",
+              "phoneVerified": true
             },
             {
               "category": "경양식(돈까스)",
@@ -3203,10 +3203,10 @@
               "name": "혜화동돈까스극장 보령대천점",
               "menu": "수제 돈까스",
               "menuVerified": true,
-              "address": "충남 보령시 대천동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충남 보령시 작은오랏7길 8",
+              "addressVerified": true,
+              "phone": "041-932-0852",
+              "phoneVerified": true
             },
             {
               "category": "한식(조개구이)",
@@ -3214,10 +3214,10 @@
               "name": "청춘조개",
               "menu": "조개구이 무한리필(1인 38,500원)",
               "menuVerified": true,
-              "address": "충남 보령시 대천해수욕장 앞 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충남 보령시 해수욕장4길 142",
+              "addressVerified": true,
+              "phone": "010-5568-7574",
+              "phoneVerified": true
             },
             {
               "category": "한식(찌개백반)",
@@ -3225,10 +3225,10 @@
               "name": "이화수식당",
               "menu": "찌개백반(9,000원), 사태찌개(11,000원)",
               "menuVerified": true,
-              "address": "충남 보령시 보령시내 일대 (상세 주소 확인 필요, 오전11시~오후3시 영업)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충남 보령시 큰오랏3길 70",
+              "addressVerified": true,
+              "phone": "041-932-2576",
+              "phoneVerified": true
             }
           ]
         },
@@ -3241,8 +3241,8 @@
               "name": "강경해물칼국수",
               "menu": "해물칼국수(홍합·조개·굴·미더덕)",
               "menuVerified": true,
-              "address": "충청남도 논산시 강경읍 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
+              "address": "충남 논산시 강경읍 계백로147번길 7",
+              "addressVerified": true,
               "phone": "041-745-3940",
               "phoneVerified": true
             },
@@ -3252,10 +3252,10 @@
               "name": "황산옥",
               "menu": "생복탕 등 복어요리 (105년 전통, 4대째)",
               "menuVerified": true,
-              "address": "충청남도 논산시 강경읍 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충남 논산시 강경읍 금백로 34",
+              "addressVerified": true,
+              "phone": "041-745-4836",
+              "phoneVerified": true
             },
             {
               "category": "경양식/일식(소바·돈까스, 회 없음)",
@@ -3263,10 +3263,10 @@
               "name": "반월소바",
               "menu": "소바, 돈까스, 비빔면",
               "menuVerified": true,
-              "address": "충청남도 논산시 논산역 인근 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충남 논산시 해월로 132",
+              "addressVerified": true,
+              "phone": "041-733-2210",
+              "phoneVerified": true
             },
             {
               "category": "한식(순대국)",
@@ -3274,10 +3274,10 @@
               "name": "천평순대",
               "menu": "순대국",
               "menuVerified": true,
-              "address": "충청남도 논산시 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충남 논산시 관촉로 113-7",
+              "addressVerified": true,
+              "phone": "041-733-0058",
+              "phoneVerified": true
             }
           ]
         },
@@ -3312,10 +3312,10 @@
               "name": "빙빙반점",
               "menu": "짜장면",
               "menuVerified": true,
-              "address": "충남 당진시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충남 당진시 교동길 147",
+              "addressVerified": true,
+              "phone": "041-353-7900",
+              "phoneVerified": true
             },
             {
               "category": "한식(한정식)",
@@ -3323,10 +3323,10 @@
               "name": "아미여울 농가",
               "menu": "아미쌀 솥밥 정식, 두부찌개",
               "menuVerified": true,
-              "address": "충남 당진시 순성면 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충남 당진시 순성면 남부로 848",
+              "addressVerified": true,
+              "phone": "041-352-3800",
+              "phoneVerified": true
             },
             {
               "category": "한식(조개구이)",
@@ -3361,10 +3361,10 @@
               "name": "계룡면옥",
               "menu": "냉면",
               "menuVerified": true,
-              "address": "충남 계룡시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충남 계룡시 새터산길 4",
+              "addressVerified": true,
+              "phone": "042-841-4134",
+              "phoneVerified": true
             },
             {
               "category": "한식(한우)",
@@ -3372,10 +3372,10 @@
               "name": "신도리한우촌",
               "menu": "한우 구이",
               "menuVerified": true,
-              "address": "충남 계룡시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충남 계룡시 엄사면 번영11길 4-57",
+              "addressVerified": true,
+              "phone": "042-841-5060",
+              "phoneVerified": true
             },
             {
               "category": "한식(감자탕)",
@@ -3383,10 +3383,10 @@
               "name": "맛나감자탕",
               "menu": "감자탕",
               "menuVerified": true,
-              "address": "충남 계룡시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충남 계룡시 금암로 142",
+              "addressVerified": true,
+              "phone": "042-840-7770",
+              "phoneVerified": true
             },
             {
               "category": "일식(소바, 회 없음)",
@@ -3394,10 +3394,10 @@
               "name": "예촌소바",
               "menu": "소바",
               "menuVerified": true,
-              "address": "충남 계룡시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충남 계룡시 엄사면 번영11길 18-16",
+              "addressVerified": true,
+              "phone": "042-840-8829",
+              "phoneVerified": true
             }
           ]
         },
@@ -3410,10 +3410,10 @@
               "name": "류박사아구전문점",
               "menu": "아구찜",
               "menuVerified": true,
-              "address": "충남 홍성군 홍성읍 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충남 홍성군 홍성읍 홍성천길 110",
+              "addressVerified": true,
+              "phone": "041-633-0684",
+              "phoneVerified": true
             },
             {
               "category": "한식(한우)",
@@ -3421,10 +3421,10 @@
               "name": "내당한우",
               "menu": "한우 구이",
               "menuVerified": true,
-              "address": "충남 홍성군 홍성읍 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충남 홍성군 홍성읍 아문길52번길 6",
+              "addressVerified": true,
+              "phone": "041-632-0156",
+              "phoneVerified": true
             },
             {
               "category": "중식",
@@ -3432,10 +3432,10 @@
               "name": "고려짬뽕",
               "menu": "짬뽕",
               "menuVerified": true,
-              "address": "충남 홍성군 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충남 홍성군 홍북읍 의향로 289",
+              "addressVerified": true,
+              "phone": "041-635-0600",
+              "phoneVerified": true
             },
             {
               "category": "양식(화덕피자)",
@@ -3443,10 +3443,10 @@
               "name": "꽃피는화덕피자 D485",
               "menu": "화덕피자",
               "menuVerified": true,
-              "address": "충남 홍성군 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충남 홍성군 홍북읍 애향2길 19",
+              "addressVerified": true,
+              "phone": "041-633-4850",
+              "phoneVerified": true
             }
           ]
         },
@@ -3470,10 +3470,10 @@
               "name": "홍북식당",
               "menu": "칼국수",
               "menuVerified": true,
-              "address": "충남 예산군 덕산면 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충남 예산군 덕산면 신평2길 26",
+              "addressVerified": true,
+              "phone": "041-632-9100",
+              "phoneVerified": true
             },
             {
               "category": "한식(도토리묵)",
@@ -3481,10 +3481,10 @@
               "name": "신토불이묵집",
               "menu": "도토리묵",
               "menuVerified": true,
-              "address": "충남 예산군 덕산면 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충남 예산군 덕산면 수덕사로 1166",
+              "addressVerified": true,
+              "phone": "041-337-5576",
+              "phoneVerified": true
             }
           ]
         },
@@ -3508,10 +3508,10 @@
               "name": "온정집",
               "menu": "아귀탕, 아귀찜 (3대째 이어온 전문점)",
               "menuVerified": true,
-              "address": "충남 서천군 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충남 서천군 장항읍 장서로47번길 20",
+              "addressVerified": true,
+              "phone": "041-956-4860",
+              "phoneVerified": true
             },
             {
               "category": "한식(아귀찜)",
@@ -3519,10 +3519,10 @@
               "name": "우리식당",
               "menu": "아귀찜, 게장, 조기조림",
               "menuVerified": true,
-              "address": "충남 서천군 장항읍 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충남 서천군 장항읍 장서로29번길 42",
+              "addressVerified": true,
+              "phone": "041-957-0465",
+              "phoneVerified": true
             },
             {
               "category": "한식(쌈밥)",
@@ -3532,8 +3532,8 @@
               "menuVerified": true,
               "address": "충남 서천군 장항읍 장산로 641-9",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "041-956-6250",
+              "phoneVerified": true
             }
           ]
         },
@@ -3546,10 +3546,10 @@
               "name": "서동한우 본점",
               "menu": "한우 구이",
               "menuVerified": true,
-              "address": "충남 부여군 부여읍 성왕로 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충남 부여군 부여읍 성왕로 256",
+              "addressVerified": true,
+              "phone": "041-835-7585",
+              "phoneVerified": true
             },
             {
               "category": "한식(다양한 안주/찌개)",
@@ -3557,10 +3557,10 @@
               "name": "동글이야식",
               "menu": "묵은지삼겹살, 갈낙전골, 갈비탕, 낙지볶음, 짜글이",
               "menuVerified": true,
-              "address": "충남 부여군 부여읍 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충남 부여군 부여읍 사비로72번길 8",
+              "addressVerified": true,
+              "phone": "041-834-6969",
+              "phoneVerified": true
             },
             {
               "category": "한식(연잎밥)",
@@ -3579,10 +3579,10 @@
               "name": "왕곰탕",
               "menu": "곰탕",
               "menuVerified": true,
-              "address": "충남 부여군 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충남 부여군 부여읍 사비로108번길 13",
+              "addressVerified": true,
+              "phone": "041-835-3243",
+              "phoneVerified": true
             }
           ]
         },
@@ -3622,10 +3622,10 @@
               "name": "원골식당",
               "menu": "어죽",
               "menuVerified": true,
-              "address": "충남 금산군 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충남 금산군 제원면 금강로 588",
+              "addressVerified": true,
+              "phone": "041-752-2638",
+              "phoneVerified": true
             },
             {
               "category": "한식(수제비)",
@@ -3633,10 +3633,10 @@
               "name": "너구리의피난처",
               "menu": "수제비",
               "menuVerified": true,
-              "address": "충남 금산군 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충남 금산군 금성면 적우실길 28",
+              "addressVerified": true,
+              "phone": "041-753-3290",
+              "phoneVerified": true
             }
           ]
         },
@@ -3649,10 +3649,10 @@
               "name": "딴뚝통나무집식당",
               "menu": "게국지",
               "menuVerified": true,
-              "address": "충남 태안군 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충남 태안군 안면읍 조운막터길 23-22",
+              "addressVerified": true,
+              "phone": "041-673-1645",
+              "phoneVerified": true
             },
             {
               "category": "한식(게국지)",
@@ -3660,10 +3660,10 @@
               "name": "덕수식당",
               "menu": "게국지",
               "menuVerified": true,
-              "address": "충남 태안군 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충남 태안군 태안읍 중앙로 133-8",
+              "addressVerified": true,
+              "phone": "041-675-6878",
+              "phoneVerified": true
             },
             {
               "category": "중식",
@@ -3671,10 +3671,10 @@
               "name": "신태루",
               "menu": "짬뽕",
               "menuVerified": true,
-              "address": "충남 태안군 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충남 태안군 태안읍 시장5길 43",
+              "addressVerified": true,
+              "phone": "041-673-8901",
+              "phoneVerified": true
             }
           ]
         }
@@ -3703,10 +3703,10 @@
               "name": "청주본가 운천본점",
               "menu": "왕갈비탕, 특갈비탕, 설렁탕(9,000원), 육개장, 돼지갈비 (25년 전통)",
               "menuVerified": true,
-              "address": "충북 청주시 운천동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충북 청주시 흥덕구 사운로 233",
+              "addressVerified": true,
+              "phone": "043-271-6080",
+              "phoneVerified": true
             },
             {
               "category": "한식(육개장)",
@@ -3714,10 +3714,10 @@
               "name": "리정식당",
               "menu": "육개장",
               "menuVerified": true,
-              "address": "충북 청주시 청주대·청원구청 인근 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충북 청주시 청원구 우암로 71-1",
+              "addressVerified": true,
+              "phone": "043-254-8947",
+              "phoneVerified": true
             },
             {
               "category": "중식(호박국수)",
@@ -3736,8 +3736,8 @@
               "name": "남들갈비",
               "menu": "갈비, 갈비찌개, 양념갈비",
               "menuVerified": true,
-              "address": "충북 청주시 법원 인근 (상세 주소 확인 필요)",
-              "addressVerified": false,
+              "address": "충북 청주시 서원구 청남로2133번길 8",
+              "addressVerified": true,
               "phone": "043-285-5599",
               "phoneVerified": true
             },
@@ -3758,10 +3758,10 @@
               "name": "대산보리밥",
               "menu": "보리밥 정식",
               "menuVerified": true,
-              "address": "충북 청주시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충북 청주시 서원구 성화로69번길 43-23",
+              "addressVerified": true,
+              "phone": "043-231-7017",
+              "phoneVerified": true
             },
             {
               "category": "한식(갈비찌개)",
@@ -3804,8 +3804,8 @@
               "menuVerified": true,
               "address": "충청북도 청주시 흥덕구 오송읍 오송생명로 220 102호",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "043-233-0111",
+              "phoneVerified": true
             },
             {
               "category": "한식(숙성육 고기)",
@@ -3815,8 +3815,8 @@
               "menuVerified": true,
               "address": "충북 청주시 흥덕구 오송읍 오송생명로 166 2층",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "010-3293-3492",
+              "phoneVerified": true
             },
             {
               "category": "한식(곱창)",
@@ -3873,10 +3873,10 @@
               "name": "스마일만두",
               "menu": "만두전골 (20년 경력 손만두)",
               "menuVerified": true,
-              "address": "충북 충주시 충주시청 인근 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충북 충주시 칠금10길 10",
+              "addressVerified": true,
+              "phone": "043-842-0903",
+              "phoneVerified": true
             },
             {
               "category": "한식(순대국)",
@@ -3884,10 +3884,10 @@
               "name": "중원순대",
               "menu": "순대, 국밥, 술국, 순대국밥, 머릿고기",
               "menuVerified": true,
-              "address": "충북 충주시 자유무학시장 순대골목 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충북 충주시 공설시장길 19",
+              "addressVerified": true,
+              "phone": "043-847-5375",
+              "phoneVerified": true
             },
             {
               "category": "한식(올뱅이해장국)",
@@ -3895,10 +3895,10 @@
               "name": "운정식당",
               "menu": "올뱅이해장국 (새벽 6시부터 영업)",
               "menuVerified": true,
-              "address": "충북 충주시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충북 충주시 중원대로 3432-1",
+              "addressVerified": true,
+              "phone": "043-847-2820",
+              "phoneVerified": true
             },
             {
               "category": "중식(하얀짬뽕)",
@@ -3966,10 +3966,10 @@
               "name": "호반식당",
               "menu": "곤드레밥, 청국장",
               "menuVerified": true,
-              "address": "충북 제천시 의림지 인근 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충북 제천시 의림대로 558",
+              "addressVerified": true,
+              "phone": "043-644-7632",
+              "phoneVerified": true
             },
             {
               "category": "중식",
@@ -3977,10 +3977,10 @@
               "name": "짬뽕타운",
               "menu": "해물짬뽕, 쟁반짜장",
               "menuVerified": true,
-              "address": "충북 제천시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충북 제천시 제천북로 718",
+              "addressVerified": true,
+              "phone": "043-645-7778",
+              "phoneVerified": true
             }
           ]
         },
@@ -4004,8 +4004,8 @@
               "name": "동적깡통구이",
               "menu": "양념 소갈비살, 양념 LA갈비, 뭉티기",
               "menuVerified": true,
-              "address": "충북 진천군 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
+              "address": "충북 진천군 덕산읍 대하로 133",
+              "addressVerified": true,
               "phone": "확인 필요",
               "phoneVerified": false
             },
@@ -4015,10 +4015,10 @@
               "name": "바보아저씨",
               "menu": "돈까스",
               "menuVerified": true,
-              "address": "충북 진천군 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충북 진천군 광혜원면 화랑4길 16",
+              "addressVerified": true,
+              "phone": "043-535-5301",
+              "phoneVerified": true
             }
           ]
         },
@@ -4042,10 +4042,10 @@
               "name": "필구네왕족발",
               "menu": "족발, 불족발, 막국수, 한방보쌈",
               "menuVerified": true,
-              "address": "충북 음성군 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충북 음성군 생극면 음성로 1637-6",
+              "addressVerified": true,
+              "phone": "043-883-0401",
+              "phoneVerified": true
             },
             {
               "category": "한식(한우/육회)",
@@ -4064,10 +4064,10 @@
               "name": "외할머니집",
               "menu": "도토리전, 제육볶음, 된장찌개",
               "menuVerified": true,
-              "address": "충북 음성군 감곡면 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충북 음성군 감곡면 가곡로 230",
+              "addressVerified": true,
+              "phone": "0503-7152-9891",
+              "phoneVerified": true
             }
           ]
         },
@@ -4102,10 +4102,10 @@
               "name": "선광집",
               "menu": "생선국수, 도리뱅뱅이",
               "menuVerified": true,
-              "address": "충북 옥천군 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충북 옥천군 청산면 지전1길 26",
+              "addressVerified": true,
+              "phone": "043-732-8404",
+              "phoneVerified": true
             }
           ]
         },
@@ -4118,10 +4118,10 @@
               "name": "고바우순대",
               "menu": "순대전골, 왕순대(대창순대)",
               "menuVerified": true,
-              "address": "충북 보은군 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충북 보은군 보은읍 삼산로1길 25-3",
+              "addressVerified": true,
+              "phone": "043-544-4805",
+              "phoneVerified": true
             },
             {
               "category": "중식",
@@ -4129,10 +4129,10 @@
               "name": "태화루",
               "menu": "꼬막짬뽕, 짜장, 탕수육",
               "menuVerified": true,
-              "address": "충북 보은군 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충북 보은군 마로면 관기송현로 102",
+              "addressVerified": true,
+              "phone": "043-543-2237",
+              "phoneVerified": true
             }
           ]
         },
@@ -4156,10 +4156,10 @@
               "name": "코끼리만두",
               "menu": "만두",
               "menuVerified": true,
-              "address": "충북 영동군 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충북 영동군 영동읍 중앙로 35",
+              "addressVerified": true,
+              "phone": "043-743-4165",
+              "phoneVerified": true
             },
             {
               "category": "한식(쌈밥)",
@@ -4167,10 +4167,10 @@
               "name": "폭포가든",
               "menu": "쌈밥",
               "menuVerified": true,
-              "address": "충북 영동군 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충북 영동군 심천면 옥계폭포길 144",
+              "addressVerified": true,
+              "phone": "043-742-1777",
+              "phoneVerified": true
             }
           ]
         },
@@ -4183,8 +4183,8 @@
               "name": "송원칼국수",
               "menu": "바지락칼국수, 김치만두사리",
               "menuVerified": true,
-              "address": "충북 증평군 증평읍 초중리 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
+              "address": "충북 증평군 증평읍 초중로 38",
+              "addressVerified": true,
               "phone": "확인 필요",
               "phoneVerified": false
             },
@@ -4194,10 +4194,10 @@
               "name": "증평한돈축산물식당",
               "menu": "삼겹살",
               "menuVerified": true,
-              "address": "충북 증평군 증평읍 장뜰로 인근 시장 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충북 증평군 증평읍 장뜰로 67",
+              "addressVerified": true,
+              "phone": "043-836-4646",
+              "phoneVerified": true
             },
             {
               "category": "한식(돼지고기)",
@@ -4243,10 +4243,10 @@
               "name": "괴산왕족발보쌈",
               "menu": "반반족발+쟁반국수",
               "menuVerified": true,
-              "address": "충북 괴산군 괴산전통시장 내 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충북 괴산군 괴산읍 읍내로13길 22",
+              "addressVerified": true,
+              "phone": "043-832-1155",
+              "phoneVerified": true
             }
           ]
         },
@@ -4259,10 +4259,10 @@
               "name": "원조마늘순대",
               "menu": "순대국",
               "menuVerified": true,
-              "address": "충북 단양군 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충북 단양군 단양읍 도전5길 25",
+              "addressVerified": true,
+              "phone": "043-421-5400",
+              "phoneVerified": true
             },
             {
               "category": "한식(닭강정)",
@@ -4270,10 +4270,10 @@
               "name": "단양흑마늘 누룽지닭강정",
               "menu": "흑마늘 누룽지닭강정",
               "menuVerified": true,
-              "address": "충북 단양군 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "충북 단양군 단양읍 도전4길 31-1",
+              "addressVerified": true,
+              "phone": "043-422-3345",
+              "phoneVerified": true
             }
           ]
         }
@@ -4324,10 +4324,10 @@
               "name": "라모스버거",
               "menu": "수제버거",
               "menuVerified": true,
-              "address": "강원도 춘천시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "강원특별자치도 춘천시 옛경춘로 835",
+              "addressVerified": true,
+              "phone": "033-252-0006",
+              "phoneVerified": true
             },
             {
               "category": "한식(막국수)",
@@ -4335,10 +4335,10 @@
               "name": "신북 명가막국수",
               "menu": "막국수",
               "menuVerified": true,
-              "address": "강원도 춘천시 신북읍 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "강원특별자치도 춘천시 신북읍 상천3길 8",
+              "addressVerified": true,
+              "phone": "033-241-8443",
+              "phoneVerified": true
             },
             {
               "category": "한식(닭갈비)",
@@ -4368,10 +4368,10 @@
               "name": "회영루",
               "menu": "짜장면",
               "menuVerified": true,
-              "address": "강원도 춘천시 명동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "강원특별자치도 춘천시 금강로 38",
+              "addressVerified": true,
+              "phone": "033-254-3841",
+              "phoneVerified": true
             },
             {
               "category": "한식(순대국)",
@@ -4379,10 +4379,10 @@
               "name": "조부자매운순대가",
               "menu": "매운 순대국",
               "menuVerified": true,
-              "address": "강원도 춘천시 명동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "강원특별자치도 춘천시 남산면 강촌로 107",
+              "addressVerified": true,
+              "phone": "033-262-5750",
+              "phoneVerified": true
             },
             {
               "category": "한식(백반/제육볶음)",
@@ -4406,10 +4406,10 @@
               "name": "원주복추어탕",
               "menu": "갈추어탕, 자연산추어탕, 통추어탕, 한우추어탕(2인 이상), 숙회, 튀김",
               "menuVerified": true,
-              "address": "강원도 원주시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "강원특별자치도 원주시 치악로 1748",
+              "addressVerified": true,
+              "phone": "033-763-7987",
+              "phoneVerified": true
             },
             {
               "category": "중식",
@@ -4417,10 +4417,10 @@
               "name": "동승루",
               "menu": "군만두, 꿔바로우, 마라완탕, 마라우육면, 소룡포",
               "menuVerified": true,
-              "address": "강원도 원주시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "강원특별자치도 원주시 이화4길 30",
+              "addressVerified": true,
+              "phone": "033-742-8166",
+              "phoneVerified": true
             },
             {
               "category": "한식(순대국밥)",
@@ -4428,10 +4428,10 @@
               "name": "강릉집",
               "menu": "순대국밥",
               "menuVerified": true,
-              "address": "강원도 원주시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "강원특별자치도 원주시 중앙시장길 11",
+              "addressVerified": true,
+              "phone": "033-745-4044",
+              "phoneVerified": true
             },
             {
               "category": "한식(민물매운탕)",
@@ -4488,10 +4488,10 @@
               "name": "정화식당",
               "menu": "오징어볶음",
               "menuVerified": true,
-              "address": "강원도 강릉시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "강원특별자치도 강릉시 토성로 193",
+              "addressVerified": true,
+              "phone": "033-647-8825",
+              "phoneVerified": true
             },
             {
               "category": "한식(대패삼겹살)",
@@ -4510,10 +4510,10 @@
               "name": "룽성",
               "menu": "짬뽕",
               "menuVerified": true,
-              "address": "강원도 강릉시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "강원특별자치도 강릉시 하슬라로206번길 3-2",
+              "addressVerified": true,
+              "phone": "033-642-3525",
+              "phoneVerified": true
             },
             {
               "category": "한식(꼬막)",
@@ -4521,10 +4521,10 @@
               "name": "엄지네포장마차",
               "menu": "꼬막 요리",
               "menuVerified": true,
-              "address": "강원도 강릉시 중앙시장 인근 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "강원특별자치도 강릉시 경강로2255번길 21",
+              "addressVerified": true,
+              "phone": "033-642-0178",
+              "phoneVerified": true
             },
             {
               "category": "한식(장칼국수)",
@@ -4532,10 +4532,10 @@
               "name": "이화국수",
               "menu": "장칼국수",
               "menuVerified": true,
-              "address": "강원도 강릉시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "강원특별자치도 강릉시 중앙시장1길 11",
+              "addressVerified": true,
+              "phone": "033-648-4870",
+              "phoneVerified": true
             },
             {
               "category": "한식(갈비)",
@@ -4543,10 +4543,10 @@
               "name": "풍년갈비",
               "menu": "갈비",
               "menuVerified": true,
-              "address": "강원도 강릉시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "강원특별자치도 강릉시 강릉대로587번길 10-5",
+              "addressVerified": true,
+              "phone": "033-651-9245",
+              "phoneVerified": true
             },
             {
               "category": "한식(안주/포차)",
@@ -4581,10 +4581,10 @@
               "name": "정든식당",
               "menu": "장칼국수 (청양고추 추가 가능)",
               "menuVerified": true,
-              "address": "강원도 속초시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "강원특별자치도 속초시 번영로105번길 39",
+              "addressVerified": true,
+              "phone": "033-631-1287",
+              "phoneVerified": true
             },
             {
               "category": "한식(순두부)",
@@ -4592,10 +4592,10 @@
               "name": "김영애할머니순두부",
               "menu": "순두부 (단일 메뉴)",
               "menuVerified": true,
-              "address": "강원도 속초시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "강원특별자치도 속초시 원암학사평길 183",
+              "addressVerified": true,
+              "phone": "033-635-9520",
+              "phoneVerified": true
             },
             {
               "category": "한식(닭강정)",
@@ -4603,8 +4603,8 @@
               "name": "만석닭강정",
               "menu": "닭강정",
               "menuVerified": true,
-              "address": "강원도 속초시 중앙시장 인근 (상세 주소 확인 필요)",
-              "addressVerified": false,
+              "address": "강원특별자치도 속초시 중앙시장로6길 10",
+              "addressVerified": true,
               "phone": "확인 필요",
               "phoneVerified": false
             },
@@ -4614,8 +4614,8 @@
               "name": "맥코리아",
               "menu": "왕돈까스 (1994년부터 영업)",
               "menuVerified": true,
-              "address": "강원도 속초시 중앙시장 인근 아남프라자 지하 (상세 주소 확인 필요)",
-              "addressVerified": false,
+              "address": "강원특별자치도 속초시 동해대로 4236",
+              "addressVerified": true,
               "phone": "확인 필요",
               "phoneVerified": false
             },
@@ -4627,8 +4627,8 @@
               "menuVerified": true,
               "address": "강원 속초시 중앙로147번길 16 1층 53호",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "0507-1371-0357",
+              "phoneVerified": true
             }
           ]
         },
@@ -4641,10 +4641,10 @@
               "name": "무코문어 1936",
               "menu": "문어국밥(일일한정), 문어숙회",
               "menuVerified": true,
-              "address": "강원도 동해시 묵호항 인근 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "강원특별자치도 동해시 일출로 23",
+              "addressVerified": true,
+              "phone": "0507-1343-1936",
+              "phoneVerified": true
             }
           ]
         },
@@ -4659,8 +4659,8 @@
               "menuVerified": true,
               "address": "강원도 삼척시 청석로 27-64 (교동 761-22)",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "033-574-0987",
+              "phoneVerified": true
             },
             {
               "category": "한식(장옹심이칼국수)",
@@ -4679,10 +4679,10 @@
               "name": "두레박고을",
               "menu": "낙지비빔밥, 낙지보쌈",
               "menuVerified": true,
-              "address": "강원도 삼척시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "강원특별자치도 삼척시 대학로 93",
+              "addressVerified": true,
+              "phone": "033-575-8500",
+              "phoneVerified": true
             },
             {
               "category": "한식(문어숙회)",
@@ -4717,10 +4717,10 @@
               "name": "원조태성실비식당",
               "menu": "한우 구이 (연탄·참숯)",
               "menuVerified": true,
-              "address": "강원도 태백시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "강원특별자치도 태백시 감천로 4",
+              "addressVerified": true,
+              "phone": "033-552-5287",
+              "phoneVerified": true
             },
             {
               "category": "한식(물닭갈비)",
@@ -4728,10 +4728,10 @@
               "name": "태백닭갈비",
               "menu": "물닭갈비(냉이 육수 전골식)",
               "menuVerified": true,
-              "address": "강원도 태백시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "강원특별자치도 태백시 중앙남1길 10",
+              "addressVerified": true,
+              "phone": "033-553-8119",
+              "phoneVerified": true
             }
           ]
         },
@@ -4817,8 +4817,8 @@
               "menuVerified": true,
               "address": "강원 횡성군 둔내면 둔방내리 55-3",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "033-344-9393",
+              "phoneVerified": true
             },
             {
               "category": "한식(순대국)",
@@ -4826,10 +4826,10 @@
               "name": "횡성더덕순대",
               "menu": "더덕순대, 순대국",
               "menuVerified": true,
-              "address": "강원도 횡성군 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "강원특별자치도 횡성군 횡성읍 한우로 215",
+              "addressVerified": true,
+              "phone": "033-345-3330",
+              "phoneVerified": true
             }
           ]
         },
@@ -4844,8 +4844,8 @@
               "menuVerified": true,
               "address": "강원 영월군 주천면 송학주천로 1282-11",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "0502-5554-1978",
+              "phoneVerified": true
             },
             {
               "category": "한식(생선구이/조림)",
@@ -4864,10 +4864,10 @@
               "name": "사랑방식당",
               "menu": "보리밥정식",
               "menuVerified": true,
-              "address": "강원도 영월군 영월읍 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "강원특별자치도 영월군 영월읍 절무리골길 12",
+              "addressVerified": true,
+              "phone": "033-374-4655",
+              "phoneVerified": true
             },
             {
               "category": "한식(다슬기)",
@@ -4875,10 +4875,10 @@
               "name": "동강다슬기",
               "menu": "다슬기 요리 (40년 전통)",
               "menuVerified": true,
-              "address": "강원도 영월군 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "강원특별자치도 영월군 영월읍 영월로 2105",
+              "addressVerified": true,
+              "phone": "033-374-2821",
+              "phoneVerified": true
             },
             {
               "category": "한식(닭강정)",
@@ -4886,10 +4886,10 @@
               "name": "일미닭강정",
               "menu": "닭강정",
               "menuVerified": true,
-              "address": "강원도 영월군 영월읍 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "강원특별자치도 영월군 영월읍 서부시장길 15",
+              "addressVerified": true,
+              "phone": "033-374-0151",
+              "phoneVerified": true
             }
           ]
         },
@@ -4913,10 +4913,10 @@
               "name": "메밀꽃필무렵",
               "menu": "메밀물국수, 수제메밀묵밥, 감자만두",
               "menuVerified": true,
-              "address": "강원도 평창군 봉평면 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "강원특별자치도 평창군 봉평면 이효석길 33-13",
+              "addressVerified": true,
+              "phone": "033-335-4594",
+              "phoneVerified": true
             },
             {
               "category": "한식(산채정식)",
@@ -4926,8 +4926,8 @@
               "menuVerified": true,
               "address": "강원도 평창군 봉평면 태기로 1",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "033-334-6788",
+              "phoneVerified": true
             },
             {
               "category": "한식(꿩만두국)",
@@ -4935,10 +4935,10 @@
               "name": "남경식당",
               "menu": "꿩만두국",
               "menuVerified": true,
-              "address": "강원도 평창군 황태덕장 인근 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "강원특별자치도 평창군 대관령면 대관령마루길 347",
+              "addressVerified": true,
+              "phone": "033-335-5891",
+              "phoneVerified": true
             },
             {
               "category": "한식(막국수)",
@@ -4946,10 +4946,10 @@
               "name": "이조막국수",
               "menu": "막국수",
               "menuVerified": true,
-              "address": "강원도 평창군 평창읍 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "강원특별자치도 평창군 평창읍 여만길 99-3",
+              "addressVerified": true,
+              "phone": "033-334-2157",
+              "phoneVerified": true
             }
           ]
         },
@@ -4962,10 +4962,10 @@
               "name": "정선면옥",
               "menu": "장칼국수, 막국수, 더덕보쌈, 제육",
               "menuVerified": true,
-              "address": "강원도 정선군 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "강원특별자치도 정선군 정선읍 봉양5길 35",
+              "addressVerified": true,
+              "phone": "033-562-2233",
+              "phoneVerified": true
             },
             {
               "category": "한식(곤드레밥)",
@@ -4973,10 +4973,10 @@
               "name": "동박골",
               "menu": "곤드레밥",
               "menuVerified": true,
-              "address": "강원 정선군 정선읍 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "강원특별자치도 정선군 정선읍 정선로 1314",
+              "addressVerified": true,
+              "phone": "033-563-2211",
+              "phoneVerified": true
             },
             {
               "category": "한식(콧등치기국수/족발)",
@@ -4984,10 +4984,10 @@
               "name": "동광식당",
               "menu": "콧등치기국수, 황기족발 (정선5일장과 함께 유명)",
               "menuVerified": true,
-              "address": "강원도 정선군 정선읍 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "강원특별자치도 정선군 정선읍 녹송1길 27",
+              "addressVerified": true,
+              "phone": "033-563-3100",
+              "phoneVerified": true
             },
             {
               "category": "한식(곤드레밥/옹심이)",
@@ -4995,10 +4995,10 @@
               "name": "회동집",
               "menu": "곤드레밥, 감자옹심이",
               "menuVerified": true,
-              "address": "강원도 정선군 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "강원특별자치도 정선군 정선읍 5일장길 37-10",
+              "addressVerified": true,
+              "phone": "033-562-2634",
+              "phoneVerified": true
             }
           ]
         },
@@ -5094,8 +5094,8 @@
               "menuVerified": true,
               "address": "강원도 고성군 토성면 백촌1길 10",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "033-632-5422",
+              "phoneVerified": true
             },
             {
               "category": "한식(능이백숙)",
@@ -5103,10 +5103,10 @@
               "name": "창바위식당",
               "menu": "능이백숙, 닭볶음탕 (1시간 전 전화예약 필수)",
               "menuVerified": true,
-              "address": "강원도 고성군 소노펠리체 델피노 인근 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "강원특별자치도 고성군 토성면 원암학사평길 28",
+              "addressVerified": true,
+              "phone": "033-632-1837",
+              "phoneVerified": true
             },
             {
               "category": "경양식(돈까스)",
@@ -5136,10 +5136,10 @@
               "name": "동해반점",
               "menu": "중화 비빔면, 중화 비빔밥",
               "menuVerified": true,
-              "address": "강원도 고성군 (최북단, 상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "강원특별자치도 고성군 현내면 한나루로 52",
+              "addressVerified": true,
+              "phone": "033-682-2210",
+              "phoneVerified": true
             }
           ]
         },
@@ -5198,8 +5198,8 @@
               "menuVerified": true,
               "address": "강원도 양양군 서면 오색리 433-5",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "033-672-5566",
+              "phoneVerified": true
             }
           ]
         },
@@ -5212,10 +5212,10 @@
               "name": "양구재래식손두부",
               "menu": "손두부",
               "menuVerified": true,
-              "address": "강원도 양구군 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "강원특별자치도 양구군 양구읍 학안로 6",
+              "addressVerified": true,
+              "phone": "033-482-4475",
+              "phoneVerified": true
             },
             {
               "category": "한식(육개장)",
@@ -5234,10 +5234,10 @@
               "name": "양자강",
               "menu": "짜장면",
               "menuVerified": true,
-              "address": "강원도 양구군 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "강원특별자치도 양구군 양구읍 양록길 106",
+              "addressVerified": true,
+              "phone": "033-481-2317",
+              "phoneVerified": true
             }
           ]
         }
@@ -5343,10 +5343,10 @@
               "name": "삼백집",
               "menu": "콩나물국밥(날계란 포함), 고추군만두",
               "menuVerified": true,
-              "address": "전북 전주시 완산구 객사 인근 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전북특별자치도 전주시 완산구 전주객사2길 22",
+              "addressVerified": true,
+              "phone": "063-284-2227",
+              "phoneVerified": true
             },
             {
               "category": "중식(우육면)",
@@ -5354,10 +5354,10 @@
               "name": "프프프",
               "menu": "우육면",
               "menuVerified": true,
-              "address": "전북 전주시 완산구 객사 인근 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전북특별자치도 전주시 완산구 전주객사2길 46-12",
+              "addressVerified": true,
+              "phone": "0507-1338-7032",
+              "phoneVerified": true
             },
             {
               "category": "경양식(돈까스)",
@@ -5365,10 +5365,10 @@
               "name": "지곡동옛날돈까스",
               "menu": "옛날 경양식 돈까스",
               "menuVerified": true,
-              "address": "전북 전주시 서신동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전북특별자치도 전주시 완산구 서신천변로 46",
+              "addressVerified": true,
+              "phone": "063-251-1253",
+              "phoneVerified": true
             },
             {
               "category": "한식(오리고기)",
@@ -5376,10 +5376,10 @@
               "name": "다오리 숯불구이",
               "menu": "오리고기 숯불구이",
               "menuVerified": true,
-              "address": "전북 전주시 완산구 삼천동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전북특별자치도 전주시 완산구 우림로 1083",
+              "addressVerified": true,
+              "phone": "063-223-5252",
+              "phoneVerified": true
             },
             {
               "category": "한식(김치찌개)",
@@ -5387,10 +5387,10 @@
               "name": "삼별집",
               "menu": "김치찌개",
               "menuVerified": true,
-              "address": "전북 전주시 완산구 삼천동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전북특별자치도 전주시 완산구 삼천천변2길 28",
+              "addressVerified": true,
+              "phone": "063-224-5423",
+              "phoneVerified": true
             },
             {
               "category": "중식",
@@ -5409,10 +5409,10 @@
               "name": "다래옥",
               "menu": "시골 집밥 스타일 한식",
               "menuVerified": true,
-              "address": "전북 전주시 덕진구 우아동3가 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전북특별자치도 전주시 덕진구 백제대로 777-2",
+              "addressVerified": true,
+              "phone": "063-245-2935",
+              "phoneVerified": true
             },
             {
               "category": "한식(꼬치)",
@@ -5420,10 +5420,10 @@
               "name": "백제꼬치",
               "menu": "꼬치구이",
               "menuVerified": true,
-              "address": "전북 전주시 덕진구 우아동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전북특별자치도 전주시 덕진구 백제대로 800",
+              "addressVerified": true,
+              "phone": "063-246-6070",
+              "phoneVerified": true
             }
           ]
         },
@@ -5438,8 +5438,8 @@
               "menuVerified": true,
               "address": "전북 군산시 구암3.1로 70-1",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "063-443-5220",
+              "phoneVerified": true
             },
             {
               "category": "빵(베이커리)",
@@ -5458,10 +5458,10 @@
               "name": "복성루",
               "menu": "짬뽕 (군산 3대 짬뽕)",
               "menuVerified": true,
-              "address": "전북 군산시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전북특별자치도 군산시 월명로 382",
+              "addressVerified": true,
+              "phone": "063-445-8412",
+              "phoneVerified": true
             },
             {
               "category": "한식(한우)",
@@ -5469,10 +5469,10 @@
               "name": "한일옥",
               "menu": "한우",
               "menuVerified": true,
-              "address": "전북 군산시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전북특별자치도 군산시 구영3길 63",
+              "addressVerified": true,
+              "phone": "063-446-5502",
+              "phoneVerified": true
             },
             {
               "category": "한식(곱창/막창)",
@@ -5480,10 +5480,10 @@
               "name": "순돌이곱창",
               "menu": "곱창, 막창",
               "menuVerified": true,
-              "address": "전북 군산시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전북특별자치도 군산시 우체통거리2길 43-9",
+              "addressVerified": true,
+              "phone": "063-445-5395",
+              "phoneVerified": true
             },
             {
               "category": "한식(한정식)",
@@ -5493,8 +5493,8 @@
               "menuVerified": true,
               "address": "전북 군산시 새터길 25",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "063-443-3680",
+              "phoneVerified": true
             },
             {
               "category": "한식(간장게장)",
@@ -5502,10 +5502,10 @@
               "name": "계곡가든꽃게장",
               "menu": "꽃게 간장게장 (한약재 숙성)",
               "menuVerified": true,
-              "address": "전북 군산시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전북특별자치도 군산시 개정면 금강로 470",
+              "addressVerified": true,
+              "phone": "063-453-0608",
+              "phoneVerified": true
             },
             {
               "category": "중식(짬뽕)",
@@ -5515,8 +5515,8 @@
               "menuVerified": true,
               "address": "전북 군산시 내항2길 121",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "063-446-2633",
+              "phoneVerified": true
             }
           ]
         },
@@ -5540,8 +5540,8 @@
               "name": "솜리뼈다귀탕",
               "menu": "뼈다귀탕",
               "menuVerified": true,
-              "address": "전북 익산시 마동 교육청 인근 (상세 주소 확인 필요)",
-              "addressVerified": false,
+              "address": "전북특별자치도 익산시 고봉로30길 70",
+              "addressVerified": true,
               "phone": "확인 필요",
               "phoneVerified": false
             },
@@ -5551,10 +5551,10 @@
               "name": "일해옥",
               "menu": "콩나물국밥",
               "menuVerified": true,
-              "address": "전북 익산시 주현동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전북특별자치도 익산시 주현로 30",
+              "addressVerified": true,
+              "phone": "063-852-1470",
+              "phoneVerified": true
             },
             {
               "category": "중식",
@@ -5562,10 +5562,10 @@
               "name": "화원반점",
               "menu": "짜장면, 여름철 중국집식 냉면",
               "menuVerified": true,
-              "address": "전북 익산시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전북특별자치도 익산시 인북로6길 50",
+              "addressVerified": true,
+              "phone": "063-855-2608",
+              "phoneVerified": true
             },
             {
               "category": "양식(스테이크/파스타/피자)",
@@ -5584,10 +5584,10 @@
               "name": "시장비빔밥",
               "menu": "비빔밥",
               "menuVerified": true,
-              "address": "전북 익산시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전북특별자치도 익산시 황등면 황등7길 25-8",
+              "addressVerified": true,
+              "phone": "063-858-6051",
+              "phoneVerified": true
             },
             {
               "category": "한식(김치찌개)",
@@ -5595,10 +5595,10 @@
               "name": "따봉식당",
               "menu": "김치찌개",
               "menuVerified": true,
-              "address": "전북 익산시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전북특별자치도 익산시 중앙로 170",
+              "addressVerified": true,
+              "phone": "063-854-0507",
+              "phoneVerified": true
             }
           ]
         },
@@ -5622,10 +5622,10 @@
               "name": "이화담",
               "menu": "갈비탕",
               "menuVerified": true,
-              "address": "전북 정읍시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전북특별자치도 정읍시 우암로 62",
+              "addressVerified": true,
+              "phone": "063-535-4121",
+              "phoneVerified": true
             },
             {
               "category": "중식(짬뽕)",
@@ -5633,10 +5633,10 @@
               "name": "양자강",
               "menu": "짬뽕",
               "menuVerified": true,
-              "address": "전북 정읍시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전북특별자치도 정읍시 우암로 57",
+              "addressVerified": true,
+              "phone": "063-533-4870",
+              "phoneVerified": true
             },
             {
               "category": "한식(만두)",
@@ -5644,10 +5644,10 @@
               "name": "솜씨만두",
               "menu": "만두",
               "menuVerified": true,
-              "address": "전북 정읍시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전북특별자치도 정읍시 중앙로 162",
+              "addressVerified": true,
+              "phone": "063-531-5797",
+              "phoneVerified": true
             }
           ]
         },
@@ -5662,8 +5662,8 @@
               "menuVerified": true,
               "address": "전북 남원시 광한서로 7",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "063-632-7500",
+              "phoneVerified": true
             },
             {
               "category": "한식(추어탕)",
@@ -5753,10 +5753,10 @@
               "name": "원평 지평선청보리한우촌",
               "menu": "한우, 육회",
               "menuVerified": true,
-              "address": "전북 김제시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전북특별자치도 김제시 금산면 모악로 17",
+              "addressVerified": true,
+              "phone": "063-543-0076",
+              "phoneVerified": true
             },
             {
               "category": "중식",
@@ -5764,10 +5764,10 @@
               "name": "대흥각",
               "menu": "고추짬뽕",
               "menuVerified": true,
-              "address": "전북 김제시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전북특별자치도 김제시 검산택지1길 29",
+              "addressVerified": true,
+              "phone": "063-547-5886",
+              "phoneVerified": true
             },
             {
               "category": "한식(민물새우탕)",
@@ -5775,10 +5775,10 @@
               "name": "새암골",
               "menu": "민물새우탕",
               "menuVerified": true,
-              "address": "전북 김제시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전북특별자치도 김제시 진봉면 가실5길 82",
+              "addressVerified": true,
+              "phone": "063-548-1007",
+              "phoneVerified": true
             },
             {
               "category": "한식(냉삼겹살)",
@@ -5786,10 +5786,10 @@
               "name": "용지로스",
               "menu": "냉삼",
               "menuVerified": true,
-              "address": "전북 김제시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전북특별자치도 김제시 화동길 63",
+              "addressVerified": true,
+              "phone": "063-547-3517",
+              "phoneVerified": true
             }
           ]
         },
@@ -5859,8 +5859,8 @@
               "menuVerified": true,
               "address": "전북 고창군 아산면 삼인리 29-34",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "063-562-1533",
+              "phoneVerified": true
             }
           ]
         },
@@ -5895,10 +5895,10 @@
               "name": "고산미소",
               "menu": "한우",
               "menuVerified": true,
-              "address": "전북 완주군 고산면 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전북특별자치도 완주군 고산면 남봉로 135",
+              "addressVerified": true,
+              "phone": "063-261-4008",
+              "phoneVerified": true
             },
             {
               "category": "한식(순두부)",
@@ -5917,10 +5917,10 @@
               "name": "돈카츠흑심",
               "menu": "돈카츠",
               "menuVerified": true,
-              "address": "전북 완주군 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전북특별자치도 완주군 이서면 안전로 151",
+              "addressVerified": true,
+              "phone": "063-227-4951",
+              "phoneVerified": true
             },
             {
               "category": "한식(백숙)",
@@ -5928,10 +5928,10 @@
               "name": "영숙백숙",
               "menu": "백숙",
               "menuVerified": true,
-              "address": "전북 완주군 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전북특별자치도 완주군 동상면 대아저수로 986-66",
+              "addressVerified": true,
+              "phone": "063-243-9407",
+              "phoneVerified": true
             }
           ]
         },
@@ -5998,10 +5998,10 @@
               "name": "콩마을 순두부",
               "menu": "순두부",
               "menuVerified": true,
-              "address": "전북 장수군 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전북특별자치도 장수군 장수읍 시장로 14",
+              "addressVerified": true,
+              "phone": "063-353-3718",
+              "phoneVerified": true
             }
           ]
         },
@@ -6016,8 +6016,8 @@
               "menuVerified": true,
               "address": "전라북도 임실군 오수면 오수리 363-8",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "063-642-3488",
+              "phoneVerified": true
             }
           ]
         },
@@ -6059,8 +6059,8 @@
               "menuVerified": true,
               "address": "전북 부안군 변산면 변산로 1788",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "063-581-0667",
+              "phoneVerified": true
             }
           ]
         }
@@ -6078,8 +6078,8 @@
               "name": "농민백암순대",
               "menu": "백암순대, 순대국",
               "menuVerified": true,
-              "address": "서울특별시 강남구 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
+              "address": "서울 강남구 선릉로86길 40-3",
+              "addressVerified": true,
               "phone": "확인 필요",
               "phoneVerified": false
             },
@@ -6089,10 +6089,10 @@
               "name": "중앙해장",
               "menu": "곱창전골",
               "menuVerified": true,
-              "address": "서울특별시 강남구 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "서울 강남구 영동대로86길 17",
+              "addressVerified": true,
+              "phone": "02-558-7905",
+              "phoneVerified": true
             },
             {
               "category": "한식(평양냉면)",
@@ -6111,10 +6111,10 @@
               "name": "떡도리탕",
               "menu": "곱도리탕",
               "menuVerified": true,
-              "address": "서울특별시 강남구 강남역 인근 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "서울 강남구 테헤란로1길 28-9",
+              "addressVerified": true,
+              "phone": "02-501-2940",
+              "phoneVerified": true
             },
             {
               "category": "한식(감자탕)",
@@ -6133,10 +6133,10 @@
               "name": "남소관 우육도삭면",
               "menu": "우육도삭면",
               "menuVerified": true,
-              "address": "서울특별시 강남구 강남역 인근 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "서울 강남구 테헤란로1길 19",
+              "addressVerified": true,
+              "phone": "02-363-5608",
+              "phoneVerified": true
             },
             {
               "category": "한식(고기구이)",
@@ -6179,8 +6179,8 @@
               "menuVerified": true,
               "address": "서울 강남구 도산대로17길 11 지상 1층",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "02-514-9952",
+              "phoneVerified": true
             },
             {
               "category": "중식(양꼬치)",
@@ -6201,8 +6201,8 @@
               "menuVerified": true,
               "address": "서울특별시 강남구 압구정로80길 37 4층",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "02-542-6268",
+              "phoneVerified": true
             },
             {
               "category": "한식(해장국)",
@@ -6248,8 +6248,8 @@
               "name": "소점",
               "menu": "오코노미야키",
               "menuVerified": true,
-              "address": "서울 마포구 연남동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
+              "address": "서울 마포구 성미산로17길 99",
+              "addressVerified": true,
               "phone": "확인 필요",
               "phoneVerified": false
             },
@@ -6259,10 +6259,10 @@
               "name": "연교",
               "menu": "딤섬",
               "menuVerified": true,
-              "address": "서울 마포구 연남동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "서울 마포구 연희로1길 65",
+              "addressVerified": true,
+              "phone": "02-333-4561",
+              "phoneVerified": true
             },
             {
               "category": "중식(딤섬)",
@@ -6270,10 +6270,10 @@
               "name": "월량관",
               "menu": "딤섬",
               "menuVerified": true,
-              "address": "서울 마포구 연남동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "서울 마포구 동교로46길 10",
+              "addressVerified": true,
+              "phone": "02-322-1830",
+              "phoneVerified": true
             },
             {
               "category": "일식(돈카츠/우동, 회 없음)",
@@ -6294,8 +6294,8 @@
               "menuVerified": true,
               "address": "서울 마포구 와우산로29라길 11 반지층",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "02-332-6606",
+              "phoneVerified": true
             }
           ]
         },
@@ -6363,10 +6363,10 @@
               "name": "남매국밥",
               "menu": "국밥",
               "menuVerified": true,
-              "address": "서울 용산구 이태원 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "서울 용산구 회나무로 9",
+              "addressVerified": true,
+              "phone": "02-794-2588",
+              "phoneVerified": true
             },
             {
               "category": "베트남음식(쌀국수)",
@@ -6401,10 +6401,10 @@
               "name": "왕비집 명동 본점",
               "menu": "한식 정식",
               "menuVerified": true,
-              "address": "서울특별시 중구 명동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "서울 중구 명동8가길 26",
+              "addressVerified": true,
+              "phone": "02-3789-1945",
+              "phoneVerified": true
             },
             {
               "category": "한식(간장게장)",
@@ -6412,8 +6412,8 @@
               "name": "오다리집 간장게장",
               "menu": "간장게장",
               "menuVerified": true,
-              "address": "서울특별시 중구 명동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
+              "address": "서울 중구 명동8나길 10",
+              "addressVerified": true,
               "phone": "확인 필요",
               "phoneVerified": false
             },
@@ -6423,10 +6423,10 @@
               "name": "무교동 북어국집",
               "menu": "북어국",
               "menuVerified": true,
-              "address": "서울특별시 중구 무교동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "서울 중구 을지로1길 38",
+              "addressVerified": true,
+              "phone": "02-777-3891",
+              "phoneVerified": true
             },
             {
               "category": "경양식(돈까스)",
@@ -6483,10 +6483,10 @@
               "name": "인사동수제비",
               "menu": "수제비",
               "menuVerified": true,
-              "address": "서울 종로구 인사동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "서울 종로구 인사동8길 14-1",
+              "addressVerified": true,
+              "phone": "02-735-3361",
+              "phoneVerified": true
             },
             {
               "category": "한식(솥밥)",
@@ -6518,8 +6518,8 @@
               "menuVerified": true,
               "address": "종로구 우정국로 38-13",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "02-733-6526",
+              "phoneVerified": true
             },
             {
               "category": "한식(한정식)",
@@ -6576,10 +6576,10 @@
               "name": "능동미나리",
               "menu": "미나리곰탕",
               "menuVerified": true,
-              "address": "서울특별시 성동구 성수동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "서울 성동구 연무장길 42",
+              "addressVerified": true,
+              "phone": "02-2088-2435",
+              "phoneVerified": true
             },
             {
               "category": "한식(감자탕)",
@@ -6598,10 +6598,10 @@
               "name": "조조칼국수 성수점",
               "menu": "바지락칼국수",
               "menuVerified": true,
-              "address": "서울특별시 성동구 성수동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "서울 성동구 성수일로8길 55",
+              "addressVerified": true,
+              "phone": "02-468-4333",
+              "phoneVerified": true
             },
             {
               "category": "한식(제육볶음)",
@@ -6636,10 +6636,10 @@
               "name": "방이샤브샤브칼국수 방이본점",
               "menu": "칼칼한 빨간국물 샤브샤브, 야채·버섯 무한리필",
               "menuVerified": true,
-              "address": "서울 송파구 방이동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "서울 송파구 양재대로71길 2-27",
+              "addressVerified": true,
+              "phone": "02-423-3450",
+              "phoneVerified": true
             },
             {
               "category": "한식(냉면)",
@@ -6658,10 +6658,10 @@
               "name": "몽촌닭갈비",
               "menu": "한방 닭갈비(찜닭 스타일)",
               "menuVerified": true,
-              "address": "서울 송파구 잠실 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "서울 송파구 석촌호수로 298",
+              "addressVerified": true,
+              "phone": "070-8810-6789",
+              "phoneVerified": true
             },
             {
               "category": "일식(라멘/마제소바, 회 없음)",
@@ -6680,10 +6680,10 @@
               "name": "범고래 조개구이",
               "menu": "조개구이, 조개찜",
               "menuVerified": true,
-              "address": "서울 송파구 장지역 파크하비오 인근 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "서울 송파구 송파대로 111",
+              "addressVerified": true,
+              "phone": "02-430-4380",
+              "phoneVerified": true
             },
             {
               "category": "한식(막국수)",
@@ -6691,8 +6691,8 @@
               "name": "남경막국수",
               "menu": "막국수",
               "menuVerified": true,
-              "address": "서울 송파구 잠실동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
+              "address": "서울 송파구 석촌호수로 74",
+              "addressVerified": true,
               "phone": "확인 필요",
               "phoneVerified": false
             }
@@ -6712,10 +6712,10 @@
               "name": "거대곰탕",
               "menu": "한우곰탕",
               "menuVerified": true,
-              "address": "부산 해운대구 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "부산 해운대구 해운대해변로 163",
+              "addressVerified": true,
+              "phone": "051-731-0157",
+              "phoneVerified": true
             },
             {
               "category": "일식(장어덮밥, 회 없음)",
@@ -6723,10 +6723,10 @@
               "name": "해목",
               "menu": "장어덮밥",
               "menuVerified": true,
-              "address": "부산 해운대구 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "부산 해운대구 구남로24번길 8",
+              "addressVerified": true,
+              "phone": "0507-1385-3730",
+              "phoneVerified": true
             },
             {
               "category": "일식(라멘, 회 없음)",
@@ -6734,10 +6734,10 @@
               "name": "나가하마만게츠",
               "menu": "라멘",
               "menuVerified": true,
-              "address": "부산 해운대구 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "부산 해운대구 우동1로 57",
+              "addressVerified": true,
+              "phone": "051-731-0886",
+              "phoneVerified": true
             },
             {
               "category": "한식(고기구이)",
@@ -6778,10 +6778,10 @@
               "name": "한다솥 해운대점",
               "menu": "장어덮밥, 일본식 덮밥",
               "menuVerified": true,
-              "address": "부산 해운대구 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "부산 해운대구 우동1로 50",
+              "addressVerified": true,
+              "phone": "051-747-6993",
+              "phoneVerified": true
             }
           ]
         },
@@ -6794,10 +6794,10 @@
               "name": "퍼란",
               "menu": "베트남 쌀국수",
               "menuVerified": true,
-              "address": "부산 부산진구 서면 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "부산 부산진구 중앙대로692번길 4",
+              "addressVerified": true,
+              "phone": "051-808-1245",
+              "phoneVerified": true
             },
             {
               "category": "한식(아구찜)",
@@ -6805,10 +6805,10 @@
               "name": "제일솥뚜껑",
               "menu": "아구찜",
               "menuVerified": true,
-              "address": "부산 부산진구 서면 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "부산 부산진구 부전로66번길 36-3",
+              "addressVerified": true,
+              "phone": "051-803-6100",
+              "phoneVerified": true
             },
             {
               "category": "한식(밀면)",
@@ -6816,10 +6816,10 @@
               "name": "본가밀면",
               "menu": "밀면",
               "menuVerified": true,
-              "address": "부산 부산진구 서면 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "부산 부산진구 서면로68번길 42",
+              "addressVerified": true,
+              "phone": "051-808-8843",
+              "phoneVerified": true
             },
             {
               "category": "한식(순두부찌개)",
@@ -6827,10 +6827,10 @@
               "name": "하연정순두부",
               "menu": "순두부찌개",
               "menuVerified": true,
-              "address": "부산 부산진구 서면 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "부산 부산진구 서면로68번길 35",
+              "addressVerified": true,
+              "phone": "051-816-3935",
+              "phoneVerified": true
             },
             {
               "category": "한식(돼지국밥)",
@@ -6838,10 +6838,10 @@
               "name": "수변최고돼지국밥",
               "menu": "돼지국밥",
               "menuVerified": true,
-              "address": "부산 부산진구 서면 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "부산 부산진구 가야대로 772",
+              "addressVerified": true,
+              "phone": "051-810-3941",
+              "phoneVerified": true
             },
             {
               "category": "양식(피자)",
@@ -6860,10 +6860,10 @@
               "name": "반핀",
               "menu": "차슈덮밥",
               "menuVerified": true,
-              "address": "부산 부산진구 서면역 인근 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "부산 부산진구 동천로108번길 9",
+              "addressVerified": true,
+              "phone": "051-911-6222",
+              "phoneVerified": true
             }
           ]
         },
@@ -6887,10 +6887,10 @@
               "name": "승승축산",
               "menu": "한식 정육 요리",
               "menuVerified": true,
-              "address": "부산 중구 자갈치시장 인근 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "부산 중구 남포길 34",
+              "addressVerified": true,
+              "phone": "051-256-9136",
+              "phoneVerified": true
             },
             {
               "category": "한식(샤브샤브/막국수)",
@@ -6909,10 +6909,10 @@
               "name": "홍유단",
               "menu": "중화요리",
               "menuVerified": true,
-              "address": "부산 중구 남포동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "부산 중구 구덕로34번길 5",
+              "addressVerified": true,
+              "phone": "051-255-4001",
+              "phoneVerified": true
             },
             {
               "category": "한식(완당/어묵탕)",
@@ -6920,10 +6920,10 @@
               "name": "18번완당",
               "menu": "완당, 스지어묵탕",
               "menuVerified": true,
-              "address": "부산 중구 남포동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "부산 중구 비프광장로 31",
+              "addressVerified": true,
+              "phone": "051-245-0018",
+              "phoneVerified": true
             },
             {
               "category": "빵/간식(씨앗호떡)",
@@ -6969,10 +6969,10 @@
               "name": "덩굴아나고",
               "menu": "바다장어구이(아나고)",
               "menuVerified": true,
-              "address": "부산 수영구 광안리 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "부산 수영구 황령대로 483-7",
+              "addressVerified": true,
+              "phone": "051-626-3592",
+              "phoneVerified": true
             },
             {
               "category": "일식(돈까스, 회 없음)",
@@ -6993,8 +6993,8 @@
               "menuVerified": true,
               "address": "부산 수영구 광남로 78 1층",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "051-978-4595",
+              "phoneVerified": true
             }
           ]
         },
@@ -7029,10 +7029,10 @@
               "name": "알천순대곱창전골",
               "menu": "순대곱창전골",
               "menuVerified": true,
-              "address": "부산 남구 경성대 인근 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "부산 남구 용소로7번길 88",
+              "addressVerified": true,
+              "phone": "051-612-5952",
+              "phoneVerified": true
             },
             {
               "category": "한식(야끼니쿠)",
@@ -7091,8 +7091,8 @@
               "menuVerified": true,
               "address": "부산 북구 금곡대로616번길 7-14",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "051-332-8740",
+              "phoneVerified": true
             },
             {
               "category": "한식(정식)",
@@ -7102,8 +7102,8 @@
               "menuVerified": true,
               "address": "부산 북구 금곡대로 112",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "051-333-0050",
+              "phoneVerified": true
             },
             {
               "category": "경양식(돈까스)",
@@ -7111,10 +7111,10 @@
               "name": "대박터진돈까스",
               "menu": "돈까스",
               "menuVerified": true,
-              "address": "부산 북구 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "부산 북구 덕천로304번길 18",
+              "addressVerified": true,
+              "phone": "051-331-9405",
+              "phoneVerified": true
             },
             {
               "category": "중식(짬뽕)",
@@ -7143,10 +7143,10 @@
               "name": "다정식당",
               "menu": "매콤한 아구찜",
               "menuVerified": true,
-              "address": "경남 창원시 마산합포구 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경남 창원시 마산회원구 석전동로 22-1",
+              "addressVerified": true,
+              "phone": "055-253-0063",
+              "phoneVerified": true
             },
             {
               "category": "한식(밀면)",
@@ -7154,10 +7154,10 @@
               "name": "명서밀면",
               "menu": "밀면",
               "menuVerified": true,
-              "address": "경남 창원시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경남 창원시 의창구 명지로84번길 6",
+              "addressVerified": true,
+              "phone": "055-288-3994",
+              "phoneVerified": true
             },
             {
               "category": "한식(평양냉면)",
@@ -7165,10 +7165,10 @@
               "name": "평양냉면 (창원)",
               "menu": "평양냉면",
               "menuVerified": true,
-              "address": "경남 창원시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경남 창원시 마산회원구 양덕옛2길 73",
+              "addressVerified": true,
+              "phone": "055-293-9292",
+              "phoneVerified": true
             },
             {
               "category": "한식(국밥/떡갈비)",
@@ -7176,10 +7176,10 @@
               "name": "임진각식당",
               "menu": "소불고기(떡갈비 스타일), 소국밥 (30년 이상 전통)",
               "menuVerified": true,
-              "address": "경남 창원시 팔용동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경남 창원시 의창구 팔용로 515",
+              "addressVerified": true,
+              "phone": "055-296-9292",
+              "phoneVerified": true
             },
             {
               "category": "한식(육회비빔밥)",
@@ -7187,10 +7187,10 @@
               "name": "마산집",
               "menu": "육회비빔밥(10,000원), 소고기국밥, 한우석쇠불고기 (40년 전통)",
               "menuVerified": true,
-              "address": "경남 창원시 상남동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경남 창원시 성산구 상남로 67",
+              "addressVerified": true,
+              "phone": "055-283-4635",
+              "phoneVerified": true
             },
             {
               "category": "한식(석쇠불고기/소국밥)",
@@ -7198,10 +7198,10 @@
               "name": "언양각식당",
               "menu": "석쇠불고기, 소국밥, 부침개",
               "menuVerified": true,
-              "address": "경남 창원시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경남 창원시 성산구 용지로 253-1",
+              "addressVerified": true,
+              "phone": "055-266-8050",
+              "phoneVerified": true
             },
             {
               "category": "한식(삼계탕)",
@@ -7264,10 +7264,10 @@
               "name": "일미국밥",
               "menu": "국밥",
               "menuVerified": true,
-              "address": "경남 창원시 진해구 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경남 창원시 진해구 벚꽃로60번길 19-2",
+              "addressVerified": true,
+              "phone": "055-542-4685",
+              "phoneVerified": true
             },
             {
               "category": "한식(대구찜/아구찜)",
@@ -7277,8 +7277,8 @@
               "menuVerified": true,
               "address": "경남 창원시 진해구 용원남로 88-1 1층",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "055-545-2071",
+              "phoneVerified": true
             }
           ]
         },
@@ -7293,8 +7293,8 @@
               "menuVerified": true,
               "address": "경상남도 진주시 남강로 34",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "055-746-4620",
+              "phoneVerified": true
             },
             {
               "category": "한식(어탕)",
@@ -7315,8 +7315,8 @@
               "menuVerified": true,
               "address": "경상남도 진주시 촉석로201번길 12-1",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "055-741-0520",
+              "phoneVerified": true
             },
             {
               "category": "한식(오리주물럭)",
@@ -7324,10 +7324,10 @@
               "name": "금산할매오리집",
               "menu": "오리주물럭",
               "menuVerified": true,
-              "address": "경남 진주시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경남 진주시 금산면 중천로7번길 7",
+              "addressVerified": true,
+              "phone": "055-761-2122",
+              "phoneVerified": true
             },
             {
               "category": "한식(진주냉면/육전)",
@@ -7335,10 +7335,10 @@
               "name": "하연옥 본점",
               "menu": "진주냉면, 육전",
               "menuVerified": true,
-              "address": "경남 진주시 진주교대 인근 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경남 진주시 진주대로 1317-20",
+              "addressVerified": true,
+              "phone": "055-746-0525",
+              "phoneVerified": true
             },
             {
               "category": "한식(육회비빔밥)",
@@ -7346,8 +7346,8 @@
               "name": "제일식당",
               "menu": "육회비빔밥",
               "menuVerified": true,
-              "address": "경남 진주시 중앙시장 인근 (상세 주소 확인 필요)",
-              "addressVerified": false,
+              "address": "경남 진주시 중앙시장길 37-8",
+              "addressVerified": true,
               "phone": "확인 필요",
               "phoneVerified": false
             },
@@ -7368,10 +7368,10 @@
               "name": "송화한정식",
               "menu": "한정식",
               "menuVerified": true,
-              "address": "경남 진주시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경남 진주시 도동천로 82",
+              "addressVerified": true,
+              "phone": "055-753-4443",
+              "phoneVerified": true
             }
           ]
         },
@@ -7417,10 +7417,10 @@
               "name": "대풍관",
               "menu": "굴요리",
               "menuVerified": true,
-              "address": "경남 통영시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경남 통영시 해송정2길 29",
+              "addressVerified": true,
+              "phone": "055-644-4446",
+              "phoneVerified": true
             },
             {
               "category": "중식(짬뽕)",
@@ -7428,10 +7428,10 @@
               "name": "심가네해물짬뽕",
               "menu": "해물짬뽕",
               "menuVerified": true,
-              "address": "경남 통영시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경남 통영시 새터길 74-4",
+              "addressVerified": true,
+              "phone": "055-649-8215",
+              "phoneVerified": true
             },
             {
               "category": "한식(전복요리)",
@@ -7439,8 +7439,8 @@
               "name": "동피랑전복마을",
               "menu": "전복요리",
               "menuVerified": true,
-              "address": "경남 통영시 동피랑 인근 (상세 주소 확인 필요)",
-              "addressVerified": false,
+              "address": "경남 통영시 해송정2길 29",
+              "addressVerified": true,
               "phone": "확인 필요",
               "phoneVerified": false
             }
@@ -7455,10 +7455,10 @@
               "name": "청담어전갈비",
               "menu": "갈비",
               "menuVerified": true,
-              "address": "경남 김해시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경남 김해시 인제로200번길 10",
+              "addressVerified": true,
+              "phone": "0503-7153-2345",
+              "phoneVerified": true
             },
             {
               "category": "한식(수제비)",
@@ -7466,10 +7466,10 @@
               "name": "배가네 흥동 수제비",
               "menu": "수제비",
               "menuVerified": true,
-              "address": "경남 김해시 흥동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경남 김해시 흥동로 142",
+              "addressVerified": true,
+              "phone": "055-327-8755",
+              "phoneVerified": true
             },
             {
               "category": "한식(돼지국밥)",
@@ -7488,10 +7488,10 @@
               "name": "옥이네뒷고기",
               "menu": "뒷고기",
               "menuVerified": true,
-              "address": "경남 김해시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경남 김해시 금관대로1204번길 24",
+              "addressVerified": true,
+              "phone": "055-321-7759",
+              "phoneVerified": true
             },
             {
               "category": "태국음식(팟타이)",
@@ -7499,10 +7499,10 @@
               "name": "왓포식당",
               "menu": "팟타이",
               "menuVerified": true,
-              "address": "경남 김해시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경남 김해시 봉황대길 27",
+              "addressVerified": true,
+              "phone": "070-7655-1638",
+              "phoneVerified": true
             },
             {
               "category": "한식(솥밥)",
@@ -7510,10 +7510,10 @@
               "name": "하루담",
               "menu": "솥밥",
               "menuVerified": true,
-              "address": "경남 김해시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경남 김해시 봉황대길 42",
+              "addressVerified": true,
+              "phone": "055-902-2580",
+              "phoneVerified": true
             }
           ]
         },
@@ -7526,10 +7526,10 @@
               "name": "덕합반점",
               "menu": "덕합자장",
               "menuVerified": true,
-              "address": "경남 사천시 수석리 일대 (53년, 2대째 전통, 상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경남 사천시 사천읍 읍내1길 81",
+              "addressVerified": true,
+              "phone": "055-852-2165",
+              "phoneVerified": true
             },
             {
               "category": "한식(재첩요리)",
@@ -7548,10 +7548,10 @@
               "name": "박서방식당",
               "menu": "백반정식(생선구이·새우튀김·전복장·새우장·돼지불백 등, 1인 15,000원)",
               "menuVerified": true,
-              "address": "경남 사천시 사천 케이블카 인근 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경남 사천시 유람선길 14",
+              "addressVerified": true,
+              "phone": "055-833-8199",
+              "phoneVerified": true
             },
             {
               "category": "한식(국밥)",
@@ -7559,10 +7559,10 @@
               "name": "김재성의 사천형제국밥",
               "menu": "국밥",
               "menuVerified": true,
-              "address": "경남 사천시 사천읍 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경남 사천시 사천읍 구암두문로 82",
+              "addressVerified": true,
+              "phone": "055-853-7272",
+              "phoneVerified": true
             },
             {
               "category": "빵(카스테라)",
@@ -7570,8 +7570,8 @@
               "name": "사천카스테라",
               "menu": "카스테라",
               "menuVerified": true,
-              "address": "경남 사천시 사천읍 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
+              "address": "경남 사천시 사천읍 사천대로 1892",
+              "addressVerified": true,
               "phone": "확인 필요",
               "phoneVerified": false
             }
@@ -7662,10 +7662,10 @@
               "name": "대각루",
               "menu": "짜장면",
               "menuVerified": true,
-              "address": "경상남도 양산시 남부동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경남 양산시 중앙로 63",
+              "addressVerified": true,
+              "phone": "055-365-6700",
+              "phoneVerified": true
             },
             {
               "category": "한식(돼지국밥)",
@@ -7673,10 +7673,10 @@
               "name": "양산돼지국밥",
               "menu": "돼지국밥",
               "menuVerified": true,
-              "address": "경남 양산시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경남 양산시 서일동로 17",
+              "addressVerified": true,
+              "phone": "055-385-8411",
+              "phoneVerified": true
             },
             {
               "category": "한식(집밥)",
@@ -7684,10 +7684,10 @@
               "name": "정구네정식",
               "menu": "집밥 정식",
               "menuVerified": true,
-              "address": "경남 양산시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경남 양산시 북안남8길 14-1",
+              "addressVerified": true,
+              "phone": "055-383-9435",
+              "phoneVerified": true
             },
             {
               "category": "한식(오리고기)",
@@ -7706,10 +7706,10 @@
               "name": "서리단",
               "menu": "메밀국수",
               "menuVerified": true,
-              "address": "경남 양산시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경남 양산시 물금읍 화산길 10",
+              "addressVerified": true,
+              "phone": "055-383-2225",
+              "phoneVerified": true
             }
           ]
         },
@@ -7722,10 +7722,10 @@
               "name": "성남식당",
               "menu": "산채비빔밥",
               "menuVerified": true,
-              "address": "경남 하동군 삼성궁 인근 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경남 하동군 청암면 청학동길 15-18",
+              "addressVerified": true,
+              "phone": "0507-1372-8757",
+              "phoneVerified": true
             },
             {
               "category": "한식(재첩요리)",
@@ -7733,10 +7733,10 @@
               "name": "혜성식당",
               "menu": "재첩요리",
               "menuVerified": true,
-              "address": "경남 하동군 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경남 하동군 화개면 화개로 48",
+              "addressVerified": true,
+              "phone": "055-883-2140",
+              "phoneVerified": true
             },
             {
               "category": "빵(베이커리)",
@@ -7744,10 +7744,10 @@
               "name": "밤톨",
               "menu": "베이커리류",
               "menuVerified": true,
-              "address": "경남 하동군 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경남 하동군 화개면 화개로 17-1",
+              "addressVerified": true,
+              "phone": "055-883-8999",
+              "phoneVerified": true
             }
           ]
         },
@@ -7760,10 +7760,10 @@
               "name": "둘리왕새우",
               "menu": "대하구이",
               "menuVerified": true,
-              "address": "경남 고성군 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경남 고성군 회화면 마구들1길 83",
+              "addressVerified": true,
+              "phone": "055-673-0933",
+              "phoneVerified": true
             },
             {
               "category": "한식(생갈비)",
@@ -7771,10 +7771,10 @@
               "name": "청우숯불갈비",
               "menu": "생갈비",
               "menuVerified": true,
-              "address": "경남 고성군 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "강원특별자치도 고성군 간성읍 남천마루3길 2-5",
+              "addressVerified": true,
+              "phone": "0502-5551-7746",
+              "phoneVerified": true
             }
           ]
         },
@@ -7787,10 +7787,10 @@
               "name": "대구식당",
               "menu": "한우국밥(빨간국물), 짬뽕",
               "menuVerified": true,
-              "address": "경남 함안군 한우국밥촌 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경남 함안군 함안면 북촌2길 50-27",
+              "addressVerified": true,
+              "phone": "055-583-4026",
+              "phoneVerified": true
             },
             {
               "category": "한식(생고기)",
@@ -7836,10 +7836,10 @@
               "name": "화정소바",
               "menu": "소바",
               "menuVerified": true,
-              "address": "경남 의령군 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경남 의령군 의령읍 의병로18길 9-3",
+              "addressVerified": true,
+              "phone": "055-573-4193",
+              "phoneVerified": true
             }
           ]
         },
@@ -7854,8 +7854,8 @@
               "menuVerified": true,
               "address": "경남 창녕군 영산면 온천로 63",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "055-536-4555",
+              "phoneVerified": true
             },
             {
               "category": "한식(냉면)",
@@ -7906,10 +7906,10 @@
               "name": "대성식당",
               "menu": "한우국밥",
               "menuVerified": true,
-              "address": "경남 함양군 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경남 함양군 함양읍 용평6길 4",
+              "addressVerified": true,
+              "phone": "055-964-5400",
+              "phoneVerified": true
             }
           ]
         },
@@ -7922,10 +7922,10 @@
               "name": "왕산식당",
               "menu": "고동탕",
               "menuVerified": true,
-              "address": "경남 산청군 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경남 산청군 금서면 동의보감로 1045-28",
+              "addressVerified": true,
+              "phone": "055-973-0041",
+              "phoneVerified": true
             }
           ]
         },
@@ -7938,10 +7938,10 @@
               "name": "힙한식",
               "menu": "솥밥",
               "menuVerified": true,
-              "address": "경남 남해군 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "경남 남해군 미조면 동부대로 2",
+              "addressVerified": true,
+              "phone": "070-8810-1966",
+              "phoneVerified": true
             }
           ]
         },
@@ -7977,8 +7977,8 @@
               "menuVerified": true,
               "address": "대전 중구 은행동",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "042-229-5302",
+              "phoneVerified": true
             },
             {
               "category": "한식(설렁탕)",
@@ -8008,10 +8008,10 @@
               "name": "동은성",
               "menu": "냄비짬뽕",
               "menuVerified": true,
-              "address": "대전 중구 은행동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "대전 중구 대종로 532-1",
+              "addressVerified": true,
+              "phone": "042-252-3866",
+              "phoneVerified": true
             },
             {
               "category": "한식(칼국수)",
@@ -8019,10 +8019,10 @@
               "name": "한밭 칼국수",
               "menu": "칼국수, 두부",
               "menuVerified": true,
-              "address": "대전 중구 은행동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "대전 중구 목척4길 6",
+              "addressVerified": true,
+              "phone": "042-254-9350",
+              "phoneVerified": true
             }
           ]
         },
@@ -8037,8 +8037,8 @@
               "menuVerified": true,
               "address": "대전 유성구 도룡동",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "1588-8069",
+              "phoneVerified": true
             },
             {
               "category": "한식(국밥)",
@@ -8048,8 +8048,8 @@
               "menuVerified": true,
               "address": "대전 유성구 봉명동",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "042-525-5820",
+              "phoneVerified": true
             },
             {
               "category": "한식(석갈비)",
@@ -8119,8 +8119,8 @@
               "menuVerified": true,
               "address": "대전 동구 삼성동",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "042-627-9972",
+              "phoneVerified": true
             },
             {
               "category": "한식(칼국수)",
@@ -8130,8 +8130,8 @@
               "menuVerified": true,
               "address": "대전 동구 중동",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "042-221-7594",
+              "phoneVerified": true
             }
           ]
         },
@@ -8215,10 +8215,10 @@
               "name": "오문창 순대국밥",
               "menu": "순대국밥, 곱창볶음, 곱창전골, 돼지왕족발",
               "menuVerified": true,
-              "address": "대전 대덕구 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "대전 대덕구 한밭대로 1153",
+              "addressVerified": true,
+              "phone": "042-621-4325",
+              "phoneVerified": true
             },
             {
               "category": "한식(두부전골)",
@@ -8226,10 +8226,10 @@
               "name": "매봉식당",
               "menu": "두부전골",
               "menuVerified": true,
-              "address": "대전 대덕구 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "대전 대덕구 계족로664번길 113",
+              "addressVerified": true,
+              "phone": "042-625-3345",
+              "phoneVerified": true
             },
             {
               "category": "한식(삼겹살)",
@@ -8237,10 +8237,10 @@
               "name": "대덕식당",
               "menu": "삼겹살(200g, 14,000원)",
               "menuVerified": true,
-              "address": "대전 대덕구 신탄진동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "대전 대덕구 신탄진로738번길 1",
+              "addressVerified": true,
+              "phone": "042-932-2249",
+              "phoneVerified": true
             },
             {
               "category": "한식(해물칼국수)",
@@ -8248,10 +8248,10 @@
               "name": "부추 해물칼국수",
               "menu": "해물칼국수, 맛배기족발, 쭈꾸미",
               "menuVerified": true,
-              "address": "대전 대덕구 오정동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "대전 대덕구 신탄진로804번길 31",
+              "addressVerified": true,
+              "phone": "042-934-5656",
+              "phoneVerified": true
             }
           ]
         }
@@ -8271,8 +8271,8 @@
               "menuVerified": true,
               "address": "광주 동구 동명동 동리단길 (문화전당역 인근)",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "062-228-3101",
+              "phoneVerified": true
             }
           ]
         },
@@ -8323,10 +8323,10 @@
               "name": "서울곱창",
               "menu": "곱창",
               "menuVerified": true,
-              "address": "광주 북구 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전남광주통합특별시 북구 첨단연신로107번길 5-20",
+              "addressVerified": true,
+              "phone": "062-719-4080",
+              "phoneVerified": true
             },
             {
               "category": "한식(순대국밥)",
@@ -8345,10 +8345,10 @@
               "name": "라멘만땅",
               "menu": "라멘 (10년 가까운 노포)",
               "menuVerified": true,
-              "address": "광주 북구 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "부산 북구 덕천1길 33-1",
+              "addressVerified": true,
+              "phone": "051-342-5242",
+              "phoneVerified": true
             }
           ]
         },
@@ -8361,10 +8361,10 @@
               "name": "뼈칼집",
               "menu": "등뼈수육",
               "menuVerified": true,
-              "address": "광주 광산구 첨단 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전남광주통합특별시 광산구 첨단강변로99번길 51",
+              "addressVerified": true,
+              "phone": "0507-1351-2667",
+              "phoneVerified": true
             },
             {
               "category": "한식(바베큐)",
@@ -8372,10 +8372,10 @@
               "name": "황솔촌",
               "menu": "바베큐 구이류",
               "menuVerified": true,
-              "address": "광주 광산구 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전남광주통합특별시 광산구 장신로19번안길 23",
+              "addressVerified": true,
+              "phone": "062-943-9233",
+              "phoneVerified": true
             }
           ]
         },
@@ -8388,10 +8388,10 @@
               "name": "당산나무집",
               "menu": "우렁이쌈밥",
               "menuVerified": true,
-              "address": "광주 남구 봉선동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전남광주통합특별시 남구 봉선중길 4",
+              "addressVerified": true,
+              "phone": "062-651-2440",
+              "phoneVerified": true
             },
             {
               "category": "한식(삼겹살)",
@@ -8421,10 +8421,10 @@
               "name": "기동이네 해장국",
               "menu": "해장국",
               "menuVerified": true,
-              "address": "광주 남구 봉선동 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전남광주통합특별시 남구 봉선2로 37",
+              "addressVerified": true,
+              "phone": "062-652-7748",
+              "phoneVerified": true
             }
           ]
         }
@@ -8464,8 +8464,8 @@
               "name": "목포무안짚불구이",
               "menu": "짚불삼겹, 짚불오리, 생오리로스, 오리주물럭 (30년 전통)",
               "menuVerified": true,
-              "address": "전남 목포시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
+              "address": "전남광주통합특별시 목포시 하당로 241",
+              "addressVerified": true,
               "phone": "확인 필요",
               "phoneVerified": false
             },
@@ -8486,10 +8486,10 @@
               "name": "하당먹거리",
               "menu": "산낙지",
               "menuVerified": true,
-              "address": "전남 목포시 하당 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전남광주통합특별시 목포시 신흥로 98",
+              "addressVerified": true,
+              "phone": "061-283-1738",
+              "phoneVerified": true
             },
             {
               "category": "한식(분식/해장국)",
@@ -8519,8 +8519,8 @@
               "name": "장터식당",
               "menu": "양념게살",
               "menuVerified": true,
-              "address": "전남 목포시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
+              "address": "전남광주통합특별시 목포시 자유로 122",
+              "addressVerified": true,
               "phone": "확인 필요",
               "phoneVerified": false
             }
@@ -8546,10 +8546,10 @@
               "name": "게장한상 낭만별식 라테라스점",
               "menu": "게장정식",
               "menuVerified": true,
-              "address": "전남 여수시 라테라스리조트 인근 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전남광주통합특별시 여수시 돌산읍 돌산로 3193",
+              "addressVerified": true,
+              "phone": "0507-1437-9912",
+              "phoneVerified": true
             },
             {
               "category": "한식(게장)",
@@ -8557,10 +8557,10 @@
               "name": "꽃돌게장1번가",
               "menu": "돌게장",
               "menuVerified": true,
-              "address": "전남 여수시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전남광주통합특별시 여수시 봉산2로 36",
+              "addressVerified": true,
+              "phone": "061-644-0003",
+              "phoneVerified": true
             },
             {
               "category": "한식(김밥)",
@@ -8579,10 +8579,10 @@
               "name": "순심원",
               "menu": "짬뽕",
               "menuVerified": true,
-              "address": "전남 여수시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전남광주통합특별시 여수시 교동남1길 5-17",
+              "addressVerified": true,
+              "phone": "061-920-5482",
+              "phoneVerified": true
             },
             {
               "category": "한식",
@@ -8663,8 +8663,8 @@
               "menuVerified": true,
               "address": "전남 순천시 남산로 14-1",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "061-746-0462",
+              "phoneVerified": true
             },
             {
               "category": "한식(쌈밥정식)",
@@ -8672,10 +8672,10 @@
               "name": "열무밭애",
               "menu": "쌈밥정식",
               "menuVerified": true,
-              "address": "전남 순천시 신대지구 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전남광주통합특별시 순천시 해룡면 향매1길 15-14",
+              "addressVerified": true,
+              "phone": "061-724-2785",
+              "phoneVerified": true
             }
           ]
         },
@@ -8690,8 +8690,8 @@
               "menuVerified": true,
               "address": "전라남도 광양시 서천1길 52",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "061-762-9250",
+              "phoneVerified": true
             },
             {
               "category": "한식(국밥)",
@@ -8699,10 +8699,10 @@
               "name": "신가가마솥",
               "menu": "국밥",
               "menuVerified": true,
-              "address": "전남 광양시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전남광주통합특별시 광양시 광양읍 희양현로 30",
+              "addressVerified": true,
+              "phone": "061-763-7556",
+              "phoneVerified": true
             },
             {
               "category": "한식(광양불고기)",
@@ -8710,10 +8710,10 @@
               "name": "장원회관",
               "menu": "광양불고기",
               "menuVerified": true,
-              "address": "전남 광양시 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전남광주통합특별시 광양시 광양읍 매천로 821-5",
+              "addressVerified": true,
+              "phone": "061-761-6006",
+              "phoneVerified": true
             },
             {
               "category": "한식(닭숯불고기)",
@@ -8723,8 +8723,8 @@
               "menuVerified": true,
               "address": "전라남도 광양시 신재로 1678-67",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "061-762-0033",
+              "phoneVerified": true
             },
             {
               "category": "한식(광양불고기)",
@@ -8780,10 +8780,10 @@
               "name": "지리산가는길",
               "menu": "수제 치즈돈까스, 수제 등심돈까스",
               "menuVerified": true,
-              "address": "전남 곡성군 압록강 유원지 인근 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전남광주통합특별시 곡성군 죽곡면 대황강로 1334",
+              "addressVerified": true,
+              "phone": "061-363-5842",
+              "phoneVerified": true
             },
             {
               "category": "한식(참게수제비)",
@@ -8791,10 +8791,10 @@
               "name": "나루터",
               "menu": "참게수제비",
               "menuVerified": true,
-              "address": "전남 곡성군 압록유원지 인근 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전남광주통합특별시 곡성군 죽곡면 하한길 3",
+              "addressVerified": true,
+              "phone": "061-362-5030",
+              "phoneVerified": true
             }
           ]
         },
@@ -8818,10 +8818,10 @@
               "name": "한우식당",
               "menu": "순대국",
               "menuVerified": true,
-              "address": "전남 구례군 봉성로 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전남광주통합특별시 구례군 구례읍 봉성로 111",
+              "addressVerified": true,
+              "phone": "061-782-9617",
+              "phoneVerified": true
             },
             {
               "category": "한식(돼지갈비)",
@@ -8829,10 +8829,10 @@
               "name": "마재갈비",
               "menu": "돼지갈비",
               "menuVerified": true,
-              "address": "전남 구례군 봉성로 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전남광주통합특별시 구례군 구례읍 봉성로 84-1",
+              "addressVerified": true,
+              "phone": "061-783-0778",
+              "phoneVerified": true
             },
             {
               "category": "한식(육회비빔밥)",
@@ -8840,10 +8840,10 @@
               "name": "부부식당",
               "menu": "한우육회비빔밥, 다슬기강된장비빔밥, 한우육회, 삼겹수육",
               "menuVerified": true,
-              "address": "전남 구례군 화엄사 인근 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전남광주통합특별시 구례군 구례읍 구례2길 30",
+              "addressVerified": true,
+              "phone": "061-782-9113",
+              "phoneVerified": true
             }
           ]
         },
@@ -8867,10 +8867,10 @@
               "name": "고려회관",
               "menu": "꼬막정식",
               "menuVerified": true,
-              "address": "전남 보성군 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전남광주통합특별시 보성군 벌교읍 채동선로 294",
+              "addressVerified": true,
+              "phone": "061-857-8888",
+              "phoneVerified": true
             },
             {
               "category": "한식(흑염소)",
@@ -8878,10 +8878,10 @@
               "name": "늘푸른흑염소가든",
               "menu": "흑염소 코스",
               "menuVerified": true,
-              "address": "전남 보성군 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전남광주통합특별시 보성군 노동면 예재로 397",
+              "addressVerified": true,
+              "phone": "061-853-0206",
+              "phoneVerified": true
             },
             {
               "category": "한식(떡갈비)",
@@ -8889,10 +8889,10 @@
               "name": "보성녹차떡갈비원조",
               "menu": "녹차 돼지 떡갈비",
               "menuVerified": true,
-              "address": "전남 보성군 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전남광주통합특별시 보성군 보성읍 흥성로 2541-4",
+              "addressVerified": true,
+              "phone": "061-853-0300",
+              "phoneVerified": true
             }
           ]
         },
@@ -8954,10 +8954,10 @@
               "name": "소망식당",
               "menu": "백반, 주물럭 정식",
               "menuVerified": true,
-              "address": "전남 해남군 해남읍 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전남광주통합특별시 해남군 해남읍 구교2길 2",
+              "addressVerified": true,
+              "phone": "061-533-3456",
+              "phoneVerified": true
             },
             {
               "category": "한식(닭코스)",
@@ -8965,10 +8965,10 @@
               "name": "원조장수통닭",
               "menu": "닭 코스요리",
               "menuVerified": true,
-              "address": "전남 해남군 해남읍 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전남광주통합특별시 해남군 해남읍 고산로 295",
+              "addressVerified": true,
+              "phone": "061-535-1003",
+              "phoneVerified": true
             },
             {
               "category": "한식(순대국/내장탕)",
@@ -8976,10 +8976,10 @@
               "name": "신창손순대국밥",
               "menu": "순대국, 내장탕",
               "menuVerified": true,
-              "address": "전남 해남군 해남읍 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전남광주통합특별시 해남군 산이면 관광레저로 1673",
+              "addressVerified": true,
+              "phone": "061-537-3388",
+              "phoneVerified": true
             },
             {
               "category": "한식(갈비탕/돼지갈비)",
@@ -8987,10 +8987,10 @@
               "name": "대동명품한우",
               "menu": "황칠갈비탕, 숙성 돼지갈비",
               "menuVerified": true,
-              "address": "전남 해남군 북평면 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전남광주통합특별시 해남군 북평면 현산북평로 1125",
+              "addressVerified": true,
+              "phone": "061-537-0222",
+              "phoneVerified": true
             },
             {
               "category": "한식(팥칼국수)",
@@ -9000,8 +9000,8 @@
               "menuVerified": true,
               "address": "전남 해남군 현산면 구산리",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "061-536-0880",
+              "phoneVerified": true
             }
           ]
         },
@@ -9014,10 +9014,10 @@
               "name": "정남진만나숯불갈비식육식당",
               "menu": "장흥삼합",
               "menuVerified": true,
-              "address": "전남 장흥군 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전남광주통합특별시 장흥군 장흥읍 물레방앗간길 4",
+              "addressVerified": true,
+              "phone": "061-864-1818",
+              "phoneVerified": true
             },
             {
               "category": "한식(장어)",
@@ -9043,8 +9043,8 @@
               "menuVerified": true,
               "address": "전라남도 무안군 몽탄면 사창리",
               "addressVerified": true,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "phone": "061-452-3775",
+              "phoneVerified": true
             }
           ]
         },
@@ -9057,10 +9057,10 @@
               "name": "빙그레식당",
               "menu": "생선구이, 전복 코스",
               "menuVerified": true,
-              "address": "전남 완도군 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전남광주통합특별시 완도군 완도읍 청해진로 1565-4",
+              "addressVerified": true,
+              "phone": "061-554-1144",
+              "phoneVerified": true
             }
           ]
         },
@@ -9105,10 +9105,10 @@
               "name": "대동식당",
               "menu": "해산물 요리",
               "menuVerified": true,
-              "address": "전남 고흥군 나로도 일대 (상세 주소 확인 필요)",
-              "addressVerified": false,
-              "phone": "확인 필요",
-              "phoneVerified": false
+              "address": "전남광주통합특별시 고흥군 봉래면 나로도항길 105",
+              "addressVerified": true,
+              "phone": "061-833-6673",
+              "phoneVerified": true
             }
           ]
         }
