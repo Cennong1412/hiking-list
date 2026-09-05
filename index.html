@@ -41,6 +41,9 @@
   }
   header h1{margin:0 0 4px;font-size:1.35rem;}
   header p{margin:0;font-size:0.82rem;opacity:0.9;}
+  .wake-lock-toggle{margin-top:12px;background:var(--card);border:1px solid var(--line);color:var(--sub);
+    font-size:0.78rem;font-weight:700;padding:6px 14px;border-radius:999px;cursor:pointer;}
+  .wake-lock-toggle.is-on{background:var(--accent);color:#1b1408;border-color:var(--accent);}
 
   .tabs{
     display:flex;
@@ -438,6 +441,7 @@
 <header>
   <h1>📷 나의 사진 · 여행 · 맛집</h1>
   <p>촬영 설정 가이드 · 등산·국내·해외·골프 여행 코스 · 전국 시군구 맛집</p>
+  <button id="wake-lock-toggle-btn" class="wake-lock-toggle" onclick="toggleWakeLockPref()"></button>
 </header>
 
 <div class="tabs">
@@ -588,7 +592,7 @@
   <div class="subtabs scroll" id="food-region-subtabs"></div>
   <div class="sortbar" id="food-gu-bar"></div>
   <div class="sortbar" id="food-category-bar"></div>
-  <input class="searchbox" id="food-search" placeholder="식당 이름·메뉴로 검색">
+  <input class="searchbox" id="food-search" placeholder="식당 이름·메뉴·지역으로 검색">
   <div class="note" id="food-note"></div>
   <div class="note" id="food-edits-summary" style="display:none"></div>
   <div id="food-list"><div class="empty">불러오는 중...</div></div>
@@ -601,6 +605,34 @@
 </div>
 
 <script>
+/* ===================== 화면 꺼짐 방지 토글 ===================== */
+let _wakeLock = null;
+let wakeLockPref = localStorage.getItem('wakeLockPref') === '1';
+async function requestWakeLock() {
+  if (!('wakeLock' in navigator)) return;
+  try { _wakeLock = await navigator.wakeLock.request('screen'); } catch (e) {}
+}
+function releaseWakeLock() {
+  if (_wakeLock) { _wakeLock.release().catch(() => {}); _wakeLock = null; }
+}
+function toggleWakeLockPref() {
+  wakeLockPref = !wakeLockPref;
+  try { localStorage.setItem('wakeLockPref', wakeLockPref ? '1' : '0'); } catch (e) {}
+  if (wakeLockPref) requestWakeLock(); else releaseWakeLock();
+  renderWakeLockToggle();
+}
+function renderWakeLockToggle() {
+  const btn = document.getElementById('wake-lock-toggle-btn');
+  if (!btn) return;
+  btn.textContent = wakeLockPref ? '🔆 화면 유지 ON' : '🌙 화면 유지 OFF';
+  btn.classList.toggle('is-on', wakeLockPref);
+}
+if (wakeLockPref) requestWakeLock();
+renderWakeLockToggle();
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'visible' && wakeLockPref) requestWakeLock();
+});
+
 const DATA = {
   "1h": {
     note: "1시간 이내 코스 15곳. 대부분 국도·지방도로 이동해 통행료가 거의 없어요. 거리·시간은 동탄역 인근 기준 추정치이니 출발 전 내비게이션으로 다시 확인하세요.",
@@ -1294,7 +1326,7 @@ function renderFoodList(){
     const list = sr.restaurants.filter(r => {
       if(foodCategory !== "__all__" && foodMainCategory(r.category) !== foodCategory) return false;
       if(q){
-        const hay = [r.name, r.menu, r.category].join(" ").toLowerCase();
+        const hay = [r.name, r.menu, r.category, sr.name].join(" ").toLowerCase();
         if(!hay.includes(q)) return false;
       }
       return true;
