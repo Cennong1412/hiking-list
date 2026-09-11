@@ -1,0 +1,1112 @@
+{
+  "meta": {
+    "title": "화성/동탄 40-50대 데이트 코스",
+    "targetAge": "40대~50대",
+    "baseRegion": "경기도 화성시 동탄 인근",
+    "description": "3시간 / 5시간 / 7시간 데이트 코스와 1박2일 여행 코스. 각 구간별 5개씩 구성.",
+    "lastUpdated": "2026-09-10"
+  },
+  "courses3h": [
+    {
+      "id": "3h-01",
+      "title": "동탄호수공원 브런치 & 티타임",
+      "theme": "호수뷰 카페 + 산책",
+      "region": "화성 동탄",
+      "durationHours": 3,
+      "budgetLevel": "보통",
+      "stops": [
+        {
+          "order": 1,
+          "time": "14:00",
+          "name": "Lac De Miel",
+          "category": "카페",
+          "address": "경기도 화성시 동탄대로5길 32, 3층",
+          "latitude": 37.1667413,
+          "longitude": 127.1035616,
+          "description": "동탄호수공원이 내려다보이는 베이커리 카페. 4층 루프탑도 있어 날씨 좋은 날 추천.",
+          "tip": "주말엔 창가 자리 경쟁이 치열하니 평일 오후를 추천."
+        },
+        {
+          "order": 2,
+          "time": "15:30",
+          "name": "동탄호수공원 산책로",
+          "category": "산책",
+          "address": "경기도 화성시 동탄 센트럴파크 일대",
+          "latitude": 37.1660,
+          "longitude": 127.1040,
+          "description": "호수를 한 바퀴 도는 산책로. 노을 시간대 분위기가 좋아 저녁 데이트로도 무난.",
+          "tip": "천천히 걸어도 1시간 이내 완주 가능."
+        }
+      ]
+    },
+    {
+      "id": "3h-02",
+      "title": "자연감성 브런치 힐링",
+      "theme": "정원형 카페 + 조용한 대화",
+      "region": "화성 동탄",
+      "durationHours": 3,
+      "budgetLevel": "보통",
+      "stops": [
+        {
+          "order": 1,
+          "time": "11:00",
+          "name": "카페인중리",
+          "category": "카페",
+          "address": "경기도 화성시 풀무골로 127",
+          "latitude": 37.2059926,
+          "longitude": 127.1406642,
+          "description": "숲속 정원 같은 분위기의 2층 규모 브런치 카페. 테이블 간격이 넓어 대화하기 좋음.",
+          "tip": "규모가 커서 주말에도 자리 찾기가 비교적 수월한 편."
+        },
+        {
+          "order": 2,
+          "time": "13:00",
+          "name": "카페 주변 산책로",
+          "category": "산책",
+          "address": "화성시 풀무골로 인근",
+          "latitude": 37.2050,
+          "longitude": 127.1400,
+          "description": "카페 인근 조용한 골목과 소규모 공원을 가볍게 걷기 좋은 코스.",
+          "tip": "그늘이 많지 않으니 여름철엔 이른 오전 추천."
+        }
+      ]
+    },
+    {
+      "id": "3h-03",
+      "title": "정원 브런치 데이트",
+      "theme": "호텔 브런치 + 도심 산책",
+      "region": "화성 동탄",
+      "durationHours": 3,
+      "budgetLevel": "고급",
+      "stops": [
+        {
+          "order": 1,
+          "time": "10:00",
+          "name": "Green Garden (동탄 스타즈호텔 내)",
+          "category": "맛집",
+          "address": "경기도 화성시 동탄반석로 171, 2층",
+          "latitude": 37.2040258,
+          "longitude": 127.0706975,
+          "description": "실내 정원 콘셉트의 이탈리안 브런치 레스토랑. 아침 시간대는 조식 뷔페 운영.",
+          "tip": "가격대가 있는 편이라 기념일 브런치로 적합."
+        },
+        {
+          "order": 2,
+          "time": "12:00",
+          "name": "동탄역 인근 산책",
+          "category": "산책",
+          "address": "화성시 동탄역로 일대",
+          "latitude": 37.2003748,
+          "longitude": 127.0973202,
+          "description": "동탄 신도시 특유의 넓은 보행로를 따라 걷는 도심 산책.",
+          "tip": "산책 후 근처 카페에서 티타임으로 마무리 가능."
+        }
+      ]
+    },
+    {
+      "id": "3h-04",
+      "title": "궁평항 노을 산책",
+      "theme": "서해 노을 + 해산물 간식",
+      "region": "화성 서신면",
+      "durationHours": 3,
+      "budgetLevel": "저렴",
+      "stops": [
+        {
+          "order": 1,
+          "time": "16:30",
+          "name": "궁평항 선착장",
+          "category": "관광",
+          "address": "화성시 궁평항선착장",
+          "latitude": 37.1155292,
+          "longitude": 126.6773447,
+          "description": "서해 노을 명소로 유명한 항구. 갯벌 산책과 갈매기 먹이주기 체험 가능.",
+          "tip": "주차가 혼잡할 수 있어 노을 시각보다 1시간 일찍 도착 추천."
+        },
+        {
+          "order": 2,
+          "time": "17:30",
+          "name": "궁평항 해안 산책로 & 해산물 포차",
+          "category": "맛집",
+          "address": "궁평항 인근",
+          "latitude": 37.1150,
+          "longitude": 126.6780,
+          "description": "해안 산책로를 걸은 뒤 즉석에서 회나 구이를 즐길 수 있는 포차거리.",
+          "tip": "가격은 다소 유동적이니 미리 시세를 물어보고 주문."
+        }
+      ]
+    },
+    {
+      "id": "3h-05",
+      "title": "대형 베이커리카페 나들이",
+      "theme": "여유로운 공간 + 커피",
+      "region": "화성 동탄",
+      "durationHours": 3,
+      "budgetLevel": "보통",
+      "stops": [
+        {
+          "order": 1,
+          "time": "14:00",
+          "name": "URBANRI ST.",
+          "category": "카페",
+          "address": "경기도 화성시 장지로 60-12",
+          "latitude": 37.1575008,
+          "longitude": 127.1137178,
+          "description": "동탄에서 손꼽히는 초대형 베이커리 카페. 좌석 간격이 넓고 주차가 넉넉함.",
+          "tip": "평일엔 여유롭고 조용해 대화 나누기 좋음."
+        },
+        {
+          "order": 2,
+          "time": "16:00",
+          "name": "카페 주변 거리 산책",
+          "category": "산책",
+          "address": "화성시 장지로 일대",
+          "latitude": 37.1580,
+          "longitude": 127.1130,
+          "description": "카페 인근 신도시 상가 거리를 가볍게 둘러보는 코스.",
+          "tip": "쇼핑이나 디저트 투어를 곁들이기 좋음."
+        }
+      ]
+    }
+  ],
+  "courses5h": [
+    {
+      "id": "5h-01",
+      "title": "역사 산책 + 브런치 데이트",
+      "theme": "브런치 + 세계유산 산책",
+      "region": "화성 동탄 ~ 안녕동",
+      "durationHours": 5,
+      "budgetLevel": "보통",
+      "stops": [
+        {
+          "order": 1,
+          "time": "11:00",
+          "name": "퀸스타운",
+          "category": "맛집",
+          "address": "경기도 화성시 동탄기흥로520번나길 20",
+          "latitude": 37.2061707,
+          "longitude": 127.0943617,
+          "description": "뉴질랜드 감성의 브런치 레스토랑. 프렌치토스트가 시그니처.",
+          "tip": "아침, 점심, 저녁 메뉴가 다양해 시간대에 구애받지 않고 방문 가능."
+        },
+        {
+          "order": 2,
+          "time": "13:00",
+          "name": "융건릉(사도세자·정조 묘역)",
+          "category": "산책",
+          "address": "경기도 화성시 효행로481번길 21",
+          "latitude": 37.2119224,
+          "longitude": 126.9906149,
+          "description": "유네스코 세계유산으로 지정된 조선왕릉. 소나무 숲길이 조용하고 운치 있음.",
+          "tip": "입장료 약 2천원 수준. 산불 예방 기간엔 일부 산책로가 통제될 수 있음."
+        },
+        {
+          "order": 3,
+          "time": "15:30",
+          "name": "카페인중리",
+          "category": "카페",
+          "address": "경기도 화성시 풀무골로 127",
+          "latitude": 37.2059926,
+          "longitude": 127.1406642,
+          "description": "산책 후 여유롭게 마무리하기 좋은 대형 정원형 카페.",
+          "tip": "융건릉에서 차로 약 20분 거리."
+        }
+      ]
+    },
+    {
+      "id": "5h-02",
+      "title": "화성 우리꽃식물원 힐링",
+      "theme": "식물원 산책 + 여유",
+      "region": "화성 팔탄면",
+      "durationHours": 5,
+      "budgetLevel": "저렴",
+      "stops": [
+        {
+          "order": 1,
+          "time": "10:30",
+          "name": "화성 우리꽃식물원",
+          "category": "관광",
+          "address": "경기도 화성시 팔탄면 3.1만세로 777-17",
+          "latitude": 37.1159094,
+          "longitude": 126.8830669,
+          "description": "넓은 부지에 조성된 식물원으로 전망대까지 가벼운 등산 코스도 있음.",
+          "tip": "월요일 휴무이니 방문 전 요일 확인 필수."
+        },
+        {
+          "order": 2,
+          "time": "13:00",
+          "name": "인근 한식 맛집에서 점심",
+          "category": "맛집",
+          "address": "팔탄면 일대",
+          "latitude": 37.1200,
+          "longitude": 126.8850,
+          "description": "식물원 인근 한적한 한정식·백반 식당에서 여유로운 점심.",
+          "tip": "지역 특성상 예약이 필요한 곳도 있으니 미리 확인."
+        },
+        {
+          "order": 3,
+          "time": "15:00",
+          "name": "Lac De Miel",
+          "category": "카페",
+          "address": "경기도 화성시 동탄대로5길 32",
+          "latitude": 37.1667413,
+          "longitude": 127.1035616,
+          "description": "동탄 복귀 후 호수뷰 카페에서 티타임으로 마무리.",
+          "tip": "팔탄면에서 동탄까지 차로 약 25~30분."
+        }
+      ]
+    },
+    {
+      "id": "5h-03",
+      "title": "물향기수목원 나들이",
+      "theme": "수목원 산책 + 근교 나들이",
+      "region": "오산",
+      "durationHours": 5,
+      "budgetLevel": "저렴",
+      "stops": [
+        {
+          "order": 1,
+          "time": "11:00",
+          "name": "물향기수목원",
+          "category": "관광",
+          "address": "경기도 오산시 청학로 211",
+          "latitude": 37.1671751,
+          "longitude": 127.0598228,
+          "description": "사계절 산책로가 잘 조성된 수목원. 입장료 1,500원 수준으로 부담 없음.",
+          "tip": "월요일 휴무. 도시락을 준비하면 피크닉도 가능."
+        },
+        {
+          "order": 2,
+          "time": "13:30",
+          "name": "인근 맛집 점심",
+          "category": "맛집",
+          "address": "오산 청학동 일대",
+          "latitude": 37.1650,
+          "longitude": 127.0620,
+          "description": "수목원 인근 조용한 식당에서 점심 식사.",
+          "tip": "차량 이동 5분 내외 거리에 여러 식당이 있음."
+        },
+        {
+          "order": 3,
+          "time": "15:00",
+          "name": "Cafe Unique",
+          "category": "카페",
+          "address": "경기도 화성시 동탄순환대로5길 5-18, 1층",
+          "latitude": 37.1660707,
+          "longitude": 127.0994809,
+          "description": "구운 디저트와 에그타르트로 유명한 조용한 소규모 카페.",
+          "tip": "동탄역(보리게이션) 인근이라 대중교통 접근도 편리."
+        }
+      ]
+    },
+    {
+      "id": "5h-04",
+      "title": "궁평항 + 제부도 드라이브",
+      "theme": "서해안 드라이브 + 섬 산책",
+      "region": "화성 서신면 ~ 제부도",
+      "durationHours": 5,
+      "budgetLevel": "보통",
+      "stops": [
+        {
+          "order": 1,
+          "time": "11:30",
+          "name": "동탄 시내 맛집에서 점심",
+          "category": "맛집",
+          "address": "화성시 동탄 일대",
+          "latitude": 37.2000,
+          "longitude": 127.0980,
+          "description": "드라이브 전 든든하게 점심을 먹고 출발.",
+          "tip": "포장 가능한 카페 음료를 챙겨 드라이브하면 좋음."
+        },
+        {
+          "order": 2,
+          "time": "13:30",
+          "name": "궁평항 선착장",
+          "category": "관광",
+          "address": "화성시 궁평항선착장",
+          "latitude": 37.1155292,
+          "longitude": 126.6773447,
+          "description": "갯벌과 방파제 산책, 신선한 해산물 구경이 가능한 항구.",
+          "tip": "궁평항에서 제부도까지 차로 약 20분."
+        },
+        {
+          "order": 3,
+          "time": "15:00",
+          "name": "제부도 아트파크",
+          "category": "관광",
+          "address": "경기도 화성시 서신면 제부리 190-2",
+          "latitude": 37.1699508,
+          "longitude": 126.6174722,
+          "description": "컨테이너 박스로 만든 갤러리와 해안 산책로(약 6.2km 트레킹 코스 일부)를 갖춘 아트 공간.",
+          "tip": "제부도는 물때에 따라 바닷길이 열리고 닫히니 방문 전 물때 시간표 확인 필수."
+        }
+      ]
+    },
+    {
+      "id": "5h-05",
+      "title": "수원 행궁동 맛집 투어",
+      "theme": "미식 + 전통 골목 산책",
+      "region": "수원 행궁동",
+      "durationHours": 5,
+      "budgetLevel": "고급",
+      "stops": [
+        {
+          "order": 1,
+          "time": "12:00",
+          "name": "Altitude",
+          "category": "맛집",
+          "address": "경기도 수원시 화서문로45번길 9",
+          "latitude": 37.2856913,
+          "longitude": 127.0126656,
+          "description": "스테이크와 파스타로 평이 좋은 이탈리안 레스토랑. 예약 추천.",
+          "tip": "메뉴판이 한글 위주이므로 사진 메뉴를 참고."
+        },
+        {
+          "order": 2,
+          "time": "14:00",
+          "name": "행궁동 돌담길 산책",
+          "category": "산책",
+          "address": "수원시 팔달구 행궁동 일대",
+          "latitude": 37.2820,
+          "longitude": 127.0140,
+          "description": "수원화성 성곽과 어우러진 골목길 산책. 소품샵과 갤러리 카페가 많음.",
+          "tip": "돌담길이 좁으니 편한 신발 착용 추천."
+        },
+        {
+          "order": 3,
+          "time": "16:00",
+          "name": "쿠어드꾸뜨",
+          "category": "카페",
+          "address": "경기도 수원시 신풍로 54, 1층·2층",
+          "latitude": 37.2859089,
+          "longitude": 127.0140609,
+          "description": "조용하고 여유로운 분위기의 브런치·디저트 카페. 파스타도 맛볼 수 있음.",
+          "tip": "행궁동 산책 동선과 가까워 도보 이동 가능."
+        }
+      ]
+    }
+  ],
+  "courses7h": [
+    {
+      "id": "7h-01",
+      "title": "풀데이 역사 + 미식 코스",
+      "theme": "세계유산 + 파인다이닝 + 서해 노을",
+      "region": "화성 전역",
+      "durationHours": 7,
+      "budgetLevel": "고급",
+      "stops": [
+        {
+          "order": 1,
+          "time": "11:00",
+          "name": "융건릉(사도세자·정조 묘역)",
+          "category": "산책",
+          "address": "경기도 화성시 효행로481번길 21",
+          "latitude": 37.2119224,
+          "longitude": 126.9906149,
+          "description": "오전 여유롭게 세계유산 산책으로 하루를 시작.",
+          "tip": "사람이 적은 오전 시간대 추천."
+        },
+        {
+          "order": 2,
+          "time": "13:00",
+          "name": "동탄 맛집 기세 (프리미엄 한식 파인다이닝)",
+          "category": "맛집",
+          "address": "경기도 화성시 동탄역로 102, 1093·1094호",
+          "latitude": 37.1957889,
+          "longitude": 127.0982022,
+          "description": "코스 형태의 프리미엄 한식당. 프라이빗룸이 있어 기념일 식사로 적합.",
+          "tip": "가격대가 높은 편이라 사전 예약 및 인원 확인 필수."
+        },
+        {
+          "order": 3,
+          "time": "15:30",
+          "name": "궁평항 → 제부도 드라이브",
+          "category": "관광",
+          "address": "화성시 서신면 일대",
+          "latitude": 37.14,
+          "longitude": 126.65,
+          "description": "서해안을 따라 드라이브하며 궁평항과 제부도를 함께 둘러봄.",
+          "tip": "제부도는 물때 확인 필수."
+        },
+        {
+          "order": 4,
+          "time": "18:00",
+          "name": "궁평항 노을 & 해산물 저녁",
+          "category": "맛집",
+          "address": "화성시 궁평항선착장 인근",
+          "latitude": 37.1150,
+          "longitude": 126.6780,
+          "description": "노을을 보며 즉석 해산물로 저녁 식사.",
+          "tip": "일몰 시각을 미리 검색해 자리를 잡는 것이 좋음."
+        }
+      ]
+    },
+    {
+      "id": "7h-02",
+      "title": "화성 수목원 풀데이",
+      "theme": "식물원 + 서해 노을 + 저녁 식사",
+      "region": "화성 팔탄면 ~ 서신면",
+      "durationHours": 7,
+      "budgetLevel": "보통",
+      "stops": [
+        {
+          "order": 1,
+          "time": "10:30",
+          "name": "화성 우리꽃식물원",
+          "category": "관광",
+          "address": "경기도 화성시 팔탄면 3.1만세로 777-17",
+          "latitude": 37.1159094,
+          "longitude": 126.8830669,
+          "description": "오전에 여유롭게 식물원을 산책.",
+          "tip": "월요일 휴무."
+        },
+        {
+          "order": 2,
+          "time": "13:00",
+          "name": "인근 맛집 점심",
+          "category": "맛집",
+          "address": "팔탄면 일대",
+          "latitude": 37.12,
+          "longitude": 126.885,
+          "description": "식물원 인근 한적한 식당에서 점심.",
+          "tip": "지역 특성상 사전 확인 후 방문 추천."
+        },
+        {
+          "order": 3,
+          "time": "16:00",
+          "name": "궁평항 노을 산책",
+          "category": "관광",
+          "address": "화성시 궁평항선착장",
+          "latitude": 37.1155292,
+          "longitude": 126.6773447,
+          "description": "팔탄에서 궁평항까지 이동해 노을을 감상.",
+          "tip": "팔탄에서 궁평항까지 차로 약 30분."
+        },
+        {
+          "order": 4,
+          "time": "18:30",
+          "name": "궁평항 해산물 저녁",
+          "category": "맛집",
+          "address": "궁평항 인근",
+          "latitude": 37.1150,
+          "longitude": 126.6780,
+          "description": "노을을 본 뒤 근처 포차·식당에서 저녁 식사로 마무리.",
+          "tip": "회, 조개구이 등 계절 메뉴를 확인."
+        }
+      ]
+    },
+    {
+      "id": "7h-03",
+      "title": "수원화성 나들이",
+      "theme": "성곽 산책 + 미식 + 야경",
+      "region": "수원",
+      "durationHours": 7,
+      "budgetLevel": "고급",
+      "stops": [
+        {
+          "order": 1,
+          "time": "11:00",
+          "name": "수원화성 성곽길 산책",
+          "category": "산책",
+          "address": "수원시 팔달구 일대",
+          "latitude": 37.2856,
+          "longitude": 127.0095,
+          "description": "유네스코 세계유산 수원화성 성곽을 따라 걷는 산책 코스.",
+          "tip": "화성열차를 이용하면 체력 부담을 줄일 수 있음."
+        },
+        {
+          "order": 2,
+          "time": "13:00",
+          "name": "Altitude",
+          "category": "맛집",
+          "address": "경기도 수원시 화서문로45번길 9",
+          "latitude": 37.2856913,
+          "longitude": 127.0126656,
+          "description": "스테이크·파스타 맛집에서 점심 식사.",
+          "tip": "예약 추천."
+        },
+        {
+          "order": 3,
+          "time": "15:00",
+          "name": "행궁동 카페거리 산책",
+          "category": "산책",
+          "address": "수원시 팔달구 행궁동 일대",
+          "latitude": 37.282,
+          "longitude": 127.014,
+          "description": "골목 곳곳의 소품샵과 카페를 둘러보며 여유롭게 시간 보내기.",
+          "tip": "도보 위주 코스이니 편한 신발 필수."
+        },
+        {
+          "order": 4,
+          "time": "18:00",
+          "name": "수원화성 야경 감상",
+          "category": "관광",
+          "address": "수원시 장안문 일대",
+          "latitude": 37.2905,
+          "longitude": 127.0117,
+          "description": "조명이 켜진 성곽과 장안문 야경을 감상하며 하루 마무리.",
+          "tip": "저녁 식사는 행궁동에서 미리 해결하고 가벼운 산책으로 마무리 추천."
+        }
+      ]
+    },
+    {
+      "id": "7h-04",
+      "title": "물향기수목원 + 오산 나들이",
+      "theme": "수목원 + 카페 + 저녁 식사",
+      "region": "오산 ~ 동탄",
+      "durationHours": 7,
+      "budgetLevel": "보통",
+      "stops": [
+        {
+          "order": 1,
+          "time": "10:30",
+          "name": "물향기수목원",
+          "category": "관광",
+          "address": "경기도 오산시 청학로 211",
+          "latitude": 37.1671751,
+          "longitude": 127.0598228,
+          "description": "오전 여유로운 산책으로 하루 시작.",
+          "tip": "월요일 휴무, 도시락 지참 가능."
+        },
+        {
+          "order": 2,
+          "time": "13:00",
+          "name": "인근 맛집 점심",
+          "category": "맛집",
+          "address": "오산 청학동 일대",
+          "latitude": 37.165,
+          "longitude": 127.062,
+          "description": "수목원 근처에서 여유롭게 점심 식사.",
+          "tip": "이동 5분 내외."
+        },
+        {
+          "order": 3,
+          "time": "15:00",
+          "name": "Cafe Unique",
+          "category": "카페",
+          "address": "경기도 화성시 동탄순환대로5길 5-18",
+          "latitude": 37.1660707,
+          "longitude": 127.0994809,
+          "description": "디저트와 커피로 여유로운 오후 티타임.",
+          "tip": "동탄역 인근이라 접근성이 좋음."
+        },
+        {
+          "order": 4,
+          "time": "18:00",
+          "name": "동탄 시내 저녁 식사",
+          "category": "맛집",
+          "address": "화성시 동탄 일대",
+          "latitude": 37.2,
+          "longitude": 127.098,
+          "description": "하루를 마무리하는 편안한 저녁 식사.",
+          "tip": "예약 가능한 식당을 미리 정해두면 좋음."
+        }
+      ]
+    },
+    {
+      "id": "7h-05",
+      "title": "서해안 드라이브 풀데이",
+      "theme": "궁평항 + 제부도 + 노을 드라이브",
+      "region": "화성 서신면",
+      "durationHours": 7,
+      "budgetLevel": "보통",
+      "stops": [
+        {
+          "order": 1,
+          "time": "11:30",
+          "name": "궁평항 선착장",
+          "category": "관광",
+          "address": "화성시 궁평항선착장",
+          "latitude": 37.1155292,
+          "longitude": 126.6773447,
+          "description": "갯벌 산책과 신선한 해산물 구경으로 하루 시작.",
+          "tip": "오전엔 비교적 한산한 편."
+        },
+        {
+          "order": 2,
+          "time": "13:00",
+          "name": "궁평항 인근 해산물 맛집 점심",
+          "category": "맛집",
+          "address": "궁평항 인근",
+          "latitude": 37.115,
+          "longitude": 126.678,
+          "description": "싱싱한 회나 조개구이로 점심 식사.",
+          "tip": "가격은 시세에 따라 달라질 수 있음."
+        },
+        {
+          "order": 3,
+          "time": "15:00",
+          "name": "제부도 아트파크 & 해안 산책로",
+          "category": "관광",
+          "address": "경기도 화성시 서신면 제부리 190-2",
+          "latitude": 37.1699508,
+          "longitude": 126.6174722,
+          "description": "컨테이너 갤러리와 해안 트레킹 코스를 여유롭게 즐김.",
+          "tip": "물때 확인 필수, 밀물 시간엔 바닷길이 통제됨."
+        },
+        {
+          "order": 4,
+          "time": "18:00",
+          "name": "노을 드라이브 후 귀가",
+          "category": "관광",
+          "address": "화성 서신면 → 동탄",
+          "latitude": 37.15,
+          "longitude": 126.85,
+          "description": "서해 노을을 보며 여유롭게 드라이브하며 귀가.",
+          "tip": "귀가 전 동탄 인근 카페에서 마무리 티타임도 추천."
+        }
+      ]
+    }
+  ],
+  "overnightCourses": [
+    {
+      "id": "2d1n-01",
+      "title": "안면도 서해안 힐링 여행",
+      "theme": "조용한 풀빌라 + 해변 산책",
+      "region": "충남 태안 안면도",
+      "travelTimeFromHwaseong": "약 1.5~2시간",
+      "budgetLevel": "고급",
+      "days": [
+        {
+          "day": 1,
+          "stops": [
+            {
+              "order": 1,
+              "time": "오전",
+              "name": "화성 출발 → 안면도 이동",
+              "category": "이동",
+              "description": "여유롭게 출발해 점심시간 전 도착.",
+              "tip": "성수기 주말엔 서해안고속도로 정체 가능성 있음."
+            },
+            {
+              "order": 2,
+              "time": "점심 전",
+              "name": "꽃지해변 & 할미할아비바위",
+              "category": "관광",
+              "latitude": null,
+              "longitude": null,
+              "description": "일몰 명소로 유명하지만 낮 산책도 운치 있음.",
+              "tip": "해변을 따라 가볍게 산책하기 좋음."
+            },
+            {
+              "order": 3,
+              "time": "점심",
+              "name": "안면도 해산물 맛집",
+              "category": "맛집",
+              "description": "대하, 꽃게 등 제철 해산물 요리.",
+              "tip": "제철 메뉴는 계절에 따라 달라지니 방문 전 확인."
+            },
+            {
+              "order": 4,
+              "time": "오후",
+              "name": "지중해아침 펜션 체크인",
+              "category": "숙소",
+              "address": "충청남도 태안군 근흥면 근장돌길 141-98",
+              "latitude": 36.4145235,
+              "longitude": 126.3714042,
+              "description": "풀빌라형 숙소로 와인바, 정원, 노을뷰가 평이 좋음.",
+              "tip": "인기 숙소이므로 사전 예약 필수."
+            },
+            {
+              "order": 5,
+              "time": "저녁",
+              "name": "숙소 수영장 & 바비큐",
+              "category": "숙소",
+              "description": "둘만의 조용한 저녁, 바비큐와 와인으로 하루 마무리.",
+              "tip": "숙소마다 바비큐 포함 여부가 다르니 예약 시 확인."
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "stops": [
+            {
+              "order": 1,
+              "time": "오전",
+              "name": "조식 & 체크아웃",
+              "category": "숙소",
+              "description": "여유로운 아침 식사 후 체크아웃.",
+              "tip": "체크아웃 시간을 미리 확인."
+            },
+            {
+              "order": 2,
+              "time": "오전~점심 전",
+              "name": "안면도 자연휴양림 산책",
+              "category": "산책",
+              "description": "소나무 숲길을 가볍게 걷기 좋은 코스.",
+              "tip": "편한 신발 착용 추천."
+            },
+            {
+              "order": 3,
+              "time": "점심",
+              "name": "귀가 전 맛집에서 점심",
+              "category": "맛집",
+              "description": "귀가 전 마지막 식사로 여행 마무리.",
+              "tip": "귀가 시간을 고려해 이른 점심 추천."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2d1n-02",
+      "title": "강릉 예술·바다 여행",
+      "theme": "미디어아트 + 조용한 해변",
+      "region": "강원도 강릉",
+      "travelTimeFromHwaseong": "약 2시간 30분",
+      "budgetLevel": "보통",
+      "days": [
+        {
+          "day": 1,
+          "stops": [
+            {
+              "order": 1,
+              "time": "오전",
+              "name": "화성 출발 → 강릉 이동",
+              "category": "이동",
+              "description": "약 2시간 30분 소요.",
+              "tip": "휴게소 한 곳 정도 들르는 일정으로 계획."
+            },
+            {
+              "order": 2,
+              "time": "점심 전~점심",
+              "name": "Arte Museum Valley Gangneung",
+              "category": "관광",
+              "address": "강원도 강릉시 난설헌로 131",
+              "latitude": 37.7917805,
+              "longitude": 128.9071900,
+              "description": "몰입형 미디어아트 전시관. 2~3시간 관람 권장.",
+              "tip": "정원 산책로도 함께 둘러보면 좋음."
+            },
+            {
+              "order": 3,
+              "time": "오후",
+              "name": "영진해변 산책",
+              "category": "산책",
+              "address": "강원도 강릉시 연곡면",
+              "latitude": 37.8690454,
+              "longitude": 128.8455782,
+              "description": "유명 해변보다 한적하고 조용한 분위기.",
+              "tip": "백사장이 거칠어 걷기 편한 신발 추천."
+            },
+            {
+              "order": 4,
+              "time": "오후 늦게",
+              "name": "해중공원전망대",
+              "category": "관광",
+              "address": "강원도 강릉시 안현동",
+              "latitude": 37.8142214,
+              "longitude": 128.8983249,
+              "description": "파스텔톤 테트라포드가 있는 포토 명소.",
+              "tip": "주차 공간이 협소하니 도보 이동 고려."
+            },
+            {
+              "order": 5,
+              "time": "저녁",
+              "name": "숙소 체크인 & 저녁 식사",
+              "category": "숙소",
+              "description": "해안가 숙소에서 바다를 보며 휴식.",
+              "tip": "숙소는 미리 예약 필수, 성수기엔 가격 변동 큼."
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "stops": [
+            {
+              "order": 1,
+              "time": "오전",
+              "name": "안목해변 모래시계공원",
+              "category": "관광",
+              "address": "강원도 강릉시 헌화로 990",
+              "latitude": 37.6873853,
+              "longitude": 129.0377099,
+              "description": "거대 모래시계와 타임뮤지엄, 해안 산책로가 있는 공원.",
+              "tip": "산책하기 좋은 이른 오전 시간대 추천."
+            },
+            {
+              "order": 2,
+              "time": "점심 전",
+              "name": "Haslla Art World",
+              "category": "관광",
+              "address": "강원도 강릉시 율곡로 1441",
+              "latitude": 37.7065101,
+              "longitude": 129.0099078,
+              "description": "바다 전망의 조각공원 및 갤러리. 사진 명소로도 유명.",
+              "tip": "도보 이동이 많으니 편한 옷차림 추천."
+            },
+            {
+              "order": 3,
+              "time": "점심",
+              "name": "안목해변 카페거리에서 점심 후 귀가",
+              "category": "맛집",
+              "description": "커피 한 잔과 함께 여행 마무리 후 귀가.",
+              "tip": "귀가 시간을 고려해 오후 이른 시간 출발 추천."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2d1n-03",
+      "title": "전주 한옥마을 미식 여행",
+      "theme": "전통 골목 + 미식 투어",
+      "region": "전북 전주",
+      "travelTimeFromHwaseong": "약 2시간",
+      "budgetLevel": "보통",
+      "days": [
+        {
+          "day": 1,
+          "stops": [
+            {
+              "order": 1,
+              "time": "오전",
+              "name": "화성 출발 → 전주 이동",
+              "category": "이동",
+              "description": "약 2시간 소요.",
+              "tip": "주말엔 한옥마을 진입로가 혼잡할 수 있음."
+            },
+            {
+              "order": 2,
+              "time": "점심",
+              "name": "전주 한옥마을 맛집에서 점심",
+              "category": "맛집",
+              "description": "전주비빔밥 등 지역 대표 음식 체험.",
+              "tip": "유명 맛집은 대기시간이 길 수 있음."
+            },
+            {
+              "order": 3,
+              "time": "오후",
+              "name": "전주 한옥마을 골목 산책",
+              "address": "전북 전주시 완산구 기린대로 99",
+              "latitude": 35.8175376,
+              "longitude": 127.1520417,
+              "category": "산책",
+              "description": "700여 채의 한옥이 보존된 전통 마을. 좁은 골목과 갤러리, 카페가 어우러짐.",
+              "tip": "평일 저녁에도 붐빌 수 있으니 여유 있게 일정 계획."
+            },
+            {
+              "order": 4,
+              "time": "저녁",
+              "name": "한옥 게스트하우스 체크인 & 저녁 산책",
+              "category": "숙소",
+              "description": "한옥 숙소에 머물며 전통적인 분위기를 느끼는 하룻밤.",
+              "tip": "한옥 숙소는 방음이 약할 수 있음을 감안."
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "stops": [
+            {
+              "order": 1,
+              "time": "오전",
+              "name": "한옥마을 아침 산책",
+              "category": "산책",
+              "description": "관광객이 적은 이른 아침, 조용한 골목을 여유롭게 산책.",
+              "tip": "사진 찍기 좋은 시간대."
+            },
+            {
+              "order": 2,
+              "time": "점심 전",
+              "name": "전동성당 & 경기전 주변 둘러보기",
+              "category": "관광",
+              "description": "역사적인 건축물을 둘러보며 가볍게 관광.",
+              "tip": "입장료가 있는 곳도 있으니 확인 후 방문."
+            },
+            {
+              "order": 3,
+              "time": "점심",
+              "name": "귀가 전 마지막 식사",
+              "category": "맛집",
+              "description": "전주 콩나물국밥 등으로 든든하게 마무리.",
+              "tip": "귀가 소요 시간을 감안해 이른 점심 추천."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2d1n-04",
+      "title": "경주 보문호 힐링 여행",
+      "theme": "호수 산책 + 역사 문화",
+      "region": "경북 경주",
+      "travelTimeFromHwaseong": "약 3시간",
+      "budgetLevel": "보통",
+      "days": [
+        {
+          "day": 1,
+          "stops": [
+            {
+              "order": 1,
+              "time": "오전",
+              "name": "화성 출발 → 경주 이동",
+              "category": "이동",
+              "description": "약 3시간 소요. 장거리이므로 휴게소 휴식 포함해 계획.",
+              "tip": "이동 시간이 긴 편이니 아침 일찍 출발 추천."
+            },
+            {
+              "order": 2,
+              "time": "점심",
+              "name": "경주 도착 후 점심",
+              "category": "맛집",
+              "description": "경주 지역 향토 음식으로 점심 식사.",
+              "tip": "보문단지 인근 식당 이용이 편리."
+            },
+            {
+              "order": 3,
+              "time": "오후",
+              "name": "보문호 호수 산책로",
+              "address": "경북 경주시 보문로 446",
+              "latitude": 35.8428462,
+              "longitude": 129.2858383,
+              "category": "산책",
+              "description": "호수를 둘러싼 산책로가 잘 정비되어 있어 여유로운 걷기 데이트에 적합.",
+              "tip": "벚꽃 시즌엔 특히 붐비니 평일 방문 추천."
+            },
+            {
+              "order": 4,
+              "time": "오후 늦게",
+              "name": "보문정 정자",
+              "address": "경북 경주시 보문로 424-33",
+              "latitude": 35.8410114,
+              "longitude": 129.2894161,
+              "category": "관광",
+              "description": "호수 옆 아름다운 정원과 정자가 있는 포토 스팟.",
+              "tip": "무료 주차 가능."
+            },
+            {
+              "order": 5,
+              "time": "저녁",
+              "name": "보문단지 숙소 체크인 & 저녁 식사",
+              "category": "숙소",
+              "description": "호수 인근 숙소에서 여유로운 저녁 시간.",
+              "tip": "숙박시설이 다양하니 예산에 맞게 선택 가능."
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "stops": [
+            {
+              "order": 1,
+              "time": "오전",
+              "name": "조식 후 체크아웃",
+              "category": "숙소",
+              "description": "여유로운 아침 식사 후 체크아웃.",
+              "tip": "체크아웃 시간 확인."
+            },
+            {
+              "order": 2,
+              "time": "오전~점심 전",
+              "name": "대릉원 또는 첨성대 둘러보기",
+              "category": "관광",
+              "description": "경주 대표 유적지를 가볍게 산책하며 관람.",
+              "tip": "도보 이동이 많으니 편한 신발 착용."
+            },
+            {
+              "order": 3,
+              "time": "점심",
+              "name": "귀가 전 마지막 식사",
+              "category": "맛집",
+              "description": "경주 향토 음식으로 여행 마무리.",
+              "tip": "귀가 소요 시간(약 3시간)을 고려해 이른 점심 권장."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2d1n-05",
+      "title": "여수 밤바다 감성 여행",
+      "theme": "야경 명소 + 해안 산책",
+      "region": "전남 여수",
+      "travelTimeFromHwaseong": "약 3시간 30분~4시간",
+      "budgetLevel": "보통",
+      "days": [
+        {
+          "day": 1,
+          "stops": [
+            {
+              "order": 1,
+              "time": "오전",
+              "name": "화성 출발 → 여수 이동",
+              "category": "이동",
+              "description": "장거리 이동이므로 아침 일찍 출발 권장.",
+              "tip": "중간 휴게소에서 충분히 휴식."
+            },
+            {
+              "order": 2,
+              "time": "점심",
+              "name": "여수 도착 후 해산물 점심",
+              "category": "맛집",
+              "description": "여수 특산 해산물(갓김치, 서대회 등)로 점심.",
+              "tip": "유명 식당은 웨이팅이 있을 수 있음."
+            },
+            {
+              "order": 3,
+              "time": "오후",
+              "name": "오동도 산책",
+              "address": "전남 여수시 오동도로 222-30 일대(오동도등대)",
+              "latitude": 34.7441176,
+              "longitude": 127.7678914,
+              "category": "관광",
+              "description": "동백나무 숲과 등대가 있는 섬. 방파제를 따라 걸어 들어갈 수 있음.",
+              "tip": "왕복 도보 약 40분, 유람선 이용도 가능."
+            },
+            {
+              "order": 4,
+              "time": "저녁",
+              "name": "여수밤바다 야경 산책",
+              "address": "전남 여수시 동문동 일대",
+              "latitude": 34.7374440,
+              "longitude": 127.7459849,
+              "category": "관광",
+              "description": "해안 공원을 따라 걸으며 여수 대표 야경을 감상.",
+              "tip": "차량 통제 구간이 있어 도보 이동이 편리."
+            },
+            {
+              "order": 5,
+              "time": "저녁 늦게",
+              "name": "숙소 체크인 (오션뷰 호텔 등)",
+              "category": "숙소",
+              "description": "바다 전망 숙소에서 하루를 마무리.",
+              "tip": "야경 명소 인근 숙소 예약 시 이동이 편리."
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "stops": [
+            {
+              "order": 1,
+              "time": "오전",
+              "name": "조식 후 체크아웃",
+              "category": "숙소",
+              "description": "여유로운 아침 식사 후 체크아웃.",
+              "tip": "체크아웃 시간 확인."
+            },
+            {
+              "order": 2,
+              "time": "오전~점심 전",
+              "name": "오동도 용굴 & 방파제 산책",
+              "category": "산책",
+              "address": "전남 여수시 수정동",
+              "latitude": 34.7432986,
+              "longitude": 127.7657571,
+              "description": "계단이 많은 편이라 가볍게 체력 소모하며 걷기 좋은 코스.",
+              "tip": "편한 신발 필수."
+            },
+            {
+              "order": 3,
+              "time": "점심",
+              "name": "귀가 전 마지막 식사",
+              "category": "맛집",
+              "description": "여수 향토 음식으로 여행 마무리 후 귀가.",
+              "tip": "귀가 소요 시간(약 4시간)을 고려해 이른 점심 권장."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

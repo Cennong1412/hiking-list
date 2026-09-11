@@ -297,6 +297,17 @@
 
   .course-notes{font-size:0.8rem;color:var(--sub);background:var(--chip);border-radius:8px;padding:8px 10px;margin-top:8px;}
 
+  /* ===== 여행 확장 기능 (체크리스트 / 다녀옴 / 지역 맛집) ===== */
+  .travel-extras{margin-top:10px;padding-top:10px;border-top:1px dashed var(--line);}
+  .visited-row{display:flex;align-items:center;gap:10px;margin-bottom:8px;flex-wrap:wrap;}
+  .visited-check{display:flex;align-items:center;gap:6px;font-size:0.82rem;font-weight:600;color:var(--ink);cursor:pointer;}
+  .visited-check input{width:16px;height:16px;}
+  .visited-date{padding:5px 8px;background:var(--card2);color:var(--ink);border:1px solid var(--line);border-radius:8px;font-size:0.78rem;}
+  .checklist-box{margin-top:8px;background:var(--chip);border-radius:8px;padding:8px 10px;display:grid;gap:6px;}
+  .checklist-item{display:flex;align-items:center;gap:8px;font-size:0.8rem;color:var(--sub);cursor:pointer;}
+  .checklist-item input{width:15px;height:15px;flex-shrink:0;}
+  .food-loc-btn{margin-left:0;}
+
   /* ===== 사진 (설정 계산기 / 가이드 / 갤러리) ===== */
   .psub-view{display:none;}
   .psub-view.active{display:block;}
@@ -440,7 +451,7 @@
 
 <header>
   <h1>📷 나의 사진 · 여행 · 맛집</h1>
-  <p>촬영 설정 가이드 · 등산·국내·해외·골프 여행 코스 · 전국 시군구 맛집</p>
+  <p>촬영 설정 가이드 · 등산·국내·해외·골프 여행 코스 · 전국 시군구 맛집 · 데이트 코스</p>
   <button id="wake-lock-toggle-btn" class="wake-lock-toggle" onclick="toggleWakeLockPref()"></button>
 </header>
 
@@ -448,6 +459,7 @@
   <div class="tab active" data-tab="photo">📷 사진</div>
   <div class="tab" data-tab="travel">🧭 여행</div>
   <div class="tab" data-tab="food">🍽️ 맛집</div>
+  <div class="tab" data-tab="date">💕 데이트</div>
 </div>
 
 <!-- 사진 -->
@@ -530,6 +542,7 @@
     <div class="subtab" data-tsub="domestic">🇰🇷 국내</div>
     <div class="subtab" data-tsub="abroad">✈️ 해외</div>
     <div class="subtab" data-tsub="golf">⛳ 골프</div>
+    <div class="subtab" data-tsub="history">📍 다녀온 곳</div>
   </div>
 
   <!-- 등산 -->
@@ -585,6 +598,12 @@
     <div class="note" id="golf-note"></div>
     <div id="golf-list"><div class="empty">불러오는 중...</div></div>
   </div>
+
+  <!-- 다녀온 곳 -->
+  <div class="tsub-view" id="travel-history">
+    <div class="note" id="history-note"></div>
+    <div id="history-list"></div>
+  </div>
 </div>
 
 <!-- 맛집 -->
@@ -596,6 +615,14 @@
   <div class="note" id="food-note"></div>
   <div class="note" id="food-edits-summary" style="display:none"></div>
   <div id="food-list"><div class="empty">불러오는 중...</div></div>
+</div>
+
+<!-- 데이트 코스 -->
+<div class="view" id="view-date">
+  <div class="subtabs scroll" id="date-subtabs"></div>
+  <input class="searchbox" id="date-search" placeholder="코스 제목·지역·테마로 검색">
+  <div class="note" id="date-note"></div>
+  <div id="date-list"><div class="empty">불러오는 중...</div></div>
 </div>
 
 <div class="lightbox" id="lightbox">
@@ -632,6 +659,181 @@ renderWakeLockToggle();
 document.addEventListener('visibilitychange', () => {
   if (document.visibilityState === 'visible' && wakeLockPref) requestWakeLock();
 });
+
+/* ===== 맛집 데이터 상태 (선언을 앞으로 올려서, 아래 여행 확장 기능이 로드 시점에 참조 가능하게 함) ===== */
+let foodRegions = [];
+let foodRegionKey = null;
+let foodGu = "__all__";
+let foodCategory = "__all__";
+
+/* ===================== 여행 확장 기능: 준비물 체크리스트 / 다녀옴 기록 / 지역 맛집 연동 ===================== */
+const TRAVEL_STATE_KEY = "travelapp_travel_state";
+function loadTravelState(){
+  try{ return JSON.parse(localStorage.getItem(TRAVEL_STATE_KEY) || "{}"); }
+  catch(e){ return {}; }
+}
+function saveTravelState(state){
+  try{ localStorage.setItem(TRAVEL_STATE_KEY, JSON.stringify(state)); } catch(e){}
+}
+function getTravelEntry(key){
+  const state = loadTravelState();
+  return state[key] || { visited:false, visitedDate:"", checklist:{} };
+}
+function updateTravelEntry(key, patch){
+  const state = loadTravelState();
+  const prev = state[key] || { visited:false, visitedDate:"", checklist:{} };
+  state[key] = { ...prev, ...patch };
+  saveTravelState(state);
+}
+function todayStr(){
+  return new Date().toISOString().slice(0,10);
+}
+
+const CHECKLIST_TEMPLATES = {
+  hike: ["등산화","등산 스틱","물 1~2L","자외선차단제","우의/방풍자켓","간식/행동식","상비약","무릎보호대(장거리 코스)"],
+  domestic: ["신분증","충전기·보조배터리","카메라","상비약","우산","편한 신발","세면도구","현금·카드"],
+  abroad: ["여권(유효기간 확인)","환전·해외결제카드","멀티어댑터","보조배터리","여행자보험","상비약","유심·로밍","편한 신발"],
+  golf: ["골프백·클럽","골프화","장갑","볼·티·마커","모자","선크림","우산","여벌 상의"],
+  date: ["편한 신발","카메라/휴대폰 충전","우산","예약 확인(식당·주차)","현금·카드","여벌옷/가디건","차량 기름·통행료"]
+};
+const TRAVEL_AREA_LABEL = { hike:"⛰️ 등산", domestic:"🚗 국내", abroad:"✈️ 해외", golf:"⛳ 골프", date:"💕 데이트" };
+
+// 코스 위치 문자열에서 "OO시/OO군" 토큰을 뽑아 맛집 데이터(시/군구)와 매칭한다
+function foodLocToken(str){
+  if(!str) return null;
+  const m = str.match(/[가-힣]+시(?![가-힣])|[가-힣]+군(?![가-힣])/);
+  return m ? m[0] : null;
+}
+function findFoodLocation(candidates){
+  for(const cand of (candidates || [])){
+    if(!cand) continue;
+    const token = foodLocToken(cand) || cand;
+    for(const region of foodRegions){
+      const sr = region.subregions.find(s => s.name === token || s.name.startsWith(token));
+      if(sr) return { region: region.region, gu: sr.name };
+    }
+  }
+  return null;
+}
+function goToFoodLocation(region, gu){
+  document.querySelector('.tab[data-tab="food"]').click();
+  const regionTab = document.querySelector(`#food-region-subtabs .subtab[data-region="${CSS.escape(region)}"]`);
+  if(regionTab) regionTab.click();
+  const group = foodGuGroups(currentFoodRegion()).find(g => g.subNames && g.subNames.includes(gu));
+  foodGu = group ? group.key : "__all__";
+  renderFoodGuBar();
+  renderFoodCategoryBar();
+  renderFoodList();
+  window.scrollTo({top:0, behavior:"smooth"});
+}
+
+// 렌더링될 때마다 key → 표시용 라벨을 채워둔다 ("다녀온 곳" 목록에서 사용)
+const TRAVEL_ITEM_INDEX = {};
+
+function travelExtrasHTML(area, itemId, label, foodCandidates){
+  const key = area + ":" + itemId;
+  TRAVEL_ITEM_INDEX[key] = { area, label };
+  const entry = getTravelEntry(key);
+  const checklist = CHECKLIST_TEMPLATES[area] || [];
+  const checkedCount = checklist.filter((_,i)=>entry.checklist[i]).length;
+  const foodLoc = foodCandidates ? findFoodLocation(foodCandidates) : null;
+  return `
+    <div class="travel-extras" data-travel-key="${escapeHTML(key)}">
+      <div class="visited-row">
+        <label class="visited-check"><input type="checkbox" class="visited-toggle" ${entry.visited?"checked":""}> ✅ 다녀왔어요</label>
+        <input type="date" class="visited-date" value="${escapeHTML(entry.visitedDate||"")}" style="${entry.visited?"":"display:none"}">
+      </div>
+      <button type="button" class="photo-link-btn checklist-toggle">🎒 준비물 체크리스트 (${checkedCount}/${checklist.length})</button>
+      <div class="checklist-box" style="display:none">
+        ${checklist.map((item,i)=>`<label class="checklist-item"><input type="checkbox" class="checklist-item-toggle" data-idx="${i}" ${entry.checklist[i]?"checked":""}> ${item}</label>`).join("")}
+      </div>
+      ${foodLoc ? `<button type="button" class="photo-link-btn food-loc-btn" data-region="${escapeHTML(foodLoc.region)}" data-gu="${escapeHTML(foodLoc.gu)}">📍 ${escapeHTML(foodLoc.gu)} 맛집 보기</button>` : ""}
+    </div>
+  `;
+}
+
+document.body.addEventListener("click", (e)=>{
+  const clBtn = e.target.closest(".checklist-toggle");
+  if(clBtn){
+    const box = clBtn.nextElementSibling;
+    if(box) box.style.display = box.style.display === "none" ? "grid" : "none";
+    return;
+  }
+  const foodBtn = e.target.closest(".food-loc-btn");
+  if(foodBtn){
+    goToFoodLocation(foodBtn.dataset.region, foodBtn.dataset.gu);
+    return;
+  }
+  const histBtn = e.target.closest(".history-goto-btn");
+  if(histBtn){
+    const area = histBtn.dataset.area;
+    if(area === "hike"){ document.querySelector('#travel-nav .subtab[data-tsub="hike"]').click(); }
+    else if(area === "domestic"){ document.querySelector('#travel-nav .subtab[data-tsub="domestic"]').click(); }
+    else if(area === "abroad"){ document.querySelector('#travel-nav .subtab[data-tsub="abroad"]').click(); }
+    else if(area === "golf"){ document.querySelector('#travel-nav .subtab[data-tsub="golf"]').click(); }
+    else if(area === "date"){ document.querySelector('.tab[data-tab="date"]').click(); }
+    window.scrollTo({top:0, behavior:"smooth"});
+    return;
+  }
+});
+
+document.body.addEventListener("change", (e)=>{
+  const visitedChk = e.target.closest(".visited-toggle");
+  if(visitedChk){
+    const wrap = visitedChk.closest(".travel-extras");
+    const key = wrap.dataset.travelKey;
+    const dateInput = wrap.querySelector(".visited-date");
+    const checked = visitedChk.checked;
+    if(dateInput){
+      if(checked && !dateInput.value) dateInput.value = todayStr();
+      dateInput.style.display = checked ? "inline-block" : "none";
+    }
+    updateTravelEntry(key, { visited: checked, visitedDate: checked ? (dateInput ? dateInput.value : todayStr()) : "" });
+    return;
+  }
+  const dateInput = e.target.closest(".visited-date");
+  if(dateInput){
+    const wrap = dateInput.closest(".travel-extras");
+    updateTravelEntry(wrap.dataset.travelKey, { visitedDate: dateInput.value });
+    return;
+  }
+  const itemChk = e.target.closest(".checklist-item-toggle");
+  if(itemChk){
+    const wrap = itemChk.closest(".travel-extras");
+    const key = wrap.dataset.travelKey;
+    const entry = getTravelEntry(key);
+    const checklist = { ...entry.checklist, [itemChk.dataset.idx]: itemChk.checked };
+    updateTravelEntry(key, { checklist });
+    const area = key.split(":")[0];
+    const total = (CHECKLIST_TEMPLATES[area] || []).length;
+    const checkedCount = Object.values(checklist).filter(Boolean).length;
+    const btn = wrap.querySelector(".checklist-toggle");
+    if(btn) btn.textContent = `🎒 준비물 체크리스트 (${checkedCount}/${total})`;
+    return;
+  }
+});
+
+function renderVisitedHistory(){
+  const noteEl = document.getElementById("history-note");
+  const box = document.getElementById("history-list");
+  const state = loadTravelState();
+  const rows = Object.entries(state)
+    .filter(([, v]) => v.visited)
+    .map(([key, v]) => ({ key, area: key.split(":")[0], info: TRAVEL_ITEM_INDEX[key], visitedDate: v.visitedDate || "" }))
+    .sort((a,b) => (b.visitedDate||"").localeCompare(a.visitedDate||""));
+  noteEl.textContent = `다녀왔다고 표시한 곳 ${rows.length}곳`;
+  if(!rows.length){
+    box.innerHTML = '<div class="empty">아직 "다녀왔어요"로 표시한 곳이 없어요. 등산/국내/해외/골프 코스에서 체크해보세요.</div>';
+    return;
+  }
+  box.innerHTML = rows.map(r => `
+    <div class="card">
+      <h3>${TRAVEL_AREA_LABEL[r.area] || ""} ${r.info ? r.info.label : r.key}</h3>
+      <div class="rowline"><div class="k">다녀온 날짜</div><div class="v">${r.visitedDate || "미입력"}</div></div>
+      <button type="button" class="photo-link-btn history-goto-btn" data-area="${r.area}">코스 목록에서 보기</button>
+    </div>
+  `).join("");
+}
 
 const DATA = {
   "1h": {
@@ -852,6 +1054,7 @@ function renderHike(){
         </div>
       </div>` : ""}
       <button class="photo-link-btn" onclick="goToPhotoCalc('풍경','산/바다')">📷 촬영 설정 보기</button>
+      ${travelExtrasHTML("hike", m.name, m.name, [m.loc])}
     </div>
   `).join("");
 }
@@ -894,6 +1097,7 @@ document.querySelectorAll("#travel-nav .subtab").forEach(sub=>{
     sub.classList.add("active");
     document.querySelectorAll("#view-travel .tsub-view").forEach(v=>v.classList.remove("active"));
     document.getElementById("travel-"+sub.dataset.tsub).classList.add("active");
+    if(sub.dataset.tsub === "history") renderVisitedHistory();
   });
 });
 
@@ -1031,6 +1235,7 @@ function courseCardHTML(course, area){
           ${tipsHTML(course.tips)}
           ${course.notes ? `<div class="course-notes">📝 ${course.notes}</div>` : ""}
           <button class="photo-link-btn" onclick="goToPhotoCalc('풍경','도시 스카이라인')">📷 촬영 설정 보기</button>
+          ${travelExtrasHTML(area, course.id, course.title, area === "domestic" ? course.subregions : null)}
         </div>
       </details>
     </div>
@@ -1069,6 +1274,92 @@ function renderSubtabs(containerId, groups, getSub, onSelect){
     });
   });
 }
+
+/* ===== 데이트 코스 (3시간 / 5시간 / 7시간 / 1박2일) ===== */
+let dateGroups = [];
+let dateSub = "3h";
+
+const DATE_CATEGORY_ICON = { "카페":"☕", "산책":"🚶", "맛집":"🍽️", "관광":"🏞️", "숙소":"🏨", "이동":"🚗" };
+function dateCategoryIcon(cat){ return DATE_CATEGORY_ICON[cat] || "📍"; }
+
+function dateStopsHTML(stops){
+  if(!stops || !stops.length) return "";
+  return stops.map(s => `
+    <div class="schedule-item">
+      <div class="s-time">${s.time || ""}</div>
+      <div class="s-body">
+        <div class="s-activity">${dateCategoryIcon(s.category)} ${s.name}${s.category ? " " + chip(s.category) : ""}</div>
+        ${s.address ? `<div class="s-note">📍 ${s.address}</div>` : ""}
+        ${s.description ? `<div class="s-note">${s.description}</div>` : ""}
+        ${s.tip ? `<div class="s-note">💡 ${s.tip}</div>` : ""}
+      </div>
+    </div>
+  `).join("");
+}
+
+function dateOvernightHTML(days){
+  if(!days) return "";
+  return days.map(d => `
+    <div class="schedule-day-title">Day ${d.day}</div>
+    ${dateStopsHTML(d.stops)}
+  `).join("");
+}
+
+function dateCardHTML(course, isOvernight){
+  const durationBadge = isOvernight ? "1박2일" : `${course.durationHours}시간`;
+  const budgetChip = course.budgetLevel ? chip(course.budgetLevel) : "";
+  const travelNote = isOvernight && course.travelTimeFromHwaseong ? `🚗 화성 기준 ${course.travelTimeFromHwaseong}` : "";
+  return `
+    <div class="card course-card">
+      <details>
+        <summary>
+          <h3>💕 ${course.title} <span class="badge">${durationBadge}</span></h3>
+          <div class="loc">${course.region || ""}${budgetChip ? " " + budgetChip : ""}</div>
+          <div class="course-summary-line">${[course.theme, travelNote].filter(Boolean).join(" · ")}</div>
+        </summary>
+        <div class="course-detail">
+          ${isOvernight ? dateOvernightHTML(course.days) : dateStopsHTML(course.stops)}
+          ${travelExtrasHTML("date", course.id, course.title, null)}
+        </div>
+      </details>
+    </div>
+  `;
+}
+
+function renderDate(){
+  const group = dateGroups.find(g => g.key === dateSub) || dateGroups[0];
+  const box = document.getElementById("date-list");
+  const noteEl = document.getElementById("date-note");
+  if(!group){ box.innerHTML = '<div class="empty">데이터를 불러오지 못했어요.</div>'; return; }
+  const q = document.getElementById("date-search").value.trim().toLowerCase();
+  const isOvernight = group.key === "overnight";
+  const list = group.courses.filter(c => [c.title, c.region, c.theme].filter(Boolean).join(" ").toLowerCase().includes(q));
+  noteEl.textContent = `${group.label} 코스 ${list.length}개`;
+  box.innerHTML = list.length
+    ? list.map(c => dateCardHTML(c, isOvernight)).join("")
+    : '<div class="empty">검색 결과가 없어요.</div>';
+}
+
+async function loadDateData(){
+  try{
+    const res = await fetch("./date_courses.json", {cache:"no-store"});
+    const data = await res.json();
+    dateGroups = [
+      { key:"3h", label:"3시간", courses: data.courses3h || [] },
+      { key:"5h", label:"5시간", courses: data.courses5h || [] },
+      { key:"7h", label:"7시간", courses: data.courses7h || [] },
+      { key:"overnight", label:"1박2일", courses: data.overnightCourses || [] }
+    ];
+    dateSub = dateGroups[0].key;
+    renderSubtabs("date-subtabs", dateGroups, ()=>dateSub, (key)=>{ dateSub = key; renderDate(); });
+    document.getElementById("date-search").addEventListener("input", renderDate);
+    renderDate();
+  } catch(err){
+    document.getElementById("date-list").innerHTML = '<div class="empty">데이터를 불러오지 못했어요.</div>';
+    console.error(err);
+  }
+}
+loadDateData();
 
 async function loadTravelData(){
   try{
@@ -1122,6 +1413,8 @@ async function loadTravelData(){
     const renderDomestic = () => renderGroupList({groups: domesticGroups, getSub: ()=>domesticSub, sortKey: domesticSort, searchId:"domestic-search", listId:"domestic-list", noteId:"domestic-note", area:"domestic"});
     const renderAbroad = () => renderGroupList({groups: abroadGroups, getSub: ()=>abroadSub, sortKey: abroadSort, searchId:"abroad-search", listId:"abroad-list", noteId:"abroad-note", area:"abroad"});
     const renderGolf = () => renderGroupList({groups: golfGroups, getSub: ()=>golfSub, sortKey: golfSort, searchId:"golf-search", listId:"golf-list", noteId:"golf-note", area:"golf"});
+    // 맛집 데이터가 나중에 로드되면 "이 지역 맛집 보기" 버튼을 다시 그리기 위해 전역에 노출
+    window.refreshTravelCourseViews = () => { renderDomestic(); renderAbroad(); renderGolf(); };
 
     renderSubtabs("domestic-subtabs", domesticGroups, ()=>domesticSub, (key)=>{ domesticSub = key; renderDomestic(); });
     renderSubtabs("abroad-subtabs", abroadGroups, ()=>abroadSub, (key)=>{ abroadSub = key; renderAbroad(); });
@@ -1170,10 +1463,6 @@ async function loadTravelData(){
 loadTravelData();
 
 /* ===== 맛집 (시/도 → 시/군/구, 음식종류, 검색) ===== */
-let foodRegions = [];
-let foodRegionKey = null;
-let foodGu = "__all__";
-let foodCategory = "__all__";
 
 function foodMainCategory(raw){
   return (raw || "").split("(")[0].split("/")[0].trim();
@@ -1437,6 +1726,10 @@ async function loadFoodData(){
     renderFoodGuBar();
     renderFoodCategoryBar();
     renderFoodList();
+
+    // 맛집 데이터 로드가 여행 코스 렌더링보다 늦게 끝나는 경우가 많아, 끝난 뒤 "이 지역 맛집 보기" 버튼을 다시 그린다
+    renderHike();
+    if(typeof window.refreshTravelCourseViews === "function") window.refreshTravelCourseViews();
   } catch(err){
     document.getElementById("food-list").innerHTML = '<div class="empty">데이터를 불러오지 못했어요.</div>';
     console.error(err);
