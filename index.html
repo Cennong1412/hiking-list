@@ -1390,7 +1390,7 @@ async function loadTravelData(){
       {key:"southEurope", label:"🇮🇹 남유럽", note: `${abr.southEurope.courses.length}개 코스 · ${abr.southEurope.meta.dietaryNote}`, courses: abr.southEurope.courses},
       {key:"eastEurope", label:"🏰 동유럽", note: `${abr.eastEurope.courses.length}개 코스 · ${abr.eastEurope.meta.dietaryNote}`, courses: abr.eastEurope.courses},
       {key:"westEurope", label:"🥐 서유럽", note: `${abr.westEurope.courses.length}개 코스 · ${abr.westEurope.meta.dietaryNote}`, courses: abr.westEurope.courses},
-      {key:"usa", label:"🇺🇸 미국", note: `${abr.usa.courses.length}개 코스 · ${abr.usa.meta.dietaryNote}`, courses: abr.usa.courses}
+      {key:"usa", label:"🌎 미주", note: `${abr.usa.courses.length}개 코스 · ${abr.usa.meta.dietaryNote}`, courses: abr.usa.courses}
     ];
     abroadSub = abroadGroups[0].key;
 
@@ -2346,6 +2346,13 @@ if ("serviceWorker" in navigator) {
             window.location.reload();
           }
         });
+      });
+      // 앱을 켜둔 채 페이지 이동이 없으면 새 배포를 못 알아채므로, 등록 직후 즉시 1회 확인 +
+      // 30초마다 주기적으로 + 탭이 다시 보일 때마다 확인해서 새 버전이 나오면 자동 반영한다.
+      reg.update();
+      setInterval(() => reg.update(), 30 * 1000);
+      document.addEventListener("visibilitychange", () => {
+        if (document.visibilityState === "visible") reg.update();
       });
     });
   });
