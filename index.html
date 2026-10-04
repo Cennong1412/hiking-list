@@ -571,6 +571,11 @@
       <div class="sortbtn active" data-sort="name">가나다순</div>
       <div class="sortbtn" data-sort="nights">기간순</div>
     </div>
+    <div class="sortbar" id="domestic-compbar">
+      <div class="sortbtn active" data-comp="">전체</div>
+      <div class="sortbtn" data-comp="청소년">청소년</div>
+      <div class="sortbtn" data-comp="연인">연인</div>
+    </div>
     <div class="note" id="domestic-note"></div>
     <div id="domestic-list"><div class="empty">불러오는 중...</div></div>
   </div>
@@ -582,6 +587,12 @@
     <div class="sortbar" id="abroad-sortbar">
       <div class="sortbtn active" data-sort="name">가나다순</div>
       <div class="sortbtn" data-sort="nights">기간순</div>
+    </div>
+    <div class="sortbar" id="abroad-compbar">
+      <div class="sortbtn active" data-comp="">전체</div>
+      <div class="sortbtn" data-comp="청소년">청소년</div>
+      <div class="sortbtn" data-comp="연인">연인</div>
+      <div class="sortbtn" data-comp="공통">공통</div>
     </div>
     <div class="note" id="abroad-note"></div>
     <div id="abroad-list"><div class="empty">불러오는 중...</div></div>
@@ -1129,8 +1140,8 @@ function goToPhotoCalc(major, minor){
 let domesticGroups = [];
 let abroadGroups = [];
 let golfGroups = [];
-let domesticSub = null, domesticSort = "name";
-let abroadSub = null, abroadSort = "name";
+let domesticSub = null, domesticSort = "name", domesticComp = "";
+let abroadSub = null, abroadSort = "name", abroadComp = "";
 let golfSub = null, golfSort = "name";
 
 function formatWon(n){
@@ -1243,14 +1254,14 @@ function courseCardHTML(course, area){
 }
 
 function renderGroupList(opts){
-  const { groups, getSub, sortKey, searchId, listId, noteId, area } = opts;
+  const { groups, getSub, sortKey, searchId, listId, noteId, area, comp } = opts;
   const group = groups.find(g => g.key === getSub()) || groups[0];
   if(!group) return;
   const q = document.getElementById(searchId).value.trim().toLowerCase();
   document.getElementById(noteId).textContent = group.note || "";
   let list = group.courses.filter(c => {
     const hay = [c.title, ...(c.subregions||[]), c.country||""].join(" ").toLowerCase();
-    return hay.includes(q);
+    return hay.includes(q) && (!comp || c.companionTag === comp);
   });
   list = [...list].sort((a,b) => {
     if(sortKey === "name") return a.title.localeCompare(b.title, "ko");
@@ -1410,8 +1421,8 @@ async function loadTravelData(){
       }));
     golfSub = golfGroups[0] && golfGroups[0].key;
 
-    const renderDomestic = () => renderGroupList({groups: domesticGroups, getSub: ()=>domesticSub, sortKey: domesticSort, searchId:"domestic-search", listId:"domestic-list", noteId:"domestic-note", area:"domestic"});
-    const renderAbroad = () => renderGroupList({groups: abroadGroups, getSub: ()=>abroadSub, sortKey: abroadSort, searchId:"abroad-search", listId:"abroad-list", noteId:"abroad-note", area:"abroad"});
+    const renderDomestic = () => renderGroupList({groups: domesticGroups, getSub: ()=>domesticSub, sortKey: domesticSort, searchId:"domestic-search", listId:"domestic-list", noteId:"domestic-note", area:"domestic", comp: domesticComp});
+    const renderAbroad = () => renderGroupList({groups: abroadGroups, getSub: ()=>abroadSub, sortKey: abroadSort, searchId:"abroad-search", listId:"abroad-list", noteId:"abroad-note", area:"abroad", comp: abroadComp});
     const renderGolf = () => renderGroupList({groups: golfGroups, getSub: ()=>golfSub, sortKey: golfSort, searchId:"golf-search", listId:"golf-list", noteId:"golf-note", area:"golf"});
     // 맛집 데이터가 나중에 로드되면 "이 지역 맛집 보기" 버튼을 다시 그리기 위해 전역에 노출
     window.refreshTravelCourseViews = () => { renderDomestic(); renderAbroad(); renderGolf(); };
@@ -1438,6 +1449,15 @@ async function loadTravelData(){
         btn.classList.add("active");
         abroadSort = btn.dataset.sort;
         renderAbroad();
+      });
+    });
+    [["domestic", v=>{ domesticComp = v; renderDomestic(); }], ["abroad", v=>{ abroadComp = v; renderAbroad(); }]].forEach(([k, apply])=>{
+      document.querySelectorAll(`#${k}-compbar .sortbtn`).forEach(btn=>{
+        btn.addEventListener("click", ()=>{
+          document.querySelectorAll(`#${k}-compbar .sortbtn`).forEach(b=>b.classList.remove("active"));
+          btn.classList.add("active");
+          apply(btn.dataset.comp);
+        });
       });
     });
     document.querySelectorAll("#golf-sortbar .sortbtn").forEach(btn=>{
