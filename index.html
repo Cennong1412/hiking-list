@@ -1687,6 +1687,19 @@ async function loadFoodData(){
     const res = await fetch("./restaurants_all.json", {cache:"no-store"});
     const data = await res.json();
     foodRegions = data.regions || [];
+    // 식당에 area(예: 동탄1)가 지정돼 있으면 그 시/군에서 떼어내 별도 구역으로 맨 앞에 보여준다
+    foodRegions.forEach(region => {
+      const extra = [];
+      region.subregions.forEach(sr => {
+        const byArea = {};
+        sr.restaurants.forEach(r => { if(r.area) (byArea[r.area] = byArea[r.area] || []).push(r); });
+        Object.keys(byArea).forEach(area => {
+          sr.restaurants = sr.restaurants.filter(r => r.area !== area);
+          extra.push({ name: area, restaurants: byArea[area] });
+        });
+      });
+      region.subregions.unshift(...extra);
+    });
     foodRegionKey = foodRegions[0] && foodRegions[0].region;
 
     const regionBar = document.getElementById("food-region-subtabs");

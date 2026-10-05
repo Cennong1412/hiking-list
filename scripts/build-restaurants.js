@@ -58,6 +58,7 @@ const regions = Object.keys(raw).map(provinceName => {
         name: r["식당이름"] || "",
         menu,
         menuVerified,
+        ...(r["지역"] ? { area: r["지역"] } : {}),
         address,
         addressVerified,
         phone,
